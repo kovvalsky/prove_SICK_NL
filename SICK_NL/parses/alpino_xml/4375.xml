@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:31" cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="8" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="jongen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="jongen" sense="jongen" word="jongens"/>
+        <node begin="2" cat="rel" end="8" id="5" rel="mod">
+          <node begin="2" case="no_obl" end="3" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="6" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="2" cat="ssub" end="8" id="7" rel="body">
+            <node begin="2" end="3" id="8" index="1" rel="su"/>
+            <node begin="4" end="5" frame="verb(unacc,pl,passive)" his="normal" his_1="normal" id="9" infl="pl" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" tense="present" word="zijn" wvorm="pv"/>
+            <node begin="2" cat="ppart" end="8" id="10" rel="vc">
+              <node begin="2" end="3" id="11" index="1" rel="obj1"/>
+              <node begin="3" buiging="zonder" end="4" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="12" infl="psp" lcat="ppart" lemma="kleden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kleed" sc="transitive" sense="kleed" word="gekleed" wvorm="vd"/>
+              <node begin="5" cat="pp" end="8" id="13" rel="mod">
+                <node begin="5" end="6" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                <node begin="6" cat="np" end="8" id="15" rel="obj1">
+                  <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="16" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="tapijt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="tapijt" sense="tapijt" word="tapijt"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="18" infl="pl" lcat="smain" lemma="zitten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zit" sc="ld_pp" sense="zit" stype="declarative" tense="present" word="zitten" wvorm="pv"/>
+      <node begin="9" cat="pp" end="13" id="19" rel="ld">
+        <node begin="9" end="10" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="20" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="10" cat="np" end="13" id="21" rel="obj1">
+          <node begin="10" end="11" frame="number(hoofd(pl_num))" his="normal" his_1="number_expression" id="22" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+          <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="23" infl="e" lcat="ap" lemma="rood" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rood" sense="rood" vform="adj" word="rode"/>
+          <node begin="12" end="13" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="smoking" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="smoking" sense="smoking" word="smokings"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4375">Sommige jongens die gekleed zijn met een tapijt zitten op twee rode smokings</sentence>
+  <comments>
+    <comment>Q#4375|Sommige jongens die gekleed zijn met een tapijt zitten op twee rode smokings|1|1|-9.742561440399994</comment>
+  </comments>
+</alpino_ds>

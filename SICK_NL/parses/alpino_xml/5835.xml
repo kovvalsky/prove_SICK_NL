@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:47" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="Mensen"/>
+        <node begin="1" cat="pp" end="3" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="2" end="3" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="kostuum" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="kostuum" sense="kostuum" word="kostuums"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb('hebben/zijn',pl,part_intransitive(rond))" his="normal" his_1="normal" id="7" infl="pl" lcat="smain" lemma="rond_lopen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="loop_rond" sc="part_intransitive(rond)" sense="loop_rond" stype="declarative" tense="present" word="lopen" wvorm="pv"/>
+      <node begin="4" end="5" frame="particle(rond)" his="normal" his_1="normal" id="8" lcat="part" lemma="rond" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="rond" sense="rond" vztype="fin" word="rond"/>
+      <node begin="5" cat="pp" end="8" id="9" rel="mod">
+        <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="6" cat="np" end="8" id="11" rel="obj1">
+          <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="straat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="straat" sense="straat" word="straat"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5835">Mensen in kostuums lopen rond in de straat</sentence>
+  <comments>
+    <comment>Q#5835|Mensen in kostuums lopen rond in de straat|1|1|-2.2384748399999976</comment>
+  </comments>
+</alpino_ds>

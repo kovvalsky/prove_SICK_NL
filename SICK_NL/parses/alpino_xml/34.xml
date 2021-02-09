@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T15:57" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" frame="proper_name(both,'PER')" getal="mv" graad="basis" his="name" his_1="begin" id="3" lcat="np" lemma="Koters" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Koters" sense="Koters" word="Koters"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="7" infl="e" lcat="ap" lemma="rood" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rood" sense="rood" vform="adj" word="rode"/>
+            <node begin="3" end="4" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="shirt" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="shirt" sense="shirt" word="shirts"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,pl,intransitive)" his="normal" his_1="normal" id="9" infl="pl" lcat="smain" lemma="spelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="speel" sc="intransitive" sense="speel" stype="declarative" tense="present" word="spelen" wvorm="pv"/>
+      <node begin="5" cat="pp" end="8" id="10" rel="mod">
+        <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="6" cat="np" end="8" id="12" rel="obj1">
+          <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="blad" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="blad" sense="blad" word="bladeren"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="34">Koters in rode shirts spelen in de bladeren</sentence>
+  <comments>
+    <comment>Q#34|Koters in rode shirts spelen in de bladeren|1|1|1.121212102600003</comment>
+  </comments>
+</alpino_ds>

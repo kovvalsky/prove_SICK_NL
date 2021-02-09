@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:16" cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="hond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hond" sense="hond" word="hond"/>
+      </node>
+      <node begin="2" end="3" frame="verb('hebben/zijn',sg3,ld_pp)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="springen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="spring" sc="ld_pp" sense="spring" stype="declarative" tense="present" word="springt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="ld">
+        <node begin="3" end="4" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="7" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="5" end="6" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="10" lcat="np" lemma="trampoline" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="trampoline" sense="trampoline" word="trampoline"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2549">Een hond springt op een trampoline</sentence>
+  <comments>
+    <comment>Q#2549|Een hond springt op een trampoline|1|1|-5.425112911800001</comment>
+  </comments>
+</alpino_ds>

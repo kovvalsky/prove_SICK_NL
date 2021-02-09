@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:13" cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+        <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="dim" his="normal" his_1="normal" id="4" lcat="np" lemma="meisje" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" rnum="pl" root="meisje" sense="meisje" word="meisjes"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node begin="3" buiging="zonder" end="4" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="8" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="4" end="5" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="tiener_jaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tiener_jaar" sense="tiener_jaar" special="tmp" word="tienerjaren"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,pl,intransitive)" his="normal" his_1="normal" id="10" infl="pl" lcat="smain" lemma="dansen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="dans" sc="intransitive" sense="dans" stype="declarative" tense="present" word="dansen" wvorm="pv"/>
+      <node begin="6" cat="pp" end="9" id="11" rel="mod">
+        <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="7" cat="np" end="9" id="13" rel="obj1">
+          <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="camera" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="camera" sense="camera" word="camera"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1887">Sommige meisjes in hun tienerjaren dansen voor de camera</sentence>
+  <comments>
+    <comment>Q#1887|Sommige meisjes in hun tienerjaren dansen voor de camera|1|1|-1.7202632641</comment>
+  </comments>
+</alpino_ds>

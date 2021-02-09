@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:05" cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="conj" end="13" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+          <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="paard" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="paard" sense="paard" word="paarden"/>
+        </node>
+        <node begin="2" end="3" frame="verb('hebben/zijn',pl,intransitive)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="rennen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ren" sc="intransitive" sense="ren" tense="present" word="rennen" wvorm="pv"/>
+        <node begin="3" cat="ap" end="8" id="7" rel="predm">
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(padv),pp(over))" graad="basis" his="normal" his_1="normal" id="8" infl="no_e" lcat="ap" lemma="woedend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="woedend" sc="pp(over)" sense="woedend-over" vform="adj" word="woedend"/>
+          <node begin="4" cat="pp" end="8" id="9" rel="pc">
+            <node begin="4" end="5" frame="preposition(over,[heen])" his="normal" his_1="normal" id="10" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="5" cat="np" end="8" id="11" rel="obj1">
+              <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="12" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="groen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groen" sense="groen" vform="adj" word="groene"/>
+              <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="gras" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gras" sense="gras" word="gras"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" frame="conj(en)" his="normal" his_1="normal" id="15" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="13" id="16" rel="cnj">
+        <node begin="0" end="2" id="17" index="1" rel="su"/>
+        <node begin="9" end="10" frame="verb('hebben/zijn',pl,ld_pp)" his="normal" his_1="normal" id="18" infl="pl" lcat="smain" lemma="springen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="spring" sc="ld_pp" sense="spring" tense="present" word="springen" wvorm="pv"/>
+        <node begin="10" cat="pp" end="13" id="19" rel="ld">
+          <node begin="10" end="11" frame="preposition(over,[heen])" his="normal" his_1="normal" id="20" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="11" cat="np" end="13" id="21" rel="obj1">
+            <node begin="11" end="12" frame="determiner(een)" his="normal" his_1="normal" id="22" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="12" end="13" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="obstakel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="obstakel" sense="obstakel" word="obstakel"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="641">Sommige paarden rennen woedend over het groene gras en springen over een obstakel</sentence>
+  <comments>
+    <comment>Q#641|Sommige paarden rennen woedend over het groene gras en springen over een obstakel|1|1|-10.457529662599995</comment>
+  </comments>
+</alpino_ds>

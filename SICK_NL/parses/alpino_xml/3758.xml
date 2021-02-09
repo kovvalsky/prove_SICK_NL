@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:23" cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="conj" end="15" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="np" end="4" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="5" infl="no_e" lcat="ap" lemma="ondervoed" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="ondervoed" sense="ondervoed" vform="adj" word="ondervoed"/>
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="part-V" id="6" infl="e" lcat="ppres" lemma="uit_zien" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="zie_uit" sense="zie_uit" vform="gerund" word="uitziende" wvorm="od"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="hond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hond" sense="hond" word="hond"/>
+        </node>
+        <node begin="4" end="5" frame="verb(hebben,sg3,ld_pp)" his="normal" his_1="normal" id="8" infl="sg3" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="ld_pp" sense="sta" tense="present" word="staat" wvorm="pv"/>
+        <node begin="5" cat="pp" end="8" id="9" rel="ld">
+          <node begin="5" end="6" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="6" cat="np" end="8" id="11" rel="obj1">
+            <node begin="6" buiging="zonder" end="7" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="12" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="achterpoot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="achterpoot" sense="achterpoot" word="achterpoten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" frame="conj(en)" his="normal" his_1="normal" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="15" id="15" rel="cnj">
+        <node begin="0" end="4" id="16" index="1" rel="su"/>
+        <node begin="9" end="10" frame="verb(hebben,sg3,part_transitive(voor))" his="normal" his_1="normal" id="17" infl="sg3" lcat="smain" lemma="voor_bereiden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bereid_voor" sc="part_transitive(voor)" sense="bereid_voor" tense="present" word="bereidt" wvorm="pv"/>
+        <node begin="10" case="dat_acc" def="def" end="11" frame="pronoun(nwh,thi,both,de,dat_acc,def,wkpro)" gen="de" getal="getal" his="normal" his_1="normal" id="18" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" rnum="sg" root="zich" sense="zich" special="wkpro" status="red" vwtype="refl" wh="nwh" word="zich"/>
+        <node begin="11" end="12" frame="particle(voor)" his="normal" his_1="normal" id="19" lcat="part" lemma="voor" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="voor" sense="voor" vztype="fin" word="voor"/>
+        <node begin="12" cat="oti" end="15" id="20" rel="mod">
+          <node begin="12" end="13" frame="complementizer(om)" his="normal" his_1="normal" id="21" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="13" cat="ti" end="15" id="22" rel="body">
+            <node begin="13" end="14" frame="complementizer(te)" his="normal" his_1="normal" id="23" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="14" buiging="zonder" end="15" frame="verb('hebben/zijn',inf,intransitive)" his="normal" his_1="normal" id="24" infl="inf" lcat="inf" lemma="springen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="spring" sc="intransitive" sense="spring" word="springen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3758">Een ondervoed uitziende hond staat op zijn achterpoten en bereidt zich voor om te springen</sentence>
+  <comments>
+    <comment>Q#3758|Een ondervoed uitziende hond staat op zijn achterpoten en bereidt zich voor om te springen|1|1|-7.653324340499999</comment>
+  </comments>
+</alpino_ds>

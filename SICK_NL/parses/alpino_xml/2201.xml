@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:15" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" index="1" lcat="np" lemma="iemand" naamval="stan" num="sg" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" rnum="sg" root="iemand" sense="iemand" status="vol" vwtype="onbep" word="Iemand"/>
+      <node begin="1" end="2" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="8" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="obj1"/>
+        <node begin="2" buiging="zonder" end="3" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="6" infl="psp" lcat="ppart" lemma="koken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kook" sc="transitive" sense="kook" word="gekookt" wvorm="vd"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="mod">
+          <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="4" end="5" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="9" lcat="np" lemma="okra" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="okra" sense="okra" word="okra"/>
+        </node>
+        <node begin="5" cat="pp" end="8" id="10" rel="mod">
+          <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="6" cat="np" end="8" id="12" rel="obj1">
+            <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="13" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="7" end="8" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="pot" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="pot" sense="pot" special="tmp" word="pot"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2201">Iemand wordt gekookt met okra in een pot</sentence>
+  <comments>
+    <comment>Q#2201|Iemand wordt gekookt met okra in een pot|1|1|-4.2154978815</comment>
+  </comments>
+</alpino_ds>

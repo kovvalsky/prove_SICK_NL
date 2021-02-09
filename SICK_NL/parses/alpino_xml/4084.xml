@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:27" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="conj" end="8" id="1" rel="--">
+      <node begin="0" cat="smain" end="5" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+          <node begin="1" end="2" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="zitten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zit" sc="ld_pp" sense="zit" tense="present" word="zitten" wvorm="pv"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="ld">
+          <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="8" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="9" lcat="np" lemma="gazon_stoel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="gazon_stoel" sense="gazon_stoel" word="gazonstoelen"/>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="8" id="11" rel="cnj">
+        <node begin="0" end="2" id="12" index="1" rel="su"/>
+        <node begin="6" end="7" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="13" infl="pl" lcat="smain" lemma="lezen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="lees" sc="transitive" sense="lees" tense="present" word="lezen" wvorm="pv"/>
+        <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="boek" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="boek" sense="boek" word="boeken"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4084">Sommige mensen zitten in gazonstoelen en lezen boeken</sentence>
+  <comments>
+    <comment>Q#4084|Sommige mensen zitten in gazonstoelen en lezen boeken|1|1|-3.4138133868000007</comment>
+  </comments>
+</alpino_ds>

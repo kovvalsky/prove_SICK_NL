@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:48" cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="kind" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kind" sense="kind" word="kind"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg,intransitive)" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="wachten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wacht" sc="intransitive" sense="wacht" stype="declarative" tense="present" word="wacht" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="mod">
+        <node begin="3" end="4" frame="preposition(met,[],absolute)" his="normal" his_1="normal" id="7" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sc="absolute" sense="met" vztype="init" word="met"/>
+        <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="8" lcat="np" lemma="zwemmen_spul" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="zwem_spul" sense="zwem_spul" word="zwemspullen"/>
+        <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(pred(nonadv))" graad="basis" his="normal" his_1="normal" id="9" infl="pred" lcat="ap" lemma="aan" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="aan" sense="aan" vform="adj" word="aan"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5871">Een kind wacht met zwemspullen aan</sentence>
+  <comments>
+    <comment>Q#5871|Een kind wacht met zwemspullen aan|1|1|3.4678455541</comment>
+  </comments>
+</alpino_ds>

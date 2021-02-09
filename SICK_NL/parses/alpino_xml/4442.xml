@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:32" cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ap" lemma="jong" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="jong" sense="jong" vform="adj" word="jong"/>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="kind" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kind" sense="kind" word="kind"/>
+      </node>
+      <node begin="3" end="4" frame="verb('hebben/zijn',sg3,intransitive)" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="rennen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ren" sc="intransitive" sense="ren" stype="declarative" tense="present" word="rent" wvorm="pv"/>
+      <node begin="4" cat="pp" end="13" id="7" rel="mod">
+        <node begin="4" end="5" frame="preposition(over,[heen])" his="normal" his_1="normal" id="8" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+        <node begin="5" cat="np" end="13" id="9" rel="obj1">
+          <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="6" end="7" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="11" lcat="np" lemma="grind_weg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="grind_weg" sense="grind_weg" special="tmp" word="grindweg"/>
+          <node begin="7" cat="rel" end="13" id="12" rel="mod">
+            <node begin="7" case="no_obl" end="8" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="13" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="7" cat="ssub" end="13" id="14" rel="body">
+              <node begin="7" end="8" id="15" index="1" rel="su"/>
+              <node begin="9" end="10" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="16" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+              <node begin="8" cat="ppart" end="13" id="17" rel="predc">
+                <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(ge_no_e(adv),pp(met))" his="normal" his_1="normal" id="18" infl="no_e" lcat="ppart" lemma="bedekt" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bedekt" sc="pp(met)" sense="bedekt-met" vform="psp" word="bedekt" wvorm="vd"/>
+                <node begin="10" cat="pp" end="13" id="19" rel="pc">
+                  <node begin="10" end="11" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                  <node begin="11" cat="np" end="13" id="21" rel="obj1">
+                    <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="22" infl="e" lcat="ap" lemma="dood" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="dood" sense="dood" vform="adj" word="dode"/>
+                    <node begin="12" end="13" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="blad" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="blad" sense="blad" word="bladeren"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4442">Een jong kind rent over een grindweg die bedekt is met dode bladeren</sentence>
+  <comments>
+    <comment>Q#4442|Een jong kind rent over een grindweg die bedekt is met dode bladeren|1|1|-13.824138323999993</comment>
+  </comments>
+</alpino_ds>

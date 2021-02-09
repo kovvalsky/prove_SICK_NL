@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:44" cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" index="1" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ende(padv))" graad="basis" his="normal" his_1="decap" his_1_1="V-de" his_1_1_1="normal" id="3" infl="e" lcat="ppres" lemma="verschillen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" sense="verschil" vform="gerund" word="Verschillende"/>
+        <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="ding" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="ding" sense="ding" word="dingen"/>
+        <node begin="2" cat="pp" end="5" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="6" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="3" cat="np" end="5" id="7" rel="obj1">
+            <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="4" end="5" frame="noun(de,both,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="oorlog" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="oorlog" sense="oorlog" word="oorlog"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(unacc,pl,passive)" his="normal" his_1="normal" id="10" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="worden" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="11" rel="vc">
+        <node begin="0" end="5" id="12" index="1" rel="obj1"/>
+        <node begin="6" cat="pp" end="10" id="13" rel="obj2">
+          <node begin="6" end="7" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="14" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+          <node begin="7" cat="np" end="10" id="15" rel="obj1">
+            <node begin="7" end="8" frame="determiner(een)" his="normal" his_1="normal" id="16" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="8" end="9" frame="noun(het,count,sg,measure)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="aantal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="aantal" sc="measure" sense="aantal" word="aantal"/>
+            <node begin="9" end="10" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="mens" sense="mens" word="mensen"/>
+          </node>
+        </node>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,so_pp_np)" his="normal" his_1="normal" id="19" infl="psp" lcat="ppart" lemma="tonen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="toon" sc="so_pp_np" sense="toon" word="getoond" wvorm="vd"/>
+        <node begin="11" cat="pp" end="14" id="20" rel="mod">
+          <node begin="11" end="12" frame="preposition(door,[heen])" his="normal" his_1="normal" id="21" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="12" cat="np" end="14" id="22" rel="obj1">
+            <node begin="12" end="13" frame="determiner(een)" his="normal" his_1="normal" id="23" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="veteraan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="veteraan" sense="veteraan" word="veteraan"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5618">Verschillende dingen uit een oorlog worden aan een aantal mensen getoond door een veteraan</sentence>
+  <comments>
+    <comment>Q#5618|Verschillende dingen uit een oorlog worden aan een aantal mensen getoond door een veteraan|1|1|-12.759642489499988</comment>
+  </comments>
+</alpino_ds>

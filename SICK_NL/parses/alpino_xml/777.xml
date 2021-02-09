@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:06" cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="conj" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="obj1">
+          <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+          <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="vrouw" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vrouw" sense="vrouw" word="vrouwen"/>
+        </node>
+        <node begin="2" buiging="zonder" end="3" frame="v_noun(transitive)" getal-n="zonder-n" his="normal" his_1="normal" id="6" lcat="np" lemma="dansen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="dans" sc="transitive" sense="dans" special="v_noun" word="dansen" wvorm="inf"/>
+      </node>
+      <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="7" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="np" end="5" id="8" rel="cnj">
+        <node begin="0" end="2" id="9" index="1" rel="obj1"/>
+        <node begin="4" buiging="zonder" end="5" frame="v_noun(transitive)" getal-n="zonder-n" his="normal" his_1="normal" id="10" lcat="np" lemma="zingen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="zing" sc="transitive" sense="zing" special="v_noun" word="zingen" wvorm="inf"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="777">Sommige vrouwen dansen en zingen</sentence>
+  <comments>
+    <comment>Q#777|Sommige vrouwen dansen en zingen|1|1|0.6536198555000002</comment>
+  </comments>
+</alpino_ds>

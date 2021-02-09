@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:10" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="ppart" end="8" id="1" rel="--">
+      <node begin="0" cat="whrel" end="3" id="2" rel="obj1">
+        <node begin="0" case="both" def="indef" end="1" frame="pronoun(ywh,thi,sg,het,both,indef,nparg)" gen="het" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="3" index="1" lcat="np" lemma="wat" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" rnum="sg" root="wat" sense="wat" special="nparg" status="vol" vwtype="vb" wh="ywh" word="Wat"/>
+        <node begin="0" cat="ssub" end="3" id="4" rel="body">
+          <node begin="0" end="1" id="5" index="1" rel="su"/>
+          <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="melk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="predc" rnum="sg" root="melk" sense="melk" word="melk"/>
+          <node begin="2" end="3" frame="verb(unacc,sg3,copula)" his="normal" his_1="normal" id="7" infl="sg3" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="copula" sense="word" tense="present" word="wordt" wvorm="pv"/>
+        </node>
+      </node>
+      <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="8" infl="no_e" lcat="ap" lemma="hongerig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predm" root="hongerig" sense="hongerig" vform="adj" word="hongerig"/>
+      <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="9" infl="psp" lcat="ppart" lemma="drinken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="drink" sc="transitive" sense="drink" word="gedronken" wvorm="vd"/>
+      <node begin="5" cat="pp" end="8" id="10" rel="mod">
+        <node begin="5" end="6" frame="preposition(door,[heen])" his="normal" his_1="normal" id="11" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+        <node begin="6" cat="np" end="8" id="12" rel="obj1">
+          <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="13" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="kat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kat" sense="kat" word="kat"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1332">Wat melk wordt hongerig gedronken door een kat</sentence>
+  <comments>
+    <comment>Q#1332|Wat melk wordt hongerig gedronken door een kat|1|1|1.2349376797999994</comment>
+  </comments>
+</alpino_ds>

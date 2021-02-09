@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:38" cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="conj" end="11" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ende(padv))" graad="basis" his="normal" his_1="decap" his_1_1="V-de" his_1_1_1="normal" id="4" infl="e" lcat="ppres" lemma="verschillen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" sense="verschil" vform="gerund" word="Verschillende"/>
+          <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="jong" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="jong" sense="jong" vform="adj" word="jonge"/>
+          <node begin="2" end="3" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,pl,pc_pp(voor))" his="normal" his_1="normal" id="7" infl="pl" lcat="smain" lemma="poseren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="poseer" sc="pc_pp(voor)" sense="poseer-voor" tense="present" word="poseren" wvorm="pv"/>
+        <node begin="4" cat="pp" end="7" id="8" rel="pc">
+          <node begin="4" end="5" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="5" cat="np" end="7" id="10" rel="obj1">
+            <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="foto" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="foto" sense="foto" word="foto"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="11" id="14" rel="cnj">
+        <node begin="0" end="3" id="15" index="1" rel="su"/>
+        <node begin="8" end="9" frame="verb(hebben,pl,part_transitive(vast))" his="normal" his_1="normal" id="16" infl="pl" lcat="smain" lemma="vast_houden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="houd_vast" sc="part_transitive(vast)" sense="houd_vast" tense="present" word="houden" wvorm="pv"/>
+        <node begin="9" end="10" frame="noun(het,count,pl)" gen="het" getal="mv" graad="dim" his="normal" his_1="normal" id="17" lcat="np" lemma="drank" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="obj1" rnum="pl" root="drank_DIM" sense="drank_DIM" word="drankjes"/>
+        <node begin="10" buiging="zonder" end="11" frame="particle(vast)" graad="basis" his="normal" his_1="normal" id="18" lcat="part" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" sense="vast" word="vast"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4986">Verschillende jonge mensen poseren voor een foto en houden drankjes vast</sentence>
+  <comments>
+    <comment>Q#4986|Verschillende jonge mensen poseren voor een foto en houden drankjes vast|1|1|-8.248393840900004</comment>
+  </comments>
+</alpino_ds>

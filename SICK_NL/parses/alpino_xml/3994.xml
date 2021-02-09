@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:26" cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="conj" end="11" id="1" rel="--">
+      <node begin="0" cat="smain" end="6" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" rel="su">
+          <node begin="0" end="1" frame="number(hoofd(pl_num))" his="normal" his_1="decap" his_1_1="number_expression" id="4" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="Vier"/>
+          <node begin="1" end="2" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+        </node>
+        <node begin="2" end="3" frame="verb('hebben/zijn',pl,intransitive)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="lopen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="loop" sc="intransitive" sense="loop" stype="declarative" tense="present" word="lopen" wvorm="pv"/>
+        <node begin="3" cat="pp" end="6" id="7" rel="mod">
+          <node begin="3" end="4" frame="preposition(door,[heen])" his="normal" his_1="normal" id="8" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="4" cat="np" end="6" id="9" rel="obj1">
+            <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="dik" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="dik" sense="dik" vform="adj" word="dikke"/>
+            <node begin="5" end="6" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="sneeuw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="sneeuw" sense="sneeuw" word="sneeuw"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" conjtype="neven" end="7" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="7" cat="smain" end="11" id="13" rel="cnj">
+        <node begin="7" cat="np" end="9" id="14" rel="su">
+          <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="zon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zon" sense="zon" word="zon"/>
+        </node>
+        <node begin="9" end="10" frame="verb(zijn,sg3,part_intransitive(onder))" his="normal" his_1="normal" id="17" infl="sg3" lcat="smain" lemma="onder_gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga_onder" sc="part_intransitive(onder)" sense="ga_onder" stype="declarative" tense="present" word="gaat" wvorm="pv"/>
+        <node begin="10" end="11" frame="particle(onder)" his="normal" his_1="normal" id="18" lcat="part" lemma="onder" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="onder" sense="onder" vztype="fin" word="onder"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3994">Vier mensen lopen door dikke sneeuw en de zon gaat onder</sentence>
+  <comments>
+    <comment>Q#3994|Vier mensen lopen door dikke sneeuw en de zon gaat onder|1|1|-6.558267560900001</comment>
+  </comments>
+</alpino_ds>

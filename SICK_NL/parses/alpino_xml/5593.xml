@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:44" cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" cat="np" end="2" his="normal" his_1="decap" his_1_1="normal" id="3" rel="det">
+          <node begin="0" end="1" frame="determiner(een)" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(both,both,sg)" gen="both" genus="genus" getal="ev" graad="basis" id="5" lcat="np" lemma="paar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" root="paar" sense="paar" word="paar"/>
+        </node>
+        <node begin="2" end="3" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="kind" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kind" sense="kind" word="kinderen"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,pl,part_transitive(uit))" his="normal" his_1="normal" id="7" infl="pl" lcat="smain" lemma="uit_steken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="steek_uit" sc="part_transitive(uit)" sense="steek_uit" stype="declarative" tense="present" word="steken" wvorm="pv"/>
+      <node begin="4" cat="np" end="8" id="8" rel="obj1">
+        <node begin="4" cat="conj" end="7" id="9" rel="mod">
+          <node begin="4" end="5" frame="within_word_conjunct" his="within_word_conjunct" id="10" lcat="ppart" lemma="blauw" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="blauw" sense="blauw" spectype="afgebr" word="blauw-"/>
+          <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(ge_e)" his="compound" his_1="2" id="12" infl="e" lcat="ppart" lemma="groen_gekleurd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="cnj" root="groen_gekleurd" sense="groen_gekleurd" vform="psp" word="groengekleurde" wvorm="vd"/>
+        </node>
+        <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="tong" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tong" sense="tong" word="tongen"/>
+      </node>
+      <node begin="8" end="9" frame="particle(uit)" his="normal" his_1="normal" id="14" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+    </node>
+  </node>
+  <sentence sentid="5593">Een paar kinderen steken blauw- en groengekleurde tongen uit</sentence>
+  <comments>
+    <comment>Q#5593|Een paar kinderen steken blauw- en groengekleurde tongen uit|1|1|-7.138623611900003</comment>
+  </comments>
+</alpino_ds>

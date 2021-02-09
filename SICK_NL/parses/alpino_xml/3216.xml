@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:20" cats="1" skips="0" />
+  <node begin="0" cat="top" end="3" id="0" rel="top">
+    <node begin="0" cat="smain" end="3" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="iemand" naamval="stan" num="sg" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" rnum="sg" root="iemand" sense="iemand" status="vol" vwtype="onbep" word="Iemand"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="spelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="speel" sc="transitive" sense="speel" stype="declarative" tense="present" word="speelt" wvorm="pv"/>
+      <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="piano" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="piano" sense="piano" word="piano"/>
+    </node>
+  </node>
+  <sentence sentid="3216">Iemand speelt piano</sentence>
+  <comments>
+    <comment>Q#3216|Iemand speelt piano|1|1|-0.9469857472000001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:10" cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" end="1" frame="er_vp_adverb" getal="getal" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="Er"/>
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,intransitive)" his="normal" his_1="normal" id="3" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="intransitive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="15" id="4" rel="su">
+        <node begin="2" buiging="zonder" end="3" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="5" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+        <node begin="3" end="4" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+        <node begin="4" cat="rel" end="15" id="7" rel="mod">
+          <node begin="4" case="no_obl" end="5" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="8" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="4" cat="ssub" end="15" id="9" rel="body">
+            <node begin="4" end="5" id="10" index="1" rel="su"/>
+            <node begin="5" cat="np" end="12" id="11" rel="obj1">
+              <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(ende(padv))" graad="basis" his="normal" his_1="V-de" his_1_1="normal" id="12" infl="e" lcat="np" lemma="verschillen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" rnum="sg" root="verschil" sense="verschil" vform="gerund" word="verschillende"/>
+              <node begin="6" cat="pp" end="12" id="13" rel="mod">
+                <node begin="6" end="7" frame="preposition(in,[])" his="normal" his_1="normal" id="14" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="7" cat="np" end="12" id="15" rel="obj1">
+                  <node begin="7" end="8" frame="noun(het,count,pl,measure)" gen="het" getal="mv" graad="dim" his="normal" his_1="normal" id="16" lcat="np" lemma="snee" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" rnum="pl" root="snee_DIM" sc="measure" sense="snee_DIM" word="sneetjes"/>
+                  <node begin="8" cat="np" end="12" id="17" rel="mod">
+                    <node begin="8" cat="conj" end="11" id="18" rel="mod">
+                      <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(ge_both(padv))" his="normal" his_1="normal" id="19" infl="both" lcat="ppart" lemma="gesneden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="cnj" root="gesneden" sense="gesneden" vform="psp" word="gesneden" wvorm="vd"/>
+                      <node begin="9" conjtype="neven" end="10" frame="conj(en)" his="normal" his_1="normal" id="20" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                      <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(ge_e)" his="normal" his_1="normal" id="21" infl="e" lcat="ppart" lemma="beboterd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="cnj" root="beboterd" sense="beboterd" vform="psp" word="beboterde" wvorm="vd"/>
+                    </node>
+                    <node begin="11" end="12" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="brood" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="brood" sense="brood" word="broden"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="12" end="13" frame="verb(hebben,sg3,np_pc_pp(met))" his="normal" his_1="normal" id="23" infl="sg3" lcat="ssub" lemma="besprenkelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besprenkel" sc="np_pc_pp(met)" sense="besprenkel-met" tense="present" word="besprenkelt" wvorm="pv"/>
+            <node begin="13" cat="pp" end="15" id="24" rel="pc">
+              <node begin="13" end="14" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="25" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="14" buiging="zonder" end="15" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="26" lcat="np" lemma="kruiden" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" rnum="sg" root="kruid" sc="intransitive" sense="kruid" special="v_noun" word="kruiden" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1380">Er is geen man die verschillende in sneetjes gesneden en beboterde broden besprenkelt met kruiden</sentence>
+  <comments>
+    <comment>Q#1380|Er is geen man die verschillende in sneetjes gesneden en beboterde broden besprenkelt met kruiden|1|1|-7.062040602800002</comment>
+  </comments>
+</alpino_ds>

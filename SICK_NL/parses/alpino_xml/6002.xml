@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:50" cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="conj" end="17" id="1" rel="--">
+      <node begin="0" cat="smain" end="10" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="5" infl="no_e" lcat="ap" lemma="jong" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="jong" sense="jong" vform="adj" word="jong"/>
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="dim" his="normal" his_1="normal" id="6" lcat="np" lemma="meisje" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" rnum="sg" root="meisje" sense="meisje" word="meisje"/>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,sg3,ld_pp)" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="spelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="speel" sc="ld_pp" sense="speel" stype="declarative" tense="present" word="speelt" wvorm="pv"/>
+        <node begin="4" cat="pp" end="10" id="8" rel="ld">
+          <node begin="4" end="5" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="9" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+          <node begin="5" cat="np" end="10" id="10" rel="obj1">
+            <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="rand" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rand" sense="rand" word="rand"/>
+            <node begin="7" cat="pp" end="10" id="13" rel="mod">
+              <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="8" cat="np" end="10" id="15" rel="obj1">
+                <node begin="8" end="9" frame="determiner(een)" his="normal" his_1="normal" id="16" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="fontein" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fontein" sense="fontein" word="fontein"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" frame="conj(en)" his="normal" his_1="normal" id="18" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="11" cat="smain" end="17" id="19" rel="cnj">
+        <node begin="11" cat="np" end="14" id="20" rel="su">
+          <node begin="11" end="12" frame="determiner(een)" his="normal" his_1="normal" id="21" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="compar" begin="12" buiging="met-e" end="13" frame="adjective(ere)" graad="comp" his="normal" his_1="normal" id="22" infl="e" lcat="ap" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="oud" sense="oud" vform="adj" word="oudere"/>
+          <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="vrouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrouw" sense="vrouw" word="vrouw"/>
+        </node>
+        <node begin="14" end="15" frame="verb(hebben,sg3,ld_pp)" his="normal" his_1="normal" id="24" infl="sg3" lcat="smain" lemma="kijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kijk" sc="ld_pp" sense="kijk" stype="declarative" tense="present" word="kijkt" wvorm="pv"/>
+        <node begin="15" cat="pp" end="17" id="25" rel="ld">
+          <node begin="15" end="16" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="26" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="16" case="dat_acc" def="def" end="17" frame="pronoun(nwh,thi,sg,de,dat_acc,def)" gen="de" genus="fem" getal="getal" his="normal" his_1="normal" id="27" lcat="np" lemma="haar" naamval="obl" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,getal,fem)" pt="vnw" rel="obj1" rnum="sg" root="haar" sense="haar" status="vol" vwtype="pers" wh="nwh" word="haar"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="6002">Een jong meisje speelt aan de rand van een fontein en een oudere vrouw kijkt naar haar</sentence>
+  <comments>
+    <comment>Q#6002|Een jong meisje speelt aan de rand van een fontein en een oudere vrouw kijkt naar haar|1|1|-9.536848451600001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:34" cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="np" end="5" id="3" rel="su">
+        <node begin="0" buiging="met-e" case="both" def="def" end="1" frame="pronoun(nwh,thi,sg,de,both,def,strpro)" gen="de" getal-n="zonder-n" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="degeen" naamval="stan" num="sg" pdtype="det" per="thi" pos="pron" positie="nom" postag="VNW(aanw,det,stan,nom,met-e,zonder-n)" pt="vnw" rel="hd" rnum="sg" root="degeen" sense="degeen" special="strpro" vwtype="aanw" wh="nwh" word="Degene"/>
+        <node begin="1" cat="rel" end="5" id="5" rel="mod">
+          <node begin="1" case="no_obl" end="2" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="6" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="1" cat="ssub" end="5" id="7" rel="body">
+            <node begin="1" end="2" id="8" index="1" rel="su"/>
+            <node begin="2" cat="pp" end="4" id="9" rel="pc">
+              <node begin="2" end="3" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="fiets" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="fiets" sense="fiets" word="fietsen"/>
+            </node>
+            <node begin="4" end="5" frame="verb(hebben,sg3,pc_pp(op))" his="normal" his_1="normal" id="12" infl="sg3" lcat="ssub" lemma="rijden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="rijd" sc="pc_pp(op)" sense="rijd-op" tense="present" word="rijdt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,sg3,ld_pp)" his="normal" his_1="normal" id="13" infl="sg3" lcat="smain" lemma="kijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kijk" sc="ld_pp" sense="kijk" stype="declarative" tense="present" word="kijkt" wvorm="pv"/>
+      <node begin="7" cat="pp" end="14" id="14" rel="ld">
+        <node begin="7" end="8" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="15" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+        <node begin="8" cat="np" end="14" id="16" rel="obj1">
+          <node begin="8" end="9" frame="determiner(een)" his="normal" his_1="normal" id="17" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="9" end="10" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="ongeluk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ongeluk" sense="ongeluk" word="ongeluk"/>
+          <node begin="10" cat="pp" end="14" id="19" rel="mod">
+            <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="11" cat="np" end="14" id="21" rel="obj1">
+              <node begin="11" end="12" frame="determiner(een)" his="normal" his_1="normal" id="22" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="compar" begin="12" buiging="met-e" end="13" frame="adjective(ere)" graad="basis" his="normal" his_1="normal" id="23" infl="e" lcat="ap" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" sense="ander" vform="adj" word="andere"/>
+              <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="fietser" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fietser" sense="fietser" word="fietser"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4629">Degene die op fietsen rijdt , kijkt naar een ongeluk van een andere fietser</sentence>
+  <comments>
+    <comment>Q#4629|Degene die op fietsen rijdt , kijkt naar een ongeluk van een andere fietser|1|1|-12.359553639899996</comment>
+  </comments>
+</alpino_ds>

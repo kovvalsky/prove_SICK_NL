@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T15:58" cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="number(hoofd(pl_num))" his="normal" his_1="decap" his_1_1="number_expression" id="3" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="Vier"/>
+        <node begin="1" end="2" frame="noun(both,both,both)" gen="both" getal="mv" graad="basis" his="noun" id="4" lcat="np" lemma="koters" ntype="soort" num="both" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="koters" sense="koters" word="koters"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,transitive_ndev)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="doen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="doe" sc="transitive_ndev" sense="doe" stype="declarative" tense="present" word="doen" wvorm="pv"/>
+      <node begin="3" end="4" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="6" lcat="np" lemma="backbends" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="backbends" sense="backbends" word="backbends"/>
+      <node begin="4" cat="pp" end="7" id="7" rel="mod">
+        <node begin="4" end="5" frame="preposition(in,[])" his="normal" his_1="normal" id="8" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="5" cat="np" end="7" id="9" rel="obj1">
+          <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="10" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="park" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="park" sense="park" word="park"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="63">Vier koters doen backbends in het park</sentence>
+  <comments>
+    <comment>Q#63|Vier koters doen backbends in het park|1|1|-1.3147020172000001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T15:58" cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" case="both" def="indef" end="1" frame="pronoun(nwh,thi,sg,de,both,indef,strpro)" gen="de" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="niemand" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" rnum="sg" root="niemand" sense="niemand" special="strpro" status="vol" vwtype="onbep" wh="nwh" word="Niemand"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,pc_pp(voor))" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="pc_pp(voor)" sense="sta-voor" stype="declarative" tense="present" word="staat" wvorm="pv"/>
+      <node begin="2" cat="pp" end="6" id="4" rel="pc">
+        <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="3" cat="np" end="6" id="6" rel="obj1">
+          <node begin="3" end="4" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="kleurrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="kleurrijk" sense="kleurrijk" vform="adj" word="kleurrijke"/>
+          <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="gebouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gebouw" sense="gebouw" word="gebouw"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="107">Niemand staat voor het kleurrijke gebouw</sentence>
+  <comments>
+    <comment>Q#107|Niemand staat voor het kleurrijke gebouw|1|1|-3.6598464728</comment>
+  </comments>
+</alpino_ds>

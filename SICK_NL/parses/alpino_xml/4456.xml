@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:32" cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="conj" end="15" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="dragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="draag" sc="transitive" sense="draag" tense="present" word="draagt" wvorm="pv"/>
+        <node begin="3" cat="np" end="7" id="7" rel="obj1">
+          <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="blauw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="blauw" sense="blauw" vform="adj" word="blauw"/>
+          <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="10" infl="no_e" lcat="ppart" lemma="geruit" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="geruit" sense="geruit" vform="psp" word="geruit" wvorm="vd"/>
+          <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="hemd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="hemd" sense="hemd" word="hemd"/>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="15" id="13" rel="cnj">
+        <node begin="0" end="2" id="14" index="1" rel="su"/>
+        <node begin="8" end="9" frame="verb(hebben,sg3,pc_pp(op))" his="normal" his_1="normal" id="15" infl="sg3" lcat="smain" lemma="rijden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="rijd" sc="pc_pp(op)" sense="rijd-op" tense="present" word="rijdt" wvorm="pv"/>
+        <node begin="9" cat="pp" end="15" id="16" rel="pc">
+          <node begin="9" end="10" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="17" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="10" cat="np" end="15" id="18" rel="obj1">
+            <node begin="10" end="11" frame="determiner(een)" his="normal" his_1="normal" id="19" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="11" end="12" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="20" lcat="np" lemma="eenwieler" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="eenwieler" sense="eenwieler" word="eenwieler"/>
+            <node begin="12" cat="pp" end="15" id="21" rel="mod">
+              <node begin="12" end="13" frame="preposition(in,[])" his="normal" his_1="normal" id="22" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="13" cat="np" end="15" id="23" rel="obj1">
+                <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="straat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="straat" sense="straat" word="straat"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4456">Een man draagt een blauw geruit hemd en rijdt op een eenwieler in de straat</sentence>
+  <comments>
+    <comment>Q#4456|Een man draagt een blauw geruit hemd en rijdt op een eenwieler in de straat|1|1|-10.754977346599997</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:36" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="conj" end="8" id="1" rel="--">
+      <node begin="0" cat="smain" end="3" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="hurken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hurk" sc="intransitive" sense="hurk" tense="present" word="hurkt" wvorm="pv"/>
+      </node>
+      <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="7" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="8" id="8" rel="cnj">
+        <node begin="0" end="2" id="9" index="1" rel="su"/>
+        <node begin="4" end="5" frame="verb(hebben,sg3,part_transitive(vast))" his="normal" his_1="normal" id="10" infl="sg3" lcat="smain" lemma="vast_houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd_vast" sc="part_transitive(vast)" sense="houd_vast" tense="present" word="houdt" wvorm="pv"/>
+        <node begin="5" cat="np" end="7" id="11" rel="obj1">
+          <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="camera" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="camera" sense="camera" word="camera"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" frame="particle(vast)" graad="basis" his="normal" his_1="normal" id="14" lcat="part" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" sense="vast" word="vast"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4771">Een man hurkt en houdt een camera vast</sentence>
+  <comments>
+    <comment>Q#4771|Een man hurkt en houdt een camera vast|1|1|-7.192972291700002</comment>
+  </comments>
+</alpino_ds>

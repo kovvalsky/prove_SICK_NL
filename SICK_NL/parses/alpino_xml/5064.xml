@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:40" cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" sense="oud" vform="adj" word="oude"/>
+        <node begin="2" cat="mwu" end="4" his="name" his_1="not_begin" id="5" mwu_root="dirt bikers" mwu_sense="dirt bikers" rel="hd">
+          <node begin="2" end="3" frame="proper_name(both,'PER')" id="6" lcat="np" lemma="dirt" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="dirt" sense="dirt" spectype="deeleigen" word="dirt"/>
+          <node begin="3" end="4" frame="proper_name(both,'PER')" id="7" lcat="np" lemma="bikers" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="bikers" sense="bikers" spectype="deeleigen" word="bikers"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,pl,part_np_ld_transitive(op))" his="normal" his_1="normal" id="8" infl="pl" lcat="smain" lemma="op_krijgen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="krijg_op" sc="part_np_ld_transitive(op)" sense="krijg_op" stype="declarative" tense="present" word="krijgen" wvorm="pv"/>
+      <node begin="5" cat="np" end="8" id="9" rel="obj1">
+        <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="6" cat="mwu" end="8" his="name" his_1="not_begin" id="11" mwu_root="dirt bike" mwu_sense="dirt bike" rel="hd">
+          <node begin="6" end="7" frame="proper_name(both)" id="12" lcat="np" lemma="dirt" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="dirt" sense="dirt" spectype="deeleigen" word="dirt"/>
+          <node begin="7" end="8" frame="proper_name(both)" id="13" lcat="np" lemma="bike" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="bike" sense="bike" spectype="deeleigen" word="bike"/>
+        </node>
+      </node>
+      <node begin="8" cat="np" end="11" id="14" rel="ld">
+        <node begin="8" end="9" frame="determiner(een)" his="normal" his_1="normal" id="15" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="16" infl="e" lcat="ap" lemma="zanderig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zanderig" sense="zanderig" vform="adj" word="zanderige"/>
+        <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="heuvel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="heuvel" sense="heuvel" word="heuvel"/>
+      </node>
+      <node begin="11" end="12" frame="particle(op)" his="normal" his_1="normal" id="18" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+    </node>
+  </node>
+  <sentence sentid="5064">Sommige oude dirt bikers krijgen een dirt bike een zanderige heuvel op</sentence>
+  <comments>
+    <comment>Q#5064|Sommige oude dirt bikers krijgen een dirt bike een zanderige heuvel op|1|1|-1.1413137204000008</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:07" cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" case="both" def="indef" end="1" frame="pronoun(nwh,thi,sg,de,both,indef,strpro)" gen="de" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="niemand" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" rnum="sg" root="niemand" sense="niemand" special="strpro" status="vol" vwtype="onbep" wh="nwh" word="Niemand"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="spoelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="spoel" sc="transitive" sense="spoel" stype="declarative" tense="present" word="spoelt" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="obj1">
+        <node begin="2" end="3" frame="determiner(een)" his="normal" his_1="normal" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="biefstuk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="biefstuk" sense="biefstuk" word="biefstuk"/>
+      </node>
+      <node begin="4" cat="pp" end="6" id="7" rel="mod">
+        <node begin="4" end="5" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="5" end="6" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="water" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="water" sense="water" word="water"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="872">Niemand spoelt een biefstuk met water</sentence>
+  <comments>
+    <comment>Q#872|Niemand spoelt een biefstuk met water|1|1|-3.6436460196000002</comment>
+  </comments>
+</alpino_ds>

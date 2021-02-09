@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:05" cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="13" id="2" rel="--">
+      <node begin="0" cat="np" end="8" id="3" rel="su">
+        <node begin="0" end="1" frame="number(hoofd(sg_num))" his="normal" his_1="variant" his_1_1="variant" his_1_1_1="één" his_1_1_2="Eén" his_1_2="normal" id="4" infl="sg_num" lcat="detp" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" sense="één" special="hoofd" word="Eén"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="persoon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="persoon" sense="persoon" word="persoon"/>
+        <node begin="2" cat="rel" end="8" id="6" rel="mod">
+          <node begin="2" case="no_obl" end="3" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="7" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="2" cat="ssub" end="8" id="8" rel="body">
+            <node begin="2" end="3" id="9" index="1" rel="su"/>
+            <node begin="2" cat="ahi" end="7" id="10" rel="vc">
+              <node begin="4" cat="mwu" end="6" his="normal" his_1="normal" id="11" mwu_root="aan het" mwu_sense="aan het" rel="cmp">
+                <node begin="4" end="5" frame="complementizer(aan_het)" id="12" lcat="ahi" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" sc="aan_het" sense="aan" vztype="init" word="aan"/>
+                <node begin="5" end="6" frame="complementizer(aan_het)" id="13" lcat="ahi" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sc="aan_het" sense="het" word="het"/>
+              </node>
+              <node begin="2" cat="inf" end="7" id="14" rel="body">
+                <node begin="2" end="3" id="15" index="1" rel="su"/>
+                <node begin="3" buiging="zonder" end="4" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="16" lcat="np" lemma="snowboarden" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" rnum="sg" root="snowboarden" sc="intransitive" sense="snowboarden" special="v_noun" word="snowboarden" wvorm="inf"/>
+                <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="17" infl="inf" lcat="inf" lemma="oefenen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="oefen" sc="transitive" sense="oefen" word="oefenen" wvorm="inf"/>
+              </node>
+            </node>
+            <node begin="7" end="8" frame="verb(unacc,sg_heeft,aan_het)" his="normal" his_1="normal" id="18" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aan_het" sense="ben-aan_het" tense="present" word="is" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" frame="verb('hebben/zijn',sg3,ld_pp)" his="normal" his_1="normal" id="19" infl="sg3" lcat="smain" lemma="springen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="spring" sc="ld_pp" sense="spring" stype="declarative" tense="present" word="springt" wvorm="pv"/>
+      <node begin="10" cat="pp" end="13" id="20" rel="ld">
+        <node begin="10" end="11" frame="preposition(in,[])" his="normal" his_1="normal" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="11" cat="np" end="13" id="22" rel="obj1">
+          <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="lucht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="lucht" sense="lucht" word="lucht"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="651">Eén persoon die snowboarden aan het oefenen is , springt in de lucht</sentence>
+  <comments>
+    <comment>Q#651|Eén persoon die snowboarden aan het oefenen is , springt in de lucht|1|1|-8.010984235400004</comment>
+  </comments>
+</alpino_ds>

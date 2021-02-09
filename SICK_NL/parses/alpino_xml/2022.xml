@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:14" cats="1" skips="1" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="conj" end="14" id="1" rel="--">
+      <node begin="0" cat="smain" end="9" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="jongen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="jongen" sense="jongen" word="jongen"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,part_transitive(op))" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="op_hangen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hang_op" sc="part_transitive(op)" sense="hang_op" tense="present" word="hangt" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="hengel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hengel" sense="hengel" word="hengel"/>
+        </node>
+        <node begin="5" cat="oti" end="8" id="10" rel="mod">
+          <node begin="5" end="6" frame="complementizer(om)" his="normal" his_1="normal" id="11" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="6" cat="ti" end="8" id="12" rel="body">
+            <node begin="6" end="7" frame="complementizer(te)" his="normal" his_1="normal" id="13" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="14" infl="inf" lcat="inf" lemma="vissen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="vis" sc="intransitive" sense="vis" word="vissen" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="8" end="9" frame="particle(op)" his="normal" his_1="normal" id="15" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      </node>
+      <node begin="9" conjtype="neven" end="10" frame="conj(en)" his="normal" his_1="normal" id="16" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="14" id="17" rel="cnj">
+        <node begin="0" end="2" id="18" index="1" rel="su"/>
+        <node begin="10" end="11" frame="verb('hebben/zijn',sg3,intransitive)" his="normal" his_1="normal" id="19" infl="sg3" lcat="smain" lemma="rennen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ren" sc="intransitive" sense="ren" tense="present" word="rent" wvorm="pv"/>
+        <node begin="11" cat="pp" end="14" id="20" rel="mod">
+          <node begin="11" end="12" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="21" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="12" cat="np" end="14" id="22" rel="obj1">
+            <node begin="12" end="13" frame="determiner(een)" his="normal" his_1="normal" id="23" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="vis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vis" sense="vis" word="vis"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="particle(langs)" his="robust_skip" id="25" lcat="--" lemma="langs" pos="part" postag="VZ(init)" pt="vz" rel="--" root="langs" sense="langs" vztype="init" word="langs"/>
+  </node>
+  <sentence sentid="2022">Een jongen hangt een hengel om te vissen op en rent voor een vis langs</sentence>
+  <comments>
+    <comment>Q#2022|Een jongen hangt een hengel om te vissen op en rent voor een vis langs|1|2|-7.831615255900003</comment>
+  </comments>
+</alpino_ds>

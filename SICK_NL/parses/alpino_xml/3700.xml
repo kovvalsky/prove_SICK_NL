@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:23" cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="conj" end="7" id="1" rel="--">
+      <node begin="0" cat="smain" end="4" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="auto_coureur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="auto_coureur" sense="auto_coureur" word="autocoureur"/>
+        </node>
+        <node begin="2" end="3" frame="verb(zijn,sg3,aux(inf))" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="present" word="gaat" wvorm="pv"/>
+        <node begin="0" cat="inf" end="4" id="7" rel="vc">
+          <node begin="0" end="2" id="8" index="1" rel="su"/>
+          <node begin="3" buiging="zonder" end="4" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="9" infl="inf" lcat="inf" lemma="zitten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zit" sc="intransitive" sense="zit" word="zitten" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="7" id="11" rel="cnj">
+        <node begin="0" end="2" id="12" index="1" rel="su"/>
+        <node begin="5" end="6" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="13" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+        <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" his="form_of_suffix" his_1="loos" id="14" infl="no_e" lcat="ap" lemma="bewegingsloos" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="bewegingsloos" sense="bewegingsloos" vform="adj" word="bewegingsloos"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3700">Een autocoureur gaat zitten en is bewegingsloos</sentence>
+  <comments>
+    <comment>Q#3700|Een autocoureur gaat zitten en is bewegingsloos|1|1|-6.0427165429</comment>
+  </comments>
+</alpino_ds>

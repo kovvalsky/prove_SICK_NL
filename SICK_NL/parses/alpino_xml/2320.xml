@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:15" cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="zwemmer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="zwemmer" sense="zwemmer" word="Zwemmers"/>
+      <node begin="1" end="2" frame="verb('hebben/zijn',pl,ld_pp)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="racen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="race" sc="ld_pp" sense="race" stype="declarative" tense="present" word="racen" wvorm="pv"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="ld">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="5" id="6" rel="obj1">
+          <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="7" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="meer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="meer" sense="meer" word="meer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2320">Zwemmers racen in een meer</sentence>
+  <comments>
+    <comment>Q#2320|Zwemmers racen in een meer|1|1|0.3479852899000002</comment>
+  </comments>
+</alpino_ds>

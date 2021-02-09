@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:15" cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'PER')" getal="mv" graad="basis" his="name" his_1="begin" id="2" lcat="np" lemma="Racers" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="su" rnum="pl" root="Racers" sense="Racers" word="Racers"/>
+      <node begin="1" end="2" frame="verb(zijn,pl,part_ld_transitive(af))" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="af_rennen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ren_af" sc="part_ld_transitive(af)" sense="ren_af" stype="declarative" tense="present" word="rennen" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="ld">
+        <node begin="2" end="3" frame="determiner(een)" his="normal" his_1="normal" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="baan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="baan" sense="baan" word="baan"/>
+      </node>
+      <node begin="4" end="5" frame="particle(af)" his="normal" his_1="normal" id="7" lcat="part" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" sense="af" vztype="fin" word="af"/>
+    </node>
+  </node>
+  <sentence sentid="2287">Racers rennen een baan af</sentence>
+  <comments>
+    <comment>Q#2287|Racers rennen een baan af|1|1|-3.0331948481</comment>
+  </comments>
+</alpino_ds>

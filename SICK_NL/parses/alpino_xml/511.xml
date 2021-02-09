@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:03" cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="12" id="3" rel="--">
+      <node begin="0" cat="np" end="9" id="4" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="dim" his="normal" his_1="normal" id="6" lcat="np" lemma="meisje" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" rnum="sg" root="meisje" sense="meisje" word="meisje"/>
+        <node begin="2" cat="pp" end="4" id="7" rel="mod">
+          <node begin="2" end="3" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="8" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Azië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Azië" sense="Azië" word="Azië"/>
+        </node>
+        <node begin="5" cat="pp" end="9" id="10" rel="mod">
+          <node begin="5" end="6" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="6" cat="np" end="9" id="12" rel="obj1">
+            <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="13" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(stof)" graad="basis" his="normal" his_1="normal" id="14" infl="stof" lcat="ap" lemma="bakstenen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="bakstenen" sense="bakstenen" vform="adj" word="bakstenen"/>
+            <node begin="8" end="9" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="raam" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="raam" sense="raam" word="raam"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="16" infl="sg3" lcat="smain" lemma="kijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kijk" sc="intransitive" sense="kijk" stype="declarative" tense="present" word="kijkt" wvorm="pv"/>
+      <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(ge_no_e(padv))" his="normal" his_1="normal" id="17" infl="no_e" lcat="ppart" lemma="verbaasd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predm" root="verbaasd" sense="verbaasd" vform="psp" word="verbaasd" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="511">Een meisje uit Azië , voor een bakstenen raam , kijkt verbaasd</sentence>
+  <comments>
+    <comment>Q#511|Een meisje uit Azië , voor een bakstenen raam , kijkt verbaasd|1|1|-3.665341886500002</comment>
+  </comments>
+</alpino_ds>

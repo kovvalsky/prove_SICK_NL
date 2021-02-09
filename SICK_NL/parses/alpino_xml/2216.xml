@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:15" cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="papier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="papier" sense="papier" word="Papier"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="schaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="schaar" sense="schaar" word="schaar"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,pl,intransitive)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="knippen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="knip" sc="intransitive" sense="knip" stype="declarative" tense="present" word="knippen" wvorm="pv"/>
+      <node begin="4" buiging="zonder" end="5" frame="predm_adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="allebei" naamval="stan" pdtype="det" pos="adv" positie="vrij" postag="VNW(onbep,det,stan,vrij,zonder)" pt="vnw" rel="predm" root="allebei" sense="allebei" special="predm" vwtype="onbep" word="allebei"/>
+    </node>
+  </node>
+  <sentence sentid="2216">Papier en schaar knippen allebei</sentence>
+  <comments>
+    <comment>Q#2216|Papier en schaar knippen allebei|1|1|-1.5910283364999998</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:42" cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="mens" sense="mens" word="Mensen"/>
+      <node begin="1" end="2" frame="verb('hebben/zijn',pl,ld_pp)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="lopen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="loop" sc="ld_pp" sense="loop" stype="declarative" tense="present" word="lopen" wvorm="pv"/>
+      <node begin="2" cat="pp" end="9" id="4" rel="ld">
+        <node begin="2" end="3" frame="preposition(over,[heen])" his="normal" his_1="normal" id="5" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+        <node begin="3" cat="np" end="9" id="6" rel="obj1">
+          <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="7" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="8" lcat="np" lemma="touw_brug" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="touw_brug" sense="touw_brug" word="touwbrug"/>
+          <node begin="5" cat="pp" end="9" id="9" rel="mod">
+            <node begin="5" end="6" frame="preposition(over,[heen])" his="normal" his_1="normal" id="10" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="6" cat="np" end="9" id="11" rel="obj1">
+              <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="rotsachtig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rotsachtig" sense="rotsachtig" vform="adj" word="rotsachtige"/>
+              <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="stroom" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stroom" sense="stroom" word="stroom"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5391">Mensen lopen over een touwbrug over een rotsachtige stroom</sentence>
+  <comments>
+    <comment>Q#5391|Mensen lopen over een touwbrug over een rotsachtige stroom|1|1|-8.243748572999998</comment>
+  </comments>
+</alpino_ds>

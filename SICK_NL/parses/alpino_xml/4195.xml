@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:29" cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="conj" end="13" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,part_transitive(vast))" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="vast_houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd_vast" sc="part_transitive(vast)" sense="houd_vast" tense="present" word="houdt" wvorm="pv"/>
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="7" infl="no_e" lcat="ap" lemma="ongeïnteresseerd" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ongeïnteresseerd" sense="ongeïnteresseerd" vform="adj" word="ongeïnteresseerd"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="bord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bord" sense="bord" word="bord"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" frame="particle(vast)" graad="basis" his="normal" his_1="normal" id="11" lcat="part" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" sense="vast" word="vast"/>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="13" id="13" rel="cnj">
+        <node begin="0" end="2" id="14" index="1" rel="su"/>
+        <node begin="8" end="9" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="15" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+        <node begin="9" cat="ap" end="13" id="16" rel="predc">
+          <node begin="9" cat="mwu" end="11" his="normal" his_1="normal" id="17" mwu_root="op zoek" mwu_sense="op zoek-naar" rel="hd">
+            <node aform="base" begin="9" end="10" frame="adjective(pred(padv),pp(naar))" id="18" infl="pred" lcat="ap" lemma="op" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="op" sc="pp(naar)" sense="op-naar" vform="adj" vztype="init" word="op"/>
+            <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(pred(padv),pp(naar))" graad="basis" id="19" infl="pred" lcat="ap" lemma="zoek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="zoek" sc="pp(naar)" sense="zoek-naar" vform="adj" word="zoek"/>
+          </node>
+          <node begin="11" cat="pp" end="13" id="20" rel="pc">
+            <node begin="11" end="12" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="21" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+            <node begin="12" end="13" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="geld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="geld" sense="geld" word="geld"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4195">Een man houdt ongeïnteresseerd een bord vast en is op zoek naar geld</sentence>
+  <comments>
+    <comment>Q#4195|Een man houdt ongeïnteresseerd een bord vast en is op zoek naar geld|1|1|-11.849714788599996</comment>
+  </comments>
+</alpino_ds>

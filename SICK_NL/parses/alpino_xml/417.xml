@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:02" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="iemand" naamval="stan" num="sg" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="hd" rnum="sg" root="iemand" sense="iemand" status="vol" vwtype="onbep" word="Iemand"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="normal" id="7" infl="both" lcat="ap" lemma="rose" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="rose" sense="rose" vform="adj" word="roze"/>
+            <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="8" lcat="np" lemma="klim_spul" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="klim_spul" sense="klim_spul" word="klimspullen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="9" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="8" id="10" rel="vc">
+        <node begin="0" end="4" id="11" index="1" rel="su"/>
+        <node begin="5" cat="np" end="7" id="12" rel="obj1">
+          <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="rots" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="rots" sense="rots" word="rotsen"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,ninv(transitive,part_transitive(vast)))" his="normal" his_1="part-V" id="15" infl="psp" lcat="ppart" lemma="vast_klampen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="klamp_vast" sc="part_transitive(vast)" sense="klamp_vast" word="vastgeklampt" wvorm="vd"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="417">Iemand met roze klimspullen heeft de rotsen vastgeklampt</sentence>
+  <comments>
+    <comment>Q#417|Iemand met roze klimspullen heeft de rotsen vastgeklampt|1|1|-4.1046878820999995</comment>
+  </comments>
+</alpino_ds>

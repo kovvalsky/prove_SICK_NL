@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:43" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ende(padv))" graad="basis" his="normal" his_1="decap" his_1_1="V-de" his_1_1_1="normal" id="3" infl="e" lcat="ppres" lemma="verschillen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" sense="verschil" vform="gerund" word="Verschillende"/>
+        <node begin="1" end="2" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="zitten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zit" sc="ld_pp" sense="zit" stype="declarative" tense="present" word="zitten" wvorm="pv"/>
+      <node begin="3" cat="mwu" end="5" his="normal" his_1="normal" id="6" mwu_root="&apos;s nachts" mwu_sense="&apos;s nachts" rel="mod">
+        <node begin="3" end="4" frame="tmp_adverb" id="7" lcat="advp" lemma="&apos;s" lwtype="bep" naamval="gen" npagr="evmo" pos="adv" postag="LID(bep,gen,evmo)" pt="lid" rel="mwp" root="&apos;s" sense="&apos;s" special="tmp" word="&apos;s"/>
+        <node begin="4" end="5" frame="tmp_adverb" getal="ev" graad="basis" id="8" lcat="advp" lemma="nachts" naamval="gen" ntype="soort" pos="adv" postag="N(soort,ev,basis,gen)" pt="n" rel="mwp" root="nachts" sense="nachts" special="tmp" word="nachts"/>
+      </node>
+      <node begin="5" cat="pp" end="8" id="9" rel="ld">
+        <node begin="5" end="6" frame="preposition(rond,[heen])" his="normal" his_1="normal" id="10" lcat="pp" lemma="rond" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="rond" sense="rond" vztype="init" word="rond"/>
+        <node begin="6" cat="np" end="8" id="11" rel="obj1">
+          <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="vuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vuur" sense="vuur" word="vuur"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5426">Verschillende mensen zitten &apos;s nachts rond een vuur</sentence>
+  <comments>
+    <comment>Q#5426|Verschillende mensen zitten &apos;s nachts rond een vuur|1|1|-6.7455474488</comment>
+  </comments>
+</alpino_ds>

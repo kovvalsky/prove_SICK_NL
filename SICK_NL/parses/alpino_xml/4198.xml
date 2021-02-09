@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:29" cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="conj" end="13" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+        </node>
+        <node begin="2" end="3" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="6" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+        <node begin="3" cat="ap" end="8" id="7" rel="predc">
+          <node begin="3" cat="mwu" end="5" his="normal" his_1="normal" id="8" mwu_root="op zoek" mwu_sense="op zoek-naar" rel="hd">
+            <node aform="base" begin="3" end="4" frame="adjective(pred(padv),pp(naar))" id="9" infl="pred" lcat="ap" lemma="op" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="op" sc="pp(naar)" sense="op-naar" vform="adj" vztype="init" word="op"/>
+            <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(pred(padv),pp(naar))" graad="basis" id="10" infl="pred" lcat="ap" lemma="zoek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="zoek" sc="pp(naar)" sense="zoek-naar" vform="adj" word="zoek"/>
+          </node>
+          <node begin="5" cat="pp" end="8" id="11" rel="pc">
+            <node begin="5" end="6" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="12" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+            <node begin="6" cat="np" end="8" id="13" rel="obj1">
+              <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="14" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="teken" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="teken" sense="teken" word="teken"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" frame="conj(en)" his="normal" his_1="normal" id="16" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="13" id="17" rel="cnj">
+        <node begin="0" end="2" id="18" index="1" rel="su"/>
+        <node begin="9" end="10" frame="verb(hebben,sg3,part_transitive(vast))" his="normal" his_1="normal" id="19" infl="sg3" lcat="smain" lemma="vast_houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd_vast" sc="part_transitive(vast)" sense="houd_vast" tense="present" word="houdt" wvorm="pv"/>
+        <node begin="10" cat="np" end="12" id="20" rel="obj1">
+          <node begin="10" end="11" frame="determiner(wat,nwh,mod,pro,nparg,ntopicpro)" getal="ev" his="normal" his_1="normal" id="21" infl="wat" lcat="detp" lemma="wat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="det" root="wat" sense="wat" status="vol" vwtype="onbep" wh="nwh" word="wat"/>
+          <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="geld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="geld" sense="geld" word="geld"/>
+        </node>
+        <node begin="12" buiging="zonder" end="13" frame="particle(vast)" graad="basis" his="normal" his_1="normal" id="23" lcat="part" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" sense="vast" word="vast"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4198">Een man is op zoek naar een teken en houdt wat geld vast</sentence>
+  <comments>
+    <comment>Q#4198|Een man is op zoek naar een teken en houdt wat geld vast|1|1|-13.440056998999996</comment>
+  </comments>
+</alpino_ds>

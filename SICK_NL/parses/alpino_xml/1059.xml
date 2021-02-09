@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:08" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(odet_adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="no_e" lcat="ap" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" sense="weinig" vform="adj" vwtype="onbep" word="Weinig"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="man" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="man" sense="man" word="mannen"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,pc_pp(van))" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="houden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="houd" sc="pc_pp(van)" sense="houd-van" stype="declarative" tense="present" word="houden" wvorm="pv"/>
+      <node begin="3" cat="pp" end="8" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="4" cat="np" end="8" id="8" rel="obj1">
+          <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="9" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="5" buiging="zonder" end="6" frame="v_noun(het_subj)" getal-n="zonder-n" his="normal" his_1="normal" id="10" lcat="np" lemma="gieten" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="giet" sc="het_subj" sense="het-giet" special="v_noun" word="gieten" wvorm="inf"/>
+          <node begin="6" cat="pp" end="8" id="11" rel="mod">
+            <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="13" lcat="np" lemma="tomaat_olie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="tomaat_olie" sense="tomaat_olie" word="tomatenolie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1059">Weinig mannen houden van het gieten van tomatenolie</sentence>
+  <comments>
+    <comment>Q#1059|Weinig mannen houden van het gieten van tomatenolie|1|1|-1.5226815126000008</comment>
+  </comments>
+</alpino_ds>

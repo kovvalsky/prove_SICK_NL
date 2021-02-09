@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:09" cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="spreker" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="spreker" sense="spreker" word="spreker"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(van))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd" sc="pc_pp(van)" sense="houd-van" stype="declarative" tense="present" word="houdt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="5" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="4" buiging="zonder" end="5" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="8" lcat="np" lemma="papegaaien" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" rnum="sg" root="papegaai" sc="intransitive" sense="papegaai" special="v_noun" word="papegaaien" wvorm="inf"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1178">De spreker houdt van papegaaien</sentence>
+  <comments>
+    <comment>Q#1178|De spreker houdt van papegaaien|1|1|1.2296620966999985</comment>
+  </comments>
+</alpino_ds>

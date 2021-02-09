@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:25" cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="conj" end="9" id="1" rel="--">
+      <node begin="0" cat="smain" end="5" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ende(padv))" graad="basis" his="normal" his_1="decap" his_1_1="V-de" his_1_1_1="normal" id="4" infl="e" lcat="ppres" lemma="verschillen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" sense="verschil" vform="gerund" word="Verschillende"/>
+          <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="vrouw" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vrouw" sense="vrouw" word="vrouwen"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="dragen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="draag" sc="transitive" sense="draag" tense="present" word="dragen" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="normal" id="8" infl="both" lcat="ap" lemma="rose" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="rose" sense="rose" vform="adj" word="roze"/>
+          <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="9" lcat="np" lemma="konijn_oor" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="konijn_oor" sense="konijn_oor" word="konijnenoren"/>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="9" id="11" rel="cnj">
+        <node begin="0" end="2" id="12" index="1" rel="su"/>
+        <node begin="6" end="7" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="13" infl="pl" lcat="smain" lemma="wijzen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wijs" sc="ld_pp" sense="wijs" tense="present" word="wijzen" wvorm="pv"/>
+        <node begin="7" cat="pp" end="9" id="14" rel="ld">
+          <node begin="7" end="8" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="15" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="8" end="9" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="rechts" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="rechts" sense="rechts" word="rechts"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3946">Verschillende vrouwen dragen roze konijnenoren en wijzen naar rechts</sentence>
+  <comments>
+    <comment>Q#3946|Verschillende vrouwen dragen roze konijnenoren en wijzen naar rechts|1|1|-2.3000218266000005</comment>
+  </comments>
+</alpino_ds>

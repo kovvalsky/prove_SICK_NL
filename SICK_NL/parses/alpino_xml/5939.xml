@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:49" cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="hond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hond" sense="hond" word="hond"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,sg_heeft,aan_het)" his="normal" his_1="normal" id="5" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aan_het" sense="ben-aan_het" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ahi" end="13" id="6" rel="vc">
+        <node begin="6" cat="mwu" end="8" his="normal" his_1="normal" id="7" mwu_root="aan het" mwu_sense="aan het" rel="cmp">
+          <node begin="6" end="7" frame="complementizer(aan_het)" id="8" lcat="ahi" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" sc="aan_het" sense="aan" vztype="init" word="aan"/>
+          <node begin="7" end="8" frame="complementizer(aan_het)" id="9" lcat="ahi" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sc="aan_het" sense="het" word="het"/>
+        </node>
+        <node begin="0" cat="inf" end="13" id="10" rel="body">
+          <node begin="0" end="2" id="11" index="1" rel="su"/>
+          <node begin="3" cat="np" end="6" id="12" rel="obj1">
+            <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="13" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="4" end="5" frame="meas_mod_noun(het,count,sg,measure)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="stuk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="stuk" sc="measure" sense="stuk" special="meas_mod" word="stuk"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="hout" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" rnum="sg" root="hout" sense="hout" word="hout"/>
+          </node>
+          <node begin="8" buiging="zonder" end="9" frame="verb(hebben,inf,np_ld_pp)" his="normal" his_1="normal" id="16" infl="inf" lcat="inf" lemma="halen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="haal" sc="np_ld_pp" sense="haal" word="halen" wvorm="inf"/>
+          <node begin="9" cat="pp" end="13" id="17" rel="ld">
+            <node begin="9" end="10" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="18" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="10" cat="np" end="13" id="19" rel="obj1">
+              <node begin="10" cat="ap" end="12" id="20" rel="mod">
+                <node begin="10" end="11" frame="adverb" his="normal" his_1="normal" id="21" lcat="advp" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" sense="zeer" word="zeer"/>
+                <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="22" infl="no_e" lcat="ap" lemma="helder" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="helder" sense="helder" vform="adj" word="helder"/>
+              </node>
+              <node begin="12" end="13" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="water" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="water" sense="water" word="water"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5939">Een hond is een stuk hout aan het halen uit zeer helder water</sentence>
+  <comments>
+    <comment>Q#5939|Een hond is een stuk hout aan het halen uit zeer helder water|1|1|-10.5812140946</comment>
+  </comments>
+</alpino_ds>

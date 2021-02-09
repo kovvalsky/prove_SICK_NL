@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:14" cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="vrouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrouw" sense="vrouw" word="vrouw"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,sg_heeft,aan_het)" his="normal" his_1="normal" id="5" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aan_het" sense="ben-aan_het" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ahi" end="10" id="6" rel="vc">
+        <node begin="4" cat="mwu" end="6" his="normal" his_1="normal" id="7" mwu_root="aan het" mwu_sense="aan het" rel="cmp">
+          <node begin="4" end="5" frame="complementizer(aan_het)" id="8" lcat="ahi" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" sc="aan_het" sense="aan" vztype="init" word="aan"/>
+          <node begin="5" end="6" frame="complementizer(aan_het)" id="9" lcat="ahi" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sc="aan_het" sense="het" word="het"/>
+        </node>
+        <node begin="0" cat="inf" end="10" id="10" rel="body">
+          <node begin="0" end="2" id="11" index="1" rel="su"/>
+          <node begin="3" end="4" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="sap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="sap" sense="sap" word="sap"/>
+          <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,np_ld_pp)" his="normal" his_1="normal" id="13" infl="inf" lcat="inf" lemma="persen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="pers" sc="np_ld_pp" sense="pers" word="persen" wvorm="inf"/>
+          <node begin="7" cat="pp" end="10" id="14" rel="ld">
+            <node begin="7" end="8" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="15" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+            <node begin="8" cat="np" end="10" id="16" rel="obj1">
+              <node begin="8" end="9" frame="determiner(een)" his="normal" his_1="normal" id="17" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="citroen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="citroen" sense="citroen" word="citroen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2006">De vrouw is sap aan het persen uit een citroen</sentence>
+  <comments>
+    <comment>Q#2006|De vrouw is sap aan het persen uit een citroen|1|1|-5.593958494100001</comment>
+  </comments>
+</alpino_ds>

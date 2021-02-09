@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:26" cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="np" end="9" id="1" rel="--">
+      <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="2" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+      <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="3" lcat="np" lemma="voetballer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="voetballer" sense="voetballer" word="voetballers"/>
+      <node begin="2" cat="pp" end="9" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" cat="conj" end="9" id="6" rel="obj1">
+          <node begin="3" cat="np" end="7" id="7" rel="cnj">
+            <node begin="3" cat="conj" end="6" id="8" index="1" rel="mod">
+              <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="rood" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="rood" sense="rood" vform="adj" word="rood"/>
+              <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="11" infl="no_e" lcat="ap" lemma="wit" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="wit" sense="wit" vform="adj" word="wit"/>
+            </node>
+            <node begin="6" buiging="zonder" end="7" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="12" lcat="np" lemma="springen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="spring" sc="intransitive" sense="spring" special="v_noun" word="springen" wvorm="inf"/>
+          </node>
+          <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="3" cat="np" end="9" id="14" rel="cnj">
+            <node begin="3" end="6" id="15" index="1" rel="mod"/>
+            <node begin="8" buiging="zonder" end="9" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="16" lcat="np" lemma="knuffelen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" root="knuffel" sc="intransitive" sense="knuffel" special="v_noun" word="knuffelen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4015">Sommige voetballers in rood en wit springen en knuffelen</sentence>
+  <comments>
+    <comment>Q#4015|Sommige voetballers in rood en wit springen en knuffelen|1|1|-0.34136489009999943</comment>
+  </comments>
+</alpino_ds>

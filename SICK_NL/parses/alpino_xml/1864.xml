@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:13" cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ende(padv))" graad="basis" his="normal" his_1="decap" his_1_1="V-de" his_1_1_1="normal" id="3" infl="e" lcat="ppres" lemma="verschillen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" sense="verschil" vform="gerund" word="Verschillende"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="voetballer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="voetballer" sense="voetballer" word="voetballers"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sta" sc="ld_pp" sense="sta" stype="declarative" tense="present" word="staan" wvorm="pv"/>
+      <node aform="base" begin="3" end="4" frame="adjective(postn_pred(padv))" his="normal" his_1="normal" id="6" infl="pred" lcat="ap" lemma="samen" pos="adj" postag="BW()" pt="bw" rel="predm" root="samen" sense="samen" vform="adj" word="samen"/>
+      <node begin="4" cat="pp" end="7" id="7" rel="ld">
+        <node begin="4" end="5" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="8" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="5" cat="np" end="7" id="9" rel="obj1">
+          <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="veld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="veld" sense="veld" word="veld"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1864">Verschillende voetballers staan samen op een veld</sentence>
+  <comments>
+    <comment>Q#1864|Verschillende voetballers staan samen op een veld|1|1|-3.3376627048999996</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:07" cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'PER')" getal="mv" graad="basis" his="name" his_1="begin" id="2" lcat="np" lemma="Mimespelers" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="su" rnum="pl" root="Mimespelers" sense="Mimespelers" word="Mimespelers"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,intransitive)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="spelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="speel" sc="intransitive" sense="speel" stype="declarative" tense="present" word="spelen" wvorm="pv"/>
+      <node begin="2" cat="pp" end="6" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="5" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="3" cat="np" end="6" id="6" rel="obj1">
+          <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="7" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="8" infl="no_e" lcat="ap" lemma="klein" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="klein" sense="klein" vform="adj" word="klein"/>
+          <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="podium" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="podium" sense="podium" word="podium"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="974">Mimespelers spelen op een klein podium</sentence>
+  <comments>
+    <comment>Q#974|Mimespelers spelen op een klein podium|1|1|-3.0647184460999997</comment>
+  </comments>
+</alpino_ds>

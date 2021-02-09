@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:13" cats="1" skips="0" />
+  <node begin="0" cat="top" end="3" id="0" rel="top">
+    <node begin="0" cat="smain" end="3" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="vliegtuig" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vliegtuig" sense="vliegtuig" word="vliegtuig"/>
+      </node>
+      <node begin="2" end="3" frame="verb(zijn,sg3,intransitive)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="landen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="land" sc="intransitive" sense="land" stype="declarative" tense="present" word="landt" wvorm="pv"/>
+    </node>
+  </node>
+  <sentence sentid="1753">Het vliegtuig landt</sentence>
+  <comments>
+    <comment>Q#1753|Het vliegtuig landt|1|1|-2.6480639983000005</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:44" cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="groep" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="groep" sense="groep" word="groep"/>
+        <node begin="2" cat="pp" end="6" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="6" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="6" id="7" rel="obj1">
+            <node begin="3" end="4" frame="number(hoofd(pl_num))" his="normal" his_1="number_expression" id="8" infl="pl_num" lcat="detp" lemma="vijf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijf" sense="vijf" special="hoofd" word="vijf"/>
+            <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="oud" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="oud" sense="oud" vform="adj" word="oude"/>
+            <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="volwassene" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="volwassene" sense="volwassene" word="volwassenen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,sg3,subj_control(wk_te))" his="normal" his_1="normal" id="11" infl="sg3" lcat="smain" lemma="liggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lig" sc="subj_control(wk_te)" sense="lig" stype="declarative" tense="present" word="ligt" wvorm="pv"/>
+      <node begin="7" end="8" frame="loc_adverb" his="normal" his_1="normal" id="12" lcat="advp" lemma="binnen" pos="adv" postag="VZ(fin)" pt="vz" rel="mod" root="binnen" sense="binnen" special="loc" vztype="fin" word="binnen"/>
+      <node begin="0" cat="ti" end="10" id="13" rel="vc">
+        <node begin="8" end="9" frame="complementizer(te)" his="normal" his_1="normal" id="14" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="10" id="15" rel="body">
+          <node begin="0" end="6" id="16" index="1" rel="su"/>
+          <node begin="9" buiging="zonder" end="10" frame="verb('hebben/zijn',inf,intransitive)" his="te_verb" id="17" infl="inf" lcat="inf" lemma="loungen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="loungen" sc="intransitive" sense="loungen" word="loungen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5535">Een groep van vijf oude volwassenen ligt binnen te loungen</sentence>
+  <comments>
+    <comment>Q#5535|Een groep van vijf oude volwassenen ligt binnen te loungen|1|1|-3.7574750006999995</comment>
+  </comments>
+</alpino_ds>

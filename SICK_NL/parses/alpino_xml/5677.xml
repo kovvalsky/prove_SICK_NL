@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:45" cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="7" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="ver" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ver" sense="ver" vform="adj" word="verre"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="persoon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="persoon" sense="persoon" word="persoon"/>
+        <node begin="3" cat="pp" end="7" id="6" rel="mod">
+          <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="4" cat="np" end="7" id="8" rel="obj1">
+            <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="blauw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="blauw" sense="blauw" vform="adj" word="blauwe"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="rugzak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rugzak" sense="rugzak" word="rugzak"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(unacc,sg_heeft,aan_het)" his="normal" his_1="normal" id="12" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aan_het" sense="ben-aan_het" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ahi" end="14" id="13" rel="vc">
+        <node begin="8" cat="mwu" end="10" his="normal" his_1="normal" id="14" mwu_root="aan het" mwu_sense="aan het" rel="cmp">
+          <node begin="8" end="9" frame="complementizer(aan_het)" id="15" lcat="ahi" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" sc="aan_het" sense="aan" vztype="init" word="aan"/>
+          <node begin="9" end="10" frame="complementizer(aan_het)" id="16" lcat="ahi" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sc="aan_het" sense="het" word="het"/>
+        </node>
+        <node begin="0" cat="inf" end="14" id="17" rel="body">
+          <node begin="0" end="7" id="18" index="1" rel="su"/>
+          <node begin="10" buiging="zonder" end="11" frame="verb('hebben/zijn',inf,ld_pp)" his="normal" his_1="normal" id="19" infl="inf" lcat="inf" lemma="wandelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wandel" sc="ld_pp" sense="wandel" word="wandelen" wvorm="inf"/>
+          <node begin="11" cat="pp" end="14" id="20" rel="ld">
+            <node begin="11" end="12" frame="preposition(in,[])" his="normal" his_1="normal" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="12" cat="np" end="14" id="22" rel="obj1">
+              <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="23" infl="no_e" lcat="ap" lemma="rotsachtig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="rotsachtig" sense="rotsachtig" vform="adj" word="rotsachtig"/>
+              <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="gebied" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gebied" sense="gebied" word="gebied"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5677">Een verre persoon met een blauwe rugzak is aan het wandelen in rotsachtig gebied</sentence>
+  <comments>
+    <comment>Q#5677|Een verre persoon met een blauwe rugzak is aan het wandelen in rotsachtig gebied|1|1|-7.731196142299997</comment>
+  </comments>
+</alpino_ds>

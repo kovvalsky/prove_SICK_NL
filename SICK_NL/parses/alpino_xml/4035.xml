@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:26" cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="student" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="student" sense="student" word="studenten"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="uniform" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="uniform" sense="uniform" word="uniformen"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,pl,intransitive)" his="normal" his_1="normal" id="8" infl="pl" lcat="smain" lemma="luisteren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="luister" sc="intransitive" sense="luister" stype="declarative" tense="present" word="luisteren" wvorm="pv"/>
+      <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="aandachtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aandachtig" sense="aandachtig" vform="adj" word="aandachtig"/>
+      <node begin="6" cat="pp" end="9" id="10" rel="mod">
+        <node begin="6" end="7" frame="preposition(voorin,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="voorin" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voorin" sense="voorin" vztype="init" word="voorin"/>
+        <node begin="7" cat="np" end="9" id="12" rel="obj1">
+          <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="klas" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="klas" sense="klas" word="klas"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4035">Sommige studenten in uniformen luisteren aandachtig voorin de klas</sentence>
+  <comments>
+    <comment>Q#4035|Sommige studenten in uniformen luisteren aandachtig voorin de klas|1|1|-2.245012172900001</comment>
+  </comments>
+</alpino_ds>

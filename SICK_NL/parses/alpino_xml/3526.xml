@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:21" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="4" lcat="np" lemma="skateboarder" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="skateboarder" sense="skateboarder" word="skateboarder"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,sg3,part_pc_pp(af,van))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="af_vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val_af" sc="part_pc_pp(af,van)" sense="val_af-van" stype="declarative" tense="present" word="valt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="7" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="4" cat="np" end="7" id="8" rel="obj1">
+          <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="10" infl="no_e" lcat="ap" lemma="half" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="half" sense="half" vform="adj" word="half"/>
+          <node begin="6" end="7" frame="noun(both,both,both)" gen="both" genus="onz" getal="ev" graad="basis" his="noun" id="11" lcat="np" lemma="pipe" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="pipe" sense="pipe" word="pipe"/>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="particle(af)" his="normal" his_1="normal" id="12" lcat="part" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" sense="af" vztype="fin" word="af"/>
+    </node>
+  </node>
+  <sentence sentid="3526">Een skateboarder valt van een half pipe af</sentence>
+  <comments>
+    <comment>Q#3526|Een skateboarder valt van een half pipe af|1|1|-7.553166201899999</comment>
+  </comments>
+</alpino_ds>

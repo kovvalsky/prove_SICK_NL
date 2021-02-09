@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:13" cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" index="1" lcat="np" lemma="iemand" naamval="stan" num="sg" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" rnum="sg" root="iemand" sense="iemand" status="vol" vwtype="onbep" word="Iemand"/>
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,aan_het)" his="normal" his_1="normal" id="3" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aan_het" sense="ben-aan_het" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ahi" end="7" id="4" rel="vc">
+        <node begin="4" cat="mwu" end="6" his="normal" his_1="normal" id="5" mwu_root="aan het" mwu_sense="aan het" rel="cmp">
+          <node begin="4" end="5" frame="complementizer(aan_het)" id="6" lcat="ahi" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" sc="aan_het" sense="aan" vztype="init" word="aan"/>
+          <node begin="5" end="6" frame="complementizer(aan_het)" id="7" lcat="ahi" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sc="aan_het" sense="het" word="het"/>
+        </node>
+        <node begin="0" cat="inf" end="7" id="8" rel="body">
+          <node begin="0" end="1" id="9" index="1" rel="su"/>
+          <node begin="2" cat="np" end="4" id="10" rel="obj1">
+            <node begin="2" end="3" frame="determiner(een)" his="normal" his_1="normal" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="kat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kat" sense="kat" word="kat"/>
+          </node>
+          <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="13" infl="inf" lcat="inf" lemma="borstelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="borstel" sc="transitive" sense="borstel" word="borstelen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1923">Iemand is een kat aan het borstelen</sentence>
+  <comments>
+    <comment>Q#1923|Iemand is een kat aan het borstelen|1|1|-4.5568898362</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:03" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" rel="su">
+        <node begin="0" cat="np" end="2" his="normal" his_1="decap" his_1_1="normal" id="3" rel="det">
+          <node begin="0" end="1" frame="determiner(een)" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(both,both,sg)" gen="both" genus="genus" getal="ev" graad="basis" id="5" lcat="np" lemma="paar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" root="paar" sense="paar" word="paar"/>
+        </node>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="man" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="man" sense="man" word="mannen"/>
+        <node begin="3" cat="pp" end="6" id="7" rel="mod">
+          <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="8" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="6" id="9" rel="obj1">
+            <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="5" end="6" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="wedstrijd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wedstrijd" sense="wedstrijd" special="tmp" word="wedstrijd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb('hebben/zijn',pl,intransitive)" his="normal" his_1="normal" id="12" infl="pl" lcat="smain" lemma="rennen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ren" sc="intransitive" sense="ren" stype="declarative" tense="present" word="rennen" wvorm="pv"/>
+      <node begin="7" end="8" frame="loc_adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="buiten" pos="adv" postag="VZ(fin)" pt="vz" rel="mod" root="buiten" sense="buiten" special="loc" vztype="fin" word="buiten"/>
+    </node>
+  </node>
+  <sentence sentid="459">Een paar mannen in een wedstrijd rennen buiten</sentence>
+  <comments>
+    <comment>Q#459|Een paar mannen in een wedstrijd rennen buiten|1|1|-3.3943788015999994</comment>
+  </comments>
+</alpino_ds>

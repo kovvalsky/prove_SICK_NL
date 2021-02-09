@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:12" cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" cat="np" end="2" his="normal" his_1="decap" his_1_1="normal" id="3" rel="det">
+          <node begin="0" end="1" frame="determiner(een)" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(both,both,sg)" gen="both" genus="genus" getal="ev" graad="basis" id="5" lcat="np" lemma="paar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" root="paar" sense="paar" word="paar"/>
+        </node>
+        <node begin="2" end="3" frame="noun(both,both,both)" gen="both" getal="mv" graad="basis" his="noun" id="6" lcat="np" lemma="fretten" ntype="soort" num="both" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="fretten" sense="fretten" word="fretten"/>
+      </node>
+      <node begin="3" end="4" frame="verb(zijn,pl,ld_pp)" his="normal" his_1="normal" id="7" infl="pl" lcat="smain" lemma="klimmen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="klim" sc="ld_pp" sense="klim" stype="declarative" tense="present" word="klimmen" wvorm="pv"/>
+      <node begin="4" cat="pp" end="7" id="8" rel="ld">
+        <node begin="4" end="5" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="9" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="kooi" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kooi" sense="kooi" word="kooi"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1664">Een paar fretten klimmen uit de kooi</sentence>
+  <comments>
+    <comment>Q#1664|Een paar fretten klimmen uit de kooi|1|1|-3.0078875181999996</comment>
+  </comments>
+</alpino_ds>

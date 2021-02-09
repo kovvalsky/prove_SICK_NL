@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T15:59" cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="conj" end="15" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="cnj">
+        <node begin="0" cat="np" end="4" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+          <node begin="2" cat="pp" end="4" id="6" rel="mod">
+            <node begin="2" end="3" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="tatouage" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="tatouage" sense="tatouage" word="tatoeages"/>
+          </node>
+        </node>
+        <node begin="4" end="5" frame="verb('hebben/zijn',sg3,ld_pp)" his="normal" his_1="normal" id="9" infl="sg3" lcat="smain" lemma="liggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lig" sc="ld_pp" sense="lig" tense="present" word="ligt" wvorm="pv"/>
+        <node begin="5" cat="pp" end="8" id="10" rel="ld">
+          <node begin="5" end="6" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="11" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="6" cat="np" end="8" id="12" rel="obj1">
+            <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="13" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="bank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bank" sense="bank" word="bank"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" conjtype="neven" end="9" frame="conj(en)" his="normal" his_1="normal" id="15" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="15" id="16" rel="cnj">
+        <node begin="0" end="4" id="17" index="1" rel="su"/>
+        <node begin="9" end="10" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="18" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+        <node begin="10" cat="ap" end="15" id="19" rel="predc">
+          <node begin="10" cat="mwu" end="12" his="normal" his_1="normal" id="20" mwu_root="op zoek" mwu_sense="op zoek-naar" rel="hd">
+            <node aform="base" begin="10" end="11" frame="adjective(pred(padv),pp(naar))" id="21" infl="pred" lcat="ap" lemma="op" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="op" sc="pp(naar)" sense="op-naar" vform="adj" vztype="init" word="op"/>
+            <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(pred(padv),pp(naar))" graad="basis" id="22" infl="pred" lcat="ap" lemma="zoek" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="zoek" sc="pp(naar)" sense="zoek-naar" vform="adj" word="zoek"/>
+          </node>
+          <node begin="12" cat="pp" end="15" id="23" rel="pc">
+            <node begin="12" end="13" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="24" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+            <node begin="13" cat="np" end="15" id="25" rel="obj1">
+              <node begin="13" end="14" frame="determiner(een)" his="normal" his_1="normal" id="26" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="14" end="15" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="potlood" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="potlood" sense="potlood" word="potlood"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="245">Een man met tatoeages ligt op een bank en is op zoek naar een potlood</sentence>
+  <comments>
+    <comment>Q#245|Een man met tatoeages ligt op een bank en is op zoek naar een potlood|1|1|-11.779693884399997</comment>
+  </comments>
+</alpino_ds>

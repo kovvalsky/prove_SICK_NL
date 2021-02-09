@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:19" cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" index="1" lcat="np" lemma="make-up" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="make-up" sense="make-up" word="Make-up"/>
+      <node begin="1" end="2" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="9" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="obj1"/>
+        <node begin="2" cat="pp" end="5" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(door,[heen])" his="normal" his_1="normal" id="7" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="3" cat="np" end="5" id="8" rel="obj1">
+            <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="vrouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrouw" sense="vrouw" word="vrouw"/>
+          </node>
+        </node>
+        <node begin="5" cat="pp" end="8" id="11" rel="ld">
+          <node begin="5" end="6" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="6" cat="np" end="8" id="13" rel="obj1">
+            <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="7" end="8" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+          </node>
+        </node>
+        <node begin="8" buiging="zonder" end="9" frame="verb(hebben,psp,ninv(np_ld_pp,part_np_ld_pp(aan)))" his="normal" his_1="part-V" id="16" infl="psp" lcat="ppart" lemma="aan_brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng_aan" sc="part_np_ld_pp(aan)" sense="breng_aan" word="aangebracht" wvorm="vd"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3041">Make-up wordt door de vrouw op de man aangebracht</sentence>
+  <comments>
+    <comment>Q#3041|Make-up wordt door de vrouw op de man aangebracht|1|1|-6.922800638200001</comment>
+  </comments>
+</alpino_ds>

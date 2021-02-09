@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:10" cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,np_pc_pp(met))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="besprenkelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="besprenkel" sc="np_pc_pp(met)" sense="besprenkel-met" stype="declarative" tense="present" word="besprenkelt" wvorm="pv"/>
+      <node begin="3" cat="np" end="11" id="6" rel="obj1">
+        <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="7" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="aantal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="aantal" sense="aantal" word="aantal"/>
+        <node begin="5" cat="pp" end="11" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="6" cat="np" end="11" id="11" rel="obj1">
+            <node begin="6" end="7" frame="noun(het,count,pl,measure)" gen="het" getal="mv" graad="dim" his="normal" his_1="normal" id="12" lcat="np" lemma="snee" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" rnum="pl" root="snee_DIM" sc="measure" sense="snee_DIM" word="sneetjes"/>
+            <node begin="7" cat="np" end="11" id="13" rel="mod">
+              <node begin="7" cat="conj" end="10" id="14" rel="mod">
+                <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(ge_both(padv))" his="normal" his_1="normal" id="15" infl="both" lcat="ppart" lemma="gesneden" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="cnj" root="gesneden" sense="gesneden" vform="psp" word="gesneden" wvorm="vd"/>
+                <node begin="8" conjtype="neven" end="9" frame="conj(en)" his="normal" his_1="normal" id="16" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(ge_e)" his="normal" his_1="normal" id="17" infl="e" lcat="ppart" lemma="beboterd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="cnj" root="beboterd" sense="beboterd" vform="psp" word="beboterde" wvorm="vd"/>
+              </node>
+              <node begin="10" end="11" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="brood" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="brood" sense="brood" word="broden"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="pp" end="13" id="19" rel="pc">
+        <node begin="11" end="12" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="12" buiging="zonder" end="13" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="21" lcat="np" lemma="kruiden" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" rnum="sg" root="kruid" sc="intransitive" sense="kruid" special="v_noun" word="kruiden" wvorm="inf"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1378">Een man besprenkelt een aantal in sneetjes gesneden en beboterde broden met kruiden</sentence>
+  <comments>
+    <comment>Q#1378|Een man besprenkelt een aantal in sneetjes gesneden en beboterde broden met kruiden|1|1|-5.505129371599999</comment>
+  </comments>
+</alpino_ds>

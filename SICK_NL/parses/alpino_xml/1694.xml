@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:12" cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="np" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="2" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+      <node begin="1" cat="mwu" end="3" his="name" his_1="not_begin" id="3" mwu_root="man kickbokst" mwu_sense="man kickbokst" rel="hd">
+        <node begin="1" end="2" frame="proper_name(both)" id="4" lcat="np" lemma="man" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="man" sense="man" spectype="deeleigen" word="man"/>
+        <node begin="2" end="3" frame="proper_name(both)" id="5" lcat="np" lemma="kickbokst" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="kickbokst" sense="kickbokst" spectype="deeleigen" word="kickbokst"/>
+      </node>
+      <node begin="3" cat="pp" end="6" id="6" rel="mod">
+        <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="trainer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="trainer" sense="trainer" word="trainer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1694">De man kickbokst met een trainer</sentence>
+  <comments>
+    <comment>Q#1694|De man kickbokst met een trainer|1|1|1.3854593091999998</comment>
+  </comments>
+</alpino_ds>

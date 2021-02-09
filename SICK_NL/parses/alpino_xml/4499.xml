@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:32" cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="11" id="3" rel="--">
+      <node begin="0" cat="np" end="8" id="4" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="jong" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="jong" sense="jong" vform="adj" word="jong"/>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="kind" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kind" sense="kind" word="kind"/>
+        <node begin="4" cat="ppart" end="8" id="8" rel="mod">
+          <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="9" infl="no_e" lcat="ppart" lemma="gekleed" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gekleed" sense="gekleed" vform="psp" word="gekleed" wvorm="vd"/>
+          <node begin="5" cat="pp" end="8" id="10" rel="mod">
+            <node begin="5" end="6" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="6" cat="np" end="8" id="12" rel="obj1">
+              <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="13" infl="no_e" lcat="ap" lemma="koud" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="koud" sense="koud" vform="adj" word="koud"/>
+              <node begin="7" end="8" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="weer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="weer" sense="weer" word="weer"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" end="10" frame="verb(hebben,sg3,ld_adv)" his="normal" his_1="normal" id="15" infl="sg3" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="ld_adv" sense="sta" stype="declarative" tense="present" word="staat" wvorm="pv"/>
+      <node begin="10" end="11" frame="loc_adverb" his="normal" his_1="normal" id="16" lcat="advp" lemma="buiten" pos="adv" postag="VZ(fin)" pt="vz" rel="ld" root="buiten" sense="buiten" special="loc" vztype="fin" word="buiten"/>
+    </node>
+  </node>
+  <sentence sentid="4499">Een jong kind , gekleed voor koud weer , staat buiten</sentence>
+  <comments>
+    <comment>Q#4499|Een jong kind , gekleed voor koud weer , staat buiten|1|1|-3.8780021198000005</comment>
+  </comments>
+</alpino_ds>

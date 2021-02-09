@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:15" cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(both,mass,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" index="1" lcat="np" lemma="knoflook" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="knoflook" sense="knoflook" word="Knoflook"/>
+      <node begin="1" end="2" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="8" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="obj1"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="ld">
+          <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="7" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="dim" his="normal" his_1="normal" id="8" lcat="np" lemma="blok" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="obj1" rnum="pl" root="blok_DIM" sense="blok_DIM" word="blokjes"/>
+        </node>
+        <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,np_ld_pp)" his="normal" his_1="normal" id="9" infl="psp" lcat="ppart" lemma="snijden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="snijd" sc="np_ld_pp" sense="snijd" word="gesneden" wvorm="vd"/>
+        <node begin="5" cat="pp" end="8" id="10" rel="mod">
+          <node begin="5" end="6" frame="preposition(door,[heen])" his="normal" his_1="normal" id="11" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="6" cat="np" end="8" id="12" rel="obj1">
+            <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="vrouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrouw" sense="vrouw" word="vrouw"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2187">Knoflook wordt in blokjes gesneden door de vrouw</sentence>
+  <comments>
+    <comment>Q#2187|Knoflook wordt in blokjes gesneden door de vrouw|1|1|-6.759644551700001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:02" cats="1" skips="0" />
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="14" end="15" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="19" id="3" rel="--">
+      <node begin="0" cat="np" end="7" id="4" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="kind" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kind" sense="kind" word="kind"/>
+        <node begin="2" cat="rel" end="7" id="7" rel="mod">
+          <node begin="2" case="no_obl" end="3" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" his="normal" his_1="normal" id="8" index="1" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+          <node begin="2" cat="ssub" end="7" id="9" rel="body">
+            <node begin="2" end="3" id="10" index="1" rel="su"/>
+            <node begin="3" cat="pp" end="6" id="11" rel="ld">
+              <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="4" cat="np" end="6" id="13" rel="obj1">
+                <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="oceaan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="oceaan" sense="oceaan" word="oceaan"/>
+              </node>
+            </node>
+            <node begin="6" end="7" frame="verb('hebben/zijn',sg3,ld_pp)" his="normal" his_1="normal" id="16" infl="sg3" lcat="ssub" lemma="zwemmen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zwem" sc="ld_pp" sense="zwem" tense="present" word="zwemt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(hebben,sg3,np_ld_pp)" his="normal" his_1="normal" id="17" infl="sg3" lcat="smain" lemma="gooien" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="gooi" sc="np_ld_pp" sense="gooi" stype="declarative" tense="present" word="gooit" wvorm="pv"/>
+      <node begin="9" cat="np" end="11" id="18" rel="obj1">
+        <node begin="9" end="10" frame="determiner(een)" his="normal" his_1="normal" id="19" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="dim" his="normal" his_1="normal" id="20" lcat="np" lemma="munt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" rnum="sg" root="munt_DIM" sense="munt_DIM" word="muntje"/>
+      </node>
+      <node begin="11" cat="pp" end="14" id="21" rel="ld">
+        <node begin="11" end="12" frame="preposition(in,[])" his="normal" his_1="normal" id="22" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="12" cat="np" end="14" id="23" rel="obj1">
+          <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="24" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="zwembad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="zwembad" sense="zwembad" word="zwembad"/>
+        </node>
+      </node>
+      <node begin="15" cat="pp" end="19" id="26" rel="mod">
+        <node begin="15" cat="mwu" end="17" his="normal" his_1="normal" id="27" mwu_root="dichtbij" mwu_sense="dichtbij" rel="hd">
+          <node begin="15" buiging="zonder" end="16" frame="preposition(dichtbij,[])" graad="basis" id="28" lcat="pp" lemma="1/dichtbij" pos="prep" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="dicht" sense="dicht" word="dicht"/>
+          <node begin="16" end="17" frame="preposition(dichtbij,[])" id="29" lcat="pp" lemma="2/dichtbij" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="bij" sense="bij" vztype="init" word="bij"/>
+        </node>
+        <node begin="17" cat="np" end="19" id="30" rel="obj1">
+          <node begin="17" end="18" frame="determiner(de)" his="normal" his_1="normal" id="31" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="18" end="19" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="409">Een kind dat in de oceaan zwemt , gooit een muntje in het zwembad , dicht bij de man</sentence>
+  <comments>
+    <comment>Q#409|Een kind dat in de oceaan zwemt , gooit een muntje in het zwembad , dicht bij de man|1|1|-9.809719812300001</comment>
+  </comments>
+</alpino_ds>

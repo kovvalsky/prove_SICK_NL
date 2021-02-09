@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:04" cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="pl_num" lcat="detp" lemma="sommig" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="sommig" sense="sommig" vwtype="onbep" wh="nwh" word="Sommige"/>
+        <node begin="1" end="2" frame="noun(both,both,both)" gen="both" getal="mv" graad="basis" his="noun" id="5" lcat="np" lemma="corndogs" ntype="soort" num="both" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="corndogs" sense="corndogs" word="corndogs"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,pl,passive)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="worden" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="17" id="7" rel="vc">
+        <node begin="0" end="2" id="8" index="1" rel="obj1"/>
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="9" infl="psp" lcat="ppart" lemma="op_eten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="eet_op" sc="part_transitive(op)" sense="eet_op" word="opgegeten" wvorm="vd"/>
+        <node begin="4" cat="pp" end="17" id="10" rel="mod">
+          <node begin="4" end="5" frame="preposition(door,[heen])" his="normal" his_1="normal" id="11" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="5" cat="np" end="17" id="12" rel="obj1">
+            <node begin="5" end="6" frame="number(hoofd(pl_num))" his="normal" his_1="number_expression" id="13" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+            <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="peuter" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="peuter" sense="peuter" word="peuters"/>
+            <node begin="7" cat="rel" end="17" id="15" rel="mod">
+              <node begin="7" case="no_obl" end="8" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="16" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="7" cat="ssub" end="17" id="17" rel="body">
+                <node begin="7" end="8" id="18" index="2" rel="su"/>
+                <node begin="11" end="12" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="19" infl="pl" lcat="ssub" lemma="zitten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zit" sc="ld_pp" sense="zit" tense="present" word="zitten" wvorm="pv"/>
+                <node begin="8" cat="pp" end="17" id="20" rel="ld">
+                  <node begin="8" end="9" frame="preposition(in,[])" his="normal" his_1="normal" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="9" cat="np" end="17" id="22" rel="obj1">
+                    <node begin="9" end="10" frame="determiner(een)" his="normal" his_1="normal" id="23" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                    <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="wagon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wagon" sense="wagon" word="wagon"/>
+                    <node begin="13" cat="rel" end="17" id="25" rel="mod">
+                      <node begin="13" case="no_obl" end="14" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="26" index="3" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                      <node begin="13" cat="ssub" end="17" id="27" rel="body">
+                        <node begin="13" end="14" id="28" index="3" rel="su"/>
+                        <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="29" infl="no_e" lcat="ap" lemma="echt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" sense="echt" vform="adj" word="echt"/>
+                        <node aform="base" begin="15" buiging="zonder" end="16" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="30" infl="no_e" lcat="ap" lemma="klein" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="klein" sense="klein" vform="adj" word="klein"/>
+                        <node begin="16" end="17" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="31" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="598">Sommige corndogs worden opgegeten door twee peuters die in een wagon zitten , die echt klein is</sentence>
+  <comments>
+    <comment>Q#598|Sommige corndogs worden opgegeten door twee peuters die in een wagon zitten , die echt klein is|1|1|-20.713591822600016</comment>
+  </comments>
+</alpino_ds>

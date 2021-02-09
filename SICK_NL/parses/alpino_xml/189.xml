@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T15:59" cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="conj" end="9" id="1" rel="--">
+      <node begin="0" cat="smain" end="4" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ende(padv))" graad="basis" his="normal" his_1="decap" his_1_1="V-de" his_1_1_1="normal" id="4" infl="e" lcat="ppres" lemma="verschillen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verschil" sense="verschil" vform="gerund" word="Verschillende"/>
+          <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="kind" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kind" sense="kind" word="kinderen"/>
+        </node>
+        <node begin="2" end="3" frame="verb(zijn,pl,aux(inf))" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="present" word="gaan" wvorm="pv"/>
+        <node begin="0" cat="inf" end="4" id="7" rel="vc">
+          <node begin="0" end="2" id="8" index="1" rel="su"/>
+          <node begin="3" buiging="zonder" end="4" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="9" infl="inf" lcat="inf" lemma="liggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="lig" sc="intransitive" sense="lig" word="liggen" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="9" id="11" rel="cnj">
+        <node begin="0" end="2" id="12" index="1" rel="su"/>
+        <node begin="5" end="6" frame="verb(hebben,pl,part_transitive(op))" his="normal" his_1="normal" id="13" infl="pl" lcat="smain" lemma="op_steken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="steek_op" sc="part_transitive(op)" sense="steek_op" tense="present" word="steken" wvorm="pv"/>
+        <node begin="6" cat="np" end="8" id="14" rel="obj1">
+          <node begin="6" buiging="zonder" end="7" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="15" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="knie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="knie" sense="knie" word="knieën"/>
+        </node>
+        <node begin="8" end="9" frame="particle(op)" his="normal" his_1="normal" id="17" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="189">Verschillende kinderen gaan liggen en steken hun knieën op</sentence>
+  <comments>
+    <comment>Q#189|Verschillende kinderen gaan liggen en steken hun knieën op|1|1|-2.9931797619999996</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T15:59" cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="gitarist" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gitarist" sense="gitarist" word="gitarist"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg_heeft,transitive_ndev)" his="normal" his_1="normal" id="5" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="transitive_ndev" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="3" cat="np" end="7" id="6" rel="obj1">
+        <node begin="3" cat="conj" end="6" id="7" rel="mod">
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="8" infl="no_e" lcat="ap" lemma="blond" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="cnj" root="blond" sense="blond" vform="adj" word="blond"/>
+          <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="9" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(end(both))" his="normal" his_1="V-d" his_1_1="part-V" id="10" infl="no_e" lcat="ppres" lemma="weg_vliegen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="cnj" root="vlieg_weg" sense="vlieg_weg" vform="gerund" word="wegvliegend" wvorm="od"/>
+        </node>
+        <node begin="6" end="7" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="haar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="haar" sense="haar" word="haar"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="186">Een gitarist heeft blond en wegvliegend haar</sentence>
+  <comments>
+    <comment>Q#186|Een gitarist heeft blond en wegvliegend haar|1|1|-3.6481883477000006</comment>
+  </comments>
+</alpino_ds>

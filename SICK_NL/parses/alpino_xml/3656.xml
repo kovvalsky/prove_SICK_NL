@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:23" cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="bruin" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bruin" sense="bruin" vform="adj" word="bruine"/>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="hond" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="hond" sense="hond" word="honden"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,pl,aan_het)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="aan_het" sense="ben-aan_het" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ahi" end="8" id="7" rel="vc">
+        <node begin="5" cat="mwu" end="7" his="normal" his_1="normal" id="8" mwu_root="aan het" mwu_sense="aan het" rel="cmp">
+          <node begin="5" end="6" frame="complementizer(aan_het)" id="9" lcat="ahi" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" sc="aan_het" sense="aan" vztype="init" word="aan"/>
+          <node begin="6" end="7" frame="complementizer(aan_het)" id="10" lcat="ahi" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sc="aan_het" sense="het" word="het"/>
+        </node>
+        <node begin="0" cat="inf" end="8" id="11" rel="body">
+          <node begin="0" end="3" id="12" index="1" rel="su"/>
+          <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="13" infl="no_e" lcat="ap" lemma="speels" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="speels" sense="speels" vform="adj" word="speels"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="14" infl="inf" lcat="inf" lemma="vechten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vecht" sc="intransitive" sense="vecht" word="vechten" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="8" cat="pp" end="11" id="15" rel="mod">
+        <node begin="8" end="9" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="16" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="9" cat="np" end="11" id="17" rel="obj1">
+          <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="zand_strand" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="zand_strand" sense="zand_strand" word="zandstrand"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3656">De bruine honden zijn speels aan het vechten op het zandstrand</sentence>
+  <comments>
+    <comment>Q#3656|De bruine honden zijn speels aan het vechten op het zandstrand|1|1|-1.0961623487999965</comment>
+  </comments>
+</alpino_ds>

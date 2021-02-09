@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:25" cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="conj" end="14" id="1" rel="--">
+      <node begin="0" cat="smain" end="6" id="2" rel="cnj">
+        <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" index="1" lcat="np" lemma="vrouw" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="vrouw" sense="vrouw" word="Vrouwen"/>
+        <node begin="1" end="2" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="dragen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="draag" sc="transitive" sense="draag" tense="present" word="dragen" wvorm="pv"/>
+        <node begin="2" cat="conj" end="6" id="5" rel="obj1">
+          <node begin="2" cat="np" end="4" id="6" rel="cnj">
+            <node begin="2" buiging="zonder" end="3" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="7" index="2" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+            <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="8" lcat="np" lemma="konijn_oor" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="konijn_oor" sense="konijn_oor" word="konijnenoren"/>
+          </node>
+          <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="9" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="2" cat="np" end="6" id="10" rel="cnj">
+            <node begin="2" end="3" id="11" index="2" rel="det"/>
+            <node begin="5" end="6" frame="meas_mod_noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="compound" his_1="2" id="12" lcat="np" lemma="race_nummer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="race_nummer" sense="race_nummer" special="meas_mod" word="racenummers"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" conjtype="neven" end="7" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="14" id="14" rel="cnj">
+        <node begin="0" end="1" id="15" index="1" rel="su"/>
+        <node begin="7" end="8" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="16" infl="pl" lcat="smain" lemma="wijzen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wijs" sc="ld_pp" sense="wijs" tense="present" word="wijzen" wvorm="pv"/>
+        <node begin="8" end="9" frame="adverb" his="normal" his_1="normal" id="17" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="9" cat="pp" end="11" id="18" rel="ld">
+          <node begin="9" end="10" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="19" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="10" end="11" frame="meas_mod_noun(het,mass,sg)" gen="het" getal="ev" his="normal" his_1="normal" id="20" lcat="np" lemma="iets" naamval="stan" num="sg" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="iets" sense="iets" special="meas_mod" status="vol" vwtype="onbep" word="iets"/>
+        </node>
+        <node begin="11" cat="pp" end="14" id="21" rel="mod">
+          <node begin="11" end="12" frame="preposition(in,[])" his="normal" his_1="normal" id="22" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="12" cat="np" end="14" id="23" rel="obj1">
+            <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="verte" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verte" sense="verte" word="verte"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3944">Vrouwen dragen geen konijnenoren en racenummers en wijzen niet naar iets in de verte</sentence>
+  <comments>
+    <comment>Q#3944|Vrouwen dragen geen konijnenoren en racenummers en wijzen niet naar iets in de verte|1|1|-3.2624216403000004</comment>
+  </comments>
+</alpino_ds>

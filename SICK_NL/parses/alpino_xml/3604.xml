@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:22" cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="conj" end="17" id="1" rel="--">
+      <node begin="0" cat="smain" end="12" id="2" rel="cnj">
+        <node begin="0" cat="np" end="7" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="5" infl="no_e" lcat="ap" lemma="jong" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="jong" sense="jong" vform="adj" word="jong"/>
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="dim" his="normal" his_1="normal" id="6" lcat="np" lemma="meisje" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" rnum="sg" root="meisje" sense="meisje" word="meisje"/>
+          <node begin="3" cat="pp" end="7" id="7" rel="mod">
+            <node begin="3" end="4" frame="preposition(naast,[])" his="normal" his_1="normal" id="8" lcat="pp" lemma="naast" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naast" sense="naast" vztype="init" word="naast"/>
+            <node begin="4" cat="np" end="7" id="9" rel="obj1">
+              <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="normal" id="11" infl="both" lcat="ap" lemma="rose" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="rose" sense="rose" vform="adj" word="roze"/>
+              <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="bord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bord" sense="bord" word="bord"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="verb(hebben,sg3,np_ld_dir)" his="normal" his_1="normal" id="13" infl="sg3" lcat="smain" lemma="houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd" sc="np_ld_dir" sense="houd" tense="present" word="houdt" wvorm="pv"/>
+        <node begin="8" cat="np" end="11" id="14" rel="obj1">
+          <node begin="8" end="9" frame="determiner(een)" his="normal" his_1="normal" id="15" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="16" infl="no_e" lcat="ap" lemma="blauw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="blauw" sense="blauw" vform="adj" word="blauw"/>
+          <node begin="10" end="11" frame="noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="shirt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="shirt" sense="shirt" word="shirt"/>
+        </node>
+        <node begin="11" end="12" frame="dir_adverb" his="normal" his_1="normal" id="18" lcat="advp" lemma="omhoog" pos="adv" postag="BW()" pt="bw" rel="ld" root="omhoog" sense="omhoog" special="dir" word="omhoog"/>
+      </node>
+      <node begin="12" conjtype="neven" end="13" frame="conj(en)" his="normal" his_1="normal" id="19" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="17" id="20" rel="cnj">
+        <node begin="0" end="7" id="21" index="1" rel="su"/>
+        <node begin="13" end="14" frame="verb(zijn,sg3,pc_pp(op))" his="normal" his_1="normal" id="22" infl="sg3" lcat="smain" lemma="lopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="loop" sc="pc_pp(op)" sense="loop-op" tense="present" word="loopt" wvorm="pv"/>
+        <node begin="14" cat="pp" end="17" id="23" rel="pc">
+          <node begin="14" end="15" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="24" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="15" cat="np" end="17" id="25" rel="obj1">
+            <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="stoep" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stoep" sense="stoep" word="stoep"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3604">Een jong meisje naast een roze bord houdt een blauw shirt omhoog en loopt op de stoep</sentence>
+  <comments>
+    <comment>Q#3604|Een jong meisje naast een roze bord houdt een blauw shirt omhoog en loopt op de stoep|1|1|-10.7120766004</comment>
+  </comments>
+</alpino_ds>

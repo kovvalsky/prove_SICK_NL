@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:30" cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="conj" end="5" id="1" rel="--">
+      <node begin="0" cat="smain" end="3" id="2" rel="cnj">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="3" index="1" lcat="np" lemma="iemand" naamval="stan" num="sg" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="su" rnum="sg" root="iemand" sense="iemand" status="vol" vwtype="onbep" word="Iemand"/>
+        <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="4" infl="sg3" lcat="smain" lemma="drinken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="drink" sc="transitive" sense="drink" tense="present" word="drinkt" wvorm="pv"/>
+        <node begin="2" end="3" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="sinaasappel_sap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="sinaasappel_sap" sense="sinaasappel_sap" word="sinaasappelsap"/>
+      </node>
+      <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="6" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="5" id="7" rel="cnj">
+        <node begin="0" end="1" id="8" index="1" rel="su"/>
+        <node begin="4" end="5" frame="verb('hebben/zijn',sg3,intransitive)" his="normal" his_1="normal" id="9" infl="sg3" lcat="smain" lemma="lopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="loop" sc="intransitive" sense="loop" tense="present" word="loopt" wvorm="pv"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="4287">Iemand drinkt sinaasappelsap en loopt</sentence>
+  <comments>
+    <comment>Q#4287|Iemand drinkt sinaasappelsap en loopt|1|1|-0.398144258299999</comment>
+  </comments>
+</alpino_ds>

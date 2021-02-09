@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T15:57" cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="conj" end="12" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" cat="np" end="3" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="Mensen"/>
+          <node begin="1" cat="pp" end="3" id="5" rel="mod">
+            <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="2" end="3" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="kostuum" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="kostuum" sense="kostuum" word="kostuums"/>
+          </node>
+        </node>
+        <node begin="3" end="4" frame="verb(zijn,pl,ld_pp)" his="normal" his_1="normal" id="8" infl="pl" lcat="smain" lemma="verzamelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="verzamel" sc="ld_pp" sense="verzamel" tense="present" word="verzamelen" wvorm="pv"/>
+        <node begin="4" cat="pp" end="7" id="9" rel="ld">
+          <node begin="4" end="5" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="5" cat="np" end="7" id="11" rel="obj1">
+            <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="bos" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bos" sense="bos" word="bos"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="12" id="15" rel="cnj">
+        <node begin="0" end="3" id="16" index="1" rel="su"/>
+        <node begin="8" end="9" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="17" infl="pl" lcat="smain" lemma="kijken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kijk" sc="ld_pp" sense="kijk" tense="present" word="kijken" wvorm="pv"/>
+        <node begin="9" cat="pp" end="12" id="18" rel="ld">
+          <node begin="9" end="10" frame="preposition(in,[])" his="normal" his_1="normal" id="19" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="10" cat="np" end="12" id="20" rel="obj1">
+            <node begin="10" buiging="zonder" end="11" frame="determiner(de,nwh,mod,pro,yparg)" graad="basis" his="normal" his_1="normal" id="21" infl="de" lcat="detp" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="dezelfde" sense="dezelfde" wh="nwh" word="dezelfde"/>
+            <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="richting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="richting" sense="richting" word="richting"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="52">Mensen in kostuums verzamelen in een bos en kijken in dezelfde richting</sentence>
+  <comments>
+    <comment>Q#52|Mensen in kostuums verzamelen in een bos en kijken in dezelfde richting|1|1|-1.661002159200002</comment>
+  </comments>
+</alpino_ds>

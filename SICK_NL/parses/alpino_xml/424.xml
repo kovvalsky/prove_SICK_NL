@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:02" cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ap" lemma="jong" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="jong" sense="jong" vform="adj" word="jong"/>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="kind" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kind" sense="kind" word="kind"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg,pc_pp(onder))" his="normal" his_1="normal" id="6" infl="sg" lcat="smain" lemma="zitten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zit" sc="pc_pp(onder)" sense="zit-onder" stype="declarative" tense="present" word="zit" wvorm="pv"/>
+      <node begin="4" cat="pp" end="11" id="7" rel="pc">
+        <node begin="4" end="5" frame="preposition(onder,[door,vandaan])" his="normal" his_1="normal" id="8" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+        <node begin="5" cat="np" end="11" id="9" rel="obj1">
+          <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="3" id="11" lcat="np" lemma="rots_klim_muur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rots_klim_muur" sense="rots_klim_muur" word="rotsklimmuur"/>
+          <node begin="7" cat="rel" end="11" id="12" rel="mod">
+            <node begin="7" case="no_obl" end="8" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="13" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="7" cat="ssub" end="11" id="14" rel="body">
+              <node begin="7" end="8" id="15" index="1" rel="su"/>
+              <node begin="8" end="9" frame="reflexive(u_thi,both)" getal="getal" his="normal" his_1="normal" id="16" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" rnum="sg" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+              <node begin="9" end="10" frame="pp(binnen)" his="normal" his_1="normal" id="17" lcat="pp" lemma="binnenshuis" pos="pp" postag="BW()" pt="bw" rel="ld" root="binnenshuis" sense="binnenshuis" word="binnenshuis"/>
+              <node begin="10" end="11" frame="verb(hebben,sg3,refl_ld_pp)" his="normal" his_1="normal" id="18" infl="sg3" lcat="ssub" lemma="bevinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bevind" sc="refl_ld_pp" sense="zich-bevind" tense="present" word="bevindt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="424">Een jong kind zit onder een rotsklimmuur die zich binnenshuis bevindt</sentence>
+  <comments>
+    <comment>Q#424|Een jong kind zit onder een rotsklimmuur die zich binnenshuis bevindt|1|1|-11.316573667999995</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:21" cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="koe" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="koe" sense="koe" word="koe"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,subj_control(pass_te))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="subj_control(pass_te)" sense="sta" stype="declarative" tense="present" word="staat" wvorm="pv"/>
+      <node begin="0" cat="ti" end="5" id="6" rel="vc">
+        <node begin="3" end="4" frame="complementizer(te)" his="normal" his_1="normal" id="7" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="5" id="8" rel="body">
+          <node begin="0" end="2" id="9" index="1" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="10" infl="inf" lcat="inf" lemma="grazen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="graas" sc="intransitive" sense="graas" word="grazen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3441">Een koe staat te grazen</sentence>
+  <comments>
+    <comment>Q#3441|Een koe staat te grazen|1|1|-5.3870443201</comment>
+  </comments>
+</alpino_ds>

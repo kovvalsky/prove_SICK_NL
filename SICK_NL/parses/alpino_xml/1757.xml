@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser build="Alpino-x86_64-linux-glibc2.5-git233-sicstus" date="2021-02-02T16:13" cats="1" skips="0" />
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="smain" end="4" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(ge_no_e(padv))" his="normal" his_1="normal" id="4" infl="no_e" lcat="ppart" lemma="getekend" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="getekend" sense="getekend" vform="psp" word="getekend" wvorm="vd"/>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="vliegtuig" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vliegtuig" sense="vliegtuig" word="vliegtuig"/>
+      </node>
+      <node begin="3" end="4" frame="verb(zijn,sg3,intransitive)" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="landen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="land" sc="intransitive" sense="land" stype="declarative" tense="present" word="landt" wvorm="pv"/>
+    </node>
+  </node>
+  <sentence sentid="1757">Een getekend vliegtuig landt</sentence>
+  <comments>
+    <comment>Q#1757|Een getekend vliegtuig landt|1|1|-2.3370880759000014</comment>
+  </comments>
+</alpino_ds>
