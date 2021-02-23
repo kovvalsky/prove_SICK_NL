@@ -4,8 +4,9 @@ Prove Ducth NLI problems of SICK-NL with LangPro
 # Prerequisites
 
 Get Langpro repo with 
-`git clone git@github.com:kovvalsky/LangPro.git` or `git clone https://github.com/kovvalsky/LangPro.git`.
-It is used for theorem-proving and converting type-logical terms into simply-typed terms.
+`git clone --branch nl git@github.com:kovvalsky/LangPro.git` or `git clone --branch nl https://github.com/kovvalsky/LangPro.git`.
+It is used for theorem-proving and converting type-logical terms into simply-typed terms. Note that `nl` branch is rekevant one.
+Additionally add `--single-branch` if you want to clone only `nl` branch.
 
 
 `produce.ini` contains rules how to generate files.
