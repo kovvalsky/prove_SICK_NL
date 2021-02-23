@@ -26,3 +26,4 @@ If you want additionally to `tex` file to create `pdf` from it, run:
 ```
 produce -d -f produce.ini  SICK_NL/latex/npn.spacy_sm.trial.pdf
 ```
+The conversion uses `lualatex` as it is faster than `pdflatex` and can deal with huge files (well, at least on my machine:)).
