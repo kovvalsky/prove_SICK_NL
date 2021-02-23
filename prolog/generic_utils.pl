@@ -4,13 +4,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 :- module('generic_utils',
     [
-        enumerate_list/2,
-        list_to_set_using_match/2,
-        read_dict_from_json_file/2,
-        value_merge_dicts/3,
-        indexed_dict_to_list/2,
+        atom_split/4,
         dict_length/2,
-        atom_split/4
+        enumerate_list/2,
+        filepath_write_source/2,
+        indexed_dict_to_list/2,
+        list_to_set_using_match/2,
+        num_list/2,
+        read_dict_from_json_file/2,
+        value_merge_dicts/3
     ]).
 
 :- use_module(library(http/json)).
@@ -96,3 +98,26 @@ homogeneous_list([]) :- !.
 
 homogeneous_list([E|List]) :-
     maplist(=(E), List).
+
+
+% list, singleton and interval of integers to list
+num_list(Var, Var) :-
+    var(Var), !.
+
+num_list(List, List) :-
+    is_list(List), !.
+
+num_list(Num, [Num]) :-
+    integer(Num), !.
+
+num_list(Interval, List) :-
+    Interval =.. [_, Low, High],
+    integer(Low), integer(High),
+    findall(L, between(Low, High, L), List).
+
+
+% create a source for a given filepath
+filepath_write_source(FilePath, S) :-
+    file_directory_name(FilePath, Dir),
+    ( exists_directory(Dir) -> true; make_directory(Dir) ),
+    open(FilePath, write, S, [encoding(utf8), close_on_abort(true)]).
