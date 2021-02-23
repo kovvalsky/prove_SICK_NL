@@ -128,10 +128,10 @@ sid_tts(6,
       @ ( ('Er':er:'ADV', s:dcl~>s:dcl)
         @ ( ((is):zijn:'VERB', np~>s:dcl)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_6186566, np:pn),
+              @ abst( (_4778704, np:pn),
                       ( (buiten:buiten:'ADP', s:sub~>s:sub)
                       @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                        @ (_6186566, np:pn) ) ) ) )
+                        @ (_4778704, np:pn) ) ) ) )
             @ ( (geen:geen:'DET', n~>np)
               @ (jongen:jongen:'NOUN', n) ) ) ) ) )
     @ ( (er:er:'ADV', s:dcl~>s:dcl)
@@ -393,28 +393,28 @@ sid_tts(22,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6237404, np:pn),
+          @ abst( (_4831462, np:pn),
                   ( ( (bij:bij:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (basketbalwedstrijd:basketbalwedstrijd:'NOUN', n) ) )
                   @ ( ( (dunkt:dunken:'VERB', np~>np:pn~>s:sub)
                       @ ( (de:de:'DET', n~>np)
                         @ (bal:bal:'NOUN', n) ) )
-                    @ (_6237404, np:pn) ) ) ) )
+                    @ (_4831462, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6236754, np:pn),
+          @ abst( (_4830812, np:pn),
                   ( ( (bij:bij:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (basketbalwedstrijd:basketbalwedstrijd:'NOUN', n) ) )
                   @ ( ( (dunkt:dunken:'VERB', np~>np:pn~>s:sub)
                       @ ( (geen:geen:'DET', n~>np)
                         @ (man:man:'NOUN', n) ) )
-                    @ (_6236754, np:pn) ) ) ) )
+                    @ (_4830812, np:pn) ) ) ) )
         @ ( (de:de:'DET', n~>np)
           @ (bal:bal:'NOUN', n) ) ) ) )
   ]).
@@ -830,12 +830,12 @@ sid_tts(51,
 sid_tts(52,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6352874, np),
+        @ abst( (_4951444, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (bos:bos:'NOUN', n) ) )
                 @ ( (verzamelen:verzamelen:'VERB', np~>s:dcl)
-                  @ (_6352874, np) ) ) ) )
+                  @ (_4951444, np) ) ) ) )
       @ ( (kijken:kijken:'VERB', pp~>np~>s:dcl)
         @ ( (in:in:'ADP', np~>pp)
           @ ( (dezelfde:dezelfde:'DET', n~>np)
@@ -1475,10 +1475,10 @@ sid_tts(102,
     ( ( (lopen:lopen:'VERB', pp~>n~>s:dcl)
       @ ( (buiten:buiten:'ADP', np~>pp)
         @ ( ( (waar:waar:'ADV', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_6512948, np:pn),
+            @ abst( (_5117470, np:pn),
                     ( ( (zitten:zitten:'VERB', pp~>np~>s:sub)
                       @ ( (op:op:'ADP', np:pn~>pp)
-                        @ (_6512948, np:pn) ) )
+                        @ (_5117470, np:pn) ) )
                     @ ( (veel:veel:'DET', n~>np)
                       @ (muurschilderingen:muurschildering:'NOUN', n) ) ) ) )
           @ ( (een:een:'DET', n~>np)
@@ -1491,10 +1491,10 @@ sid_tts(103,
     ( ( (lopen:lopen:'VERB', pp~>n~>s:dcl)
       @ ( (buiten:buiten:'ADP', np~>pp)
         @ ( ( (waar:waar:'ADV', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_6520684, np:pn),
+            @ abst( (_5125494, np:pn),
                     ( ( (staan:staan:'VERB', pp~>np~>s:sub)
                       @ ( (op:op:'ADP', np:pn~>pp)
-                        @ (_6520684, np:pn) ) )
+                        @ (_5125494, np:pn) ) )
                     @ ( (verschillende:verschillend:'ADJ', np~>np)
                       @ (muurschilderingen:muurschildering:'NOUN', np) ) ) ) )
           @ ( (het:het:'DET', n~>np)
@@ -1507,10 +1507,10 @@ sid_tts(104,
     ( ( (lopen:lopen:'VERB', pp~>n~>s:dcl)
       @ ( (in:in:'ADP', np~>pp)
         @ ( ( (waar:waar:'ADV', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_6528420, np:pn),
+            @ abst( (_5133518, np:pn),
                     ( ( (staan:staan:'VERB', pp~>np~>s:sub)
                       @ ( (op:op:'ADP', np:pn~>pp)
-                        @ (_6528420, np:pn) ) )
+                        @ (_5133518, np:pn) ) )
                     @ ( (veel:veel:'DET', n~>np)
                       @ (muurschilderingen:muurschildering:'NOUN', n) ) ) ) )
           @ ( (een:een:'DET', n~>np)
@@ -1920,7 +1920,7 @@ sid_tts(131,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6650074, np:pn),
+          @ abst( (_5260140, np:pn),
                   ( ( (langs:langs:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (weg:weg:'NOUN', n) ) )
@@ -1928,7 +1928,7 @@ sid_tts(131,
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (motor:motor:'NOUN', n) ) ) )
-                    @ (_6650074, np:pn) ) ) ) )
+                    @ (_5260140, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (motorrijder:motorrijder:'NOUN', n) ) ) ) )
   ]).
@@ -2319,7 +2319,7 @@ sid_tts(162,
 sid_tts(163,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6737952, np),
+        @ abst( (_5351282, np),
                 ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                   @ ( ( (van:van:'ADP', np~>np~>np)
                       @ ( (de:de:'DET', n~>np)
@@ -2327,7 +2327,7 @@ sid_tts(163,
                     @ ( (de:de:'DET', n~>np)
                       @ (top:top:'NOUN', n) ) ) )
                 @ ( ((is):zijn:'VERB', np~>s:dcl)
-                  @ (_6737952, np) ) ) ) )
+                  @ (_5351282, np) ) ) ) )
       @ ( (doet:doen:'VERB', np~>np~>s:dcl)
         @ ( (vreugdevolle:vreugdevol:'ADJ', np~>np)
           @ ( (een:een:'DET', n~>np)
@@ -2339,7 +2339,7 @@ sid_tts(163,
 sid_tts(164,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6744526, np),
+        @ abst( (_5358288, np),
                 ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                   @ ( ( (van:van:'ADP', np~>np~>np)
                       @ ( (de:de:'DET', n~>np)
@@ -2347,7 +2347,7 @@ sid_tts(164,
                     @ ( (de:de:'DET', n~>np)
                       @ (top:top:'NOUN', n) ) ) )
                 @ ( ((is):zijn:'VERB', np~>s:dcl)
-                  @ (_6744526, np) ) ) ) )
+                  @ (_5358288, np) ) ) ) )
       @ ( ((is):(is):'AUX', (np~>s:ng)~>np~>s:dcl)
         @ ( (aan_het:aan_het:'ADP_DET', (np~>s:b)~>np~>s:ng)
           @ (dansen:dansen:'VERB', np~>s:b) ) ) )
@@ -2369,7 +2369,7 @@ sid_tts(165,
 sid_tts(166,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6753034, np),
+        @ abst( (_5367072, np),
                 ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (rots:rot:'ADJ', n) ) )
@@ -2379,7 +2379,7 @@ sid_tts(166,
                           @ ( (een:een:'DET', n~>np)
                             @ (aantal:aantal:'NOUN', n) ) ) )
                       @ (hoog:hoog:'ADJ', np~>s:adj) ) )
-                  @ (_6753034, np) ) ) ) )
+                  @ (_5367072, np) ) ) ) )
       @ ( (staat:staan:'VERB', pp~>np~>s:dcl)
         @ ( (in:in:'ADP', np~>pp)
           @ ( (ongemakkelijke:ongemakkelijk:'ADJ', np~>np)
@@ -2392,7 +2392,7 @@ sid_tts(166,
 sid_tts(167,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6764224, np),
+        @ abst( (_5378982, np),
                 ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (rots:rot:'ADJ', n) ) )
@@ -2401,7 +2401,7 @@ sid_tts(167,
                       @ ( (boven:boven:'ADP', np~>pp)
                         @ ( (enkele:enkel:'DET', n~>np)
                           @ (bomen:boom:'NOUN', n) ) ) ) )
-                  @ (_6764224, np) ) ) ) )
+                  @ (_5378982, np) ) ) ) )
       @ ( (staat:staan:'VERB', pp~>np~>s:dcl)
         @ ( (in:in:'ADP', np~>pp)
           @ ( (vreemde:vreemd:'ADJ', np~>np)
@@ -2450,13 +2450,13 @@ sid_tts(169,
       @ (cowgirl:cowgirl:'NOUN', n) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6774864, np),
+        @ abst( (_5390006, np),
                 ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (bruin:bruin:'ADJ', np~>np)
                     @ ( (een:een:'DET', n~>np)
                       @ (paard:paard:'NOUN', n) ) ) )
                 @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                  @ (_6774864, np) ) ) ) )
+                  @ (_5390006, np) ) ) ) )
       @ ( (drijft:drijven:'VERB', np~>np~>s:dcl)
         @ ( ( (in:in:'ADP', np~>np~>np)
             @ ( (het:het:'DET', (np~>s:adj)~>np)
@@ -2474,14 +2474,14 @@ sid_tts(170,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (paard:paard:'NOUN', n) ) ) ) )
-      @ abst( (_6788858, np),
+      @ abst( (_5404864, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (het:het:'DET', (np~>s:adj)~>np)
                   @ (nauw:nauw:'ADJ', np~>s:adj) ) )
               @ ( ( (drijft:drijven:'VERB', np~>np~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (ton:ton:'NOUN', n) ) )
-                @ (_6788858, np) ) ) ) )
+                @ (_5404864, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (cowgirl:cowgirl:'NOUN', n) ) )
     ,
@@ -2521,14 +2521,14 @@ sid_tts(171,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (paard:paard:'NOUN', n) ) ) ) )
-      @ abst( (_6795052, np),
+      @ abst( (_5411454, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (het:het:'DET', (np~>s:adj)~>np)
                   @ (nauw:nauw:'ADJ', np~>s:adj) ) )
               @ ( ( (drijft:drijven:'VERB', np~>np~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (vat:vat:'NOUN', n) ) )
-                @ (_6795052, np) ) ) ) )
+                @ (_5411454, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (cowboy:cowboy:'NOUN', n) ) )
   ]).
@@ -2695,14 +2695,14 @@ sid_tts(184,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6846816, np:pn),
+          @ abst( (_5465258, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (het:het:'DET', n~>np)
                       @ (podium:podium:'NOUN', n) ) )
                   @ ( ( (bespeelt:bespelen:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (gitaar:gitaar:'NOUN', n) ) )
-                    @ (_6846816, np:pn) ) ) ) )
+                    @ (_5465258, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -2715,12 +2715,12 @@ sid_tts(185,
                 @ (blond:blond:'NOUN', np~>np) )
               @ (wegvliegend:wegvliegen:'VERB', np~>np) )
             @ (haar:haar:'PRON', np) ) ) )
-      @ abst( (_6850164, np:pn),
+      @ abst( (_5468714, np:pn),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (speelt:spelen:'VERB', np:pn~>s:dcl)
-                @ (_6850164, np:pn) ) ) ) )
+                @ (_5468714, np:pn) ) ) ) )
     @ ('Iemand':iemand:'PRON', np:pn) )
   ]).
 
@@ -3032,14 +3032,14 @@ sid_tts(208,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (parkeerplaats:parkeerplaats:'NOUN', n) ) ) ) )
-      @ abst( (_6924158, np),
+      @ abst( (_5545768, np),
               ( ( (tegen:tegen:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (grote:groot:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (muur:muur:'NOUN', n) ) ) )
               @ ( ( (speelt:spelen:'VERB', n~>np~>s:dcl)
                   @ (tennis:tennis:'NOUN', n) )
-                @ (_6924158, np) ) ) ) )
+                @ (_5545768, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
     ,
@@ -3065,14 +3065,14 @@ sid_tts(209,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (parkeerplaats:parkeerplaats:'NOUN', n) ) ) ) )
-      @ abst( (_6930304, np),
+      @ abst( (_5552298, np),
               ( ( (tegen:tegen:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (grote:groot:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (muur:muur:'NOUN', n) ) ) )
               @ ( ( (speelt:spelen:'VERB', n~>np~>s:dcl)
                   @ (tennis:tennis:'NOUN', n) )
-                @ (_6930304, np) ) ) ) )
+                @ (_5552298, np) ) ) ) )
     @ ( (eenzame:eenzaam:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (man:man:'NOUN', n) ) ) )
@@ -3085,13 +3085,13 @@ sid_tts(210,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (parkeerplaats:parkeerplaats:'NOUN', n) ) ) ) )
-      @ abst( (_6934146, np),
+      @ abst( (_5556344, np),
               ( ( (tegen:tegen:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (vriend:vriend:'NOUN', n) ) )
               @ ( ( (speelt:spelen:'VERB', n~>np~>s:dcl)
                   @ (tennis:tennis:'NOUN', n) )
-                @ (_6934146, np) ) ) ) )
+                @ (_5556344, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -3495,12 +3495,12 @@ sid_tts(240,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (stoel:stoel:'NOUN', n) ) ) ) )
-      @ abst( (_7023104, np),
+      @ abst( (_5648986, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (zijn:zijn:'PRON', n~>np)
                   @ (ogen:oog:'NOUN', n) ) )
               @ ( (wrijft:wrijven:'VERB', np~>s:dcl)
-                @ (_7023104, np) ) ) ) )
+                @ (_5648986, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -3512,12 +3512,12 @@ sid_tts(241,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (stoel:stoel:'NOUN', n) ) ) ) )
-      @ abst( (_7032808, np),
+      @ abst( (_5659194, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (zijn:zijn:'PRON', n~>np)
                   @ (ogen:oog:'NOUN', n) ) )
               @ ( (wrijft:wrijven:'VERB', np~>s:dcl)
-                @ (_7032808, np) ) ) ) )
+                @ (_5659194, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
     ,
@@ -3766,19 +3766,19 @@ sid_tts(257,
 sid_tts(258,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_7114508, np),
+        @ abst( (_5745634, np),
                 ( ( (bij:bij:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (fiets:fiets:'NOUN', n) ) )
                 @ ( (staat:staan:'VERB', np~>s:dcl)
-                  @ (_7114508, np) ) ) ) )
-      @ abst( (_7114726, np),
+                  @ (_5745634, np) ) ) ) )
+      @ abst( (_5745852, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (papier:papier:'NOUN', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (stuk:stuk:'NOUN', n) ) ) )
               @ ( (schrijft:schrijven:'VERB', np~>s:dcl)
-                @ (_7114726, np) ) ) ) )
+                @ (_5745852, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -4242,12 +4242,12 @@ sid_tts(290,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (surft:surfen:'NOUN', np~>s:dcl) )
-      @ abst( (_7230878, np),
+      @ abst( (_5866996, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (golf:golf:'NOUN', n) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_7230878, np) ) ) ) )
+                @ (_5866996, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (dame:dame:'NOUN', n) ) )
   ]).
@@ -4265,12 +4265,12 @@ sid_tts(292,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (surft:surfen:'VERB', np~>s:dcl) )
-      @ abst( (_7235580, np),
+      @ abst( (_5871890, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (golf:golf:'NOUN', n) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_7235580, np) ) ) ) )
+                @ (_5871890, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (jongen:jongen:'NOUN', n) ) )
   ]).
@@ -4446,7 +4446,7 @@ sid_tts(305,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7284042, np:pn),
+          @ abst( (_5922236, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (groene:groen:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
@@ -4454,7 +4454,7 @@ sid_tts(305,
                   @ ( ( (uitvoert:uitvoeren:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (trucje:truc:'NOUN', n) ) )
-                    @ (_7284042, np:pn) ) ) ) )
+                    @ (_5922236, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -4525,12 +4525,12 @@ sid_tts(312,
             @ ( (rode:rood:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (bal:bal:'NOUN', n) ) ) ) ) )
-      @ abst( (_7297478, np),
+      @ abst( (_5936188, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (het:het:'DET', n~>np)
                   @ (gras:gras:'NOUN', n) ) )
               @ ( (spelen:spelen:'VERB', np~>s:dcl)
-                @ (_7297478, np) ) ) ) )
+                @ (_5936188, np) ) ) ) )
     @ ( (bruine:bruin:'ADJ', np~>np)
       @ ( ('Twee':twee:'NUM', n~>np)
         @ (honden:hond:'NOUN', n) ) ) )
@@ -4545,12 +4545,12 @@ sid_tts(313,
               @ ( (rood:rood:'ADJ', np~>np)
                 @ ( (een:een:'DET', n~>np)
                   @ (stuk:stuk:'NOUN', n) ) ) ) ) ) )
-      @ abst( (_7303688, np),
+      @ abst( (_5942782, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (het:het:'DET', n~>np)
                   @ (gras:gras:'NOUN', n) ) )
               @ ( (spelen:spelen:'VERB', np~>s:dcl)
-                @ (_7303688, np) ) ) ) )
+                @ (_5942782, np) ) ) ) )
     @ ( (bruine:bruin:'ADJ', np~>np)
       @ ( ('Twee':twee:'NUM', n~>np)
         @ (honden:hond:'NOUN', n) ) ) )
@@ -4805,12 +4805,12 @@ sid_tts(332,
   [
     ( ( ( (op:op:'ADP', np~>(s:dcl~>s:dcl)~>s:dcl~>s:dcl)
         @ ( ( (waar:waar:'ADV', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_7368126, np:pn),
+            @ abst( (_6009572, np:pn),
                     ( ( (kunt:kunnen:'AUX', (np~>s:b)~>np:pn~>s:sub)
                       @ ( (niet:niet:'ADV', (np~>s:b)~>np~>s:b)
                         @ ( (zitten:zitten:'VERB', pp~>np~>s:b)
                           @ ( (aan:aan:'ADP', np:pn~>pp)
-                            @ (_7368126, np:pn) ) ) ) )
+                            @ (_6009572, np:pn) ) ) ) )
                     @ (je:je:'PRON', np:pn) ) ) )
           @ ( (de:de:'DET', n~>np)
             @ (tafel:tafel:'NOUN', n) ) ) )
@@ -5276,13 +5276,13 @@ sid_tts(355,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (staat:staan:'VERB', np~>s:dcl) )
-      @ abst( (_7510682, np),
+      @ abst( (_6158236, np),
               ( (niet:niet:'ADV', s:dcl~>s:dcl)
               @ ( ( (kijkt:kijken:'VERB', pp~>np~>s:dcl)
                   @ ( (naar:naar:'ADP', np~>pp)
                     @ ( (de:de:'DET', n~>np)
                       @ (waterval:waterval:'NOUN', n) ) ) )
-                @ (_7510682, np) ) ) ) )
+                @ (_6158236, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -5329,12 +5329,12 @@ sid_tts(360,
           @ ( (in:in:'ADP', np~>pp)
             @ ( (bruin:bruin:'ADJ', np~>np)
               @ (gras:gras:'NOUN', np) ) ) ) )
-      @ abst( (_7522916, np),
+      @ abst( (_6170902, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (hond:hond:'NOUN', n) ) )
               @ ( (racet:racen:'NOUN', np~>s:dcl)
-                @ (_7522916, np) ) ) ) )
+                @ (_6170902, np) ) ) ) )
     @ ( (zwarte:zwart:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (man:man:'NOUN', n) ) ) )
@@ -5700,13 +5700,13 @@ sid_tts(389,
         @ ( (houdt:houden:'VERB', pp~>np~>s:dcl)
           @ ( (van:van:'ADP', (np~>s:adj)~>pp)
             @ (rood:rood:'ADJ', np~>s:adj) ) ) )
-      @ abst( (_7610778, np),
+      @ abst( (_6262982, np),
               ( ( (voor:voor:'ADP', n~>s:dcl~>s:dcl)
                 @ (tieners:tiener:'NOUN', n) )
               @ ( ( (draagt:dragen:'VERB', np~>np~>s:dcl)
                   @ ( (geen:geen:'DET', n~>np)
                     @ (kralen:kraal:'NOUN', n) ) )
-                @ (_7610778, np) ) ) ) )
+                @ (_6262982, np) ) ) ) )
     @ ( ('Het':het:'DET', n~>np)
       @ (meisje:meisje:'NOUN', n) ) )
     ,
@@ -5811,7 +5811,7 @@ sid_tts(394,
 sid_tts(395,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_7639632, np),
+        @ abst( (_6293216, np),
                 ( (moeiteloos:moeiteloos:'ADJ', s:dcl~>s:dcl)
                 @ ( ( (klimt:klimmen:'VERB', pp~>np~>s:dcl)
                     @ ( (op:op:'ADP', np~>pp)
@@ -5824,7 +5824,7 @@ sid_tts(395,
                                 @ (gebouwd:bouwen:'VERB', np~>s:pt) ) ) ) )
                         @ ( (een:een:'DET', n~>np)
                           @ (muur:muur:'NOUN', n) ) ) ) )
-                  @ (_7639632, np) ) ) ) )
+                  @ (_6293216, np) ) ) ) )
       @ ( ((is):(is):'AUX', (np~>s:pt)~>np~>s:dcl)
         @ ( (vastgemaakt:vastmaken:'VERB', pp~>np~>s:pt)
           @ ( (aan:aan:'ADP', np~>pp)
@@ -6272,10 +6272,10 @@ sid_tts(422,
   [
     ( ( (beklimt:beklimmen:'VERB', np~>np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7800122, np:pn),
+          @ abst( (_6460690, np:pn),
                   ( ( ( (bevindt:bevinden:'VERB', pr~>np:pn~>np:pn~>s:sub)
                       @ (binnenshuis:binnenshuis:'ADV', pr) )
-                    @ (_7800122, np:pn) )
+                    @ (_6460690, np:pn) )
                   @ (zich:zich:'PRON', np:pn) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (rotsklimmuur:rotsklimmuur:'NOUN', n) ) ) )
@@ -6299,10 +6299,10 @@ sid_tts(423,
   [
     ( ( (beklimt:beklimmen:'VERB', np~>np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7805374, np:pn),
+          @ abst( (_6466134, np:pn),
                   ( ( ( (bevindt:bevinden:'VERB', pr~>np:pn~>np:pn~>s:sub)
                       @ (binnenshuis:binnenshuis:'ADV', pr) )
-                    @ (_7805374, np:pn) )
+                    @ (_6466134, np:pn) )
                   @ (zich:zich:'PRON', np:pn) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (rotsklimmuur:rotsklimmuur:'NOUN', n) ) ) )
@@ -6327,10 +6327,10 @@ sid_tts(424,
     ( ( (zit:zitten:'VERB', pp~>np~>s:dcl)
       @ ( (onder:onder:'ADP', np~>pp)
         @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_7810072, np:pn),
+            @ abst( (_6471024, np:pn),
                     ( ( ( (bevindt:bevinden:'VERB', pr~>np:pn~>np:pn~>s:sub)
                         @ (binnenshuis:binnenshuis:'ADV', pr) )
-                      @ (_7810072, np:pn) )
+                      @ (_6471024, np:pn) )
                     @ (zich:zich:'PRON', np:pn) ) ) )
           @ ( (een:een:'DET', n~>np)
             @ (rotsklimmuur:rotsklimmuur:'NOUN', n) ) ) ) )
@@ -6567,7 +6567,7 @@ sid_tts(439,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( (zijn:zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7875832, np:pn),
+          @ abst( (_6539232, np:pn),
                   ( ( (aan:aan:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (van:van:'ADP', np~>np~>np)
                         @ ( (de:de:'DET', n~>np)
@@ -6577,7 +6577,7 @@ sid_tts(439,
                   @ ( ( (kijken:kijken:'VERB', pp~>np:pn~>s:sub)
                       @ ( (naar:naar:'ADP', np:pn~>pp)
                         @ (elkaar:elkaar:'PRON', np:pn) ) )
-                    @ (_7875832, np:pn) ) ) ) )
+                    @ (_6539232, np:pn) ) ) ) )
         @ ( ( (van:van:'ADP', np~>np~>np)
             @ ( (verschillende:verschillend:'ADJ', np~>np)
               @ (rassen:ras:'NOUN', np) ) )
@@ -6613,12 +6613,12 @@ sid_tts(443,
     ( ( (bijt:bijt:'NOUN', pp~>np~>s:dcl)
       @ ( (in:in:'ADP', np~>pp)
         @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_7883696, np:pn),
+            @ abst( (_6547348, np:pn),
                     ( (waarschijnlijk:waarschijnlijk:'ADJ', s:sub~>s:sub)
                     @ ( ( ((is):(is):'AUX', np~>np:pn~>s:sub)
                         @ ( (een:een:'DET', n~>np)
                           @ (den:den:'NOUN', n) ) )
-                      @ (_7883696, np:pn) ) ) ) )
+                      @ (_6547348, np:pn) ) ) ) )
           @ ( (een:een:'DET', n~>np)
             @ (boom:boom:'NOUN', n) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
@@ -7395,7 +7395,7 @@ sid_tts(498,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_8088276, np:pn),
+          @ abst( (_6760628, np:pn),
                   ( (opgewonden:opgewonden:'ADJ', s:sub~>s:sub)
                   @ ( ( (met:met:'ADP', n~>s:sub~>s:sub)
                       @ (water:water:'NOUN', n) )
@@ -7403,7 +7403,7 @@ sid_tts(498,
                         @ ( (in:in:'ADP', np~>pp)
                           @ ( (het:het:'DET', n~>np)
                             @ (gras:gras:'NOUN', n) ) ) )
-                      @ (_8088276, np:pn) ) ) ) ) )
+                      @ (_6760628, np:pn) ) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (hond:hond:'NOUN', n) ) ) ) )
   ]).
@@ -7415,13 +7415,13 @@ sid_tts(499,
             @ ( (het:het:'DET', n~>np)
               @ (gras:gras:'NOUN', n) ) )
           @ (water:water:'NOUN', n) ) )
-      @ abst( (_8099374, np),
+      @ abst( (_6772110, np),
               ( (opgewonden:opwinden:'VERB', s:dcl~>s:dcl)
               @ ( ( (speelt:spelen:'VERB', pp~>np~>s:dcl)
                   @ ( (met:met:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (hond:hond:'NOUN', n) ) ) )
-                @ (_8099374, np) ) ) ) )
+                @ (_6772110, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
     ,
@@ -7430,13 +7430,13 @@ sid_tts(499,
             @ (water:water:'NOUN', n) )
           @ ( (het:het:'DET', n~>np)
             @ (gras:gras:'NOUN', n) ) ) )
-      @ abst( (_8098586, np),
+      @ abst( (_6771322, np),
               ( (opgewonden:opwinden:'VERB', s:dcl~>s:dcl)
               @ ( ( (speelt:spelen:'VERB', pp~>np~>s:dcl)
                   @ ( (met:met:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (hond:hond:'NOUN', n) ) ) )
-                @ (_8098586, np) ) ) ) )
+                @ (_6771322, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -7470,14 +7470,14 @@ sid_tts(503,
   [
     ( (zien:zien:'VERB', np~>np~>s:b)
     @ ( ( (dat:dat:'SCONJ', (np:pn~>s:sub)~>np~>np)
-        @ abst( (_8111380, np:pn),
+        @ abst( (_6784572, np:pn),
                 ( ( (in:in:'ADP', n~>s:sub~>s:sub)
                   @ (druppels:druppel:'NOUN', n) )
                 @ ( ( (valt:vallen:'VERB', pp~>np:pn~>s:sub)
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (de:de:'DET', n~>np)
                         @ (hond:hond:'NOUN', n) ) ) )
-                  @ (_8111380, np:pn) ) ) ) )
+                  @ (_6784572, np:pn) ) ) ) )
       @ ( ( (later:laat:'ADJ', (np~>np)~>np~>np)
           @ (water:water:'NOUN', np~>np) )
         @ ( ('Een':een:'DET', n~>np)
@@ -7562,7 +7562,7 @@ sid_tts(506,
           @ ( (in:in:'ADP', np~>pp)
             @ ( (de:de:'DET', n~>np)
               @ (sneeuw:sneeuw:'NOUN', n) ) ) ) )
-      @ abst( (_8140428, np),
+      @ abst( (_6815006, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (gouden:gouden:'ADJ', np~>np)
                   @ (vacht:vacht:'NOUN', np) ) )
@@ -7570,7 +7570,7 @@ sid_tts(506,
                     @ (vast:vast:'ADJ', np~>s:adj) )
                   @ ( (twee:twee:'NUM', n~>np)
                     @ (honden:hond:'NOUN', n) ) )
-                @ (_8140428, np) ) ) ) )
+                @ (_6815006, np) ) ) ) )
     @ ( ('Twee':twee:'NUM', n~>np)
       @ (mensen:mens:'NOUN', n) ) )
     ,
@@ -7812,13 +7812,13 @@ sid_tts(523,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_8217924, np:pn),
+          @ abst( (_6895790, np:pn),
                   ( ( (voor:voor:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (bergen:berg:'NOUN', n) ) )
                   @ ( (gestaag:gestaag:'ADJ', s:sub~>s:sub)
                     @ ( (staat:staan:'VERB', np:pn~>s:sub)
-                      @ (_8217924, np:pn) ) ) ) ) )
+                      @ (_6895790, np:pn) ) ) ) ) )
         @ ( ( (in:in:'ADP', n~>np~>np)
             @ (fietsuitrusting:fietsuitrusting:'NOUN', n) )
           @ ( (geen:geen:'DET', n~>np)
@@ -7896,14 +7896,14 @@ sid_tts(527,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (het:het:'DET', n~>np)
               @ (gras:gras:'NOUN', n) ) ) ) )
-      @ abst( (_8244748, np),
+      @ abst( (_6923658, np),
               ( ( (tussen:tussen:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (zijn:zijn:'PRON', n~>np)
                   @ (voeten:voet:'NOUN', n) ) )
               @ ( ( (verbergt:verbergen:'VERB', np~>np~>s:dcl)
                   @ ( (de:de:'DET', n~>np)
                     @ (voetbal:voetbal:'NOUN', n) ) )
-                @ (_8244748, np) ) ) ) )
+                @ (_6923658, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (jongen:jongen:'NOUN', n) ) )
   ]).
@@ -7912,13 +7912,13 @@ sid_tts(528,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (voetbalt:voetballen:'VERB', np~>s:dcl) )
-      @ abst( (_8252298, np),
+      @ abst( (_6931592, np),
               ( (onschuldig:onschuldig:'ADJ', s:dcl~>s:dcl)
               @ ( ( (valt:vallen:'VERB', pp~>np~>s:dcl)
                   @ ( (in:in:'ADP', np~>pp)
                     @ ( (het:het:'DET', n~>np)
                       @ (gras:gras:'NOUN', n) ) ) )
-                @ (_8252298, np) ) ) ) )
+                @ (_6931592, np) ) ) ) )
     @ ( (kleine:klein:'ADJ', np~>np)
       @ ( ('Het':het:'DET', n~>np)
         @ (kind:kind:'NOUN', n) ) ) )
@@ -8050,14 +8050,14 @@ sid_tts(540,
           @ ( (het:het:'DET', n~>np)
             @ (gras:gras:'NOUN', n) ) ) )
       @ ( ( ( (en:en:'CCONJ', (n~>np)~>(n~>np)~>n~>np)
-            @ abst( (_8291714, n),
+            @ abst( (_6972664, n),
                     ( (zwarte:zwart:'ADJ', np~>np)
                     @ ( ('Een':een:'DET', n~>np)
-                      @ (_8291714, n) ) ) ) )
-          @ abst( (_8291826, n),
+                      @ (_6972664, n) ) ) ) )
+          @ abst( (_6972776, n),
                   ( (witte:wit:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
-                    @ (_8291826, n) ) ) ) )
+                    @ (_6972776, n) ) ) ) )
         @ (hond:hond:'NOUN', n) ) ) )
   ]).
 
@@ -8071,13 +8071,13 @@ sid_tts(542,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_8299290, np:pn),
+          @ abst( (_6980816, np:pn),
                   ( (vrolijk:vrolijk:'ADJ', s:sub~>s:sub)
                   @ ( ( (loopt:lopen:'VERB', pp~>np:pn~>s:sub)
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (het:het:'DET', n~>np)
                           @ (gras:gras:'NOUN', n) ) ) )
-                    @ (_8299290, np:pn) ) ) ) )
+                    @ (_6980816, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (hond:hond:'NOUN', n) ) ) ) )
   ]).
@@ -8230,7 +8230,7 @@ sid_tts(554,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( (staat:staat:'NOUN', pr~>np~>s:dcl)
           @ (buiten:buiten:'ADP', pr) ) )
-      @ abst( (_8342078, np),
+      @ abst( (_7025404, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (ijsbaan:ijsbaan:'NOUN', n) ) )
@@ -8238,7 +8238,7 @@ sid_tts(554,
                     @ (vol:vol:'ADJ', np~>s:adj) )
                   @ ( (met:met:'ADP', n~>pp)
                     @ (mensen:mens:'NOUN', n) ) )
-                @ (_8342078, np) ) ) ) )
+                @ (_7025404, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (ijsschaatser:ijsschaatser:'NOUN', n) ) )
   ]).
@@ -8385,7 +8385,7 @@ sid_tts(565,
 sid_tts(566,
   [
     ( ( ( (en:en:'CCONJ', (n~>s:dcl)~>(n~>s:dcl)~>n~>s:dcl)
-        @ abst( (_8379592, n),
+        @ abst( (_7064322, n),
                 ( ( (bij:bij:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (de:de:'DET', n~>np)
                     @ (oceaan:oceaan:'NOUN', n) ) )
@@ -8395,7 +8395,7 @@ sid_tts(566,
                   @ ( ( (zitten:zitten:'VERB', pp~>n~>s:dcl)
                       @ ( (vol:vol:'ADP', n~>pp)
                         @ (zand:zand:'NOUN', n) ) )
-                    @ (_8379592, n) ) ) ) ) )
+                    @ (_7064322, n) ) ) ) ) )
       @ ( (genieten:genieten:'VERB', pp~>n~>s:dcl)
         @ ( (van:van:'ADP', np~>pp)
           @ ( (zonnige:zonnig:'ADJ', np~>np)
@@ -8407,7 +8407,7 @@ sid_tts(566,
 sid_tts(567,
   [
     ( ( ( (en:en:'CCONJ', (n~>s:dcl)~>(n~>s:dcl)~>n~>s:dcl)
-        @ abst( (_8395284, n),
+        @ abst( (_7080830, n),
                 ( ( (bij:bij:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (de:de:'DET', n~>np)
                     @ (oceaan:oceaan:'NOUN', n) ) )
@@ -8417,7 +8417,7 @@ sid_tts(567,
                   @ ( ( (zitten:zitten:'VERB', pp~>n~>s:dcl)
                       @ ( (vol:vol:'ADP', n~>pp)
                         @ (zand:zand:'NOUN', n) ) )
-                    @ (_8395284, n) ) ) ) ) )
+                    @ (_7080830, n) ) ) ) ) )
       @ ( (genieten:genieten:'VERB', pp~>n~>s:dcl)
         @ ( (van:van:'ADP', np~>pp)
           @ ( ( (vol:vol:'ADP', n~>np~>np)
@@ -8596,11 +8596,11 @@ sid_tts(574,
           @ (af:af:'ADP', pr) )
         @ ( (op:op:'ADP', np~>pp)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_8458508, np:pn),
+              @ abst( (_7146958, np:pn),
                       ( (voornamelijk:voornamelijk:'ADJ', s:sub~>s:sub)
                       @ ( ( ((is):(is):'AUX', (np~>s:adj)~>np:pn~>s:sub)
                           @ (kaal:kaal:'ADJ', np~>s:adj) )
-                        @ (_8458508, np:pn) ) ) ) )
+                        @ (_7146958, np:pn) ) ) ) )
             @ ( (de:de:'DET', n~>np)
               @ (grond:grond:'NOUN', n) ) ) ) )
       @ ( ('De':de:'DET', n~>np)
@@ -8850,14 +8850,14 @@ sid_tts(590,
               @ ( (groen:groen:'ADJ', np~>np)
                 @ (rubber:rubber:'NOUN', np) ) )
             @ (laarzen:laars:'NOUN', np) ) ) )
-      @ abst( (_8516430, np),
+      @ abst( (_7207352, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (plas:plas:'NOUN', n) ) )
               @ ( ( (speelt:spelen:'VERB', pp~>np~>s:dcl)
                   @ ( (vol:vol:'ADP', n~>pp)
                     @ (modder:modder:'NOUN', n) ) )
-                @ (_8516430, np) ) ) ) )
+                @ (_7207352, np) ) ) ) )
     @ ( (jong:jong:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (kind:kind:'NOUN', n) ) ) )
@@ -8885,14 +8885,14 @@ sid_tts(591,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (groene:groen:'ADJ', np~>np)
             @ (laarzen:laars:'NOUN', np) ) ) )
-      @ abst( (_8524988, np),
+      @ abst( (_7216354, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (plas:plas:'NOUN', n) ) )
               @ ( ( (speelt:spelen:'VERB', pp~>np~>s:dcl)
                   @ ( (vol:vol:'ADP', n~>pp)
                     @ (modder:modder:'NOUN', n) ) )
-                @ (_8524988, np) ) ) ) )
+                @ (_7216354, np) ) ) ) )
     @ ( (jong:jong:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (kind:kind:'NOUN', n) ) ) )
@@ -8903,7 +8903,7 @@ sid_tts(592,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( ((is):(is):'AUX', (np~>s:adj)~>np~>s:dcl)
           @ (blootsvoets:blootsvoets:'ADJ', np~>s:adj) ) )
-      @ abst( (_8533668, np),
+      @ abst( (_7225610, np),
               ( ( (langs:langs:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (plas:plas:'NOUN', n) ) )
@@ -8911,7 +8911,7 @@ sid_tts(592,
                   @ ( (vol:vol:'ADJ', pp~>np~>s:adj)
                     @ ( (met:met:'ADP', n~>pp)
                       @ (modder:modder:'NOUN', n) ) ) )
-                @ (_8533668, np) ) ) ) )
+                @ (_7225610, np) ) ) ) )
     @ ( (jong:jong:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (kind:kind:'NOUN', n) ) ) )
@@ -9029,11 +9029,11 @@ sid_tts(599,
   [
     ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_8560148, np:pn),
+          @ abst( (_7253218, np:pn),
                   ( (echt:echt:'ADJ', s:sub~>s:sub)
                   @ ( ( ((is):(is):'AUX', (np~>s:adj)~>np:pn~>s:sub)
                       @ (klein:klein:'ADJ', np~>s:adj) )
-                    @ (_8560148, np:pn) ) ) ) )
+                    @ (_7253218, np:pn) ) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (wagon:wagon:'NOUN', n) ) ) )
     @ ( ( (eten:eten:'VERB', n~>np~>s:dcl)
@@ -9046,11 +9046,11 @@ sid_tts(600,
   [
     ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_8565316, np:pn),
+          @ abst( (_7258602, np:pn),
                   ( (echt:echt:'ADJ', s:sub~>s:sub)
                   @ ( ( ((is):(is):'AUX', (np~>s:adj)~>np:pn~>s:sub)
                       @ (klein:klein:'ADJ', np~>s:adj) )
-                    @ (_8565316, np:pn) ) ) ) )
+                    @ (_7258602, np:pn) ) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (wagen:wagen:'NOUN', n) ) ) )
     @ ( (slapen:slapen:'VERB', np~>s:dcl)
@@ -9181,9 +9181,9 @@ sid_tts(607,
             @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
                 @ ( (trekt:trekken:'VERB', np~>np:pn~>s:sub)
                   @ ( ( (dat:dat:'SCONJ', (np:pn~>s:sub)~>np~>np)
-                      @ abst( (_8594968, np:pn),
+                      @ abst( (_7289454, np:pn),
                               ( ( ( (uitziet:uitzien:'NOUN', np:pn~>(np~>s:adj)~>np:pn~>s:sub)
-                                  @ (_8594968, np:pn) )
+                                  @ (_7289454, np:pn) )
                                 @ (grappig:grappig:'ADJ', np~>s:adj) )
                               @ (er:er:'ADV', np:pn) ) ) )
                     @ (gezicht:gezicht:'NOUN', np) ) ) )
@@ -9399,7 +9399,7 @@ sid_tts(618,
 sid_tts(619,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_8676604, np),
+        @ abst( (_7375314, np),
                 ( ( (van:van:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (paard:paard:'NOUN', n) ) )
@@ -9407,7 +9407,7 @@ sid_tts(619,
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (een:een:'DET', n~>np)
                         @ (spoor:spoor:'NOUN', n) ) ) )
-                  @ (_8676604, np) ) ) ) )
+                  @ (_7375314, np) ) ) ) )
       @ ( (wordt:worden:'AUX', (np~>s:pt)~>np~>s:dcl)
         @ ( (gelegd:leggen:'VERB', pp~>np~>s:pt)
           @ ( (in:in:'ADP', np~>pp)
@@ -9455,19 +9455,19 @@ sid_tts(621,
 sid_tts(622,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_8703430, np),
+        @ abst( (_7403520, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (het:het:'DET', n~>np)
                     @ (amfitheater:amfitheater:'NOUN', n) ) )
                 @ ( ((is):(is):'AUX', np~>s:dcl)
-                  @ (_8703430, np) ) ) ) )
-      @ abst( (_8703648, np),
+                  @ (_7403520, np) ) ) ) )
+      @ abst( (_7403738, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (jongen:jongen:'NOUN', n) ) )
               @ ( (serieus:serieus:'ADJ', s:dcl~>s:dcl)
                 @ ( (praat:praten:'VERB', np~>s:dcl)
-                  @ (_8703648, np) ) ) ) ) )
+                  @ (_7403738, np) ) ) ) ) )
     @ ( ('Een':een:'DET', (np~>s:adj)~>np)
       @ (volwassene:volwassen:'ADJ', np~>s:adj) ) )
   ]).
@@ -9475,18 +9475,18 @@ sid_tts(622,
 sid_tts(623,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_8706898, np),
+        @ abst( (_7407156, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (het:het:'DET', n~>np)
                     @ (amfitheater:amfitheater:'NOUN', n) ) )
                 @ ( ((is):(is):'AUX', np~>s:dcl)
-                  @ (_8706898, np) ) ) ) )
-      @ abst( (_8707116, np),
+                  @ (_7407156, np) ) ) ) )
+      @ abst( (_7407374, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (jongen:jongen:'NOUN', n) ) )
               @ ( (praat:praten:'VERB', np~>s:dcl)
-                @ (_8707116, np) ) ) ) )
+                @ (_7407374, np) ) ) ) )
     @ ( ('Een':een:'DET', (np~>s:adj)~>np)
       @ (volwassene:volwassen:'ADJ', np~>s:adj) ) )
   ]).
@@ -9496,12 +9496,12 @@ sid_tts(624,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_8710180, np:pn),
+          @ abst( (_7410606, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (jongen:jongen:'NOUN', n) ) )
                   @ ( (praat:praten:'VERB', np:pn~>s:sub)
-                    @ (_8710180, np:pn) ) ) ) )
+                    @ (_7410606, np:pn) ) ) ) )
         @ ( ( (in:in:'ADP', np~>np~>np)
             @ ( (het:het:'DET', n~>np)
               @ (amfitheater:amfitheater:'NOUN', n) ) )
@@ -9591,7 +9591,7 @@ sid_tts(630,
               @ ( (lange:lang:'ADJ', np~>np)
                 @ ( (een:een:'DET', n~>np)
                   @ (muur:muur:'NOUN', n) ) ) ) ) ) )
-      @ abst( (_8737132, np),
+      @ abst( (_7438398, np),
               ( (verdacht:verdenken:'VERB', s:dcl~>s:dcl)
               @ ( ( ( ( (steekt:steken:'VERB', pr~>pp~>np~>np~>s:dcl)
                       @ (op:op:'ADP', pr) )
@@ -9600,7 +9600,7 @@ sid_tts(630,
                         @ (camera:camera:'NOUN', n) ) ) )
                   @ ( (een:een:'DET', n~>np)
                     @ (wenkbrauw:wenkbrauw:'ADJ', n) ) )
-                @ (_8737132, np) ) ) ) )
+                @ (_7438398, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (rood:rood:'ADJ', np~>np)
           @ ( (een:een:'DET', n~>np)
@@ -9615,7 +9615,7 @@ sid_tts(630,
               @ ( (lange:lang:'ADJ', np~>np)
                 @ ( (een:een:'DET', n~>np)
                   @ (muur:muur:'NOUN', n) ) ) ) ) ) )
-      @ abst( (_8733346, np),
+      @ abst( (_7434612, np),
               ( (verdacht:verdenken:'VERB', s:dcl~>s:dcl)
               @ ( ( ( ( (steekt:steken:'VERB', pr~>pp~>np~>np~>s:dcl)
                       @ (naar:naar:'ADP', pr) )
@@ -9624,7 +9624,7 @@ sid_tts(630,
                         @ (wenkbrauw:wenkbrauw:'ADJ', n) ) ) )
                   @ ( (een:een:'DET', n~>np)
                     @ (op:op:'ADP', n) ) )
-                @ (_8733346, np) ) ) ) )
+                @ (_7434612, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (rood:rood:'ADJ', np~>np)
           @ ( (een:een:'DET', n~>np)
@@ -9755,14 +9755,14 @@ sid_tts(639,
 sid_tts(640,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_8801922, np),
+        @ abst( (_7506236, np),
                 ( (woedend:woedend:'ADJ', s:dcl~>s:dcl)
                 @ ( ( (racen:racen:'PROPN', pp~>np~>s:dcl)
                     @ ( (over:over:'ADP', np~>pp)
                       @ ( (groene:groen:'ADJ', np~>np)
                         @ ( (het:het:'DET', n~>np)
                           @ (gras:gras:'NOUN', n) ) ) ) )
-                  @ (_8801922, np) ) ) ) )
+                  @ (_7506236, np) ) ) ) )
       @ ( (springen:springen:'VERB', pp~>np~>s:dcl)
         @ ( (over:over:'ADP', np~>pp)
           @ ( (de:de:'DET', n~>np)
@@ -9775,14 +9775,14 @@ sid_tts(640,
 sid_tts(641,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_8807448, np),
+        @ abst( (_7511954, np),
                 ( (woedend:woedend:'ADJ', s:dcl~>s:dcl)
                 @ ( ( (rennen:rennen:'VERB', pp~>np~>s:dcl)
                     @ ( (over:over:'ADP', np~>pp)
                       @ ( (groene:groen:'ADJ', np~>np)
                         @ ( (het:het:'DET', n~>np)
                           @ (gras:gras:'NOUN', n) ) ) ) )
-                  @ (_8807448, np) ) ) ) )
+                  @ (_7511954, np) ) ) ) )
       @ ( (springen:springen:'VERB', pp~>np~>s:dcl)
         @ ( (over:over:'ADP', np~>pp)
           @ ( (een:een:'DET', n~>np)
@@ -9889,12 +9889,12 @@ sid_tts(648,
               @ (rozenmotief:rozenmotief:'NOUN', n) )
             @ ( (een:een:'DET', n~>np)
               @ (overhemd:overhemd:'VERB', n) ) ) ) )
-      @ abst( (_8849240, np),
+      @ abst( (_7555894, np),
               ( (onhandig:onhandig:'ADJ', s:dcl~>s:dcl)
               @ ( ( (draagt:dragen:'VERB', np~>np~>s:dcl)
                   @ ( (twee:twee:'NUM', n~>np)
                     @ (kranten:krant:'NOUN', n) ) )
-                @ (_8849240, np) ) ) ) )
+                @ (_7555894, np) ) ) ) )
     @ ( (oude:oud:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (vrouw:vrouw:'NOUN', n) ) ) )
@@ -9910,12 +9910,12 @@ sid_tts(649,
                   @ (rozenmotief:rozenmotief:'NOUN', n) ) ) )
             @ ( (een:een:'DET', n~>np)
               @ (hemd:hemd:'NOUN', n) ) ) ) )
-      @ abst( (_8854848, np),
+      @ abst( (_7561706, np),
               ( (onhandig:onhandig:'ADJ', s:dcl~>s:dcl)
               @ ( ( (draagt:dragen:'VERB', np~>np~>s:dcl)
                   @ ( (twee:twee:'NUM', n~>np)
                     @ (kranten:krant:'NOUN', n) ) )
-                @ (_8854848, np) ) ) ) )
+                @ (_7561706, np) ) ) ) )
     @ ( (oude:oud:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (vrouw:vrouw:'NOUN', n) ) ) )
@@ -9926,13 +9926,13 @@ sid_tts(650,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( ((is):(is):'AUX', (np~>s:adj)~>np~>s:dcl)
           @ (hemdloos:hemdloos:'ADJ', np~>s:adj) ) )
-      @ abst( (_8865270, np),
+      @ abst( (_7572812, np),
               ( (onhandig:onhandig:'ADJ', s:dcl~>s:dcl)
               @ ( ( ( (laat:laten:'VERB', (np~>s:b)~>np~>np~>s:dcl)
                     @ (vallen:vallen:'VERB', np~>s:b) )
                   @ ( (twee:twee:'NUM', n~>np)
                     @ (kranten:krant:'NOUN', n) ) )
-                @ (_8865270, np) ) ) ) )
+                @ (_7572812, np) ) ) ) )
     @ ( (oude:oud:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (vrouw:vrouw:'NOUN', n) ) ) )
@@ -10314,7 +10314,7 @@ sid_tts(673,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_8967954, np:pn),
+          @ abst( (_7679660, np:pn),
                   ( ( (tijdens:tijdens:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (gerelateerde:gerelateerde:'VERB', pp~>np~>np)
                         @ ( (aan:aan:'ADP', n~>pp)
@@ -10325,7 +10325,7 @@ sid_tts(673,
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (motor:motor:'NOUN', n) ) ) )
-                    @ (_8967954, np:pn) ) ) ) )
+                    @ (_7679660, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (persoon:persoon:'NOUN', n) ) ) ) )
   ]).
@@ -10522,7 +10522,7 @@ sid_tts(684,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9041008, np:pn),
+          @ abst( (_7755690, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (in:in:'ADP', np~>np~>np)
                         @ ( (zijn:zijn:'PRON', n~>np)
@@ -10533,7 +10533,7 @@ sid_tts(684,
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (het:het:'DET', n~>np)
                           @ (gras:gras:'NOUN', n) ) ) )
-                    @ (_9041008, np:pn) ) ) ) )
+                    @ (_7755690, np:pn) ) ) ) )
         @ ( (grote:groot:'ADJ', np~>np)
           @ ( (geen:geen:'DET', n~>np)
             @ (hond:hond:'NOUN', n) ) ) ) ) )
@@ -10666,12 +10666,12 @@ sid_tts(697,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (zingt:zingen:'VERB', np~>s:dcl) )
-      @ abst( (_9072966, np),
+      @ abst( (_7788884, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (de:de:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (speelt:spelen:'VERB', np~>s:dcl)
-                @ (_9072966, np) ) ) ) )
+                @ (_7788884, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -10682,12 +10682,12 @@ sid_tts(698,
         @ ( (zingt:zingen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (liedje:lied:'NOUN', n) ) ) )
-      @ abst( (_9075520, np),
+      @ abst( (_7791582, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (de:de:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (speelt:spelen:'VERB', np~>s:dcl)
-                @ (_9075520, np) ) ) ) )
+                @ (_7791582, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -10899,12 +10899,12 @@ sid_tts(720,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9119920, np:pn),
+          @ abst( (_7837398, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (gitaar:gitaar:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_9119920, np:pn) ) ) ) )
+                    @ (_7837398, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
@@ -10946,12 +10946,12 @@ sid_tts(723,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9127770, np:pn),
+          @ abst( (_7845536, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (piano:piano:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_9127770, np:pn) ) ) ) )
+                    @ (_7845536, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -11335,8 +11335,8 @@ sid_tts(750,
 sid_tts(751,
   [
     ( ( (waar:waar:'ADV', ((s:sub~>s:sub)~>s:sub)~>s:dcl~>s:dcl)
-      @ abst( (_9224236, s:sub~>s:sub),
-              ( (_9224236, s:sub~>s:sub)
+      @ abst( (_7945488, s:sub~>s:sub),
+              ( (_7945488, s:sub~>s:sub)
               @ ( (spreekt:spreken:'VERB', np~>s:sub)
                 @ ( (een:een:'DET', n~>np)
                   @ (man:man:'NOUN', n) ) ) ) ) )
@@ -11346,8 +11346,8 @@ sid_tts(751,
     ,
     ( ((is):(is):'AUX', np~>s:dcl)
     @ ( ( (waar:waar:'ADV', ((s:sub~>s:sub)~>s:sub)~>np~>np)
-        @ abst( (_9223796, s:sub~>s:sub),
-                ( (_9223796, s:sub~>s:sub)
+        @ abst( (_7945048, s:sub~>s:sub),
+                ( (_7945048, s:sub~>s:sub)
                 @ ( (spreekt:spreken:'VERB', np~>s:sub)
                   @ ( (een:een:'DET', n~>np)
                     @ (man:man:'NOUN', n) ) ) ) ) )
@@ -11383,12 +11383,12 @@ sid_tts(754,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9233680, np:pn),
+          @ abst( (_7955268, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (podium:podium:'NOUN', n) ) )
                   @ ( (spreekt:spreken:'VERB', np:pn~>s:sub)
-                    @ (_9233680, np:pn) ) ) ) )
+                    @ (_7955268, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -11623,12 +11623,12 @@ sid_tts(774,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (danst:danst:'NOUN', np~>s:dcl) )
-      @ abst( (_9298886, np),
+      @ abst( (_8022694, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (de:de:'DET', n~>np)
                   @ (regen:regen:'NOUN', n) ) )
               @ ( (zingt:zingen:'VERB', np~>s:dcl)
-                @ (_9298886, np) ) ) ) )
+                @ (_8022694, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -11658,12 +11658,12 @@ sid_tts(778,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (danst:danst:'NOUN', np~>s:dcl) )
-      @ abst( (_9305114, np),
+      @ abst( (_8029162, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (andere:ander:'ADJ', np~>np)
                   @ (vrouwen:vrouw:'NOUN', np) ) )
               @ ( (zingt:zingen:'VERB', np~>s:dcl)
-                @ (_9305114, np) ) ) ) )
+                @ (_8029162, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -11672,10 +11672,10 @@ sid_tts(779,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (danst:danst:'NOUN', np~>s:dcl) )
-      @ abst( (_9308064, np),
+      @ abst( (_8032256, np),
               ( (alleen:alleen:'ADV', s:dcl~>s:dcl)
               @ ( (zingt:zingen:'VERB', np~>s:dcl)
-                @ (_9308064, np) ) ) ) )
+                @ (_8032256, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -12604,7 +12604,7 @@ sid_tts(851,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9517544, np:pn),
+          @ abst( (_8249152, np:pn),
                   ( ( (van:van:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', np:pn~>np)
                       @ (ene:een:'PRON', np:pn) ) )
@@ -12613,7 +12613,7 @@ sid_tts(851,
                         @ ( (andere:ander:'ADJ', np~>np)
                           @ ( (de:de:'DET', n~>np)
                             @ (kant:kant:'NOUN', n) ) ) ) )
-                    @ (_9517544, np:pn) ) ) ) )
+                    @ (_8249152, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (hond:hond:'NOUN', n) ) ) ) )
   ]).
@@ -13355,7 +13355,7 @@ sid_tts(916,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9678158, np:pn),
+          @ abst( (_1320756, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (mes:mes:'NOUN', n) ) )
@@ -13363,7 +13363,7 @@ sid_tts(916,
                         @ ( (in:in:'ADP', n~>pp)
                           @ (plakjes:plak:'NOUN', n) ) )
                       @ (vlees:vlees:'NOUN', n) )
-                    @ (_9678158, np:pn) ) ) ) )
+                    @ (_1320756, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -13701,14 +13701,14 @@ sid_tts(949,
 sid_tts(950,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_9768816, np),
+        @ abst( (_1414546, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (kring:kring:'NOUN', n) ) )
                 @ ( ( ( (houden:houden:'VERB', (np~>s:adj)~>np:pn~>np~>s:dcl)
                       @ (vast:vast:'ADJ', np~>s:adj) )
                     @ (elkaar:elkaar:'PRON', np:pn) )
-                  @ (_9768816, np) ) ) ) )
+                  @ (_1414546, np) ) ) ) )
       @ (dansen:dansen:'VERB', np~>s:dcl) )
     @ ( ('Sommige':sommig:'DET', n~>np)
       @ (vrouwen:vrouw:'NOUN', n) ) )
@@ -13720,10 +13720,10 @@ sid_tts(951,
         @ ( ( (houden:houden:'VERB', (np~>s:adj)~>np:pn~>np~>s:dcl)
             @ (vast:vast:'ADJ', np~>s:adj) )
           @ (elkaar:elkaar:'PRON', np:pn) ) )
-      @ abst( (_9775274, np),
+      @ abst( (_1421316, np),
               ( (samen:samen:'ADV', s:dcl~>s:dcl)
               @ ( (dansen:dansen:'VERB', np~>s:dcl)
-                @ (_9775274, np) ) ) ) )
+                @ (_1421316, np) ) ) ) )
     @ ( ( ('Een':een:'DET', n~>n~>np)
         @ (paar:paar:'NOUN', n) )
       @ (vrouwen:vrouw:'NOUN', n) ) )
@@ -13937,12 +13937,12 @@ sid_tts(973,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9817684, np:pn),
+          @ abst( (_1465394, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (twee:twee:'NUM', n~>np)
                       @ (keyboards:keyboard:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_9817684, np:pn) ) ) ) )
+                    @ (_1465394, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -14108,12 +14108,12 @@ sid_tts(988,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9851884, np:pn),
+          @ abst( (_1500758, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (gitaar:gitaar:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_9851884, np:pn) ) ) ) )
+                    @ (_1500758, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
@@ -14254,35 +14254,35 @@ sid_tts(999,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9889840, np:pn),
+          @ abst( (_1539962, np:pn),
                   ( (sluw:sluw:'ADJ', s:sub~>s:sub)
                   @ ( ( (graaft:graven:'VERB', np~>np:pn~>s:sub)
                       @ ( (de:de:'DET', n~>np)
                         @ (aarde:aarde:'NOUN', n) ) )
-                    @ (_9889840, np:pn) ) ) ) )
+                    @ (_1539962, np:pn) ) ) ) )
         @ (geen_das:geen_das:'DET_NOUN', np) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9889294, np:pn),
+          @ abst( (_1539416, np:pn),
                   ( (sluw:sluw:'ADJ', s:sub~>s:sub)
                   @ ( ( (graaft:graven:'VERB', np~>np:pn~>s:sub)
                       @ ( (de:de:'DET', n~>np)
                         @ (aarde:aarde:'NOUN', n) ) )
-                    @ (_9889294, np:pn) ) ) ) )
+                    @ (_1539416, np:pn) ) ) ) )
         @ ( (das:das:'NOUN', np~>np)
           @ (geen:geen:'DET', np) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9888748, np:pn),
+          @ abst( (_1538870, np:pn),
                   ( (sluw:sluw:'ADJ', s:sub~>s:sub)
                   @ ( ( (graaft:graven:'VERB', np~>np:pn~>s:sub)
                       @ ( (de:de:'DET', n~>np)
                         @ (aarde:aarde:'NOUN', n) ) )
-                    @ (_9888748, np:pn) ) ) ) )
+                    @ (_1538870, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (das:das:'NOUN', n) ) ) ) )
   ]).
@@ -14599,13 +14599,13 @@ sid_tts(1022,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9992710, np:pn),
+          @ abst( (_1646528, np:pn),
                   ( (vrolijk:vrolijk:'ADJ', s:sub~>s:sub)
                   @ ( ( (speelt:spelen:'VERB', pp~>np:pn~>s:sub)
                       @ ( (met:met:'ADP', np~>pp)
                         @ ( (een:een:'DET', np~>np)
                           @ (hacky_sack:hacky_sack:'NOUN_NOUN', np) ) ) )
-                    @ (_9992710, np:pn) ) ) ) )
+                    @ (_1646528, np:pn) ) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (kerel:kerel:'NOUN', n) ) ) ) )
   ]).
@@ -14759,13 +14759,13 @@ sid_tts(1032,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_10036634, np:pn),
+          @ abst( (_1692000, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (kom:kom:'NOUN', n) ) )
                   @ ( ( (breekt:breken:'VERB', n~>np:pn~>s:sub)
                       @ (eieren:ei:'NOUN', n) )
-                    @ (_10036634, np:pn) ) ) ) )
+                    @ (_1692000, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -15448,13 +15448,13 @@ sid_tts(1087,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_10235608, np:pn),
+          @ abst( (_1897910, np:pn),
                   ( (roekeloos:roekeloos:'ADJ', s:sub~>s:sub)
                   @ ( ( (rijdt:rijden:'VERB', pp~>np:pn~>s:sub)
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (paard:paard:'NOUN', n) ) ) )
-                    @ (_10235608, np:pn) ) ) ) )
+                    @ (_1897910, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -15890,13 +15890,13 @@ sid_tts(1125,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_10360390, np:pn),
+          @ abst( (_2027216, np:pn),
                   ( (snel:snel:'ADJ', s:sub~>s:sub)
                   @ ( ( (aanloopt:aanlopen:'VERB', pp~>np:pn~>s:sub)
                       @ ( (achter:achter:'ADP', np~>pp)
                         @ ( (zijn:zijn:'PRON', n~>np)
                           @ (prooi:prooi:'NOUN', n) ) ) )
-                    @ (_10360390, np:pn) ) ) ) )
+                    @ (_2027216, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (jachtluipaard:jachtluipaard:'NOUN', n) ) ) ) )
   ]).
@@ -15940,13 +15940,13 @@ sid_tts(1129,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_10374026, np:pn),
+          @ abst( (_2041224, np:pn),
                   ( (vermoeid:vermoeid:'NOUN', s:sub~>s:sub)
                   @ ( ( (loopt:lopen:'VERB', pp~>np:pn~>s:sub)
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (hok:hok:'NOUN', n) ) ) )
-                    @ (_10374026, np:pn) ) ) ) )
+                    @ (_2041224, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (leeuw:leeuw:'NOUN', n) ) ) ) )
   ]).
@@ -16059,26 +16059,26 @@ sid_tts(1140,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_10405004, np:pn),
+          @ abst( (_2073222, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (gitaar:gitaar:'NOUN', n) ) )
                   @ ( (luidruchtig:luidruchtig:'ADJ', s:sub~>s:sub)
                     @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                      @ (_10405004, np:pn) ) ) ) ) )
+                      @ (_2073222, np:pn) ) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_10404408, np:pn),
+          @ abst( (_2072626, np:pn),
                   ( (luidruchtig:luidruchtig:'ADJ', s:sub~>s:sub)
                   @ ( ( (speelt:spelen:'VERB', pp~>np:pn~>s:sub)
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (gitaar:gitaar:'NOUN', n) ) ) )
-                    @ (_10404408, np:pn) ) ) ) )
+                    @ (_2072626, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -18516,11 +18516,11 @@ sid_tts(1334,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11104164, np:pn),
+          @ abst( (_2798746, np:pn),
                   ( (hongerig:hongerig:'ADJ', s:sub~>s:sub)
                   @ ( ( (drinkt:drinken:'VERB', n~>np:pn~>s:sub)
                       @ (melk:melk:'NOUN', n) )
-                    @ (_11104164, np:pn) ) ) ) )
+                    @ (_2798746, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (kat:kat:'NOUN', n) ) ) ) )
   ]).
@@ -18741,7 +18741,7 @@ sid_tts(1352,
             @ (op:op:'ADP', pr) )
           @ ( (de:de:'DET', n~>np)
             @ (camera:camera:'NOUN', n) ) ) )
-      @ abst( (_11154158, np),
+      @ abst( (_2850408, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (het:het:'DET', n~>np)
                   @ (strand:strand:'NOUN', n) ) )
@@ -18750,7 +18750,7 @@ sid_tts(1352,
                       @ ( (de:de:'DET', n~>np)
                         @ (zonsondergang:zonsondergang:'NOUN', n) ) )
                     @ ('foto\'s':foto:'NOUN', np) ) )
-                @ (_11154158, np) ) ) ) )
+                @ (_2850408, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -18762,7 +18762,7 @@ sid_tts(1353,
             @ (klaar:klaar:'ADJ', np~>s:adj) )
           @ ( (de:de:'DET', n~>np)
             @ (camera:camera:'NOUN', n) ) ) )
-      @ abst( (_11162076, np),
+      @ abst( (_2858758, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (het:het:'DET', n~>np)
                   @ (strand:strand:'NOUN', n) ) )
@@ -18771,7 +18771,7 @@ sid_tts(1353,
                       @ ( (de:de:'DET', n~>np)
                         @ (zonsondergang:zonsondergang:'NOUN', n) ) )
                     @ ('foto\'s':foto:'NOUN', np) ) )
-                @ (_11162076, np) ) ) ) )
+                @ (_2858758, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
     ,
@@ -18959,14 +18959,14 @@ sid_tts(1363,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11204756, np:pn),
+          @ abst( (_2903502, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (kom:kom:'NOUN', n) ) )
                   @ ( ( (kraakt:kraken:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (ei:ei:'NOUN', n) ) )
-                    @ (_11204756, np:pn) ) ) ) )
+                    @ (_2903502, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -19175,12 +19175,12 @@ sid_tts(1380,
               @ ( (met:met:'ADP', n~>pp)
                 @ (kruiden:kruid:'NOUN', n) ) )
             @ ( ( ( (en:en:'CCONJ', (np~>np)~>(np~>np)~>np~>np)
-                  @ abst( (_11262100, np),
+                  @ abst( (_2963156, np),
                           ( ( (gesneden:snijden:'VERB', pp~>np~>np)
                             @ ( (in:in:'ADP', n~>pp)
                               @ (sneetjes:snee:'NOUN', n) ) )
                           @ ( (verschillende:verschillend:'ADJ', np~>np)
-                            @ (_11262100, np) ) ) ) )
+                            @ (_2963156, np) ) ) ) )
                 @ (beboterde:beboteren:'ADJ', np~>np) )
               @ (broden:brood:'NOUN', np) ) ) )
         @ ( (geen:geen:'DET', n~>np)
@@ -21191,7 +21191,7 @@ sid_tts(1529,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11852716, np:pn),
+          @ abst( (_3575696, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (piano:piano:'NOUN', n) ) )
@@ -21199,7 +21199,7 @@ sid_tts(1529,
                       @ ( (zijn:zijn:'PRON', n~>np)
                         @ (neus:neus:'NOUN', n) ) )
                     @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                      @ (_11852716, np:pn) ) ) ) ) )
+                      @ (_3575696, np:pn) ) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -21375,7 +21375,7 @@ sid_tts(1542,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11900194, np:pn),
+          @ abst( (_3624878, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (motorfiets:motorfiets:'NOUN', n) ) )
@@ -21383,7 +21383,7 @@ sid_tts(1542,
                       @ ( (door:door:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (stad:stad:'NOUN', n) ) ) )
-                    @ (_11900194, np:pn) ) ) ) )
+                    @ (_3624878, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -21635,12 +21635,12 @@ sid_tts(1568,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11949340, np:pn),
+          @ abst( (_3675596, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (kooi:kooi:'NOUN', n) ) )
                   @ ( (danst:dansen:'VERB', np:pn~>s:sub)
-                    @ (_11949340, np:pn) ) ) ) )
+                    @ (_3675596, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -21776,13 +21776,13 @@ sid_tts(1582,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'DET', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11975252, np:pn),
+          @ abst( (_3702516, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (kolf:kolf:'NOUN', n) ) )
                   @ ( ( (eet:eten:'VERB', n~>np:pn~>s:sub)
                       @ (maïs:maïs:'NOUN', n) )
-                    @ (_11975252, np:pn) ) ) ) )
+                    @ (_3702516, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (kat:kat:'NOUN', n) ) ) ) )
   ]).
@@ -21912,14 +21912,14 @@ sid_tts(1593,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_12006226, np:pn),
+          @ abst( (_3734486, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (het:het:'DET', n~>np)
                       @ (podium:podium:'NOUN', n) ) )
                   @ ( ( (bespeelt:bespelen:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (vleugel:vleugel:'NOUN', n) ) )
-                    @ (_12006226, np:pn) ) ) ) )
+                    @ (_3734486, np:pn) ) ) ) )
         @ ( (klein:klein:'ADJ', np~>np)
           @ ( (geen:geen:'DET', n~>np)
             @ (meisje:meisje:'NOUN', n) ) ) ) ) )
@@ -23267,7 +23267,7 @@ sid_tts(1710,
     ,
     ( ( ((is):(is):'AUX', np~>np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_12374006, np:pn),
+          @ abst( (_4115430, np:pn),
                   ( (rauw:rauw:'ADJ', s:sub~>s:sub)
                   @ ( ( (zijn:zijn:'AUX', (np~>s:ng)~>np:pn~>s:sub)
                       @ ( (aan_het:aan_het:'ADP_DET', (np~>s:b)~>np~>s:ng)
@@ -23275,7 +23275,7 @@ sid_tts(1710,
                             @ ( (een:een:'DET', n~>np)
                               @ (kom:kom:'NOUN', n) ) )
                           @ (breken:breken:'VERB', np~>s:b) ) ) )
-                    @ (_12374006, np:pn) ) ) ) )
+                    @ (_4115430, np:pn) ) ) ) )
         @ (eieren:ei:'NOUN', np) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (dame:dame:'NOUN', n) ) )
@@ -23570,7 +23570,7 @@ sid_tts(1730,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_12451840, np:pn),
+          @ abst( (_4196330, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (pot:pot:'NOUN', n) ) )
@@ -23579,7 +23579,7 @@ sid_tts(1730,
                           @ ( (het:het:'DET', n~>np)
                             @ (fornuis:fornuis:'NOUN', n) ) ) )
                       @ (olijfolie:olijfolie:'NOUN', n) )
-                    @ (_12451840, np:pn) ) ) ) )
+                    @ (_4196330, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (persoon:persoon:'NOUN', n) ) ) ) )
   ]).
@@ -23937,7 +23937,7 @@ sid_tts(1762,
 sid_tts(1763,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_12551142, np),
+        @ abst( (_4299148, np),
                 ( (zorgvuldig:zorgvuldig:'ADJ', s:dcl~>s:dcl)
                 @ ( ( ( (giet:gieten:'VERB', pp~>np~>np~>s:dcl)
                       @ ( (in:in:'ADP', np~>pp)
@@ -23945,7 +23945,7 @@ sid_tts(1763,
                           @ (kom:kom:'NOUN', n) ) ) )
                     @ ( (een:een:'DET', n~>np)
                       @ (mengsel:mengsel:'NOUN', n) ) )
-                  @ (_12551142, np) ) ) ) )
+                  @ (_4299148, np) ) ) ) )
       @ ( (mengt:mengen:'VERB', np:pn~>np~>s:dcl)
         @ (het:het:'PRON', np:pn) ) )
     @ ( ('Een':een:'DET', n~>np)
@@ -24608,13 +24608,13 @@ sid_tts(1821,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_12702886, np:pn),
+          @ abst( (_4456040, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (haar:haar:'PRON', n~>np)
                       @ (gezicht:gezicht:'NOUN', n) ) )
                   @ ( ( (aanbrengt:aanbrengen:'VERB', n~>np:pn~>s:sub)
                       @ ('make-up':'make-up':'NOUN', n) )
-                    @ (_12702886, np:pn) ) ) ) )
+                    @ (_4456040, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (meisje:meisje:'NOUN', n) ) ) ) )
   ]).
@@ -25222,20 +25222,20 @@ sid_tts(1870,
 sid_tts(1871,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_12842002, np),
+        @ abst( (_4600112, np),
                 ( (comfortabel:comfortabel:'NOUN', s:dcl~>s:dcl)
                 @ ( ( (zit:zitten:'VERB', pp~>np~>s:dcl)
                     @ ( (in:in:'ADP', np~>pp)
                       @ ( (een:een:'DET', n~>np)
                         @ (kamer:kamer:'NOUN', n) ) ) )
-                  @ (_12842002, np) ) ) ) )
-      @ abst( (_12842258, np),
+                  @ (_4600112, np) ) ) ) )
+      @ abst( (_4600368, np),
               ( ( (bij:bij:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (lamp:lamp:'NOUN', n) ) )
               @ ( ( (speelt:spelen:'VERB', n~>np~>s:dcl)
                   @ (piano:piano:'NOUN', n) )
-                @ (_12842258, np) ) ) ) )
+                @ (_4600368, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (jongen:jongen:'NOUN', n) ) )
   ]).
@@ -25247,13 +25247,13 @@ sid_tts(1872,
           @ ( (in:in:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (kamer:kamer:'NOUN', n) ) ) ) )
-      @ abst( (_12846658, np),
+      @ abst( (_4604948, np),
               ( ( (bij:bij:'ADP', n~>s:dcl~>s:dcl)
                 @ (lamplicht:lamplicht:'NOUN', n) )
               @ ( ( (bespeelt:bespelen:'VERB', np~>np~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (piano:piano:'NOUN', n) ) )
-                @ (_12846658, np) ) ) ) )
+                @ (_4604948, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (jongen:jongen:'NOUN', n) ) )
     ,
@@ -25793,19 +25793,19 @@ sid_tts(1915,
           @ ( (in:in:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (auto:auto:'NOUN', n) ) ) ) )
-      @ abst( (_12998462, np),
+      @ abst( (_4762620, np),
               ( ( (tegen:tegen:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-                    @ abst( (_12998648, np:pn),
+                    @ abst( (_4762806, np:pn),
                             ( ( (zit:zitten:'VERB', pp~>np:pn~>s:sub)
                               @ ( (naast:naast:'ADP', np:pn~>pp)
-                                @ (_12998648, np:pn) ) )
+                                @ (_4762806, np:pn) ) )
                             @ (haar:haar:'PRON', np:pn) ) ) )
                   @ ( (de:de:'DET', n~>np)
                     @ (man:man:'NOUN', n) ) ) )
               @ ( (geanimeerd:animeren:'VERB', s:dcl~>s:dcl)
                 @ ( (praat:praat:'NOUN', np~>s:dcl)
-                  @ (_12998462, np) ) ) ) ) )
+                  @ (_4762620, np) ) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -25817,18 +25817,18 @@ sid_tts(1916,
           @ ( (in:in:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (auto:auto:'NOUN', n) ) ) ) )
-      @ abst( (_13008404, np),
+      @ abst( (_4772970, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-                    @ abst( (_13008590, np:pn),
+                    @ abst( (_4773156, np:pn),
                             ( ( (zit:zitten:'VERB', pp~>np:pn~>s:sub)
                               @ ( (naast:naast:'ADP', np:pn~>pp)
-                                @ (_13008590, np:pn) ) )
+                                @ (_4773156, np:pn) ) )
                             @ (haar:haar:'PRON', np:pn) ) ) )
                   @ ( (de:de:'DET', n~>np)
                     @ (man:man:'NOUN', n) ) ) )
               @ ( (praat:praten:'VERB', np~>s:dcl)
-                @ (_13008404, np) ) ) ) )
+                @ (_4772970, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -26089,12 +26089,12 @@ sid_tts(1941,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (de:de:'DET', n~>np)
               @ (vloer:vloer:'NOUN', n) ) ) ) )
-      @ abst( (_13080392, np),
+      @ abst( (_4847418, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (speelt:spelen:'VERB', np~>s:dcl)
-                @ (_13080392, np) ) ) ) )
+                @ (_4847418, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -26125,7 +26125,7 @@ sid_tts(1942,
 sid_tts(1943,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13093630, np),
+        @ abst( (_4861268, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (kamer:kamer:'NOUN', n) ) )
@@ -26133,7 +26133,7 @@ sid_tts(1943,
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (de:de:'DET', n~>np)
                         @ (vloer:vloer:'NOUN', n) ) ) )
-                  @ (_13093630, np) ) ) ) )
+                  @ (_4861268, np) ) ) ) )
       @ ( (tokkelt:tokkelen:'VERB', pp~>np~>s:dcl)
         @ ( (op:op:'ADP', np~>pp)
           @ ( (een:een:'DET', n~>np)
@@ -26142,7 +26142,7 @@ sid_tts(1943,
       @ (man:man:'NOUN', n) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13092734, np),
+        @ abst( (_4860372, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (kamer:kamer:'NOUN', n) ) )
@@ -26150,13 +26150,13 @@ sid_tts(1943,
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (de:de:'DET', n~>np)
                         @ (vloer:vloer:'NOUN', n) ) ) )
-                  @ (_13092734, np) ) ) ) )
-      @ abst( (_13093070, np),
+                  @ (_4860372, np) ) ) ) )
+      @ abst( (_4860708, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (tokkelt:tokkelen:'VERB', np~>s:dcl)
-                @ (_13093070, np) ) ) ) )
+                @ (_4860708, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
     ,
@@ -26179,7 +26179,7 @@ sid_tts(1943,
 sid_tts(1944,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13104766, np),
+        @ abst( (_4872992, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (kamer:kamer:'NOUN', n) ) )
@@ -26187,7 +26187,7 @@ sid_tts(1944,
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (de:de:'DET', n~>np)
                         @ (vloer:vloer:'NOUN', n) ) ) )
-                  @ (_13104766, np) ) ) ) )
+                  @ (_4872992, np) ) ) ) )
       @ ( (tokkelt:tokkelen:'VERB', pp~>np~>s:dcl)
         @ ( (op:op:'ADP', np~>pp)
           @ ( (een:een:'DET', n~>np)
@@ -26196,7 +26196,7 @@ sid_tts(1944,
       @ (man:man:'NOUN', n) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13103870, np),
+        @ abst( (_4872096, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (kamer:kamer:'NOUN', n) ) )
@@ -26204,13 +26204,13 @@ sid_tts(1944,
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (de:de:'DET', n~>np)
                         @ (vloer:vloer:'NOUN', n) ) ) )
-                  @ (_13103870, np) ) ) ) )
-      @ abst( (_13104206, np),
+                  @ (_4872096, np) ) ) ) )
+      @ abst( (_4872432, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (tokkelt:tokkelen:'VERB', np~>s:dcl)
-                @ (_13104206, np) ) ) ) )
+                @ (_4872432, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
     ,
@@ -26322,22 +26322,22 @@ sid_tts(1952,
 sid_tts(1953,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13131118, np),
+        @ abst( (_4900412, np),
                 ( ( (voor:voor:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (de:de:'DET', n~>np)
                     @ (ogen:oog:'NOUN', n) ) )
                 @ ( ( (gebruikt:gebruiken:'VERB', np~>np~>s:dcl)
                     @ ( (een:een:'DET', n~>np)
                       @ (potlood:potlood:'NOUN', n) ) )
-                  @ (_13131118, np) ) ) ) )
-      @ abst( (_13131416, np),
+                  @ (_4900412, np) ) ) ) )
+      @ abst( (_4900710, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (haar:haar:'PRON', n~>np)
                   @ (ooglid:ooglid:'NOUN', n) ) )
               @ ( ( ( (brengt:brengen:'VERB', pr~>n~>np~>s:dcl)
                     @ (aan:aan:'ADP', pr) )
                   @ (eyeliner:eyeliner:'NOUN', n) )
-                @ (_13131416, np) ) ) ) )
+                @ (_4900710, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
     ,
@@ -26348,26 +26348,26 @@ sid_tts(1953,
                 @ (ogen:oog:'NOUN', n) ) )
             @ ( (een:een:'DET', n~>np)
               @ (potlood:potlood:'NOUN', n) ) ) ) )
-      @ abst( (_13130470, np),
+      @ abst( (_4899764, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (haar:haar:'PRON', n~>np)
                   @ (ooglid:ooglid:'NOUN', n) ) )
               @ ( ( ( (brengt:brengen:'VERB', pr~>n~>np~>s:dcl)
                     @ (aan:aan:'ADP', pr) )
                   @ (eyeliner:eyeliner:'NOUN', n) )
-                @ (_13130470, np) ) ) ) )
+                @ (_4899764, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13129230, np),
+        @ abst( (_4898524, np),
                 ( ( (voor:voor:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (de:de:'DET', n~>np)
                     @ (ogen:oog:'NOUN', n) ) )
                 @ ( ( (gebruikt:gebruiken:'VERB', np~>np~>s:dcl)
                     @ ( (een:een:'DET', n~>np)
                       @ (potlood:potlood:'NOUN', n) ) )
-                  @ (_13129230, np) ) ) ) )
+                  @ (_4898524, np) ) ) ) )
       @ ( ( ( (brengt:brengen:'VERB', pr~>pp~>n~>np~>s:dcl)
             @ (aan:aan:'ADP', pr) )
           @ ( (op:op:'ADP', np~>pp)
@@ -26384,14 +26384,14 @@ sid_tts(1954,
         @ ( (gebruikt:gebruiken:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (oogpotlood:oogpotlood:'NOUN', n) ) ) )
-      @ abst( (_13141266, np),
+      @ abst( (_4911184, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (haar:haar:'PRON', n~>np)
                   @ (ooglid:ooglid:'NOUN', n) ) )
               @ ( ( ( (brengt:brengen:'VERB', pr~>n~>np~>s:dcl)
                     @ (aan:aan:'ADP', pr) )
                   @ (eyeliner:eyeliner:'NOUN', n) )
-                @ (_13141266, np) ) ) ) )
+                @ (_4911184, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -27279,7 +27279,7 @@ sid_tts(2021,
 sid_tts(2022,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13384156, np),
+        @ abst( (_5162654, np),
                 ( ( (om:om:'ADP', (np~>s:to)~>s:dcl~>s:dcl)
                   @ ( (te:te:'ADP', (np~>s:b)~>np~>s:to)
                     @ (vissen:vissen:'VERB', np~>s:b) ) )
@@ -27287,14 +27287,14 @@ sid_tts(2022,
                       @ (op:op:'ADP', pr) )
                     @ ( (een:een:'DET', n~>np)
                       @ (hengel:hengel:'NOUN', n) ) )
-                  @ (_13384156, np) ) ) ) )
-      @ abst( (_13384488, np),
+                  @ (_5162654, np) ) ) ) )
+      @ abst( (_5162986, np),
               ( ( (voor:voor:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (vis:vis:'NOUN', n) ) )
               @ ( ( (rent:rent:'NOUN', pr~>np~>s:dcl)
                   @ (langs:langs:'ADP', pr) )
-                @ (_13384488, np) ) ) ) )
+                @ (_5162986, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (jongen:jongen:'NOUN', n) ) )
   ]).
@@ -27941,12 +27941,12 @@ sid_tts(2079,
   [
     ( ( (hakt:hakken:'VERB', np~>np~>s:dcl)
       @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-            @ abst( (_13553870, n~>np),
-                    ( (_13553870, n~>np)
+            @ abst( (_5338524, n~>np),
+                    ( (_5338524, n~>np)
                     @ (brood:brood:'NOUN', n) ) ) )
-          @ abst( (_13553958, n~>np),
+          @ abst( (_5338612, n~>np),
                   ( (gebakken:bakken:'VERB', np~>np)
-                  @ ( (_13553958, n~>np)
+                  @ ( (_5338612, n~>np)
                     @ (varkensvlees:varkensvlees:'VERB', n) ) ) ) )
         @ (wat:wat:'DET', n~>np) ) )
     @ ( ('De':de:'DET', n~>np)
@@ -28914,28 +28914,28 @@ sid_tts(2159,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_13782098, np:pn),
+          @ abst( (_5574780, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (bijl:bijl:'NOUN', n) ) )
                   @ ( ( (hakt:hakken:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (houtblok:houtblok:'NOUN', n) ) )
-                    @ (_13782098, np:pn) ) ) ) )
+                    @ (_5574780, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_13781448, np:pn),
+          @ abst( (_5574130, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (bijl:bijl:'NOUN', n) ) )
                   @ ( ( (hakt:hakken:'VERB', np~>np:pn~>s:sub)
                       @ ( (geen:geen:'DET', n~>np)
                         @ (man:man:'NOUN', n) ) )
-                    @ (_13781448, np:pn) ) ) ) )
+                    @ (_5574130, np:pn) ) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (houtblok:houtblok:'NOUN', n) ) ) ) )
   ]).
@@ -29064,14 +29064,14 @@ sid_tts(2172,
     @ ( ( (zit:zitten:'VERB', pp~>np~>s:dcl)
         @ ( (op:op:'ADP', np~>pp)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_13809720, np:pn),
+              @ abst( (_5603314, np:pn),
                       ( ( (door:door:'ADP', np~>s:sub~>s:sub)
                         @ ( (het:het:'DET', n~>np)
                           @ (raam:raam:'NOUN', n) ) )
                       @ ( ( (kijkt:kijken:'VERB', pp~>np:pn~>s:sub)
                           @ ( (naar:naar:'ADP', pr~>pp)
                             @ (buiten:buiten:'ADP', pr) ) )
-                        @ (_13809720, np:pn) ) ) ) )
+                        @ (_5603314, np:pn) ) ) ) )
             @ ( (houten:houten:'ADJ', np~>np)
               @ ( (klein:klein:'ADJ', np~>np)
                 @ ( (een:een:'DET', n~>np)
@@ -29086,7 +29086,7 @@ sid_tts(2173,
     ( ( (kijkt:kijken:'VERB', pp~>np~>s:dcl)
       @ ( (naar:naar:'ADP', np~>pp)
         @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_13822512, np:pn),
+            @ abst( (_5616538, np:pn),
                     ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                       @ ( (wit:wit:'ADJ', np~>np)
                         @ ( (een:een:'DET', n~>np)
@@ -29095,7 +29095,7 @@ sid_tts(2173,
                         @ ( (buiten:buiten:'ADP', np~>pp)
                           @ ( (het:het:'DET', n~>np)
                             @ (raam:raam:'NOUN', n) ) ) )
-                      @ (_13822512, np:pn) ) ) ) )
+                      @ (_5616538, np:pn) ) ) ) )
           @ ( (houten:houten:'ADJ', np~>np)
             @ ( (kleine:klein:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
@@ -29650,12 +29650,12 @@ sid_tts(2226,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_13959242, np:pn),
+          @ abst( (_5757768, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (het:het:'DET', n~>np)
                       @ (drumstel:drumstel:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_13959242, np:pn) ) ) ) )
+                    @ (_5757768, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
@@ -30816,12 +30816,12 @@ sid_tts(2327,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14256768, np:pn),
+          @ abst( (_6065506, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (gitaar:gitaar:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_14256768, np:pn) ) ) ) )
+                    @ (_6065506, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -31163,28 +31163,28 @@ sid_tts(2358,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14328514, np:pn),
+          @ abst( (_6139808, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (groenteborstel:groenteborstel:'ADJ', n) ) )
                   @ ( ( (schrobt:schrobben:'NOUN', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (courgette:courgette:'NOUN', n) ) )
-                    @ (_14328514, np:pn) ) ) ) )
+                    @ (_6139808, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14327864, np:pn),
+          @ abst( (_6139158, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (groenteborstel:groenteborstel:'ADJ', n) ) )
                   @ ( ( (schrobt:schrobben:'NOUN', np~>np:pn~>s:sub)
                       @ ( (geen:geen:'DET', n~>np)
                         @ (vrouw:vrouw:'NOUN', n) ) )
-                    @ (_14327864, np:pn) ) ) ) )
+                    @ (_6139158, np:pn) ) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (courgette:courgette:'NOUN', n) ) ) ) )
   ]).
@@ -31196,12 +31196,12 @@ sid_tts(2359,
           @ ( ( (en:en:'CCONJ', np~>np~>np)
               @ (courgette:courgette:'PROPN', np) )
             @ (groenten:groente:'NOUN', np) ) ) )
-      @ abst( (_14333792, np),
+      @ abst( (_6145302, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (borstel:borstel:'NOUN', n) ) )
               @ ( (schrobt:schrobben:'ADJ', np~>s:dcl)
-                @ (_14333792, np) ) ) ) )
+                @ (_6145302, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -31587,11 +31587,11 @@ sid_tts(2390,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14450860, np:pn),
+          @ abst( (_6266846, np:pn),
                   ( ( (op:op:'ADP', n~>s:sub~>s:sub)
                     @ (keyboards:keyboard:'NOUN', n) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_14450860, np:pn) ) ) ) )
+                    @ (_6266846, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (kat:kat:'NOUN', n) ) ) ) )
   ]).
@@ -31853,13 +31853,13 @@ sid_tts(2410,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14522362, np:pn),
+          @ abst( (_6340640, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (het:het:'DET', n~>np)
                       @ (plafond:plafond:'NOUN', n) ) )
                   @ ( (ondersteboven:ondersteboven:'ADV', s:sub~>s:sub)
                     @ ( (danst:dan:'ADJ', np:pn~>s:sub)
-                      @ (_14522362, np:pn) ) ) ) ) )
+                      @ (_6340640, np:pn) ) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -31955,10 +31955,10 @@ sid_tts(2420,
 sid_tts(2421,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_14543690, np),
+        @ abst( (_6362472, np),
                 ( (hartelijk:hartelijk:'ADJ', s:dcl~>s:dcl)
                 @ ( (zingt:zingen:'VERB', np~>s:dcl)
-                  @ (_14543690, np) ) ) ) )
+                  @ (_6362472, np) ) ) ) )
       @ ( (speelt:spelen:'VERB', n~>np~>s:dcl)
         @ (gitaar:gitaar:'VERB', n) ) )
     @ ( ('De':de:'DET', n~>np)
@@ -32144,8 +32144,8 @@ sid_tts(2434,
                 @ ( ((is):(is):'AUX', (np~>s:adj)~>np:pn~>s:sub)
                   @ ( (erg:erg:'ADJ', (np~>s:adj)~>np~>s:adj)
                     @ (grappig:grappig:'ADJ', np~>s:adj) ) ) ) )
-            @ abst( (_14583362, np),
-                    (_14583362, np) ) )
+            @ abst( (_6403704, np),
+                    (_6403704, np) ) )
           @ ( (een:een:'DET', n~>np)
             @ (sketch:sketch:'NOUN', n) ) ) )
       @ ( ('Twee':twee:'NUM', n~>np)
@@ -32639,12 +32639,12 @@ sid_tts(2473,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (zingt:zingen:'VERB', np~>s:dcl) )
-      @ abst( (_14724108, np),
+      @ abst( (_6549670, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (speelt:spelen:'VERB', np~>s:dcl)
-                @ (_14724108, np) ) ) ) )
+                @ (_6549670, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -32883,14 +32883,14 @@ sid_tts(2495,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14783260, np:pn),
+          @ abst( (_6610898, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (zijn:zijn:'PRON', n~>np)
                       @ (hand:hand:'NOUN', n) ) )
                   @ ( ( (breekt:breken:'VERB', np~>np:pn~>s:sub)
                       @ ( (houten:houten:'ADJ', np~>np)
                         @ (planken:plank:'NOUN', np) ) )
-                    @ (_14783260, np:pn) ) ) ) )
+                    @ (_6610898, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -32948,7 +32948,7 @@ sid_tts(2499,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14805200, np:pn),
+          @ abst( (_6633546, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (jetski:jetski:'NOUN', n) ) )
@@ -32956,7 +32956,7 @@ sid_tts(2499,
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (golven:golf:'NOUN', n) ) ) )
-                    @ (_14805200, np:pn) ) ) ) )
+                    @ (_6633546, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (persoon:persoon:'NOUN', n) ) ) ) )
   ]).
@@ -33019,12 +33019,12 @@ sid_tts(2505,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14823068, np:pn),
+          @ abst( (_6652062, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (weg:weg:'NOUN', n) ) )
                   @ ( (danst:dansen:'VERB', np:pn~>s:sub)
-                    @ (_14823068, np:pn) ) ) ) )
+                    @ (_6652062, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -33368,12 +33368,12 @@ sid_tts(2536,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14936494, np:pn),
+          @ abst( (_6769472, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (gitaar:gitaar:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_14936494, np:pn) ) ) ) )
+                    @ (_6769472, np:pn) ) ) ) )
         @ (niemand:niemand:'PRON', np) ) ) )
   ]).
 
@@ -33595,14 +33595,14 @@ sid_tts(2556,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_14995048, np:pn),
+          @ abst( (_6830066, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (trampoline:trampoline:'NOUN', n) ) )
                   @ ( ( (doet:doen:'VERB', np~>np:pn~>s:sub)
                       @ ( (achterwaarste:achterwaar:'ADJ', np~>np)
                         @ ('salto\'s':salto:'NOUN', np) ) )
-                    @ (_14995048, np:pn) ) ) ) )
+                    @ (_6830066, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
@@ -33728,13 +33728,13 @@ sid_tts(2565,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15027978, np:pn),
+          @ abst( (_6864196, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (houten:houten:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (fluit:fluit:'NOUN', n) ) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_15027978, np:pn) ) ) ) )
+                    @ (_6864196, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -33744,12 +33744,12 @@ sid_tts(2566,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15030736, np:pn),
+          @ abst( (_6867050, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (piano:piano:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_15030736, np:pn) ) ) ) )
+                    @ (_6867050, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -34396,12 +34396,12 @@ sid_tts(2616,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15187834, np:pn),
+          @ abst( (_7029536, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (fluit:fluit:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_15187834, np:pn) ) ) ) )
+                    @ (_7029536, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -34849,11 +34849,11 @@ sid_tts(2655,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15298710, np:pn),
+          @ abst( (_7144348, np:pn),
                   ( ( (met:met:'ADP', n~>s:sub~>s:sub)
                     @ (geweren:geweer:'NOUN', n) )
                   @ ( (schiet:schieten:'VERB', np:pn~>s:sub)
-                    @ (_15298710, np:pn) ) ) ) )
+                    @ (_7144348, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -35278,12 +35278,12 @@ sid_tts(2692,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15382304, np:pn),
+          @ abst( (_7230834, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (piano:piano:'NOUN', n) ) )
                   @ ( (speelt:spelen:'VERB', np:pn~>s:sub)
-                    @ (_15382304, np:pn) ) ) ) )
+                    @ (_7230834, np:pn) ) ) ) )
         @ (niemand:niemand:'PRON', np) ) ) )
   ]).
 
@@ -35750,12 +35750,12 @@ sid_tts(2732,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15507280, np:pn),
+          @ abst( (_7360178, np:pn),
                   ( ( (voor:voor:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (vrouw:vrouw:'NOUN', n) ) )
                   @ ( (zingt:zingen:'VERB', np:pn~>s:sub)
-                    @ (_15507280, np:pn) ) ) ) )
+                    @ (_7360178, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -35803,12 +35803,12 @@ sid_tts(2737,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15515592, np:pn),
+          @ abst( (_7368742, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (veld:veld:'NOUN', n) ) )
                   @ ( (graast:grazen:'VERB', np:pn~>s:sub)
-                    @ (_15515592, np:pn) ) ) ) )
+                    @ (_7368742, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (neushoorn:neushoorn:'NOUN', n) ) ) ) )
   ]).
@@ -35900,10 +35900,10 @@ sid_tts(2743,
 sid_tts(2744,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_15540042, np),
+        @ abst( (_7393948, np),
                 ( (samen:samen:'ADV', s:dcl~>s:dcl)
                 @ ( (rennen:rennen:'VERB', np~>s:dcl)
-                  @ (_15540042, np) ) ) ) )
+                  @ (_7393948, np) ) ) ) )
       @ ( ( (houden:houden:'VERB', (np~>s:adj)~>np~>np~>s:dcl)
           @ (vast:vast:'ADJ', np~>s:adj) )
         @ ( (elkaars:elkaars:'DET', n~>np)
@@ -36378,26 +36378,26 @@ sid_tts(2784,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15653824, np:pn),
+          @ abst( (_7512326, np:pn),
                   ( ( (onder:onder:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (bank:bank:'NOUN', n) ) )
                   @ ( (ondersteboven:ondersteboven:'ADV', s:sub~>s:sub)
                     @ ( (glijdt:glijden:'VERB', np:pn~>s:sub)
-                      @ (_15653824, np:pn) ) ) ) ) )
+                      @ (_7512326, np:pn) ) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (kat:kat:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15653228, np:pn),
+          @ abst( (_7511730, np:pn),
                   ( (ondersteboven:ondersteboven:'ADV', s:sub~>s:sub)
                   @ ( ( (glijdt:glijden:'VERB', pp~>np:pn~>s:sub)
                       @ ( (onder:onder:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (bank:bank:'NOUN', n) ) ) )
-                    @ (_15653228, np:pn) ) ) ) )
+                    @ (_7511730, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (kat:kat:'NOUN', n) ) ) ) )
   ]).
@@ -36714,13 +36714,13 @@ sid_tts(2814,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'DET', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15737234, np:pn),
+          @ abst( (_7598472, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (schaar:schaar:'NOUN', n) ) )
                   @ ( ( (maait:maaien:'VERB', n~>np:pn~>s:sub)
                       @ (gras:gras:'NOUN', n) )
-                    @ (_15737234, np:pn) ) ) ) )
+                    @ (_7598472, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (jongen:jongen:'NOUN', n) ) ) ) )
   ]).
@@ -36822,10 +36822,10 @@ sid_tts(2821,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (lacht:lachen:'VERB', np~>s:dcl) )
-      @ abst( (_15765522, np),
+      @ abst( (_7627888, np),
               ( (niet:niet:'ADV', s:dcl~>s:dcl)
               @ ( (kruipt:kruipen:'NOUN', np~>s:dcl)
-                @ (_15765522, np) ) ) ) )
+                @ (_7627888, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (baby:baby:'NOUN', n) ) )
   ]).
@@ -36883,14 +36883,14 @@ sid_tts(2826,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15778836, np:pn),
+          @ abst( (_7641754, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (zwaard:zwaard:'NOUN', n) ) )
                   @ ( ( (doorsnijdt:doorsnijden:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (touw:touw:'NOUN', n) ) )
-                    @ (_15778836, np:pn) ) ) ) )
+                    @ (_7641754, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -37032,7 +37032,7 @@ sid_tts(2835,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15810150, np:pn),
+          @ abst( (_7674232, np:pn),
                   ( ( (langs:langs:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (pad:pad:'NOUN', n) ) )
@@ -37040,7 +37040,7 @@ sid_tts(2835,
                       @ ( (door:door:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (wildernis:wildernis:'NOUN', n) ) ) )
-                    @ (_15810150, np:pn) ) ) ) )
+                    @ (_7674232, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -37747,13 +37747,13 @@ sid_tts(2887,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_15977034, np:pn),
+          @ abst( (_7847200, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (strand:strand:'NOUN', n) ) )
                   @ ( ( (speelt:spelen:'VERB', n~>np:pn~>s:sub)
                       @ (viool:viool:'NOUN', n) )
-                    @ (_15977034, np:pn) ) ) ) )
+                    @ (_7847200, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (meisje:meisje:'NOUN', n) ) ) ) )
   ]).
@@ -38448,28 +38448,28 @@ sid_tts(2943,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_16177592, np:pn),
+          @ abst( (_8055498, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (mes:mes:'NOUN', n) ) )
                   @ ( ( (opent:openen:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (doos:doos:'NOUN', n) ) )
-                    @ (_16177592, np:pn) ) ) ) )
+                    @ (_8055498, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_16176942, np:pn),
+          @ abst( (_8054848, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (mes:mes:'NOUN', n) ) )
                   @ ( ( (opent:openen:'VERB', np~>np:pn~>s:sub)
                       @ ( (geen:geen:'DET', n~>np)
                         @ (man:man:'NOUN', n) ) )
-                    @ (_16176942, np:pn) ) ) ) )
+                    @ (_8054848, np:pn) ) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (doos:doos:'NOUN', n) ) ) ) )
   ]).
@@ -39166,12 +39166,12 @@ sid_tts(3004,
         @ (op:op:'ADP', pr) )
       @ ( (naast:naast:'ADP', np~>pp)
         @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_16364616, np:pn),
+            @ abst( (_8248726, np:pn),
                     ( ( (langs:langs:'ADP', np~>s:sub~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (weg:weg:'NOUN', n) ) )
                     @ ( (staat:staan:'VERB', np:pn~>s:sub)
-                      @ (_16364616, np:pn) ) ) ) )
+                      @ (_8248726, np:pn) ) ) ) )
           @ ( (een:een:'DET', n~>np)
             @ (vrouw:vrouw:'NOUN', n) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
@@ -39354,9 +39354,9 @@ sid_tts(3020,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_16419568, np:pn),
+          @ abst( (_8305490, np:pn),
                   ( ( (bakt:bakken:'VERB', np:pn~>np:pn~>s:sub)
-                    @ (_16419568, np:pn) )
+                    @ (_8305490, np:pn) )
                   @ (iets:iets:'PRON', np:pn) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
@@ -39450,7 +39450,7 @@ sid_tts(3027,
 sid_tts(3028,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_16447352, np),
+        @ abst( (_8334174, np),
                 ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (zijn:zijn:'PRON', n~>np)
                     @ (poten:poot:'NOUN', n) ) )
@@ -39459,7 +39459,7 @@ sid_tts(3028,
                         @ (plastic:plastic:'NOUN', n) )
                       @ ( (een:een:'DET', n~>np)
                         @ (lade:lade:'NOUN', n) ) ) )
-                  @ (_16447352, np) ) ) ) )
+                  @ (_8334174, np) ) ) ) )
       @ ( (springt:springen:'VERB', pp~>np~>s:dcl)
         @ ( (naar:naar:'ADP', pr~>pp)
           @ (binnen:binnen:'ADP', pr) ) ) )
@@ -39487,7 +39487,7 @@ sid_tts(3028,
 sid_tts(3029,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_16463950, np),
+        @ abst( (_8351804, np),
                 ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (zijn:zijn:'PRON', n~>np)
                     @ (poten:poot:'NOUN', n) ) )
@@ -39495,7 +39495,7 @@ sid_tts(3029,
                     @ ( (plastic:plastic:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (lade:lade:'NOUN', n) ) ) )
-                  @ (_16463950, np) ) ) ) )
+                  @ (_8351804, np) ) ) ) )
       @ ( (springt:springen:'VERB', pp~>np~>s:dcl)
         @ ( (naar:naar:'ADP', pr~>pp)
           @ (binnen:binnen:'ADP', pr) ) ) )
@@ -39507,7 +39507,7 @@ sid_tts(3029,
 sid_tts(3030,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_16471366, np),
+        @ abst( (_8359604, np),
                 ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (zijn:zijn:'PRON', n~>np)
                     @ (poten:poot:'NOUN', n) ) )
@@ -39515,7 +39515,7 @@ sid_tts(3030,
                     @ ( (plastic:plastic:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (lade:lade:'NOUN', n) ) ) )
-                  @ (_16471366, np) ) ) ) )
+                  @ (_8359604, np) ) ) ) )
       @ ( (springt:springen:'VERB', pr~>np~>s:dcl)
         @ (erin:erin:'ADV', pr) ) )
     @ ( (kleine:klein:'ADJ', np~>np)
@@ -39552,11 +39552,11 @@ sid_tts(3032,
         @ ( (opent:openen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (lade:lade:'NOUN', n) ) ) )
-      @ abst( (_16480998, np),
+      @ abst( (_8369764, np),
               ( ( (naar:naar:'ADP', pr~>s:dcl~>s:dcl)
                 @ (binnen:binnen:'ADP', pr) )
               @ ( (klimt:klimmen:'VERB', np~>s:dcl)
-                @ (_16480998, np) ) ) ) )
+                @ (_8369764, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (kat:kat:'NOUN', n) ) )
   ]).
@@ -39567,11 +39567,11 @@ sid_tts(3033,
         @ ( (opent:openen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (lade:lade:'NOUN', n) ) ) )
-      @ abst( (_16488600, np),
+      @ abst( (_8377798, np),
               ( ( (naar:naar:'ADP', pr~>s:dcl~>s:dcl)
                 @ (binnen:binnen:'ADP', pr) )
               @ ( (klimt:klimmen:'VERB', np~>s:dcl)
-                @ (_16488600, np) ) ) ) )
+                @ (_8377798, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (hond:hond:'NOUN', n) ) )
     ,
@@ -39978,13 +39978,13 @@ sid_tts(3062,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_16578104, np:pn),
+          @ abst( (_1364240, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (pan:pan:'NOUN', n) ) )
                   @ ( ( (bakt:bakken:'VERB', np:pn~>np:pn~>s:sub)
                       @ (iets:iets:'PRON', np:pn) )
-                    @ (_16578104, np:pn) ) ) ) )
+                    @ (_1364240, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -40148,13 +40148,13 @@ sid_tts(3074,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_16619020, np:pn),
+          @ abst( (_1406812, np:pn),
                   ( ( (met:met:'ADP', n~>s:sub~>s:sub)
                     @ (kogels:kogel:'NOUN', n) )
                   @ ( ( (laadt:laden:'ADJ', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (geweer:geweer:'NOUN', n) ) )
-                    @ (_16619020, np:pn) ) ) ) )
+                    @ (_1406812, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
@@ -40323,7 +40323,7 @@ sid_tts(3086,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_16657946, np:pn),
+          @ abst( (_1447190, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (waterspeeltje:waterspeel:'NOUN', n) ) )
@@ -40331,7 +40331,7 @@ sid_tts(3086,
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (het:het:'DET', n~>np)
                           @ (water:water:'NOUN', n) ) ) )
-                    @ (_16657946, np:pn) ) ) ) )
+                    @ (_1447190, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
@@ -41497,11 +41497,11 @@ sid_tts(3187,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_1458670, np:pn),
+          @ abst( (_1754602, np:pn),
                   ( ( (met:met:'ADP', n~>s:sub~>s:sub)
                     @ (gebarentaal:gebarentaal:'NOUN', n) )
                   @ ( (communiceert:communiceren:'VERB', np:pn~>s:sub)
-                    @ (_1458670, np:pn) ) ) ) )
+                    @ (_1754602, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (meisje:meisje:'NOUN', n) ) ) ) )
   ]).
@@ -42399,10 +42399,10 @@ sid_tts(3259,
 sid_tts(3260,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_1709508, np),
+        @ abst( (_2014704, np),
                 ( (niet:niet:'ADV', s:dcl~>s:dcl)
                 @ ( (zingt:zingen:'VERB', np~>s:dcl)
-                  @ (_1709508, np) ) ) ) )
+                  @ (_2014704, np) ) ) ) )
       @ ( (speelt:spelen:'VERB', np~>np~>s:dcl)
         @ ( (geen:geen:'DET', n~>np)
           @ (gitaar:gitaar:'NOUN', n) ) ) )
@@ -42411,10 +42411,10 @@ sid_tts(3260,
         @ (jongen:jongen:'NOUN', n) ) ) )
     ,
     ( ( ( (speelt:spelen:'VERB', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_1708870, np),
+        @ abst( (_2014066, np),
                 ( (niet:niet:'ADV', s:dcl~>s:dcl)
                 @ ( (zingt:zingen:'VERB', np~>s:dcl)
-                  @ (_1708870, np) ) ) ) )
+                  @ (_2014066, np) ) ) ) )
       @ ( (geen:geen:'DET', np~>np~>s:dcl)
         @ ( (gitaar:gitaar:'NOUN', n~>np)
           @ (en:en:'CCONJ', n) ) ) )
@@ -43319,12 +43319,12 @@ sid_tts(3337,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_1901936, np:pn),
+          @ abst( (_2213774, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (laptop:laptop:'NOUN', n) ) )
                   @ ( (werkt:werken:'VERB', np:pn~>s:sub)
-                    @ (_1901936, np:pn) ) ) ) )
+                    @ (_2213774, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -43578,7 +43578,7 @@ sid_tts(3355,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_1955508, np:pn),
+          @ abst( (_2269242, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (voorhamer:voorhamer:'NOUN', n) ) )
@@ -43586,7 +43586,7 @@ sid_tts(3355,
                       @ ( (betonnen:betonnen:'ADJ', np~>np)
                         @ ( (een:een:'DET', n~>np)
                           @ (plaat:plaat:'NOUN', n) ) ) )
-                    @ (_1955508, np:pn) ) ) ) )
+                    @ (_2269242, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -43904,28 +43904,28 @@ sid_tts(3378,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_2043476, np:pn),
+          @ abst( (_2360546, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (zwaard:zwaard:'NOUN', n) ) )
                   @ ( ( (doorsnijdt:doorsnijden:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (laars:laars:'NOUN', n) ) )
-                    @ (_2043476, np:pn) ) ) ) )
+                    @ (_2360546, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_2042826, np:pn),
+          @ abst( (_2359896, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (zwaard:zwaard:'NOUN', n) ) )
                   @ ( ( (doorsnijdt:doorsnijden:'VERB', np~>np:pn~>s:sub)
                       @ ( (geen:geen:'DET', n~>np)
                         @ (man:man:'NOUN', n) ) )
-                    @ (_2042826, np:pn) ) ) ) )
+                    @ (_2359896, np:pn) ) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (laars:laars:'NOUN', n) ) ) ) )
   ]).
@@ -44586,12 +44586,12 @@ sid_tts(3433,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_2201414, np:pn),
+          @ abst( (_2524244, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (jachtgeweer:jachtgeweer:'NOUN', n) ) )
                   @ ( (schiet:schieten:'VERB', np:pn~>s:sub)
-                    @ (_2201414, np:pn) ) ) ) )
+                    @ (_2524244, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -44856,14 +44856,14 @@ sid_tts(3459,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_2254322, np:pn),
+          @ abst( (_2578892, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (het:het:'DET', n~>np)
                       @ (gras:gras:'NOUN', n) ) )
                   @ ( ( (speelt:spelen:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (spel:spel:'NOUN', n) ) )
-                    @ (_2254322, np:pn) ) ) ) )
+                    @ (_2578892, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -45287,7 +45287,7 @@ sid_tts(3497,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_2344806, np:pn),
+          @ abst( (_2672556, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (van:van:'ADP', np~>np~>np)
                         @ ( (een:een:'DET', n~>np)
@@ -45295,7 +45295,7 @@ sid_tts(3497,
                       @ ( (de:de:'DET', n~>np)
                         @ (buurt:buurt:'NOUN', n) ) ) )
                   @ ( (danst:dansen:'VERB', np:pn~>s:sub)
-                    @ (_2344806, np:pn) ) ) ) )
+                    @ (_2672556, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -46372,12 +46372,12 @@ sid_tts(3577,
         @ (shirt:shirt:'NOUN', n) ) )
     @ ( ( (heeft:hebben:'VERB', np~>np~>s:dcl)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_2596338, n~>np),
+              @ abst( (_2932908, n~>np),
                       ( (blauw:blauw:'ADJ', np~>np)
-                      @ ( (_2596338, n~>np)
+                      @ ( (_2932908, n~>np)
                         @ (gezicht:gezicht:'NOUN', n) ) ) ) )
-            @ abst( (_2596468, n~>np),
-                    ( (_2596468, n~>np)
+            @ abst( (_2933038, n~>np),
+                    ( (_2933038, n~>np)
                     @ (vuil:vuil:'ADJ', n) ) ) )
           @ (een:een:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -46385,15 +46385,15 @@ sid_tts(3577,
     ,
     ( ( (heeft:hebben:'VERB', np~>np~>s:dcl)
       @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-            @ abst( (_2595414, n~>np),
+            @ abst( (_2931984, n~>np),
                     ( (blauw:blauw:'ADJ', np~>np)
-                    @ ( (_2595414, n~>np)
+                    @ ( (_2931984, n~>np)
                       @ (gezicht:gezicht:'NOUN', n) ) ) ) )
-          @ abst( (_2595544, n~>np),
+          @ abst( (_2932114, n~>np),
                   ( ( (op:op:'ADP', np~>np~>np)
                     @ ( (het:het:'DET', n~>np)
                       @ (shirt:shirt:'NOUN', n) ) )
-                  @ ( (_2595544, n~>np)
+                  @ ( (_2932114, n~>np)
                     @ (vuil:vuil:'ADJ', n) ) ) ) )
         @ (een:een:'DET', n~>np) ) )
     @ ( ('Een':een:'DET', n~>np)
@@ -46494,12 +46494,12 @@ sid_tts(3584,
 sid_tts(3585,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_2623638, np),
+        @ abst( (_2961444, np),
                 ( ( (door:door:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (markt:markt:'NOUN', n) ) )
                 @ ( (loopt:lopen:'VERB', np~>s:dcl)
-                  @ (_2623638, np) ) ) ) )
+                  @ (_2961444, np) ) ) ) )
       @ ( ( (steekt:steken:'VERB', pp~>np~>np~>s:dcl)
           @ ( (in:in:'ADP', np~>pp)
             @ ( (zijn:zijn:'PRON', n~>np)
@@ -46563,13 +46563,13 @@ sid_tts(3586,
 sid_tts(3587,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_2647964, np),
+        @ abst( (_2987090, np),
                 ( (niet:niet:'ADV', s:dcl~>s:dcl)
                 @ ( ( (loopt:lopen:'VERB', pp~>np~>s:dcl)
                     @ ( (door:door:'ADP', np~>pp)
                       @ ( (een:een:'DET', n~>np)
                         @ (markt:markt:'NOUN', n) ) ) )
-                  @ (_2647964, np) ) ) ) )
+                  @ (_2987090, np) ) ) ) )
       @ ( ( (steekt:steken:'VERB', pp~>np~>np~>s:dcl)
           @ ( (in:in:'ADP', np~>pp)
             @ ( (zijn:zijn:'PRON', n~>np)
@@ -46926,12 +46926,12 @@ sid_tts(3613,
             @ (omhoog:omhoog:'ADV', pr) )
           @ ( (een:een:'DET', n~>np)
             @ (bord:bord:'NOUN', n) ) ) )
-      @ abst( (_2740748, np),
+      @ abst( (_3084122, np),
               ( (jammerlijk:jammerlijk:'ADJ', s:dcl~>s:dcl)
               @ ( ( (smeekt:smeken:'VERB', pp~>np~>s:dcl)
                   @ ( (om:om:'ADP', n~>pp)
                     @ (geld:geld:'NOUN', n) ) )
-                @ (_2740748, np) ) ) ) )
+                @ (_3084122, np) ) ) ) )
     @ ( (dakloze:dakloos:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (man:man:'NOUN', n) ) ) )
@@ -47085,12 +47085,12 @@ sid_tts(3622,
         @ (kind:kind:'NOUN', n) ) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_2779818, np),
+        @ abst( (_3125016, np),
                 ( ( (door:door:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (het:het:'DET', n~>np)
                     @ (water:water:'NOUN', n) ) )
                 @ ( (waadt:waden:'VERB', np~>s:dcl)
-                  @ (_2779818, np) ) ) ) )
+                  @ (_3125016, np) ) ) ) )
       @ ( (wordt:worden:'AUX', (np~>s:pt)~>np~>s:dcl)
         @ ( ( (door:door:'ADP', np~>(np~>s:pt)~>np~>s:pt)
             @ ( (ander:ander:'ADJ', np~>np)
@@ -47105,13 +47105,13 @@ sid_tts(3622,
 sid_tts(3623,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_2790148, np),
+        @ abst( (_3135994, np),
                 ( (niet:niet:'ADV', s:dcl~>s:dcl)
                 @ ( ( (waadt:waden:'VERB', pp~>np~>s:dcl)
                     @ ( (door:door:'ADP', np~>pp)
                       @ ( (het:het:'DET', n~>np)
                         @ (water:water:'NOUN', n) ) ) )
-                  @ (_2790148, np) ) ) ) )
+                  @ (_3135994, np) ) ) ) )
       @ ( (wordt:worden:'AUX', (np~>s:pt)~>np~>s:dcl)
         @ ( ( (door:door:'ADP', np~>(np~>s:pt)~>np~>s:pt)
             @ ( (ander:ander:'ADJ', np~>np)
@@ -47335,7 +47335,7 @@ sid_tts(3639,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_2839194, np:pn),
+          @ abst( (_3187044, np:pn),
                   ( (aandachtig:aandachtig:'ADJ', s:sub~>s:sub)
                   @ ( ( (staart:staart:'NOUN', pp~>np:pn~>s:sub)
                       @ ( (naar:naar:'ADP', np~>pp)
@@ -47344,7 +47344,7 @@ sid_tts(3639,
                             @ (witte:wit:'ADJ', np~>np) )
                           @ ( (een:een:'DET', n~>np)
                             @ (hond:hond:'NOUN', n) ) ) ) )
-                    @ (_2839194, np:pn) ) ) ) )
+                    @ (_3187044, np:pn) ) ) ) )
         @ ( (bruine:bruin:'ADJ', np~>np)
           @ ( (geen:geen:'DET', n~>np)
             @ (hond:hond:'NOUN', n) ) ) ) ) )
@@ -47956,12 +47956,12 @@ sid_tts(3684,
 sid_tts(3685,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_3002636, np),
+        @ abst( (_3357986, np),
                 ( (woedend:woedend:'ADJ', s:dcl~>s:dcl)
                 @ ( ( ((is):(is):'AUX', (np~>s:ng)~>np~>s:dcl)
                     @ ( (aan_het:aan_het:'ADP_DET', (np~>s:b)~>np~>s:ng)
                       @ (racen:racen:'VERB', np~>s:b) ) )
-                  @ (_3002636, np) ) ) ) )
+                  @ (_3357986, np) ) ) ) )
       @ ( (heeft:heeft:'AUX', (np~>s:pt)~>np~>s:dcl)
         @ ( ( (op:op:'ADP', np~>(np~>s:pt)~>np~>s:pt)
             @ ( (de:de:'DET', n~>np)
@@ -48158,7 +48158,7 @@ sid_tts(3698,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( (staat:staan:'VERB', pr~>np~>s:dcl)
           @ (op:op:'ADP', pr) ) )
-      @ abst( (_3059428, np),
+      @ abst( (_3417442, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (zijn:zijn:'PRON', n~>np)
                   @ (hand:hand:'NOUN', n) ) )
@@ -48167,7 +48167,7 @@ sid_tts(3698,
                     @ ( (naar:naar:'ADP', np~>pp)
                       @ ( (de:de:'DET', n~>np)
                         @ (lucht:lucht:'NOUN', n) ) ) )
-                  @ (_3059428, np) ) ) ) ) )
+                  @ (_3417442, np) ) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (autocoureur:autocoureur:'NOUN', n) ) )
   ]).
@@ -48177,7 +48177,7 @@ sid_tts(3699,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( (staat:staan:'VERB', pr~>np~>s:dcl)
           @ (op:op:'ADP', pr) ) )
-      @ abst( (_3065616, np),
+      @ abst( (_3423966, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (zijn:zijn:'PRON', n~>np)
                   @ (hand:hand:'NOUN', n) ) )
@@ -48185,7 +48185,7 @@ sid_tts(3699,
                   @ ( (naar:naar:'ADP', np~>pp)
                     @ ( (de:de:'DET', n~>np)
                       @ (hemel:hemel:'NOUN', n) ) ) )
-                @ (_3065616, np) ) ) ) )
+                @ (_3423966, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (autocoureur:autocoureur:'NOUN', n) ) )
   ]).
@@ -48367,13 +48367,13 @@ sid_tts(3712,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_3102952, np:pn),
+          @ abst( (_3463078, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (roze:roze:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (surfplank:surfplank:'NOUN', n) ) ) )
                   @ ( (surft:surfen:'VERB', np:pn~>s:sub)
-                    @ (_3102952, np:pn) ) ) ) )
+                    @ (_3463078, np:pn) ) ) ) )
         @ ( ( (in:in:'ADP', np~>np~>np)
             @ ( (geel:geel:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
@@ -49149,14 +49149,14 @@ sid_tts(3759,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (zijn:zijn:'PRON', n~>np)
               @ (achterpoten:achterpoot:'NOUN', n) ) ) ) )
-      @ abst( (_3319442, np),
+      @ abst( (_3687572, np),
               ( ( (om:om:'ADP', (np~>s:to)~>s:dcl~>s:dcl)
                 @ ( (te:te:'ADP', (np~>s:b)~>np~>s:to)
                   @ (springen:springen:'VERB', np~>s:b) ) )
               @ ( ( ( (bereidt:bereiden:'VERB', pr~>np:pn~>np~>s:dcl)
                     @ (voor:voor:'ADP', pr) )
                   @ (zich:zich:'PRON', np:pn) )
-                @ (_3319442, np) ) ) ) )
+                @ (_3687572, np) ) ) ) )
     @ ( ( (ondervoed:ondervoed:'NOUN', (np~>np)~>np~>np)
         @ (uitziende:uitzien:'VERB', np~>np) )
       @ ( ('De':de:'DET', n~>np)
@@ -49313,13 +49313,13 @@ sid_tts(3770,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( (zijn:zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_3362588, np:pn),
+          @ abst( (_3732578, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (het:het:'DET', n~>np)
                       @ (zandstrand:zandstrand:'NOUN', n) ) )
                   @ ( ( (dragen:dragen:'VERB', n~>np:pn~>s:sub)
                       @ ('bikini\'s':bikini:'NOUN', n) )
-                    @ (_3362588, np:pn) ) ) ) )
+                    @ (_3732578, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouwen:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -49802,7 +49802,7 @@ sid_tts(3801,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_3479492, np:pn),
+          @ abst( (_3854114, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (park:park:'NOUN', n) ) )
@@ -49811,7 +49811,7 @@ sid_tts(3801,
                         @ ( (jonge:jong:'ADJ', np~>np)
                           @ ( (twee:twee:'NUM', n~>np)
                             @ (jongens:jongen:'NOUN', n) ) ) ) )
-                    @ (_3479492, np:pn) ) ) ) )
+                    @ (_3854114, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -49965,13 +49965,13 @@ sid_tts(3813,
 sid_tts(3814,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_3536264, np),
+        @ abst( (_3913346, np),
                 ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (roze:roze:'ADJ', np~>np)
                     @ ( (een:een:'DET', n~>np)
                       @ (overhemd:overhemd:'VERB', n) ) ) )
                 @ ( (rent:rent:'NOUN', np~>s:dcl)
-                  @ (_3536264, np) ) ) ) )
+                  @ (_3913346, np) ) ) ) )
       @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
         @ ( (geen:geen:'DET', n~>np)
           @ (spijkerbroek:spijkerbroek:'NOUN', n) ) ) )
@@ -50086,7 +50086,7 @@ sid_tts(3820,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (geen:geen:'DET', n~>np)
             @ (rendieroren:rendieror:'NOUN', n) ) ) )
-      @ abst( (_3566888, np),
+      @ abst( (_3945302, np),
               ( (niet:niet:'ADV', s:dcl~>s:dcl)
               @ ( ( ((is):(is):'AUX', pp~>np~>s:dcl)
                   @ ( (in:in:'ADP', np~>pp)
@@ -50096,7 +50096,7 @@ sid_tts(3820,
                             @ (hond:hond:'NOUN', n) ) ) )
                       @ ( (de:de:'DET', n~>np)
                         @ (buurt:buurt:'NOUN', n) ) ) ) )
-                @ (_3566888, np) ) ) ) )
+                @ (_3945302, np) ) ) ) )
     @ ( (witte:wit:'ADJ', np~>np)
       @ ( ('De':de:'DET', n~>np)
         @ (hond:hond:'NOUN', n) ) ) )
@@ -50223,7 +50223,7 @@ sid_tts(3830,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_3603038, np:pn),
+          @ abst( (_3982976, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (crossmotor:crossmotor:'NOUN', n) ) )
@@ -50231,14 +50231,14 @@ sid_tts(3830,
                       @ ( (door:door:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (modder:modder:'NOUN', n) ) ) )
-                    @ (_3603038, np:pn) ) ) ) )
+                    @ (_3982976, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (jongen:jongen:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_3602338, np:pn),
+          @ abst( (_3982276, np:pn),
                   ( ( (door:door:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (modder:modder:'NOUN', n) ) )
@@ -50246,7 +50246,7 @@ sid_tts(3830,
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (crossmotor:crossmotor:'NOUN', n) ) ) )
-                    @ (_3602338, np:pn) ) ) ) )
+                    @ (_3982276, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (jongen:jongen:'NOUN', n) ) ) ) )
   ]).
@@ -50336,14 +50336,14 @@ sid_tts(3835,
 sid_tts(3836,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_3638038, np),
+        @ abst( (_4019692, np),
                 ( (niet:niet:'ADV', s:dcl~>s:dcl)
                 @ ( ( (leunt:leunen:'NOUN', pp~>np~>s:dcl)
                     @ ( (tegen:tegen:'ADP', np~>pp)
                       @ ( (stenen:steen:'NOUN', np~>np)
                         @ ( (een:een:'DET', n~>np)
                           @ (muur:muur:'NOUN', n) ) ) ) )
-                  @ (_3638038, np) ) ) ) )
+                  @ (_4019692, np) ) ) ) )
       @ ( (bespeelt:bespelen:'VERB', np~>np~>s:dcl)
         @ ( (geen:geen:'DET', n~>np)
           @ (instrument:instrument:'NOUN', n) ) ) )
@@ -50466,12 +50466,12 @@ sid_tts(3844,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (wetsuit:wetsuit:'NOUN', n) ) ) )
-      @ abst( (_3671574, np),
+      @ abst( (_4054644, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (surfplank:surfplank:'NOUN', n) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_3671574, np) ) ) ) )
+                @ (_4054644, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -50482,12 +50482,12 @@ sid_tts(3845,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (wetsuit:wetsuit:'NOUN', n) ) ) )
-      @ abst( (_3679182, np),
+      @ abst( (_4062756, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (surfplank:surfplank:'NOUN', n) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_3679182, np) ) ) ) )
+                @ (_4062756, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (persoon:persoon:'NOUN', n) ) )
   ]).
@@ -50528,12 +50528,12 @@ sid_tts(3849,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_3692130, np:pn),
+          @ abst( (_4076160, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (surfplank:surfplank:'NOUN', n) ) )
                   @ ( (leunt:leunen:'NOUN', np:pn~>s:sub)
-                    @ (_3692130, np:pn) ) ) ) )
+                    @ (_4076160, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (surfer:surfer:'NOUN', n) ) ) ) )
   ]).
@@ -50916,12 +50916,12 @@ sid_tts(3877,
             @ ( (paarse:paars:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (koffer:koffer:'NOUN', n) ) ) ) ) )
-      @ abst( (_3795860, np),
+      @ abst( (_4184174, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (speelt:spelen:'VERB', np~>s:dcl)
-                @ (_3795860, np) ) ) ) )
+                @ (_4184174, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (paars:paars:'ADJ', np~>np)
           @ ( (een:een:'DET', n~>np)
@@ -50938,12 +50938,12 @@ sid_tts(3878,
             @ ( (paarse:paars:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (koffer:koffer:'NOUN', n) ) ) ) ) )
-      @ abst( (_3800162, np),
+      @ abst( (_4188704, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (gitaar:gitaar:'NOUN', n) ) )
               @ ( (speelt:spelen:'VERB', np~>s:dcl)
-                @ (_3800162, np) ) ) ) )
+                @ (_4188704, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (gekleurd:kleuren:'VERB', np~>np)
           @ ( (paars:paars:'ADJ', np~>np)
@@ -50963,14 +50963,14 @@ sid_tts(3880,
     ( ( (wordt:worden:'AUX', (np~>s:pt)~>np~>s:dcl)
       @ ( ( (door:door:'ADP', np~>(np~>s:pt)~>np~>s:pt)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_3807148, np:pn),
+              @ abst( (_4195930, np:pn),
                       ( ( (voor:voor:'ADP', n~>s:sub~>s:sub)
                         @ (donaties:donatie:'NOUN', n) )
                       @ ( ( ( (heeft:hebben:'VERB', (np~>s:adj)~>np~>np:pn~>s:sub)
                             @ (open:open:'ADJ', np~>s:adj) )
                           @ ( (de:de:'DET', n~>np)
                             @ (gitaarkoffer:gitaarkoffer:'NOUN', n) ) )
-                        @ (_3807148, np:pn) ) ) ) )
+                        @ (_4195930, np:pn) ) ) ) )
             @ ( (de:de:'DET', n~>np)
               @ (man:man:'NOUN', n) ) ) )
         @ (bespeeld:bespelen:'VERB', np~>s:pt) ) )
@@ -51149,12 +51149,12 @@ sid_tts(3892,
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (in:in:'ADP', np~>np~>np)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_3872112, np:pn),
+              @ abst( (_4264146, np:pn),
                       ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                         @ ( (het:het:'DET', n~>np)
                           @ (strand:strand:'NOUN', n) ) )
                       @ ( (lacht:lachen:'VERB', np:pn~>s:sub)
-                        @ (_3872112, np:pn) ) ) ) )
+                        @ (_4264146, np:pn) ) ) ) )
             @ ( (geel:geel:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (shirt:shirt:'NOUN', n) ) ) ) )
@@ -51940,7 +51940,7 @@ sid_tts(3942,
           @ ( ( (en:en:'CCONJ', np~>np~>np)
               @ (konijnenoren:konijnenoor:'NOUN', np) )
             @ (racenummers:racenummer:'NOUN', np) ) ) )
-      @ abst( (_4122778, n),
+      @ abst( (_4524940, n),
               ( (nieuwsgierig:nieuwsgierig:'ADJ', s:dcl~>s:dcl)
               @ ( ( (wijzen:wijzen:'VERB', pp~>n~>s:dcl)
                   @ ( (naar:naar:'ADP', np~>pp)
@@ -51948,7 +51948,7 @@ sid_tts(3942,
                         @ ( (de:de:'DET', n~>np)
                           @ (verte:vert:'ADJ', n) ) )
                       @ (iets:iets:'PRON', np) ) ) )
-                @ (_4122778, n) ) ) ) )
+                @ (_4524940, n) ) ) ) )
     @ ('Vrouwen':vrouw:'NOUN', n) )
   ]).
 
@@ -52093,12 +52093,12 @@ sid_tts(3953,
           @ ( (gele:geel:'ADJ', np~>np)
             @ ( (geen:geen:'DET', n~>np)
               @ (trui:trui:'NOUN', n) ) ) ) )
-      @ abst( (_4165000, np),
+      @ abst( (_4569526, np),
               ( (niet:niet:'ADV', s:dcl~>s:dcl)
               @ ( ( (verdedigt:verdedigen:'VERB', np~>np~>s:dcl)
                   @ ( (het:het:'DET', n~>np)
                     @ (doel:doel:'NOUN', n) ) )
-                @ (_4165000, np) ) ) ) )
+                @ (_4569526, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (ijshockeykeeper:ijshockeykeeper:'NOUN', n) ) )
   ]).
@@ -52305,7 +52305,7 @@ sid_tts(3969,
           @ ( (blauwe:blauw:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (helm:helm:'NOUN', n) ) ) ) )
-      @ abst( (_4224034, np),
+      @ abst( (_4630744, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (fiets:fiets:'NOUN', n) ) )
@@ -52313,7 +52313,7 @@ sid_tts(3969,
                   @ ( (op:op:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (parkeerplaats:parkeerplaats:'NOUN', n) ) ) )
-                @ (_4224034, np) ) ) ) )
+                @ (_4630744, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -52325,7 +52325,7 @@ sid_tts(3970,
           @ ( (blauwe:blauw:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (helm:helm:'NOUN', n) ) ) ) )
-      @ abst( (_4227876, np),
+      @ abst( (_4634790, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (fiets:fiets:'NOUN', n) ) )
@@ -52333,7 +52333,7 @@ sid_tts(3970,
                   @ ( (op:op:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (parkeerplaats:parkeerplaats:'NOUN', n) ) ) )
-                @ (_4227876, np) ) ) ) )
+                @ (_4634790, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -52386,7 +52386,7 @@ sid_tts(3974,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (de:de:'DET', n~>np)
               @ (oever:oever:'NOUN', n) ) ) ) )
-      @ abst( (_4235002, np),
+      @ abst( (_4642300, np),
               ( ( (naar:naar:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (bruine:bruin:'ADJ', np~>np)
                   @ ( (andere:ander:'ADJ', np~>np)
@@ -52396,7 +52396,7 @@ sid_tts(3974,
                   @ ( (in:in:'ADP', np~>pp)
                     @ ( (de:de:'DET', n~>np)
                       @ (vijver:vijver:'NOUN', n) ) ) )
-                @ (_4235002, np) ) ) ) )
+                @ (_4642300, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (hond:hond:'NOUN', n) ) )
   ]).
@@ -52767,14 +52767,14 @@ sid_tts(4001,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( (zijn:zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_4358500, np:pn),
+          @ abst( (_4770334, np:pn),
                   ( ( (naast:naast:'ADP', np:pn~>s:sub~>s:sub)
                     @ (elkaar:elkaar:'PRON', np:pn) )
                   @ ( ( (knielen:knielen:'VERB', pp~>np:pn~>s:sub)
                       @ ( (voor:voor:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (bal:bal:'NOUN', n) ) ) )
-                    @ (_4358500, np:pn) ) ) ) )
+                    @ (_4770334, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (jongens:jongen:'NOUN', n) ) ) ) )
   ]).
@@ -52951,12 +52951,12 @@ sid_tts(4012,
 sid_tts(4013,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_4404628, np),
+        @ abst( (_4818070, np),
                 ( ( (over:over:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (hindernis:hindernis:'NOUN', n) ) )
                 @ ( (springt:springen:'VERB', np~>s:dcl)
-                  @ (_4404628, np) ) ) ) )
+                  @ (_4818070, np) ) ) ) )
       @ ( (heeft:hebben:'VERB', np~>np~>s:dcl)
         @ ( ( (op:op:'ADP', np~>np~>np)
             @ ( (zijn:zijn:'PRON', n~>np)
@@ -52967,20 +52967,20 @@ sid_tts(4013,
       @ (paard:paard:'NOUN', n) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_4403782, np),
+        @ abst( (_4817224, np),
                 ( ( (over:over:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (hindernis:hindernis:'NOUN', n) ) )
                 @ ( (springt:springen:'VERB', np~>s:dcl)
-                  @ (_4403782, np) ) ) ) )
-      @ abst( (_4404000, np),
+                  @ (_4817224, np) ) ) ) )
+      @ abst( (_4817442, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (zijn:zijn:'PRON', n~>np)
                   @ (rug:rug:'NOUN', n) ) )
               @ ( ( (heeft:hebben:'VERB', np~>np~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (ruiter:ruiter:'NOUN', n) ) )
-                @ (_4404000, np) ) ) ) )
+                @ (_4817442, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (paard:paard:'NOUN', n) ) )
   ]).
@@ -53437,7 +53437,7 @@ sid_tts(4039,
         @ ( (vol:vol:'ADJ', pp~>np~>s:adj)
           @ ( (met:met:'ADP', np~>pp)
             @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-                @ abst( (_4513178, np:pn),
+                @ abst( (_4931264, np:pn),
                         ( ( (binnenin:binnenin:'VERB', np~>s:sub~>s:sub)
                           @ ( (een:een:'DET', n~>np)
                             @ (bamboestructuur:bamboestructuur:'NOUN', n) ) )
@@ -53445,7 +53445,7 @@ sid_tts(4039,
                             @ ( (dezelfde:dezelfde:'DET', n~>np)
                               @ (richting:richting:'NOUN', n) ) )
                           @ ( (kijken:kijken:'VERB', np:pn~>s:sub)
-                            @ (_4513178, np:pn) ) ) ) ) )
+                            @ (_4931264, np:pn) ) ) ) ) )
               @ (leerlingen:leerling:'NOUN', np) ) ) ) )
       @ ( (geen:geen:'DET', n~>np)
         @ (klaslokaal:klaslokaal:'NOUN', n) ) ) )
@@ -53590,7 +53590,7 @@ sid_tts(4051,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_4548412, np:pn),
+          @ abst( (_4967686, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (roze:roze:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
@@ -53599,7 +53599,7 @@ sid_tts(4051,
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (grot:grot:'VERB', n) ) ) )
-                    @ (_4548412, np:pn) ) ) ) )
+                    @ (_4967686, np:pn) ) ) ) )
         @ (niemand:niemand:'PRON', np) ) ) )
   ]).
 
@@ -54262,23 +54262,23 @@ sid_tts(4094,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_4726456, np:pn),
+          @ abst( (_5152522, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (rotsachtige:rotsachtig:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (ondergrond:ondergrond:'NOUN', n) ) ) )
                   @ ( (staat:staan:'VERB', np:pn~>s:sub)
-                    @ (_4726456, np:pn) ) ) ) )
+                    @ (_5152522, np:pn) ) ) ) )
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_4726844, n~>np),
+              @ abst( (_5152910, n~>np),
                       ( (bruine:bruin:'ADJ', np~>np)
                       @ ( (grote:groot:'ADJ', np~>np)
-                        @ ( (_4726844, n~>np)
+                        @ ( (_5152910, n~>np)
                           @ (hond:hond:'NOUN', n) ) ) ) ) )
-            @ abst( (_4727016, n~>np),
+            @ abst( (_5153082, n~>np),
                     ( (grijze:grijs:'ADJ', np~>np)
                     @ ( (kleine:klein:'ADJ', np~>np)
-                      @ ( (_4727016, n~>np)
+                      @ ( (_5153082, n~>np)
                         @ (hond:hond:'NOUN', n) ) ) ) ) )
           @ (geen:geen:'DET', n~>np) ) ) ) )
     ,
@@ -54291,15 +54291,15 @@ sid_tts(4094,
                 @ ( (een:een:'DET', n~>np)
                   @ (ondergrond:ondergrond:'NOUN', n) ) ) ) ) )
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_4725676, n~>np),
+              @ abst( (_5151742, n~>np),
                       ( (bruine:bruin:'ADJ', np~>np)
                       @ ( (grote:groot:'ADJ', np~>np)
-                        @ ( (_4725676, n~>np)
+                        @ ( (_5151742, n~>np)
                           @ (hond:hond:'NOUN', n) ) ) ) ) )
-            @ abst( (_4725848, n~>np),
+            @ abst( (_5151914, n~>np),
                     ( (grijze:grijs:'ADJ', np~>np)
                     @ ( (kleine:klein:'ADJ', np~>np)
-                      @ ( (_4725848, n~>np)
+                      @ ( (_5151914, n~>np)
                         @ (hond:hond:'NOUN', n) ) ) ) ) )
           @ (geen:geen:'DET', n~>np) ) ) ) )
   ]).
@@ -54532,7 +54532,7 @@ sid_tts(4104,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_4784058, np:pn),
+          @ abst( (_5212800, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (sneeuw:sneeuw:'NOUN', n) ) )
@@ -54540,7 +54540,7 @@ sid_tts(4104,
                       @ ( (naar:naar:'ADP', np~>pp)
                         @ ( (een:een:'DET', n~>np)
                           @ (frisbee:frisbee:'NOUN', n) ) ) )
-                    @ (_4784058, np:pn) ) ) ) )
+                    @ (_5212800, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (honden:hond:'NOUN', n) ) ) ) )
   ]).
@@ -55742,7 +55742,7 @@ sid_tts(4183,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (zonnebril:zonnebril:'NOUN', n) ) ) )
-      @ abst( (_5106904, np),
+      @ abst( (_5547874, np),
               ( (lusteloos:lusteloos:'ADJ', s:dcl~>s:dcl)
               @ ( ( (zit:zitten:'VERB', pp~>np~>s:dcl)
                   @ ( (aan:aan:'ADP', np~>pp)
@@ -55754,7 +55754,7 @@ sid_tts(4183,
                             @ (dranken:drank:'NOUN', np) ) ) )
                       @ ( (een:een:'DET', n~>np)
                         @ (tafel:tafel:'NOUN', n) ) ) ) )
-                @ (_5106904, np) ) ) ) )
+                @ (_5547874, np) ) ) ) )
     @ ( ( (met:met:'ADP', np~>np~>np)
         @ ( (bruin:bruin:'ADJ', np~>np)
           @ (haar:haar:'NOUN', np) ) )
@@ -55811,7 +55811,7 @@ sid_tts(4185,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (geen:geen:'DET', n~>np)
             @ (zonnebril:zonnebril:'NOUN', n) ) ) )
-      @ abst( (_5143620, np),
+      @ abst( (_5586546, np),
               ( (niet:niet:'ADV', s:dcl~>s:dcl)
               @ ( ( (zit:zitten:'VERB', pp~>np~>s:dcl)
                   @ ( (aan:aan:'ADP', np~>pp)
@@ -55823,7 +55823,7 @@ sid_tts(4185,
                             @ (dranken:drank:'NOUN', np) ) ) )
                       @ ( (een:een:'DET', n~>np)
                         @ (tafel:tafel:'NOUN', n) ) ) ) )
-                @ (_5143620, np) ) ) ) )
+                @ (_5586546, np) ) ) ) )
     @ ( ( (met:met:'ADP', np~>np~>np)
         @ ( (bruin:bruin:'ADJ', np~>np)
           @ (haar:haar:'PRON', np) ) )
@@ -55952,13 +55952,13 @@ sid_tts(4194,
 sid_tts(4195,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_5181570, np),
+        @ abst( (_5626536, np),
                 ( (ongeïnteresseerd:ongeïnteresseerd:'VERB', s:dcl~>s:dcl)
                 @ ( ( ( (houdt:houden:'VERB', (np~>s:adj)~>np~>np~>s:dcl)
                       @ (vast:vast:'ADJ', np~>s:adj) )
                     @ ( (een:een:'DET', n~>np)
                       @ (bord:bord:'NOUN', n) ) )
-                  @ (_5181570, np) ) ) ) )
+                  @ (_5626536, np) ) ) ) )
       @ ( ((is):(is):'AUX', (np~>s:adj)~>np~>s:dcl)
         @ ( (op_zoek:op_zoek:'ADP_NOUN', pp~>np~>s:adj)
           @ ( (naar:naar:'ADP', n~>pp)
@@ -56006,12 +56006,12 @@ sid_tts(4198,
 sid_tts(4199,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_5206630, np),
+        @ abst( (_5652700, np),
                 ( ( (bij:bij:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (winkelwagentje:winkelwagen:'NOUN', n) ) )
                 @ ( (staat:staan:'VERB', np~>s:dcl)
-                  @ (_5206630, np) ) ) ) )
+                  @ (_5652700, np) ) ) ) )
       @ ( ( (houdt:houden:'VERB', (np~>s:adj)~>np~>np~>s:dcl)
           @ (vast:vast:'ADJ', np~>s:adj) )
         @ ( (kartonnen:kartonnen:'ADJ', np~>np)
@@ -56025,12 +56025,12 @@ sid_tts(4199,
 sid_tts(4200,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_5217120, np),
+        @ abst( (_5663802, np),
                 ( ( (bij:bij:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (winkelwagentje:winkelwagen:'NOUN', n) ) )
                 @ ( (staat:staan:'VERB', np~>s:dcl)
-                  @ (_5217120, np) ) ) ) )
+                  @ (_5663802, np) ) ) ) )
       @ ( ( (houdt:houden:'VERB', (np~>s:adj)~>np~>np~>s:dcl)
           @ (vast:vast:'ADJ', np~>s:adj) )
         @ ( (kartonnen:kartonnen:'ADJ', np~>np)
@@ -56150,7 +56150,7 @@ sid_tts(4207,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_5253688, np:pn),
+          @ abst( (_5702050, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (bord:bord:'NOUN', n) ) )
@@ -56158,7 +56158,7 @@ sid_tts(4207,
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (lucht:lucht:'NOUN', n) ) ) )
-                    @ (_5253688, np:pn) ) ) ) )
+                    @ (_5702050, np:pn) ) ) ) )
         @ (niemand:niemand:'PRON', np) ) ) )
   ]).
 
@@ -56531,14 +56531,14 @@ sid_tts(4234,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_5334652, np:pn),
+          @ abst( (_5786146, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (crossmotorwedstrijd:crossmotorwedstrijd:'NOUN', n) ) )
                   @ ( ( (maakt:maken:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (sprong:sprong:'NOUN', n) ) )
-                    @ (_5334652, np:pn) ) ) ) )
+                    @ (_5786146, np:pn) ) ) ) )
         @ ( ( (in:in:'ADP', np~>np~>np)
             @ ( (rood:rood:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
@@ -56630,7 +56630,7 @@ sid_tts(4241,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_5356796, np:pn),
+          @ abst( (_5809214, np:pn),
                   ( ( (bij:bij:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (en:en:'CCONJ', np~>np~>np)
                         @ ( (de:de:'DET', n~>np)
@@ -56638,7 +56638,7 @@ sid_tts(4241,
                       @ ( (de:de:'DET', n~>np)
                         @ (kerstboom:kerstboom:'NOUN', n) ) ) )
                   @ ( (poseert:poseren:'VERB', np:pn~>s:sub)
-                    @ (_5356796, np:pn) ) ) ) )
+                    @ (_5809214, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (familie:familie:'NOUN', n) ) ) ) )
   ]).
@@ -56681,7 +56681,7 @@ sid_tts(4245,
         @ ( (dragen:dragen:'VERB', np~>np~>s:dcl)
           @ ( (bruine:bruin:'ADJ', np~>np)
             @ (shirts:shirt:'NOUN', np) ) ) )
-      @ abst( (_5367634, np),
+      @ abst( (_5820328, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (houten:houten:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
@@ -56691,7 +56691,7 @@ sid_tts(4245,
                     @ ( (aan:aan:'ADP', np~>pp)
                       @ ( (een:een:'DET', n~>np)
                         @ (touw:touw:'NOUN', n) ) ) )
-                  @ (_5367634, np) ) ) ) ) )
+                  @ (_5820328, np) ) ) ) ) )
     @ ( ('Twee':twee:'NUM', n~>np)
       @ (jongens:jongen:'NOUN', n) ) )
     ,
@@ -56699,7 +56699,7 @@ sid_tts(4245,
         @ ( (dragen:dragen:'VERB', np~>np~>s:dcl)
           @ ( (bruine:bruin:'ADJ', np~>np)
             @ (shirts:shirt:'NOUN', np) ) ) )
-      @ abst( (_5366684, np),
+      @ abst( (_5819378, np),
               ( (enthousiast:enthousiast:'ADJ', s:dcl~>s:dcl)
               @ ( ( (trekken:trekken:'VERB', pp~>np~>s:dcl)
                   @ ( (aan:aan:'ADP', np~>pp)
@@ -56709,7 +56709,7 @@ sid_tts(4245,
                             @ (platform:platform:'NOUN', n) ) ) )
                       @ ( (een:een:'DET', n~>np)
                         @ (touw:touw:'NOUN', n) ) ) ) )
-                @ (_5366684, np) ) ) ) )
+                @ (_5819378, np) ) ) ) )
     @ ( ('Twee':twee:'NUM', n~>np)
       @ (jongens:jongen:'NOUN', n) ) )
   ]).
@@ -56735,7 +56735,7 @@ sid_tts(4246,
         @ ( (dragen:dragen:'VERB', np~>np~>s:dcl)
           @ ( (bruine:bruin:'ADJ', np~>np)
             @ (shirts:shirt:'NOUN', np) ) ) )
-      @ abst( (_5381380, np),
+      @ abst( (_5834914, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (houten:houten:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
@@ -56744,7 +56744,7 @@ sid_tts(4246,
                   @ ( (aan:aan:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (touw:touw:'NOUN', n) ) ) )
-                @ (_5381380, np) ) ) ) )
+                @ (_5834914, np) ) ) ) )
     @ ( ('Twee':twee:'NUM', n~>np)
       @ (jongens:jongen:'NOUN', n) ) )
   ]).
@@ -56770,7 +56770,7 @@ sid_tts(4247,
         @ ( (dragen:dragen:'VERB', np~>np~>s:dcl)
           @ ( (bruine:bruin:'ADJ', np~>np)
             @ (shirts:shirt:'NOUN', np) ) ) )
-      @ abst( (_5392416, np),
+      @ abst( (_5846586, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (houten:houten:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
@@ -56779,7 +56779,7 @@ sid_tts(4247,
                   @ ( (aan:aan:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (touw:touw:'NOUN', n) ) ) )
-                @ (_5392416, np) ) ) ) )
+                @ (_5846586, np) ) ) ) )
     @ ( ('Twee':twee:'NUM', n~>np)
       @ (meisjes:meisje:'NOUN', n) ) )
   ]).
@@ -57314,13 +57314,13 @@ sid_tts(4289,
     ( ( (wordt:worden:'AUX', (np~>s:pt)~>n~>s:dcl)
       @ ( ( (door:door:'ADP', np~>(np~>s:pt)~>np~>s:pt)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_5544656, np:pn),
+              @ abst( (_6005450, np:pn),
                       ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                         @ ( (zonnige:zonnig:'ADJ', np~>np)
                           @ ( (een:een:'DET', n~>np)
                             @ (dag:dag:'NOUN', n) ) ) )
                       @ ( (loopt:lopen:'VERB', np:pn~>s:sub)
-                        @ (_5544656, np:pn) ) ) ) )
+                        @ (_6005450, np:pn) ) ) ) )
             @ ( (een:een:'DET', n~>np)
               @ (man:man:'NOUN', n) ) ) )
         @ (gedronken:drinken:'VERB', np~>s:pt) ) )
@@ -57332,13 +57332,13 @@ sid_tts(4290,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( (drinkt:drinken:'VERB', n~>np~>s:dcl)
           @ (sinaasappelsap:sinaasappelsap:'NOUN', n) ) )
-      @ abst( (_5548614, np),
+      @ abst( (_6009540, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (zonnige:zonnig:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (dag:dag:'NOUN', n) ) ) )
               @ ( (loopt:lopen:'VERB', np~>s:dcl)
-                @ (_5548614, np) ) ) ) )
+                @ (_6009540, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -57351,13 +57351,13 @@ sid_tts(4291,
           @ ( ( (en:en:'CCONJ', (np:pn~>s:sub)~>(np:pn~>s:sub)~>np:pn~>s:sub)
               @ ( (drinkt:drinken:'VERB', n~>np:pn~>s:sub)
                 @ (sinaasappelsap:sinaasappelsap:'NOUN', n) ) )
-            @ abst( (_5553760, np:pn),
+            @ abst( (_6015022, np:pn),
                     ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                       @ ( (zonnige:zonnig:'ADJ', np~>np)
                         @ ( (een:een:'DET', n~>np)
                           @ (dag:dag:'NOUN', n) ) ) )
                     @ ( (loopt:lopen:'VERB', np:pn~>s:sub)
-                      @ (_5553760, np:pn) ) ) ) ) )
+                      @ (_6015022, np:pn) ) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -57984,20 +57984,20 @@ sid_tts(4335,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( (zijn:zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_5719386, np:pn),
+          @ abst( (_6187404, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (het:het:'DET', n~>np)
                       @ (zand:zand:'NOUN', n) ) )
                   @ ( (spelen:spelen:'VERB', np:pn~>s:sub)
-                    @ (_5719386, np:pn) ) ) ) )
+                    @ (_6187404, np:pn) ) ) ) )
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_5719732, n~>np),
+              @ abst( (_6187750, n~>np),
                       ( (bruine:bruin:'ADJ', np~>np)
-                      @ ( (_5719732, n~>np)
+                      @ ( (_6187750, n~>np)
                         @ (hond:hond:'NOUN', n) ) ) ) )
-            @ abst( (_5719862, n~>np),
+            @ abst( (_6187880, n~>np),
                     ( (zwarte:zwart:'ADJ', np~>np)
-                    @ ( (_5719862, n~>np)
+                    @ ( (_6187880, n~>np)
                       @ (hond:hond:'NOUN', n) ) ) ) )
           @ (geen:geen:'DET', n~>np) ) ) ) )
   ]).
@@ -58189,7 +58189,7 @@ sid_tts(4346,
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ (springt:springen:'VERB', np~>s:dcl) )
-      @ abst( (_5767956, np),
+      @ abst( (_6237978, np),
               ( ( (met:met:'ADP', n~>s:dcl~>s:dcl)
                 @ (gras:gras:'NOUN', n) )
               @ ( ( (bedekt:bedekken:'VERB', np~>np~>s:dcl)
@@ -58197,7 +58197,7 @@ sid_tts(4346,
                     @ ( (nabijgelegen:nabijgelegen:'ADJ', np~>np)
                       @ ( (het:het:'DET', n~>np)
                         @ (hek:hek:'NOUN', n) ) ) ) )
-                @ (_5767956, np) ) ) ) )
+                @ (_6237978, np) ) ) ) )
     @ ( (jonge:jong:'ADJ', np~>np)
       @ ( ('Een':een:'DET', n~>np)
         @ (jongen:jongen:'NOUN', n) ) ) )
@@ -58549,7 +58549,7 @@ sid_tts(4372,
           @ ( (rode:rood:'ADJ', n~>np)
             @ (vloer:vloer:'NOUN', n) ) ) ) )
     @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-        @ abst( (_5862402, np:pn),
+        @ abst( (_6336456, np:pn),
                 ( ( (gekleed:kleden:'VERB', (np~>s:pt)~>s:sub~>s:sub)
                   @ ( (in:in:'ADP', pp~>np~>s:pt)
                     @ ( (smokings:smoking:'ADJ', n~>pp)
@@ -58557,7 +58557,7 @@ sid_tts(4372,
                 @ ( ( ( (uitzien:uitzi:'NOUN', np:pn~>(np~>s:adj)~>np:pn~>s:sub)
                       @ (er:er:'ADV', np:pn) )
                     @ (klein:klein:'ADJ', np~>s:adj) )
-                  @ (_5862402, np:pn) ) ) ) )
+                  @ (_6336456, np:pn) ) ) ) )
       @ ( ('Twee':twee:'NUM', n~>np)
         @ (jongens:jongen:'NOUN', n) ) ) )
   ]).
@@ -58878,7 +58878,7 @@ sid_tts(4391,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_5950710, np:pn),
+          @ abst( (_6427992, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (in:in:'ADP', np~>np~>np)
                         @ ( (zijn:zijn:'PRON', n~>np)
@@ -58890,7 +58890,7 @@ sid_tts(4391,
                       @ ( (door:door:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (tuin:tuin:'NOUN', n) ) ) )
-                    @ (_5950710, np:pn) ) ) ) )
+                    @ (_6427992, np:pn) ) ) ) )
         @ ( (bruine:bruin:'ADJ', np~>np)
           @ ( (geen:geen:'DET', n~>np)
             @ (hond:hond:'NOUN', n) ) ) ) ) )
@@ -58898,7 +58898,7 @@ sid_tts(4391,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_5949744, np:pn),
+          @ abst( (_6427026, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (zijn:zijn:'PRON', n~>np)
                       @ (mond:mond:'NOUN', n) ) )
@@ -58910,7 +58910,7 @@ sid_tts(4391,
                         @ ( (door:door:'ADP', np~>pp)
                           @ ( (de:de:'DET', n~>np)
                             @ (tuin:tuin:'NOUN', n) ) ) )
-                      @ (_5949744, np:pn) ) ) ) ) )
+                      @ (_6427026, np:pn) ) ) ) ) )
         @ ( (bruine:bruin:'ADJ', np~>np)
           @ ( (geen:geen:'DET', n~>np)
             @ (hond:hond:'NOUN', n) ) ) ) ) )
@@ -59045,7 +59045,7 @@ sid_tts(4401,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_5993958, np:pn),
+          @ abst( (_6472980, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (en:en:'CCONJ', np~>np~>np)
                         @ ( (gebogen:buigen:'VERB', np~>np)
@@ -59056,14 +59056,14 @@ sid_tts(4401,
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (lucht:lucht:'NOUN', n) ) ) )
-                    @ (_5993958, np:pn) ) ) ) )
+                    @ (_6472980, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (jongen:jongen:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_5993104, np:pn),
+          @ abst( (_6472126, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ (knieën:knie:'NOUN', np) )
                   @ ( ( (springt:springen:'VERB', pp~>np:pn~>s:sub)
@@ -59071,7 +59071,7 @@ sid_tts(4401,
                         @ ( (gespreide:spreiden:'VERB', np~>np)
                           @ ( (gebogen:buigen:'VERB', np~>np)
                             @ (armen:arm:'NOUN', np) ) ) ) )
-                    @ (_5993104, np:pn) ) ) ) )
+                    @ (_6472126, np:pn) ) ) ) )
         @ ( ( (en:en:'CCONJ', np~>np~>np)
             @ ( (geen:geen:'DET', n~>np)
               @ (jongen:jongen:'NOUN', n) ) )
@@ -59242,14 +59242,14 @@ sid_tts(4411,
 sid_tts(4412,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6065594, np),
+        @ abst( (_6548096, np),
                 ( (luid:luid:'ADJ', s:dcl~>s:dcl)
                 @ ( ( (spreekt:spreken:'VERB', pp~>np~>s:dcl)
                     @ ( (aan:aan:'ADP', np~>pp)
                       @ ( (mobiele:mobiel:'ADJ', np~>np)
                         @ ( (haar:haar:'PRON', n~>np)
                           @ (telefoon:telefoon:'NOUN', n) ) ) ) )
-                  @ (_6065594, np) ) ) ) )
+                  @ (_6548096, np) ) ) ) )
       @ ( ( (houdt:houden:'VERB', pp~>np~>np~>s:dcl)
           @ ( (op:op:'ADP', np~>pp)
             @ ( (nabije:nabij:'ADJ', np~>np)
@@ -59265,14 +59265,14 @@ sid_tts(4412,
       @ (vrouw:vrouw:'NOUN', n) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6064382, np),
+        @ abst( (_6546884, np),
                 ( (luid:luid:'ADJ', s:dcl~>s:dcl)
                 @ ( ( (spreekt:spreken:'VERB', pp~>np~>s:dcl)
                     @ ( (aan:aan:'ADP', np~>pp)
                       @ ( (mobiele:mobiel:'ADJ', np~>np)
                         @ ( (haar:haar:'PRON', n~>np)
                           @ (telefoon:telefoon:'NOUN', n) ) ) ) )
-                  @ (_6064382, np) ) ) ) )
+                  @ (_6546884, np) ) ) ) )
       @ ( (houdt:houden:'VERB', np~>np~>s:dcl)
         @ ( ( (op:op:'ADP', np~>np~>np)
             @ ( (nabije:nabij:'ADJ', np~>np)
@@ -59336,7 +59336,7 @@ sid_tts(4414,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( ((is):(is):'AUX', (np~>s:adj)~>np~>s:dcl)
           @ (stil:stil:'ADJ', np~>s:adj) ) )
-      @ abst( (_6085486, np),
+      @ abst( (_6569068, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (nabije:nabij:'ADJ', np~>np)
                   @ ( (de:de:'DET', n~>np)
@@ -59349,7 +59349,7 @@ sid_tts(4414,
                     @ ( (gele:geel:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (tas:tas:'NOUN', n) ) ) ) )
-                @ (_6085486, np) ) ) ) )
+                @ (_6569068, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -59357,12 +59357,12 @@ sid_tts(4414,
 sid_tts(4415,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6094484, np),
+        @ abst( (_6578546, np),
                 ( ( (vanaf:vanaf:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (richel:richel:'NOUN', n) ) )
                 @ ( (spreekt:spreken:'VERB', np~>s:dcl)
-                  @ (_6094484, np) ) ) ) )
+                  @ (_6578546, np) ) ) ) )
       @ ( ( (houdt:houden:'VERB', pp~>np~>np~>s:dcl)
           @ ( (in:in:'ADP', np~>pp)
             @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
@@ -59477,13 +59477,13 @@ sid_tts(4421,
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (op:op:'ADP', np~>np~>np)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_6120878, np:pn),
+              @ abst( (_6606176, np:pn),
                       ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                         @ ( (één:één:'NUM', n~>np)
                           @ (wiel:wiel:'NOUN', n) ) )
                       @ ( (maar:maar:'ADV', s:sub~>s:sub)
                         @ ( (rijdt:rijden:'VERB', np:pn~>s:sub)
-                          @ (_6120878, np:pn) ) ) ) ) )
+                          @ (_6606176, np:pn) ) ) ) ) )
             @ ( (een:een:'DET', n~>np)
               @ (fiets:fiets:'NOUN', n) ) ) )
         @ ( (geen:geen:'DET', n~>np)
@@ -59546,7 +59546,7 @@ sid_tts(4425,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6139034, np:pn),
+          @ abst( (_6624992, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (zijn:zijn:'PRON', n~>np)
                       @ (vleugels:vleugel:'NOUN', n) ) )
@@ -59554,7 +59554,7 @@ sid_tts(4425,
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (het:het:'DET', n~>np)
                           @ (water:water:'NOUN', n) ) ) )
-                    @ (_6139034, np:pn) ) ) ) )
+                    @ (_6624992, np:pn) ) ) ) )
         @ ( ( (met:met:'ADP', np~>np~>np)
             @ ( (groene:groen:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
@@ -59687,11 +59687,11 @@ sid_tts(4436,
           @ (gebouw:gebouw:'NOUN', n) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_6176916, n~>np),
-                      ( (_6176916, n~>np)
+              @ abst( (_6664206, n~>np),
+                      ( (_6664206, n~>np)
                       @ (bontmuts:bontmuts:'NOUN', n) ) ) )
-            @ abst( (_6177004, n~>np),
-                    ( (_6177004, n~>np)
+            @ abst( (_6664294, n~>np),
+                    ( (_6664294, n~>np)
                     @ (bontjas:bontjas:'NOUN', n) ) ) )
           @ (een:een:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -59703,8 +59703,8 @@ sid_tts(4436,
           @ (gebouw:gebouw:'NOUN', n) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>n~>(n~>np)~>np)
-              @ abst( (_6176190, n~>np),
-                      ( (_6176190, n~>np)
+              @ abst( (_6663480, n~>np),
+                      ( (_6663480, n~>np)
                       @ (bontmuts:bontmuts:'NOUN', n) ) ) )
             @ (bontjas:bontjas:'NOUN', n) )
           @ (een:een:'DET', n~>np) ) )
@@ -59720,11 +59720,11 @@ sid_tts(4437,
           @ (gebouw:gebouw:'NOUN', n) ) ) )
     @ ( ( (met:met:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_6183196, n~>np),
-                      ( (_6183196, n~>np)
+              @ abst( (_6670924, n~>np),
+                      ( (_6670924, n~>np)
                       @ (bontmuts:bontmuts:'NOUN', n) ) ) )
-            @ abst( (_6183284, n~>np),
-                    ( (_6183284, n~>np)
+            @ abst( (_6671012, n~>np),
+                    ( (_6671012, n~>np)
                     @ (bontjas:bontjas:'NOUN', n) ) ) )
           @ (een:een:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -59736,8 +59736,8 @@ sid_tts(4437,
           @ (gebouw:gebouw:'NOUN', n) ) ) )
     @ ( ( (met:met:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>n~>(n~>np)~>np)
-              @ abst( (_6182470, n~>np),
-                      ( (_6182470, n~>np)
+              @ abst( (_6670198, n~>np),
+                      ( (_6670198, n~>np)
                       @ (bontmuts:bontmuts:'NOUN', n) ) ) )
             @ (bontjas:bontjas:'NOUN', n) )
           @ (een:een:'DET', n~>np) ) )
@@ -59875,14 +59875,14 @@ sid_tts(4447,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6222238, np:pn),
+          @ abst( (_6711592, np:pn),
                   ( (buiten:buiten:'ADP', s:sub~>s:sub)
                   @ ( ( (rent:rent:'NOUN', pp~>np:pn~>s:sub)
                       @ ( (over:over:'ADP', np~>pp)
                         @ ( (gevallen:geval:'NOUN', np~>np)
                           @ ( (de:de:'DET', n~>np)
                             @ (bladeren:blader:'ADJ', n) ) ) ) )
-                    @ (_6222238, np:pn) ) ) ) )
+                    @ (_6711592, np:pn) ) ) ) )
         @ ( (jong:jong:'ADJ', np~>np)
           @ ( (geen:geen:'DET', n~>np)
             @ (kind:kind:'NOUN', n) ) ) ) ) )
@@ -59989,7 +59989,7 @@ sid_tts(4455,
             @ ( (blauw:blauw:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (hemd:hemd:'VERB', n) ) ) ) ) )
-      @ abst( (_6249926, np),
+      @ abst( (_6740456, np),
               ( (vrolijk:vrolijk:'ADJ', s:dcl~>s:dcl)
               @ ( ( (rijdt:rijden:'VERB', pp~>np~>s:dcl)
                   @ ( (op:op:'ADP', np~>pp)
@@ -59998,7 +59998,7 @@ sid_tts(4455,
                           @ (straat:straat:'NOUN', n) ) )
                       @ ( (een:een:'DET', n~>np)
                         @ (eenwieler:eenwieler:'NOUN', n) ) ) ) )
-                @ (_6249926, np) ) ) ) )
+                @ (_6740456, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -60027,7 +60027,7 @@ sid_tts(4456,
             @ ( (blauw:blauw:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (hemd:hemd:'VERB', n) ) ) ) ) )
-      @ abst( (_6260394, np),
+      @ abst( (_6751608, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (de:de:'DET', n~>np)
                   @ (straat:straat:'NOUN', n) ) )
@@ -60035,7 +60035,7 @@ sid_tts(4456,
                   @ ( (op:op:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (eenwieler:eenwieler:'NOUN', n) ) ) )
-                @ (_6260394, np) ) ) ) )
+                @ (_6751608, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -60064,7 +60064,7 @@ sid_tts(4458,
             @ ( (blauw:blauw:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (shirt:shirt:'ADJ', n) ) ) ) ) )
-      @ abst( (_6273416, np),
+      @ abst( (_6765218, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (eenwieler:eenwieler:'NOUN', n) ) )
@@ -60072,7 +60072,7 @@ sid_tts(4458,
                   @ ( (door:door:'ADP', np~>pp)
                     @ ( (de:de:'DET', n~>np)
                       @ (straat:straat:'NOUN', n) ) ) )
-                @ (_6273416, np) ) ) ) )
+                @ (_6765218, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -60091,7 +60091,7 @@ sid_tts(4459,
             @ ( (blauw:blauw:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (shirt:shirt:'ADJ', n) ) ) ) ) )
-      @ abst( (_6281472, np),
+      @ abst( (_6773550, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (eenwieler:eenwieler:'NOUN', n) ) )
@@ -60099,7 +60099,7 @@ sid_tts(4459,
                   @ ( (door:door:'ADP', np~>pp)
                     @ ( (de:de:'DET', n~>np)
                       @ (straat:straat:'NOUN', n) ) ) )
-                @ (_6281472, np) ) ) ) )
+                @ (_6773550, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
     ,
@@ -60115,7 +60115,7 @@ sid_tts(4459,
             @ ( (blauw:blauw:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (shirt:shirt:'ADJ', n) ) ) ) ) )
-      @ abst( (_6280114, np),
+      @ abst( (_6772192, np),
               ( ( (door:door:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (de:de:'DET', n~>np)
                   @ (straat:straat:'NOUN', n) ) )
@@ -60123,7 +60123,7 @@ sid_tts(4459,
                   @ ( (een:een:'DET', n~>np)
                     @ (eenwieler:eenwieler:'NOUN', n) ) )
                 @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                  @ (_6280114, np) ) ) ) ) )
+                  @ (_6772192, np) ) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -60144,7 +60144,7 @@ sid_tts(4460,
                           @ (shirt:shirt:'ADJ', n) ) ) ) )
                   @ ( (een:een:'DET', n~>np)
                     @ (spijkerbroek:spijkerbroek:'NOUN', n) ) ) ) )
-            @ abst( (_6295456, np:pn),
+            @ abst( (_6788434, np:pn),
                     ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (eenwieler:eenwieler:'NOUN', n) ) )
@@ -60152,7 +60152,7 @@ sid_tts(4460,
                         @ ( (door:door:'ADP', np~>pp)
                           @ ( (de:de:'DET', n~>np)
                             @ (straat:straat:'NOUN', n) ) ) )
-                      @ (_6295456, np:pn) ) ) ) ) )
+                      @ (_6788434, np:pn) ) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -60398,12 +60398,12 @@ sid_tts(4477,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( (zijn:zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6375006, np:pn),
+          @ abst( (_6871080, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (standbeeld:standbeeld:'NOUN', n) ) )
                   @ ( (spelen:spelen:'VERB', np:pn~>s:sub)
-                    @ (_6375006, np:pn) ) ) ) )
+                    @ (_6871080, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (kinderen:kind:'NOUN', n) ) ) ) )
   ]).
@@ -60786,13 +60786,13 @@ sid_tts(4502,
 sid_tts(4503,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6478872, np),
+        @ abst( (_6978918, np),
                 ( (serieus:serieus:'ADJ', s:dcl~>s:dcl)
                 @ ( ( (kijkt:kijken:'VERB', pp~>np~>s:dcl)
                     @ ( (naar:naar:'ADP', np~>pp)
                       @ ( (de:de:'DET', n~>np)
                         @ (camera:camera:'NOUN', n) ) ) )
-                  @ (_6478872, np) ) ) ) )
+                  @ (_6978918, np) ) ) ) )
       @ ( (komt:komen:'VERB', pp~>np~>s:dcl)
         @ ( (uit:uit:'ADP', np~>pp)
           @ ( (een:een:'DET', n~>np)
@@ -60890,18 +60890,18 @@ sid_tts(4509,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6510538, np:pn),
+          @ abst( (_7011808, np:pn),
                   ( ( (door:door:'ADP', np~>s:sub~>s:sub)
                     @ ( (rustige:rustig:'ADJ', np~>np)
                       @ (wateren:water:'NOUN', np) ) )
                   @ ( (kajakken:kajak:'NOUN', np:pn~>s:sub)
-                    @ (_6510538, np:pn) ) ) ) )
+                    @ (_7011808, np:pn) ) ) ) )
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_6510884, n~>np),
-                      ( (_6510884, n~>np)
+              @ abst( (_7012154, n~>np),
+                      ( (_7012154, n~>np)
                       @ (man:man:'NOUN', n) ) ) )
-            @ abst( (_6510972, n~>np),
-                    ( (_6510972, n~>np)
+            @ abst( (_7012242, n~>np),
+                    ( (_7012242, n~>np)
                     @ (kind:kind:'NOUN', n) ) ) )
           @ (geen:geen:'DET', n~>np) ) ) ) )
   ]).
@@ -61047,7 +61047,7 @@ sid_tts(4521,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_6546814, np:pn),
+          @ abst( (_7049686, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (bal:bal:'NOUN', n) ) )
@@ -61055,7 +61055,7 @@ sid_tts(4521,
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (het:het:'DET', n~>np)
                           @ (gras:gras:'NOUN', n) ) ) )
-                    @ (_6546814, np:pn) ) ) ) )
+                    @ (_7049686, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (hond:hond:'NOUN', n) ) ) ) )
   ]).
@@ -61126,11 +61126,11 @@ sid_tts(4525,
 sid_tts(4526,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6565844, np),
+        @ abst( (_7069460, np),
                 ( (opgewonden:opwinden:'VERB', s:dcl~>s:dcl)
                 @ ( ( (springt:springen:'VERB', pr~>np~>s:dcl)
                     @ (op:op:'ADP', pr) )
-                  @ (_6565844, np) ) ) ) )
+                  @ (_7069460, np) ) ) ) )
       @ ( ( (vangt:vangen:'VERB', pp~>np~>np~>s:dcl)
           @ ( (in:in:'ADP', np~>pp)
             @ ( (zijn:zijn:'PRON', n~>np)
@@ -61872,13 +61872,13 @@ sid_tts(4570,
           @ ( (rood:rood:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (jasje:jas:'NOUN', n) ) ) ) )
-      @ abst( (_6788866, np),
+      @ abst( (_7302538, np),
               ( (voorzichtig:voorzichtig:'ADJ', s:dcl~>s:dcl)
               @ ( ( ( (houdt:houden:'VERB', (np~>s:adj)~>np~>np~>s:dcl)
                     @ (vast:vast:'ADJ', np~>s:adj) )
                   @ ( (een:een:'DET', n~>np)
                     @ (biertje:bier:'NOUN', n) ) )
-                @ (_6788866, np) ) ) ) )
+                @ (_7302538, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (persoon:persoon:'NOUN', n) ) )
   ]).
@@ -61901,11 +61901,11 @@ sid_tts(4571,
 sid_tts(4572,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_6800516, np),
+        @ abst( (_7314956, np),
                 ( ( (zonder:zonder:'ADP', n~>s:dcl~>s:dcl)
                   @ (shirt:shirt:'ADJ', n) )
                 @ ( ((is):(is):'AUX', np~>s:dcl)
-                  @ (_6800516, np) ) ) ) )
+                  @ (_7314956, np) ) ) ) )
       @ ( ( (zet:zetten:'VERB', pr~>np~>np~>s:dcl)
           @ (neer:neer:'ADV', pr) )
         @ ( (het:het:'DET', n~>np)
@@ -61921,7 +61921,7 @@ sid_tts(4573,
           @ ( (rood:rood:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (jasje:jas:'NOUN', n) ) ) ) )
-      @ abst( (_6803660, np),
+      @ abst( (_7318256, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
                     @ ( ((is):(is):'AUX', (np~>s:adj)~>np:pn~>s:sub)
@@ -61934,7 +61934,7 @@ sid_tts(4573,
                         @ (man:man:'NOUN', n) ) )
                     @ ( (een:een:'DET', n~>np)
                       @ (glas:glas:'NOUN', n) ) ) )
-                @ (_6803660, np) ) ) ) )
+                @ (_7318256, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -61946,7 +61946,7 @@ sid_tts(4574,
           @ ( (rood:rood:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (jasje:jas:'NOUN', n) ) ) ) )
-      @ abst( (_6810488, np),
+      @ abst( (_7325372, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (wit:wit:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
@@ -61957,7 +61957,7 @@ sid_tts(4574,
                         @ (man:man:'NOUN', n) ) )
                     @ ( (een:een:'DET', n~>np)
                       @ (glas:glas:'NOUN', n) ) ) )
-                @ (_6810488, np) ) ) ) )
+                @ (_7325372, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -61969,7 +61969,7 @@ sid_tts(4575,
           @ ( (rood:rood:'ADJ', np~>np)
             @ ( (geen:geen:'DET', n~>np)
               @ (jasje:jas:'NOUN', n) ) ) ) )
-      @ abst( (_6819334, np),
+      @ abst( (_7334722, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (wit:wit:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
@@ -61980,7 +61980,7 @@ sid_tts(4575,
                         @ (man:man:'NOUN', n) ) )
                     @ ( (geen:geen:'DET', n~>np)
                       @ (glas:glas:'NOUN', n) ) ) )
-                @ (_6819334, np) ) ) ) )
+                @ (_7334722, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -62237,13 +62237,13 @@ sid_tts(4588,
             @ ( (roze:roze:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (rok:rok:'NOUN', n) ) ) ) ) )
-      @ abst( (_6885040, np),
+      @ abst( (_7403284, np),
               ( (niet:niet:'ADV', s:dcl~>s:dcl)
               @ ( ( (staat:staan:'VERB', pp~>np~>s:dcl)
                   @ ( (voor:voor:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (huis:huis:'NOUN', n) ) ) )
-                @ (_6885040, np) ) ) ) )
+                @ (_7403284, np) ) ) ) )
     @ ( ('Het':het:'DET', n~>np)
       @ (meisje:meisje:'NOUN', n) ) )
   ]).
@@ -62316,7 +62316,7 @@ sid_tts(4592,
                 @ ( (speelt:spelen:'VERB', pr~>np:pn~>s:sub)
                   @ (buiten:buiten:'ADP', pr) ) )
               @ (iemand:iemand:'PRON', np) ) ) ) )
-      @ abst( (_6920118, np),
+      @ abst( (_7439694, np),
               ( ( (over:over:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( (van:van:'ADP', np~>np~>np)
                     @ ( (zijn:zijn:'PRON', n~>np)
@@ -62325,7 +62325,7 @@ sid_tts(4592,
                     @ (rest:rest:'NOUN', n) ) ) )
               @ ( ( (spat:spat:'ADJ', n~>np~>s:dcl)
                   @ (water:water:'NOUN', n) )
-                @ (_6920118, np) ) ) ) )
+                @ (_7439694, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (kind:kind:'NOUN', n) ) )
   ]).
@@ -62795,22 +62795,22 @@ sid_tts(4621,
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (op:op:'ADP', np~>np~>np)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_7056112, np:pn),
+              @ abst( (_7581208, np:pn),
                       ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                         @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-                            @ abst( (_7056298, np:pn),
+                            @ abst( (_7581394, np:pn),
                                     ( ( (door:door:'ADP', np~>s:sub~>s:sub)
                                       @ ( (het:het:'DET', n~>np)
                                         @ (fietsframe:fietsframe:'NOUN', n) ) )
                                     @ ( (schijnt:schijnen:'VERB', np:pn~>s:sub)
-                                      @ (_7056298, np:pn) ) ) ) )
+                                      @ (_7581394, np:pn) ) ) ) )
                           @ ( (de:de:'DET', n~>np)
                             @ (zon:zon:'NOUN', n) ) ) )
                       @ ( ( (springt:springen:'VERB', pp~>np:pn~>s:sub)
                           @ ( (door:door:'ADP', np~>pp)
                             @ ( (de:de:'DET', n~>np)
                               @ (lucht:lucht:'NOUN', n) ) ) )
-                        @ (_7056112, np:pn) ) ) ) )
+                        @ (_7581208, np:pn) ) ) ) )
             @ ( (een:een:'DET', n~>np)
               @ (fiets:fiets:'NOUN', n) ) ) )
         @ ( (geen:geen:'DET', n~>np)
@@ -62983,10 +62983,10 @@ sid_tts(4634,
     @ ( (er:er:'ADV', s:dcl~>s:dcl)
       @ ( ((is):(is):'AUX', np~>s:dcl)
         @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_7104736, np:pn),
+            @ abst( (_7631656, np:pn),
                     ( (voorbij:voorbij:'ADJ', s:sub~>s:sub)
                     @ ( (racet:racen:'NOUN', np:pn~>s:sub)
-                      @ (_7104736, np:pn) ) ) ) )
+                      @ (_7631656, np:pn) ) ) ) )
           @ (niemand:niemand:'PRON', np) ) ) ) )
   ]).
 
@@ -63010,12 +63010,12 @@ sid_tts(4637,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( (zijn:zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7117260, np:pn),
+          @ abst( (_7644696, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (sneeuw:sneeuw:'NOUN', n) ) )
                   @ ( (spelen:spelen:'VERB', np:pn~>s:sub)
-                    @ (_7117260, np:pn) ) ) ) )
+                    @ (_7644696, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (honden:hond:'NOUN', n) ) ) ) )
   ]).
@@ -63269,7 +63269,7 @@ sid_tts(4650,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7182818, np:pn),
+          @ abst( (_7712978, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (fiets:fiets:'NOUN', n) ) )
@@ -63279,7 +63279,7 @@ sid_tts(4650,
                           @ (zuilen:zuil:'NOUN', n) ) ) )
                     @ ( ( (loopt:lopen:'VERB', pr~>np:pn~>s:sub)
                         @ (op:op:'ADP', pr) )
-                      @ (_7182818, np:pn) ) ) ) ) )
+                      @ (_7712978, np:pn) ) ) ) ) )
         @ ( ( (in:in:'ADP', np~>np~>np)
             @ ( (paarse:paars:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
@@ -63290,7 +63290,7 @@ sid_tts(4650,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7180782, np:pn),
+          @ abst( (_7710942, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (fiets:fiets:'NOUN', n) ) )
@@ -63300,7 +63300,7 @@ sid_tts(4650,
                         @ ( (stenen:steen:'NOUN', np~>np)
                           @ ( (twee:twee:'NUM', n~>np)
                             @ (zuilen:zuil:'NOUN', n) ) ) ) )
-                    @ (_7180782, np:pn) ) ) ) )
+                    @ (_7710942, np:pn) ) ) ) )
         @ ( ( (in:in:'ADP', np~>np~>np)
             @ ( (paarse:paars:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
@@ -63314,22 +63314,22 @@ sid_tts(4651,
     ( ( (staan:staan:'VERB', pp~>np~>s:dcl)
       @ ( (bovenop:bovenop:'ADP', np~>pp)
         @ ( ( (waartussen:waartuss:'NOUN', (pr~>s:sub)~>np~>np)
-            @ abst( (_7194172, pr),
+            @ abst( (_7724836, pr),
                     ( ( (lopen:lopen:'VERB', pr~>n~>s:sub)
-                      @ (_7194172, pr) )
+                      @ (_7724836, pr) )
                     @ (mensen:mens:'NOUN', n) ) ) )
           @ ( (paarse:paars:'ADJ', np~>np)
             @ ( (twee:twee:'NUM', n~>np)
               @ (zuilen:zuil:'NOUN', n) ) ) ) ) )
     @ ( ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-            @ abst( (_7194580, n~>np),
-                    ( (_7194580, n~>np)
+            @ abst( (_7725244, n~>np),
+                    ( (_7725244, n~>np)
                     @ (stenen:stenen:'ADJ', n) ) ) )
-          @ abst( (_7194668, n~>np),
-                  ( (_7194668, n~>np)
+          @ abst( (_7725332, n~>np),
+                  ( (_7725332, n~>np)
                   @ (vrouw:vrouw:'NOUN', n) ) ) )
-        @ abst( (_7194756, n~>np),
-                ( (_7194756, n~>np)
+        @ abst( (_7725420, n~>np),
+                ( (_7725420, n~>np)
                 @ (fiets:fiets:'NOUN', n) ) ) )
       @ ('Een':een:'DET', n~>np) ) )
   ]).
@@ -63577,7 +63577,7 @@ sid_tts(4666,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7244992, np:pn),
+          @ abst( (_7777768, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( ( ( (van:van:'ADP', np~>(np~>np)~>np~>np)
                           @ ( (omgevallen:omvallen:'ADJ', np~>np)
@@ -63589,7 +63589,7 @@ sid_tts(4666,
                   @ ( ( (oversteekt:oversteken:'VERB', np~>np:pn~>s:sub)
                       @ ( (een:een:'DET', n~>np)
                         @ (rivier:rivier:'NOUN', n) ) )
-                    @ (_7244992, np:pn) ) ) ) )
+                    @ (_7777768, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (hond:hond:'NOUN', n) ) ) ) )
   ]).
@@ -63606,10 +63606,10 @@ sid_tts(4667,
                         @ (rivier:rivier:'NOUN', n) ) )
                     @ (gemaakt:maken:'VERB', np~>s:pt) ) ) ) )
             @ ( (waar:waar:'ADV', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_7251608, np:pn),
+              @ abst( (_7784600, np:pn),
                       ( ( (gaat:gaan:'VERB', pp~>np~>s:sub)
                         @ ( (overheen:overheen:'ADP', np:pn~>pp)
-                          @ (_7251608, np:pn) ) )
+                          @ (_7784600, np:pn) ) )
                       @ ( (een:een:'DET', n~>np)
                         @ (hond:hond:'NOUN', n) ) ) ) ) )
           @ ( (een:een:'DET', n~>np)
@@ -63672,13 +63672,13 @@ sid_tts(4670,
 sid_tts(4671,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_7276026, np),
+        @ abst( (_7810554, np),
                 ( (trots:trots:'ADJ', s:dcl~>s:dcl)
                 @ ( ( (draagt:dragen:'VERB', np~>np~>s:dcl)
                     @ ( (groen:groen:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (voetbaltenue:voetbaltenu:'ADJ', n) ) ) )
-                  @ (_7276026, np) ) ) ) )
+                  @ (_7810554, np) ) ) ) )
       @ ( (rent:rent:'NOUN', pp~>np~>s:dcl)
         @ ( (op:op:'ADP', np~>pp)
           @ ( (het:het:'DET', n~>np)
@@ -64092,7 +64092,7 @@ sid_tts(4689,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7391054, np:pn),
+          @ abst( (_7930670, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (het:het:'DET', n~>np)
                       @ (park:park:'NOUN', n) ) )
@@ -64100,7 +64100,7 @@ sid_tts(4689,
                       @ ( (met:met:'ADP', np~>pp)
                         @ ( (zijn:zijn:'PRON', n~>np)
                           @ (moeder:moeder:'NOUN', n) ) ) )
-                    @ (_7391054, np:pn) ) ) ) )
+                    @ (_7930670, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (jongen:jongen:'NOUN', n) ) ) ) )
   ]).
@@ -64212,7 +64212,7 @@ sid_tts(4696,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7420604, np:pn),
+          @ abst( (_7961264, np:pn),
                   ( ( ( (van:van:'ADP', pr~>np~>s:sub~>s:sub)
                       @ (af:af:'ADP', pr) )
                     @ ( (bruine:bruin:'ADJ', np~>np)
@@ -64222,7 +64222,7 @@ sid_tts(4696,
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (grond:grond:'NOUN', n) ) ) )
-                    @ (_7420604, np:pn) ) ) ) )
+                    @ (_7961264, np:pn) ) ) ) )
         @ ( ( (met:met:'ADP', np~>np~>np)
             @ ( (bruin:bruin:'ADJ', np~>np)
               @ (haar:haar:'PRON', np) ) )
@@ -64334,10 +64334,10 @@ sid_tts(4706,
           @ ( (zwarte:zwart:'ADJ', np~>np)
             @ ( (geen:geen:'DET', n~>np)
               @ ('panty\'s':panty:'NOUN', n) ) ) ) )
-      @ abst( (_7461668, np),
+      @ abst( (_8004068, np),
               ( (niet:niet:'ADV', s:dcl~>s:dcl)
               @ ( (springen:springen:'VERB', np~>s:dcl)
-                @ (_7461668, np) ) ) ) )
+                @ (_8004068, np) ) ) ) )
     @ ( ('De':de:'DET', n~>np)
       @ (kinderen:kind:'NOUN', n) ) )
   ]).
@@ -64365,11 +64365,11 @@ sid_tts(4708,
       @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
         @ ( (neppe:neppe:'NOUN', np~>np)
           @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-                @ abst( (_7467856, n~>np),
-                        ( (_7467856, n~>np)
+                @ abst( (_8010616, n~>np),
+                        ( (_8010616, n~>np)
                         @ (neus:neus:'NOUN', n) ) ) )
-              @ abst( (_7467944, n~>np),
-                      ( (_7467944, n~>np)
+              @ abst( (_8010704, n~>np),
+                      ( (_8010704, n~>np)
                       @ (bril:bril:'NOUN', n) ) ) )
             @ (een:een:'DET', n~>np) ) ) ) )
     @ ( (kleine:klein:'ADJ', np~>np)
@@ -64385,11 +64385,11 @@ sid_tts(4709,
           @ (af:af:'ADP', pr) )
         @ ( (neppe:neppe:'NOUN', np~>np)
           @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-                @ abst( (_7472732, n~>np),
-                        ( (_7472732, n~>np)
+                @ abst( (_8015816, n~>np),
+                        ( (_8015816, n~>np)
                         @ (neus:neus:'NOUN', n) ) ) )
-              @ abst( (_7472820, n~>np),
-                      ( (_7472820, n~>np)
+              @ abst( (_8015904, n~>np),
+                      ( (_8015904, n~>np)
                       @ (bril:bril:'NOUN', n) ) ) )
             @ (een:een:'DET', n~>np) ) ) ) )
     @ ( (klein:klein:'ADJ', np~>np)
@@ -64422,10 +64422,10 @@ sid_tts(4710,
 sid_tts(4711,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_7489526, np),
+        @ abst( (_8033810, np),
                 ( (vrolijk:vrolijk:'ADJ', s:dcl~>s:dcl)
                 @ ( (glimlacht:glimlachen:'VERB', np~>s:dcl)
-                  @ (_7489526, np) ) ) ) )
+                  @ (_8033810, np) ) ) ) )
       @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
         @ ( ( (met:met:'ADP', np~>np~>np)
             @ ( (erop:erop:'ADV', np~>np)
@@ -64447,10 +64447,10 @@ sid_tts(4711,
 sid_tts(4712,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_7500470, np),
+        @ abst( (_8045306, np),
                 ( (niet:niet:'ADV', s:dcl~>s:dcl)
                 @ ( (glimlacht:glimlachen:'VERB', np~>s:dcl)
-                  @ (_7500470, np) ) ) ) )
+                  @ (_8045306, np) ) ) ) )
       @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
         @ ( ( (met:met:'ADP', np~>np~>np)
             @ ( (erop:erop:'ADV', np~>np)
@@ -64529,7 +64529,7 @@ sid_tts(4715,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7531034, np:pn),
+          @ abst( (_8077430, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (spuitpistool:spuitpistool:'NOUN', n) ) )
@@ -64542,7 +64542,7 @@ sid_tts(4715,
                             @ ( (de:de:'DET', n~>np)
                               @ (mond:mond:'NOUN', n) ) ) ) )
                       @ (water:water:'NOUN', n) )
-                    @ (_7531034, np:pn) ) ) ) )
+                    @ (_8077430, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -65280,7 +65280,7 @@ sid_tts(4761,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7752146, np:pn),
+          @ abst( (_8307182, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (snowboard:snowboard:'NOUN', n) ) )
@@ -65291,14 +65291,14 @@ sid_tts(4761,
                         @ ( (grijze:grijs:'ADJ', np~>np)
                           @ ( (een:een:'DET', n~>np)
                             @ (broek:broek:'NOUN', n) ) ) )
-                      @ (_7752146, np:pn) ) ) ) ) )
+                      @ (_8307182, np:pn) ) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (persoon:persoon:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7751284, np:pn),
+          @ abst( (_8306320, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (op:op:'ADP', np~>np~>np)
                         @ ( (een:een:'DET', n~>np)
@@ -65309,7 +65309,7 @@ sid_tts(4761,
                       @ ( (grijze:grijs:'ADJ', np~>np)
                         @ ( (een:een:'DET', n~>np)
                           @ (broek:broek:'NOUN', n) ) ) )
-                    @ (_7751284, np:pn) ) ) ) )
+                    @ (_8306320, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (persoon:persoon:'NOUN', n) ) ) ) )
   ]).
@@ -65462,12 +65462,12 @@ sid_tts(4773,
 sid_tts(4774,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_7788562, np),
+        @ abst( (_8345146, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (penseel:penseel:'NOUN', n) ) )
                 @ ( (hurkt:hurken:'VERB', np~>s:dcl)
-                  @ (_7788562, np) ) ) ) )
+                  @ (_8345146, np) ) ) ) )
       @ ( (maakt:maken:'VERB', np~>np~>s:dcl)
         @ ( (een:een:'DET', n~>np)
           @ (foto:foto:'NOUN', n) ) ) )
@@ -65481,12 +65481,12 @@ sid_tts(4775,
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
           @ ( ( (en:en:'CCONJ', (np:pn~>s:sub)~>(np:pn~>s:sub)~>np:pn~>s:sub)
-              @ abst( (_7791684, np:pn),
+              @ abst( (_8348436, np:pn),
                       ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                         @ ( (een:een:'DET', n~>np)
                           @ (penseel:penseel:'NOUN', n) ) )
                       @ ( (hurkt:hurken:'VERB', np:pn~>s:sub)
-                        @ (_7791684, np:pn) ) ) ) )
+                        @ (_8348436, np:pn) ) ) ) )
             @ ( (maakt:maken:'VERB', np~>np:pn~>s:sub)
               @ ( (een:een:'DET', n~>np)
                 @ (foto:foto:'NOUN', n) ) ) ) )
@@ -65530,12 +65530,12 @@ sid_tts(4779,
     ( ( (kijken:kijken:'VERB', pp~>np~>s:dcl)
       @ ( (naar:naar:'ADP', np~>pp)
         @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_7800996, np:pn),
+            @ abst( (_8358048, np:pn),
                     ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                       @ ( (het:het:'DET', n~>np)
                         @ (water:water:'NOUN', n) ) )
                     @ ( (beweegt:bewegen:'VERB', np:pn~>s:sub)
-                      @ (_7800996, np:pn) ) ) ) )
+                      @ (_8358048, np:pn) ) ) ) )
           @ (iets:iets:'PRON', np) ) ) )
     @ ( ('Twee':twee:'NUM', n~>np)
       @ (honden:hond:'NOUN', n) ) )
@@ -65546,12 +65546,12 @@ sid_tts(4780,
     ( ( (kijken:kijken:'VERB', pp~>np~>s:dcl)
       @ ( (naar:naar:'ADP', np~>pp)
         @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
-            @ abst( (_7806846, np:pn),
+            @ abst( (_8364090, np:pn),
                     ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                       @ ( (het:het:'DET', n~>np)
                         @ (water:water:'NOUN', n) ) )
                     @ ( (spettert:spetteren:'VERB', np:pn~>s:sub)
-                      @ (_7806846, np:pn) ) ) ) )
+                      @ (_8364090, np:pn) ) ) ) )
           @ (iets:iets:'PRON', np) ) ) )
     @ ( ('Twee':twee:'NUM', n~>np)
       @ (honden:hond:'NOUN', n) ) )
@@ -65752,10 +65752,10 @@ sid_tts(4793,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (circuit:circuit:'NOUN', n) ) ) ) )
-      @ abst( (_7863018, np),
+      @ abst( (_1304938, np),
               ( (vrolijk:vrolijk:'ADJ', s:dcl~>s:dcl)
               @ ( (zwaait:zwaaien:'NOUN', np~>s:dcl)
-                @ (_7863018, np) ) ) ) )
+                @ (_1304938, np) ) ) ) )
     @ ( ( (op:op:'ADP', np~>np~>np)
         @ ( (een:een:'DET', n~>np)
           @ (motorfiets:motorfiets:'NOUN', n) ) )
@@ -66062,7 +66062,7 @@ sid_tts(4810,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_7946364, np:pn),
+          @ abst( (_1391956, np:pn),
                   ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (fiets:fiets:'NOUN', n) ) )
@@ -66071,7 +66071,7 @@ sid_tts(4810,
                         @ ( (modderig:modderig:'ADJ', np~>np)
                           @ ( (een:een:'DET', n~>np)
                             @ (pad:pad:'NOUN', n) ) ) ) )
-                    @ (_7946364, np:pn) ) ) ) )
+                    @ (_1391956, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (persoon:persoon:'NOUN', n) ) ) ) )
   ]).
@@ -69289,11 +69289,11 @@ sid_tts(5026,
             @ ( (de:de:'DET', n~>np)
               @ (buurt:buurt:'NOUN', n) ) ) ) ) )
     @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-          @ abst( (_8829856, n~>np),
-                  ( (_8829856, n~>np)
+          @ abst( (_2312072, n~>np),
+                  ( (_2312072, n~>np)
                   @ (volwassenen:volwassen:'ADJ', n) ) ) )
-        @ abst( (_8829944, n~>np),
-                ( (_8829944, n~>np)
+        @ abst( (_2312160, n~>np),
+                ( (_2312160, n~>np)
                 @ (kinderen:kind:'NOUN', n) ) ) )
       @ ('De':de:'DET', n~>np) ) )
   ]).
@@ -69309,11 +69309,11 @@ sid_tts(5027,
             @ ( (de:de:'DET', n~>np)
               @ (buurt:buurt:'NOUN', n) ) ) ) ) )
     @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-          @ abst( (_8833472, n~>np),
-                  ( (_8833472, n~>np)
+          @ abst( (_2315940, n~>np),
+                  ( (_2315940, n~>np)
                   @ (volwassenen:volwassen:'ADJ', n) ) ) )
-        @ abst( (_8833560, n~>np),
-                ( (_8833560, n~>np)
+        @ abst( (_2316028, n~>np),
+                ( (_2316028, n~>np)
                 @ (kinderen:kind:'NOUN', n) ) ) )
       @ ('De':de:'DET', n~>np) ) )
   ]).
@@ -69330,11 +69330,11 @@ sid_tts(5028,
               @ ( (de:de:'DET', n~>np)
                 @ (buurt:buurt:'NOUN', n) ) ) ) ) ) )
     @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-          @ abst( (_8837130, n~>np),
-                  ( (_8837130, n~>np)
+          @ abst( (_2319850, n~>np),
+                  ( (_2319850, n~>np)
                   @ (volwassenen:volwassen:'ADJ', n) ) ) )
-        @ abst( (_8837218, n~>np),
-                ( (_8837218, n~>np)
+        @ abst( (_2319938, n~>np),
+                ( (_2319938, n~>np)
                 @ (kinderen:kind:'NOUN', n) ) ) )
       @ ('De':de:'DET', n~>np) ) )
   ]).
@@ -69959,11 +69959,11 @@ sid_tts(5071,
           @ ( (een:een:'DET', n~>np)
             @ (straat:straat:'NOUN', n) ) ) ) )
     @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-          @ abst( (_9003388, n~>np),
-                  ( (_9003388, n~>np)
+          @ abst( (_2493320, n~>np),
+                  ( (_2493320, n~>np)
                   @ (mensen:mens:'NOUN', n) ) ) )
-        @ abst( (_9003476, n~>np),
-                ( (_9003476, n~>np)
+        @ abst( (_2493408, n~>np),
+                ( (_2493408, n~>np)
                 @ ('auto\'s':auto:'NOUN', n) ) ) )
       @ ('Sommige':sommig:'DET', n~>np) ) )
   ]).
@@ -69976,11 +69976,11 @@ sid_tts(5072,
           @ ( (een:een:'DET', n~>np)
             @ (straat:straat:'NOUN', n) ) ) ) )
     @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-          @ abst( (_9009688, n~>np),
-                  ( (_9009688, n~>np)
+          @ abst( (_2500052, n~>np),
+                  ( (_2500052, n~>np)
                   @ (mensen:mens:'NOUN', n) ) ) )
-        @ abst( (_9009776, n~>np),
-                ( (_9009776, n~>np)
+        @ abst( (_2500140, n~>np),
+                ( (_2500140, n~>np)
                 @ (voertuigen:voertuig:'NOUN', n) ) ) )
       @ ('Sommige':sommig:'DET', n~>np) ) )
     ,
@@ -69990,11 +69990,11 @@ sid_tts(5072,
           @ (straat:straat:'NOUN', n) ) ) )
     @ ( (zijn:zijn:'AUX', np~>s:dcl)
       @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-            @ abst( (_9008994, n~>np),
-                    ( (_9008994, n~>np)
+            @ abst( (_2499358, n~>np),
+                    ( (_2499358, n~>np)
                     @ (mensen:mens:'NOUN', n) ) ) )
-          @ abst( (_9009082, n~>np),
-                  ( (_9009082, n~>np)
+          @ abst( (_2499446, n~>np),
+                  ( (_2499446, n~>np)
                   @ (voertuigen:voertuig:'NOUN', n) ) ) )
         @ ('Sommige':sommig:'DET', n~>np) ) ) )
   ]).
@@ -70008,11 +70008,11 @@ sid_tts(5073,
           @ ( (een:een:'DET', n~>np)
             @ (straat:straat:'NOUN', n) ) ) ) )
     @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-          @ abst( (_9017634, n~>np),
-                  ( (_9017634, n~>np)
+          @ abst( (_2508646, n~>np),
+                  ( (_2508646, n~>np)
                   @ (mensen:mens:'NOUN', n) ) ) )
-        @ abst( (_9017722, n~>np),
-                ( (_9017722, n~>np)
+        @ abst( (_2508734, n~>np),
+                ( (_2508734, n~>np)
                 @ (voertuigen:voertuig:'NOUN', n) ) ) )
       @ ('Sommige':sommig:'DET', n~>np) ) )
   ]).
@@ -70249,12 +70249,12 @@ sid_tts(5086,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (het:het:'DET', n~>np)
               @ (gras:gras:'NOUN', n) ) ) ) )
-      @ abst( (_9071020, np),
+      @ abst( (_2565008, np),
               ( ( (uit:uit:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (waterfles:waterfles:'NOUN', n) ) )
               @ ( (drinkt:drinken:'VERB', np~>s:dcl)
-                @ (_9071020, np) ) ) ) )
+                @ (_2565008, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -70266,12 +70266,12 @@ sid_tts(5087,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (het:het:'DET', n~>np)
               @ (gazon:gazon:'NOUN', n) ) ) ) )
-      @ abst( (_9074176, np),
+      @ abst( (_2568332, np),
               ( ( (uit:uit:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (waterfles:waterfles:'NOUN', n) ) )
               @ ( (drinkt:drinken:'VERB', np~>s:dcl)
-                @ (_9074176, np) ) ) ) )
+                @ (_2568332, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -70283,12 +70283,12 @@ sid_tts(5088,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (het:het:'DET', n~>np)
               @ (gras:gras:'NOUN', n) ) ) ) )
-      @ abst( (_9077332, np),
+      @ abst( (_2571656, np),
               ( ( (uit:uit:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (waterfles:waterfles:'NOUN', n) ) )
               @ ( (drinkt:drinken:'VERB', np~>s:dcl)
-                @ (_9077332, np) ) ) ) )
+                @ (_2571656, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -70615,14 +70615,14 @@ sid_tts(5114,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9172584, np:pn),
+          @ abst( (_2670808, np:pn),
                   ( ( (voor:voor:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (waterlichaam:waterlichaam:'NOUN', n) ) )
                   @ ( ( (springt:springen:'VERB', pp~>np:pn~>s:sub)
                       @ ( (over:over:'ADP', n~>pp)
                         @ (zandhellingen:zandhelling:'NOUN', n) ) )
-                    @ (_9172584, np:pn) ) ) ) )
+                    @ (_2670808, np:pn) ) ) ) )
         @ ( (bmx:bmx:'ADJ', np~>np)
           @ ( (geen:geen:'DET', n~>np)
             @ (biker:biker:'NOUN', n) ) ) ) ) )
@@ -70630,14 +70630,14 @@ sid_tts(5114,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9171932, np:pn),
+          @ abst( (_2670156, np:pn),
                   ( ( (voor:voor:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (waterlichaam:waterlichaam:'NOUN', n) ) )
                   @ ( ( (springt:springen:'VERB', pp~>np:pn~>s:sub)
                       @ ( (over:over:'ADP', n~>pp)
                         @ (zandhellingen:zandhelling:'NOUN', n) ) )
-                    @ (_9171932, np:pn) ) ) ) )
+                    @ (_2670156, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', np~>np)
           @ (bmx_biker:bmx_biker:'ADJ_NOUN', np) ) ) ) )
   ]).
@@ -70869,13 +70869,13 @@ sid_tts(5124,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (helm:helm:'NOUN', n) ) ) )
-      @ abst( (_9231680, np),
+      @ abst( (_2732112, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (rode:rood:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (motorfiets:motorfiets:'NOUN', n) ) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_9231680, np) ) ) ) )
+                @ (_2732112, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (een:een:'DET', n~>np)
           @ ('motorcross-uniform':'motorcross-uniform':'NOUN', n) ) )
@@ -70886,13 +70886,13 @@ sid_tts(5124,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (helm:helm:'NOUN', n) ) ) )
-      @ abst( (_9230780, np),
+      @ abst( (_2731212, np),
               ( (rijdt:rijden:'VERB', np~>s:dcl)
               @ ( ( (op:op:'ADP', np~>np~>np)
                   @ ( (rode:rood:'ADJ', np~>np)
                     @ ( (een:een:'DET', n~>np)
                       @ (motorfiets:motorfiets:'NOUN', n) ) ) )
-                @ (_9230780, np) ) ) ) )
+                @ (_2731212, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (een:een:'DET', n~>np)
           @ ('motorcross-uniform':'motorcross-uniform':'NOUN', n) ) )
@@ -70906,13 +70906,13 @@ sid_tts(5125,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (helm:helm:'NOUN', n) ) ) )
-      @ abst( (_9242796, np),
+      @ abst( (_2743888, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (rode:rood:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (motorfiets:motorfiets:'NOUN', n) ) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_9242796, np) ) ) ) )
+                @ (_2743888, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (een:een:'DET', n~>np)
           @ ('motorcross-uniform':'motorcross-uniform':'NOUN', n) ) )
@@ -70923,13 +70923,13 @@ sid_tts(5125,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (helm:helm:'NOUN', n) ) ) )
-      @ abst( (_9241896, np),
+      @ abst( (_2742988, np),
               ( (rijdt:rijden:'VERB', np~>s:dcl)
               @ ( ( (op:op:'ADP', np~>np~>np)
                   @ ( (rode:rood:'ADJ', np~>np)
                     @ ( (een:een:'DET', n~>np)
                       @ (motorfiets:motorfiets:'NOUN', n) ) ) )
-                @ (_9241896, np) ) ) ) )
+                @ (_2742988, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (een:een:'DET', n~>np)
           @ ('motorcross-uniform':'motorcross-uniform':'NOUN', n) ) )
@@ -70943,13 +70943,13 @@ sid_tts(5126,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (geen:geen:'DET', n~>np)
             @ (helm:helm:'NOUN', n) ) ) )
-      @ abst( (_9253912, np),
+      @ abst( (_2755664, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (rode:rood:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (motorfiets:motorfiets:'NOUN', n) ) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_9253912, np) ) ) ) )
+                @ (_2755664, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (een:een:'DET', n~>np)
           @ ('motorcross-uniform':'motorcross-uniform':'NOUN', n) ) )
@@ -70960,13 +70960,13 @@ sid_tts(5126,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (geen:geen:'DET', n~>np)
             @ (helm:helm:'NOUN', n) ) ) )
-      @ abst( (_9253012, np),
+      @ abst( (_2754764, np),
               ( (rijdt:rijden:'VERB', np~>s:dcl)
               @ ( ( (op:op:'ADP', np~>np~>np)
                   @ ( (rode:rood:'ADJ', np~>np)
                     @ ( (een:een:'DET', n~>np)
                       @ (motorfiets:motorfiets:'NOUN', n) ) ) )
-                @ (_9253012, np) ) ) ) )
+                @ (_2754764, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (een:een:'DET', n~>np)
           @ ('motorcross-uniform':'motorcross-uniform':'NOUN', n) ) )
@@ -70982,13 +70982,13 @@ sid_tts(5127,
               @ ('sponsorlogo\'s':sponsorlogo:'NOUN', n) )
             @ ( (een:een:'DET', n~>np)
               @ (helm:helm:'NOUN', n) ) ) ) )
-      @ abst( (_9263312, np),
+      @ abst( (_2765724, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (rode:rood:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (sportmotorfiets:sportmotorfiet:'NOUN', n) ) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_9263312, np) ) ) ) )
+                @ (_2765724, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (volle:vol:'ADJ', np~>np)
           @ (uitrusting:uitrusting:'NOUN', np) ) )
@@ -71004,13 +71004,13 @@ sid_tts(5128,
               @ ('sponsorlogo\'s':sponsorlogo:'NOUN', n) )
             @ ( (een:een:'DET', n~>np)
               @ (helm:helm:'NOUN', n) ) ) ) )
-      @ abst( (_9267614, np),
+      @ abst( (_2770266, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (rode:rood:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (sportmotorfiets:sportmotorfiet:'NOUN', n) ) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_9267614, np) ) ) ) )
+                @ (_2770266, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (volle:vol:'ADJ', np~>np)
           @ (uitrusting:uitrusting:'NOUN', np) ) )
@@ -71026,13 +71026,13 @@ sid_tts(5129,
               @ ('sponsorlogo\'s':sponsorlogo:'NOUN', n) )
             @ ( (een:een:'DET', n~>np)
               @ (helm:helm:'NOUN', n) ) ) ) )
-      @ abst( (_9271916, np),
+      @ abst( (_2774808, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (blauwe:blauw:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
                     @ (sportmotorfiets:sportmotorfiet:'NOUN', n) ) ) )
               @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                @ (_9271916, np) ) ) ) )
+                @ (_2774808, np) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( (volle:vol:'ADJ', np~>np)
           @ (uitrusting:uitrusting:'NOUN', np) ) )
@@ -71321,14 +71321,14 @@ sid_tts(5145,
     @ ( (besneeuwd:besneeuwd:'ADJ', s:dcl~>s:dcl)
       @ ( (door:door:'ADP', np~>s:dcl)
         @ ( ( ( (een:een:'DET', (n~>np)~>(n~>np)~>n~>np)
-              @ abst( (_9338990, n),
+              @ abst( (_2844450, n),
                       ( (en:en:'CCONJ', np~>np)
                       @ ( (lichtgekleurde:lichtgekleurde:'NOUN', n~>np)
-                        @ (_9338990, n) ) ) ) )
-            @ abst( (_9339102, n),
+                        @ (_2844450, n) ) ) ) )
+            @ abst( (_2844562, n),
                     ( (bewegen:bewegen:'VERB', np~>np)
                     @ ( (donkere:donker:'ADJ', n~>np)
-                      @ (_9339102, n) ) ) ) )
+                      @ (_2844562, n) ) ) ) )
           @ (snel:snel:'ADJ', n) ) ) ) )
   ]).
 
@@ -71340,14 +71340,14 @@ sid_tts(5146,
           @ (honden:hond:'NOUN', n) ) ) )
     @ ( (besneeuwd:besneeuwd:'ADJ', np~>s:dcl)
       @ ( ( ( (een:een:'DET', (n~>np)~>(n~>np)~>n~>np)
-            @ abst( (_9342306, n),
+            @ abst( (_2847970, n),
                     ( (en:en:'CCONJ', np~>np)
                     @ ( (lichtgekleurde:lichtgekleurde:'NOUN', n~>np)
-                      @ (_9342306, n) ) ) ) )
-          @ abst( (_9342418, n),
+                      @ (_2847970, n) ) ) ) )
+          @ abst( (_2848082, n),
                   ( (lopen:lopen:'VERB', np~>np)
                   @ ( (donkere:donker:'ADJ', n~>np)
-                    @ (_9342418, n) ) ) ) )
+                    @ (_2848082, n) ) ) ) )
         @ (door:door:'ADP', n) ) ) )
   ]).
 
@@ -71652,13 +71652,13 @@ sid_tts(5164,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_9424694, np:pn),
+          @ abst( (_2933586, np:pn),
                   ( ( (naast:naast:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (drummer:drummer:'NOUN', n) ) )
                   @ ( ( (speelt:spelen:'VERB', n~>np:pn~>s:sub)
                       @ (gitaar:gitaar:'ADV', n) )
-                    @ (_9424694, np:pn) ) ) ) )
+                    @ (_2933586, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (man:man:'NOUN', n) ) ) ) )
   ]).
@@ -72193,13 +72193,13 @@ sid_tts(5196,
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (op:op:'ADP', np~>np~>np)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_9548252, np:pn),
+              @ abst( (_3061548, np:pn),
                       ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                         @ ( (scherpe:scherp:'ADJ', np~>np)
                           @ ( (een:een:'DET', n~>np)
                             @ (bocht:bocht:'NOUN', n) ) ) )
                       @ ( (leunt:leunen:'NOUN', np:pn~>s:sub)
-                        @ (_9548252, np:pn) ) ) ) )
+                        @ (_3061548, np:pn) ) ) ) )
             @ ( (een:een:'DET', n~>np)
               @ (motor:motor:'NOUN', n) ) ) )
         @ ( (geen:geen:'DET', n~>np)
@@ -72335,15 +72335,15 @@ sid_tts(5205,
           @ (benen:been:'NOUN', np) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_9602028, n~>np),
+              @ abst( (_3117976, n~>np),
                       ( (wit:wit:'ADJ', np~>np)
-                      @ ( (_9602028, n~>np)
+                      @ ( (_3117976, n~>np)
                         @ (hemd:hemd:'VERB', n) ) ) ) )
-            @ abst( (_9602158, n~>np),
+            @ abst( (_3118106, n~>np),
                     ( ( ( (en:en:'CCONJ', (np~>np)~>(np~>np)~>np~>np)
                         @ (gouden:gouden:'ADJ', np~>np) )
                       @ (zwarte:zwart:'ADJ', np~>np) )
-                    @ ( (_9602158, n~>np)
+                    @ ( (_3118106, n~>np)
                       @ (hoed:hoed:'NOUN', n) ) ) ) )
           @ (een:een:'DET', n~>np) ) )
       @ ( (oude:oud:'ADJ', np~>np)
@@ -73021,11 +73021,11 @@ sid_tts(5246,
             @ (tapijt:tapijt:'NOUN', n) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_9770730, n~>np),
-                      ( (_9770730, n~>np)
+              @ abst( (_3294430, n~>np),
+                      ( (_3294430, n~>np)
                       @ (goud:goud:'NOUN', n) ) ) )
-            @ abst( (_9770818, n~>np),
-                    ( (_9770818, n~>np)
+            @ abst( (_3294518, n~>np),
+                    ( (_3294518, n~>np)
                     @ (paars:paars:'ADJ', n) ) ) )
           @ (het:het:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -73042,11 +73042,11 @@ sid_tts(5247,
             @ (tapijt:tapijt:'NOUN', n) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_9778212, n~>np),
-                      ( (_9778212, n~>np)
+              @ abst( (_3302464, n~>np),
+                      ( (_3302464, n~>np)
                       @ (goud:goud:'NOUN', n) ) ) )
-            @ abst( (_9778300, n~>np),
-                    ( (_9778300, n~>np)
+            @ abst( (_3302552, n~>np),
+                    ( (_3302552, n~>np)
                     @ (paars:paars:'ADJ', n) ) ) )
           @ (het:het:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -73060,11 +73060,11 @@ sid_tts(5247,
             @ (tapijt:tapijt:'NOUN', n) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>(((np~>s:adj)~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_9777306, n~>np),
-                      ( (_9777306, n~>np)
+              @ abst( (_3301558, n~>np),
+                      ( (_3301558, n~>np)
                       @ (goud:goud:'NOUN', n) ) ) )
-            @ abst( (_9777394, (np~>s:adj)~>np),
-                    ( (_9777394, (np~>s:adj)~>np)
+            @ abst( (_3301646, (np~>s:adj)~>np),
+                    ( (_3301646, (np~>s:adj)~>np)
                     @ (paars:paars:'ADJ', np~>s:adj) ) ) )
           @ (het:het:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -73395,13 +73395,13 @@ sid_tts(5265,
           @ ( (zwarte:zwart:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (hond:hond:'NOUN', n) ) ) ) )
-      @ abst( (_9863962, np),
+      @ abst( (_3391682, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (droge:droog:'ADJ', np~>np)
                   @ ( (het:het:'DET', n~>np)
                     @ (gras:gras:'NOUN', n) ) ) )
               @ ( (speelt:spelen:'VERB', np~>s:dcl)
-                @ (_9863962, np) ) ) ) )
+                @ (_3391682, np) ) ) ) )
     @ ( (bruine:bruin:'ADJ', np~>np)
       @ ( ('De':de:'DET', n~>np)
         @ (hond:hond:'NOUN', n) ) ) )
@@ -73647,19 +73647,19 @@ sid_tts(5280,
 sid_tts(5281,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_9952516, np),
+        @ abst( (_3484580, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (het:het:'DET', n~>np)
                     @ (zand:zand:'NOUN', n) ) )
                 @ ( (rolt:rollen:'VERB', np~>s:dcl)
-                  @ (_9952516, np) ) ) ) )
-      @ abst( (_9952734, np),
+                  @ (_3484580, np) ) ) ) )
+      @ abst( (_3484798, np),
               ( (recht:recht:'ADJ', s:dcl~>s:dcl)
               @ ( ( (kijkt:kijken:'VERB', pp~>np~>s:dcl)
                   @ ( (naar:naar:'ADP', np~>pp)
                     @ ( (de:de:'DET', n~>np)
                       @ (camera:camera:'NOUN', n) ) ) )
-                @ (_9952734, np) ) ) ) )
+                @ (_3484798, np) ) ) ) )
     @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
         @ ( ((is):(is):'AUX', (np~>s:adj)~>np:pn~>s:sub)
           @ (vuil:vuil:'ADJ', np~>s:adj) ) )
@@ -73668,19 +73668,19 @@ sid_tts(5281,
           @ (hond:hond:'NOUN', n) ) ) ) )
     ,
     ( ( ( (kijkt:kijken:'VERB', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_9951420, np),
+        @ abst( (_3483484, np),
                 ( ( (het:het:'DET', np~>s:dcl~>s:dcl)
                   @ ( (zand:zand:'NOUN', n~>np)
                     @ (en:en:'CCONJ', n) ) )
                 @ ( (in:in:'ADP', np~>s:dcl)
-                  @ (_9951420, np) ) ) ) )
-      @ abst( (_9951638, np),
+                  @ (_3483484, np) ) ) ) )
+      @ abst( (_3483702, np),
               ( (naar:naar:'ADP', s:dcl~>s:dcl)
               @ ( ( (recht:recht:'ADJ', pp~>np~>s:dcl)
                   @ ( (de:de:'DET', np~>pp)
                     @ ( (camera:camera:'NOUN', n~>np)
                       @ (rolt:rollen:'VERB', n) ) ) )
-                @ (_9951638, np) ) ) ) )
+                @ (_3483702, np) ) ) ) )
     @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
         @ ( ((is):(is):'AUX', (np~>s:adj)~>np:pn~>s:sub)
           @ (vuil:vuil:'ADJ', np~>s:adj) ) )
@@ -73692,31 +73692,31 @@ sid_tts(5281,
 sid_tts(5282,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_9961358, np),
+        @ abst( (_3493878, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (het:het:'DET', (np~>s:adj)~>np)
                     @ (vuil:vuil:'NOUN', np~>s:adj) ) )
                 @ ( (rolt:rollen:'VERB', np~>s:dcl)
-                  @ (_9961358, np) ) ) ) )
-      @ abst( (_9961576, np),
+                  @ (_3493878, np) ) ) ) )
+      @ abst( (_3494096, np),
               ( (recht:recht:'ADJ', s:dcl~>s:dcl)
               @ ( ( (kijkt:kijken:'VERB', pp~>np~>s:dcl)
                   @ ( (naar:naar:'ADP', np~>pp)
                     @ ( (de:de:'DET', n~>np)
                       @ (camera:camera:'NOUN', n) ) ) )
-                @ (_9961576, np) ) ) ) )
+                @ (_3494096, np) ) ) ) )
     @ ( (bruingele:bruingeel:'ADJ', np~>np)
       @ ( (vuile:vuil:'ADJ', np~>np)
         @ ( ('Een':een:'DET', n~>np)
           @ (hond:hond:'NOUN', n) ) ) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_9960458, np),
+        @ abst( (_3492978, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (het:het:'DET', (np~>s:adj)~>np)
                     @ (vuil:vuil:'NOUN', np~>s:adj) ) )
                 @ ( (rolt:rollen:'VERB', np~>s:dcl)
-                  @ (_9960458, np) ) ) ) )
+                  @ (_3492978, np) ) ) ) )
       @ ( (kijkt:kijken:'VERB', pp~>np~>s:dcl)
         @ ( (recht:recht:'ADJ', pp~>pp)
           @ ( (naar:naar:'ADP', np~>pp)
@@ -73750,13 +73750,13 @@ sid_tts(5283,
           @ ( (in:in:'ADP', np~>pp)
             @ ( (het:het:'DET', n~>np)
               @ (water:water:'NOUN', n) ) ) ) )
-      @ abst( (_9968260, np),
+      @ abst( (_3501164, np),
               ( (recht:recht:'ADJ', s:dcl~>s:dcl)
               @ ( ( (kijkt:kijken:'VERB', pp~>np~>s:dcl)
                   @ ( (naar:naar:'ADP', np~>pp)
                     @ ( (de:de:'DET', n~>np)
                       @ (camera:camera:'NOUN', n) ) ) )
-                @ (_9968260, np) ) ) ) )
+                @ (_3501164, np) ) ) ) )
     @ ( (bruingele:bruingeel:'ADJ', np~>np)
       @ ( (vuile:vuil:'ADJ', np~>np)
         @ ( ('Een':een:'DET', n~>np)
@@ -74060,14 +74060,14 @@ sid_tts(5302,
     ( ( (wordt:worden:'AUX', (np~>s:pt)~>np~>s:dcl)
       @ ( ( (door:door:'ADP', np~>(np~>s:pt)~>np~>s:pt)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_10040148, np:pn),
+              @ abst( (_3576256, np:pn),
                       ( ( (op:op:'ADP', np~>s:sub~>s:sub)
                         @ ( (een:een:'DET', n~>np)
                           @ (recreatieparcours:recreatieparcour:'NOUN', n) ) )
                       @ ( ( (draagt:dragen:'VERB', np~>np:pn~>s:sub)
                           @ ( (een:een:'DET', n~>np)
                             @ (baret:baret:'NOUN', n) ) )
-                        @ (_10040148, np:pn) ) ) ) )
+                        @ (_3576256, np:pn) ) ) ) )
             @ ( (een:een:'DET', n~>np)
               @ (man:man:'NOUN', n) ) ) )
         @ (bereden:berijden:'VERB', np~>s:pt) ) )
@@ -74081,7 +74081,7 @@ sid_tts(5303,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (baret:baret:'NOUN', n) ) ) )
-      @ abst( (_10044762, np),
+      @ abst( (_3581026, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (fiets:fiets:'NOUN', n) ) )
@@ -74089,7 +74089,7 @@ sid_tts(5303,
                   @ ( (op:op:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (recreatieparcours:recreatieparcour:'NOUN', n) ) ) )
-                @ (_10044762, np) ) ) ) )
+                @ (_3581026, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -74760,14 +74760,14 @@ sid_tts(5349,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ (inline_skates:inline_skate:'ADJ_NOUN', np) ) )
-      @ abst( (_10220870, np),
+      @ abst( (_3764418, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (reling:reling:'NOUN', n) ) )
               @ ( ( (doet:doen:'VERB', np~>np~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (trucje:truc:'NOUN', n) ) )
-                @ (_10220870, np) ) ) ) )
+                @ (_3764418, np) ) ) ) )
     @ ( ( ( (in:in:'ADP', np~>(np~>np)~>np~>np)
           @ ( (het:het:'DET', (np~>s:adj)~>np)
             @ (zwart:zwart:'ADJ', np~>s:adj) ) )
@@ -74797,14 +74797,14 @@ sid_tts(5350,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ (inline_skates:inline_skate:'ADJ_NOUN', np) ) )
-      @ abst( (_10230942, np),
+      @ abst( (_3775054, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (reling:reling:'NOUN', n) ) )
               @ ( ( (doet:doen:'VERB', np~>np~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (trucje:truc:'NOUN', n) ) )
-                @ (_10230942, np) ) ) ) )
+                @ (_3775054, np) ) ) ) )
     @ ( ( ( (in:in:'ADP', np~>(np~>np)~>np~>np)
           @ ( (het:het:'DET', (np~>s:adj)~>np)
             @ (zwart:zwart:'ADJ', np~>s:adj) ) )
@@ -75310,12 +75310,12 @@ sid_tts(5387,
   [
     ( ( (over:over:'ADP', np~>s:dcl~>s:dcl)
       @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-            @ abst( (_10390078, n~>np),
-                    ( (_10390078, n~>np)
+            @ abst( (_3940934, n~>np),
+                    ( (_3940934, n~>np)
                     @ (touwen:touw:'NOUN', n) ) ) )
-          @ abst( (_10390166, n~>np),
+          @ abst( (_3941022, n~>np),
                   ( (houten:houten:'ADJ', np~>np)
-                  @ ( (_10390166, n~>np)
+                  @ ( (_3941022, n~>np)
                     @ (brug:brug:'NOUN', n) ) ) ) )
         @ (een:een:'DET', n~>np) ) )
     @ ( ( (lopen:lopen:'VERB', pp~>np~>s:dcl)
@@ -75330,12 +75330,12 @@ sid_tts(5388,
   [
     ( ( (over:over:'ADP', np~>s:dcl~>s:dcl)
       @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-            @ abst( (_10394538, n~>np),
-                    ( (_10394538, n~>np)
+            @ abst( (_3945634, n~>np),
+                    ( (_3945634, n~>np)
                     @ (touwen:touw:'NOUN', n) ) ) )
-          @ abst( (_10394626, n~>np),
+          @ abst( (_3945722, n~>np),
                   ( (houten:houten:'ADJ', np~>np)
-                  @ ( (_10394626, n~>np)
+                  @ ( (_3945722, n~>np)
                     @ (brug:brug:'NOUN', n) ) ) ) )
         @ (een:een:'DET', n~>np) ) )
     @ ( ( (lopen:lopen:'VERB', pp~>np~>s:dcl)
@@ -75350,12 +75350,12 @@ sid_tts(5389,
   [
     ( ( (over:over:'ADP', np~>s:dcl~>s:dcl)
       @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-            @ abst( (_10400684, n~>np),
-                    ( (_10400684, n~>np)
+            @ abst( (_3952260, n~>np),
+                    ( (_3952260, n~>np)
                     @ (touwen:touw:'NOUN', n) ) ) )
-          @ abst( (_10400772, n~>np),
+          @ abst( (_3952348, n~>np),
                   ( (stalen:stalen:'ADJ', np~>np)
-                  @ ( (_10400772, n~>np)
+                  @ ( (_3952348, n~>np)
                     @ (brug:brug:'NOUN', n) ) ) ) )
         @ (een:een:'DET', n~>np) ) )
     @ ( ( (lopen:lopen:'VERB', pp~>np~>s:dcl)
@@ -75589,14 +75589,14 @@ sid_tts(5402,
           @ ( (geel:geel:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (jasje:jas:'NOUN', n) ) ) ) )
-      @ abst( (_10464586, np),
+      @ abst( (_4018586, np),
               ( ( (van:van:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (rots:rots:'NOUN', n) ) )
               @ ( ( (springt:springen:'VERB', pp~>np~>s:dcl)
                   @ ( (naar:naar:'ADP', pr~>pp)
                     @ (beneden:beneden:'ADP', pr) ) )
-                @ (_10464586, np) ) ) ) )
+                @ (_4018586, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (jongen:jongen:'NOUN', n) ) )
   ]).
@@ -75608,14 +75608,14 @@ sid_tts(5403,
           @ ( (geel:geel:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (jasje:jas:'NOUN', n) ) ) ) )
-      @ abst( (_10468198, np),
+      @ abst( (_4022378, np),
               ( ( (van:van:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (rots:rots:'NOUN', n) ) )
               @ ( ( (springt:springen:'VERB', pp~>np~>s:dcl)
                   @ ( (naar:naar:'ADP', pr~>pp)
                     @ (beneden:beneden:'ADP', pr) ) )
-                @ (_10468198, np) ) ) ) )
+                @ (_4022378, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (kind:kind:'NOUN', n) ) )
   ]).
@@ -75729,7 +75729,7 @@ sid_tts(5411,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (berghelling:berghelling:'NOUN', n) ) ) ) )
-      @ abst( (_10495106, np),
+      @ abst( (_4050354, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (verrekijker:verrekijker:'NOUN', n) ) )
@@ -75737,7 +75737,7 @@ sid_tts(5411,
                   @ ( (naar:naar:'ADP', np~>pp)
                     @ ( (het:het:'DET', n~>np)
                       @ (uitzicht:uitzicht:'NOUN', n) ) ) )
-                @ (_10495106, np) ) ) ) )
+                @ (_4050354, np) ) ) ) )
     @ ( ('Drie':drie:'NUM', n~>np)
       @ (mannen:man:'NOUN', n) ) )
   ]).
@@ -75764,7 +75764,7 @@ sid_tts(5412,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (berghelling:berghelling:'NOUN', n) ) ) ) )
-      @ abst( (_10500728, np),
+      @ abst( (_4056168, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (verrekijker:verrekijker:'NOUN', n) ) )
@@ -75772,7 +75772,7 @@ sid_tts(5412,
                   @ ( (naar:naar:'ADP', np~>pp)
                     @ ( (het:het:'DET', n~>np)
                       @ (uitzicht:uitzicht:'NOUN', n) ) ) )
-                @ (_10500728, np) ) ) ) )
+                @ (_4056168, np) ) ) ) )
     @ ( ('Drie':drie:'NUM', n~>np)
       @ (wandelaars:wandelaar:'NOUN', n) ) )
   ]).
@@ -75799,7 +75799,7 @@ sid_tts(5413,
           @ ( (op:op:'ADP', np~>pp)
             @ ( (een:een:'DET', n~>np)
               @ (berghelling:berghelling:'NOUN', n) ) ) ) )
-      @ abst( (_10513642, np),
+      @ abst( (_4069862, np),
               ( ( (met:met:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (verrekijker:verrekijker:'NOUN', n) ) )
@@ -75807,7 +75807,7 @@ sid_tts(5413,
                   @ ( (naar:naar:'ADP', np~>pp)
                     @ ( (het:het:'DET', n~>np)
                       @ (uitzicht:uitzicht:'NOUN', n) ) ) )
-                @ (_10513642, np) ) ) ) )
+                @ (_4069862, np) ) ) ) )
     @ ( ('Drie':drie:'NUM', n~>np)
       @ (wandelaars:wandelaar:'NOUN', n) ) )
   ]).
@@ -76213,11 +76213,11 @@ sid_tts(5443,
 sid_tts(5444,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_10637904, np),
+        @ abst( (_4198576, np),
                 ( (helemaal:helemaal:'ADV', s:dcl~>s:dcl)
                 @ ( ( (draagt:dragen:'VERB', (np~>s:adj)~>np~>s:dcl)
                     @ (zwart:zwart:'ADJ', np~>s:adj) )
-                  @ (_10637904, np) ) ) ) )
+                  @ (_4198576, np) ) ) ) )
       @ ( ( (glijdt:glijden:'VERB', pr~>np~>np~>s:dcl)
           @ (af:af:'ADP', pr) )
         @ ( (opblaasbare:opblaasbaar:'ADJ', np~>np)
@@ -76683,7 +76683,7 @@ sid_tts(5467,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (jas:jas:'NOUN', n) ) ) )
-      @ abst( (_10808316, np),
+      @ abst( (_4378552, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( ( (en:en:'CCONJ', (np~>np)~>(np~>np)~>np~>np)
                       @ (groene:groen:'ADJ', np~>np) )
@@ -76697,7 +76697,7 @@ sid_tts(5467,
                     @ ( (rode:rood:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (slee:slee:'NOUN', n) ) ) )
-                  @ (_10808316, np) ) ) ) ) )
+                  @ (_4378552, np) ) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (kind:kind:'NOUN', n) ) )
     ,
@@ -76705,7 +76705,7 @@ sid_tts(5467,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (jas:jas:'NOUN', n) ) ) )
-      @ abst( (_10806990, np),
+      @ abst( (_4377226, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( ( (en:en:'CCONJ', (np~>np)~>(np~>np)~>np~>np)
                       @ (groene:groen:'ADJ', np~>np) )
@@ -76719,7 +76719,7 @@ sid_tts(5467,
                     @ ( (rode:rood:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (slee:slee:'NOUN', n) ) ) ) )
-                @ (_10806990, np) ) ) ) )
+                @ (_4377226, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (kind:kind:'NOUN', n) ) )
   ]).
@@ -76730,7 +76730,7 @@ sid_tts(5468,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (een:een:'DET', n~>np)
             @ (jas:jas:'NOUN', n) ) ) )
-      @ abst( (_10818672, np),
+      @ abst( (_4389640, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( ( (en:en:'CCONJ', (np~>np)~>(np~>np)~>np~>np)
                       @ (groene:groen:'ADJ', np~>np) )
@@ -76747,7 +76747,7 @@ sid_tts(5468,
                   @ ( (rode:rood:'ADJ', np~>np)
                     @ ( (een:een:'DET', n~>np)
                       @ (slee:slee:'NOUN', n) ) ) )
-                @ (_10818672, np) ) ) ) )
+                @ (_4389640, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (kind:kind:'NOUN', n) ) )
   ]).
@@ -76758,7 +76758,7 @@ sid_tts(5469,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (geen:geen:'DET', n~>np)
             @ (jas:jas:'NOUN', n) ) ) )
-      @ abst( (_10826738, np),
+      @ abst( (_4398102, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( ( (en:en:'CCONJ', (np~>np)~>(np~>np)~>np~>np)
                       @ (groene:groen:'ADJ', np~>np) )
@@ -76772,7 +76772,7 @@ sid_tts(5469,
                     @ ( (rode:rood:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (slee:slee:'NOUN', n) ) ) )
-                  @ (_10826738, np) ) ) ) ) )
+                  @ (_4398102, np) ) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (kind:kind:'NOUN', n) ) )
     ,
@@ -76780,7 +76780,7 @@ sid_tts(5469,
         @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
           @ ( (geen:geen:'DET', n~>np)
             @ (jas:jas:'NOUN', n) ) ) )
-      @ abst( (_10825412, np),
+      @ abst( (_4396776, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( ( (en:en:'CCONJ', (np~>np)~>(np~>np)~>np~>np)
                       @ (groene:groen:'ADJ', np~>np) )
@@ -76794,7 +76794,7 @@ sid_tts(5469,
                     @ ( (rode:rood:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (slee:slee:'NOUN', n) ) ) ) )
-                @ (_10825412, np) ) ) ) )
+                @ (_4396776, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (kind:kind:'NOUN', n) ) )
   ]).
@@ -78208,12 +78208,12 @@ sid_tts(5543,
 sid_tts(5544,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_11191104, np),
+        @ abst( (_4778392, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (de:de:'DET', n~>np)
                     @ (regen:regen:'NOUN', n) ) )
                 @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                  @ (_11191104, np) ) ) ) )
+                  @ (_4778392, np) ) ) ) )
       @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
         @ ( (rood:rood:'ADJ', np~>np)
           @ ( (een:een:'DET', n~>np)
@@ -78594,14 +78594,14 @@ sid_tts(5568,
 sid_tts(5569,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_11281276, np),
+        @ abst( (_4872668, np),
                 ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (glijbaan:glijbaan:'VERB', n) ) )
                 @ ( ( (gaat:gaan:'VERB', pp~>np~>s:dcl)
                     @ ( (naar:naar:'ADP', pr~>pp)
                       @ (beneden:beneden:'ADP', pr) ) )
-                  @ (_11281276, np) ) ) ) )
+                  @ (_4872668, np) ) ) ) )
       @ ( ( (gooit:gooien:'ADV', pr~>np~>np~>s:dcl)
           @ (omhoog:omhoog:'ADV', pr) )
         @ ( (zijn:zijn:'PRON', n~>np)
@@ -79742,7 +79742,7 @@ sid_tts(5637,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( (zijn:zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11553458, np:pn),
+          @ abst( (_5156226, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( ( (op:op:'ADP', np~>np~>np)
                         @ ( (groene:groen:'ADJ', np~>np)
@@ -79752,7 +79752,7 @@ sid_tts(5637,
                         @ (voetbal:voetbal:'NOUN', n) ) ) )
                   @ ( (buiten:buiten:'ADP', s:sub~>s:sub)
                     @ ( (spelen:spelen:'VERB', np:pn~>s:sub)
-                      @ (_11553458, np:pn) ) ) ) ) )
+                      @ (_5156226, np:pn) ) ) ) ) )
         @ ( (kleine:klein:'ADJ', np~>np)
           @ ( (geen:geen:'DET', n~>np)
             @ (jongens:jongen:'NOUN', n) ) ) ) ) )
@@ -80183,14 +80183,14 @@ sid_tts(5664,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11701364, np:pn),
+          @ abst( (_5311152, np:pn),
                   ( (boven:boven:'ADP', s:sub~>s:sub)
                   @ ( ( (zit:zitten:'VERB', pp~>np:pn~>s:sub)
                       @ ( (op:op:'ADP', np~>pp)
                         @ ( (ronde:ronde:'NOUN', np~>np)
                           @ ( (een:een:'DET', n~>np)
                             @ (fontein:fontein:'NOUN', n) ) ) ) )
-                    @ (_11701364, np:pn) ) ) ) )
+                    @ (_5311152, np:pn) ) ) ) )
         @ ( ( (in:in:'ADP', np~>np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (badpak:badpak:'NOUN', n) ) )
@@ -80373,12 +80373,12 @@ sid_tts(5679,
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (met:met:'ADP', np~>np~>np)
           @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-              @ abst( (_11767870, np:pn),
+              @ abst( (_5380754, np:pn),
                       ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                         @ ( (de:de:'DET', n~>np)
                           @ (rotsen:rots:'NOUN', n) ) )
                       @ ( (wandelt:wandelen:'VERB', np:pn~>s:sub)
-                        @ (_11767870, np:pn) ) ) ) )
+                        @ (_5380754, np:pn) ) ) ) )
             @ ( (blauwe:blauw:'ADJ', np~>np)
               @ ( (een:een:'DET', n~>np)
                 @ (rugzak:rugzak:'NOUN', n) ) ) ) )
@@ -80634,7 +80634,7 @@ sid_tts(5695,
           @ ( ( (en:en:'CCONJ', np~>np~>np)
               @ (verf:verf:'NOUN', np) )
             @ (kostuumstukken:kostuumstuk:'NOUN', np) ) ) )
-      @ abst( (_11830644, np),
+      @ abst( (_5446444, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (drukke:druk:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
@@ -80643,7 +80643,7 @@ sid_tts(5695,
                   @ ( (de:de:'DET', n~>np)
                     @ (fiets:fiets:'NOUN', n) ) )
                 @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                  @ (_11830644, np) ) ) ) ) )
+                  @ (_5446444, np) ) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
     ,
@@ -80652,7 +80652,7 @@ sid_tts(5695,
           @ ( ( (en:en:'CCONJ', np~>np~>np)
               @ (verf:verf:'NOUN', np) )
             @ (kostuumstukken:kostuumstuk:'NOUN', np) ) ) )
-      @ abst( (_11829702, np),
+      @ abst( (_5445502, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (de:de:'DET', n~>np)
                   @ (fiets:fiets:'NOUN', n) ) )
@@ -80661,7 +80661,7 @@ sid_tts(5695,
                     @ ( (drukke:druk:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (straat:straat:'NOUN', n) ) ) ) )
-                @ (_11829702, np) ) ) ) )
+                @ (_5445502, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -80724,7 +80724,7 @@ sid_tts(5697,
           @ ( ( (en:en:'CCONJ', np~>np~>np)
               @ (verf:verf:'NOUN', np) )
             @ (kostuumstukken:kostuumstuk:'NOUN', np) ) ) )
-      @ abst( (_11850132, np),
+      @ abst( (_5466856, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (een:een:'DET', n~>np)
                   @ (fiets:fiets:'NOUN', n) ) )
@@ -80733,7 +80733,7 @@ sid_tts(5697,
                     @ ( (lege:leeg:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (straat:straat:'NOUN', n) ) ) ) )
-                @ (_11850132, np) ) ) ) )
+                @ (_5466856, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
     ,
@@ -80742,7 +80742,7 @@ sid_tts(5697,
           @ ( ( (en:en:'CCONJ', np~>np~>np)
               @ (verf:verf:'NOUN', np) )
             @ (kostuumstukken:kostuumstuk:'NOUN', np) ) ) )
-      @ abst( (_11849186, np),
+      @ abst( (_5465910, np),
               ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (lege:leeg:'ADJ', np~>np)
                   @ ( (een:een:'DET', n~>np)
@@ -80751,7 +80751,7 @@ sid_tts(5697,
                   @ ( (een:een:'DET', n~>np)
                     @ (fiets:fiets:'NOUN', n) ) )
                 @ ( (rijdt:rijden:'VERB', np~>s:dcl)
-                  @ (_11849186, np) ) ) ) ) )
+                  @ (_5465910, np) ) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -80787,7 +80787,7 @@ sid_tts(5700,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11869178, np:pn),
+          @ abst( (_5486838, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (bosrijke:bosrijk:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
@@ -80796,14 +80796,14 @@ sid_tts(5700,
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (de:de:'DET', n~>np)
                           @ (lucht:lucht:'NOUN', n) ) ) )
-                    @ (_11869178, np:pn) ) ) ) )
+                    @ (_5486838, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (kerel:kerel:'NOUN', n) ) ) ) )
     ,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11868424, np:pn),
+          @ abst( (_5486084, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (de:de:'DET', n~>np)
                       @ (kerel:kerel:'NOUN', n) ) )
@@ -80811,7 +80811,7 @@ sid_tts(5700,
                       @ ( (in:in:'ADP', np~>pp)
                         @ ( (geen:geen:'DET', n~>np)
                           @ (omgeving:omgeving:'NOUN', n) ) ) )
-                    @ (_11868424, np:pn) ) ) ) )
+                    @ (_5486084, np:pn) ) ) ) )
         @ ( (bosrijke:bosrijk:'ADJ', np~>np)
           @ ( (een:een:'DET', n~>np)
             @ (lucht:lucht:'NOUN', n) ) ) ) ) )
@@ -80930,12 +80930,12 @@ sid_tts(5709,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_11898958, np:pn),
+          @ abst( (_5517806, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (volleybal:volleybal:'NOUN', n) ) )
                   @ ( (rent:rent:'NOUN', np:pn~>s:sub)
-                    @ (_11898958, np:pn) ) ) ) )
+                    @ (_5517806, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (hond:hond:'NOUN', n) ) ) ) )
   ]).
@@ -81370,7 +81370,7 @@ sid_tts(5733,
 sid_tts(5734,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_12040084, np),
+        @ abst( (_5665148, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (kennel:kennel:'NOUN', n) ) )
@@ -81378,7 +81378,7 @@ sid_tts(5734,
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (hun:hun:'PRON', n~>np)
                         @ (achterpoten:achterpoot:'NOUN', n) ) ) )
-                  @ (_12040084, np) ) ) ) )
+                  @ (_5665148, np) ) ) ) )
       @ ( (staan:staan:'VERB', pp~>np~>s:dcl)
         @ ( (tegenover:tegenover:'ADP', np:pn~>pp)
           @ (elkaar:elkaar:'PRON', np:pn) ) ) )
@@ -81389,7 +81389,7 @@ sid_tts(5734,
 sid_tts(5735,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_12045380, np),
+        @ abst( (_5670612, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (kennel:kennel:'NOUN', n) ) )
@@ -81397,7 +81397,7 @@ sid_tts(5735,
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (hun:hun:'PRON', n~>np)
                         @ (achterpoten:achterpoot:'NOUN', n) ) ) )
-                  @ (_12045380, np) ) ) ) )
+                  @ (_5670612, np) ) ) ) )
       @ ( (staan:staan:'VERB', pp~>np~>s:dcl)
         @ ( (tegenover:tegenover:'ADP', np:pn~>pp)
           @ (elkaar:elkaar:'PRON', np:pn) ) ) )
@@ -81408,7 +81408,7 @@ sid_tts(5735,
 sid_tts(5736,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_12054134, np),
+        @ abst( (_5679870, np),
                 ( ( (in:in:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (kennel:kennel:'NOUN', n) ) )
@@ -81416,7 +81416,7 @@ sid_tts(5736,
                     @ ( (op:op:'ADP', np~>pp)
                       @ ( (hun:hun:'PRON', n~>np)
                         @ (achterpoten:achterpoot:'NOUN', n) ) ) )
-                  @ (_12054134, np) ) ) ) )
+                  @ (_5679870, np) ) ) ) )
       @ ( (zitten:zitten:'VERB', pp~>np~>s:dcl)
         @ ( (tegenover:tegenover:'ADP', np:pn~>pp)
           @ (elkaar:elkaar:'PRON', np:pn) ) ) )
@@ -82598,13 +82598,13 @@ sid_tts(5804,
             @ (staat:staat:'NOUN', n) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_12370446, n~>np),
+              @ abst( (_6008122, n~>np),
                       ( (rood:rood:'ADJ', np~>np)
-                      @ ( (_12370446, n~>np)
+                      @ ( (_6008122, n~>np)
                         @ (jasje:jas:'NOUN', n) ) ) ) )
-            @ abst( (_12370576, n~>np),
+            @ abst( (_6008252, n~>np),
                     ( (kaki:kaki:'NOUN', np~>np)
-                    @ ( (_12370576, n~>np)
+                    @ ( (_6008252, n~>np)
                       @ (broek:broek:'NOUN', n) ) ) ) )
           @ (een:een:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -82620,13 +82620,13 @@ sid_tts(5805,
             @ (staat:staat:'NOUN', n) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_12374502, n~>np),
+              @ abst( (_6012454, n~>np),
                       ( (rood:rood:'ADJ', np~>np)
-                      @ ( (_12374502, n~>np)
+                      @ ( (_6012454, n~>np)
                         @ (jasje:jas:'NOUN', n) ) ) ) )
-            @ abst( (_12374632, n~>np),
+            @ abst( (_6012584, n~>np),
                     ( (kaki:kaki:'NOUN', np~>np)
-                    @ ( (_12374632, n~>np)
+                    @ ( (_6012584, n~>np)
                       @ (broek:broek:'NOUN', n) ) ) ) )
           @ (een:een:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -82642,13 +82642,13 @@ sid_tts(5806,
             @ (staat:staat:'NOUN', n) ) ) ) )
     @ ( ( (in:in:'ADP', np~>np~>np)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_12378558, n~>np),
+              @ abst( (_6016786, n~>np),
                       ( (rood:rood:'ADJ', np~>np)
-                      @ ( (_12378558, n~>np)
+                      @ ( (_6016786, n~>np)
                         @ (jasje:jas:'NOUN', n) ) ) ) )
-            @ abst( (_12378688, n~>np),
+            @ abst( (_6016916, n~>np),
                     ( (kaki:kaki:'NOUN', np~>np)
-                    @ ( (_12378688, n~>np)
+                    @ ( (_6016916, n~>np)
                       @ (broek:broek:'NOUN', n) ) ) ) )
           @ (een:een:'DET', n~>np) ) )
       @ ( ('Een':een:'DET', n~>np)
@@ -83822,7 +83822,7 @@ sid_tts(5881,
     ( ('Er':er:'ADV', s:dcl~>s:dcl)
     @ ( ((is):zijn:'VERB', np~>s:dcl)
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_12653498, np:pn),
+          @ abst( (_6303258, np:pn),
                   ( ( (in:in:'ADP', np~>s:sub~>s:sub)
                     @ ( (een:een:'DET', n~>np)
                       @ (veld:veld:'NOUN', n) ) )
@@ -83830,7 +83830,7 @@ sid_tts(5881,
                       @ ( (met:met:'ADP', np~>pp)
                         @ ( (bruin:bruin:'ADJ', np~>np)
                           @ (gras:gras:'NOUN', np) ) ) )
-                    @ (_12653498, np:pn) ) ) ) )
+                    @ (_6303258, np:pn) ) ) ) )
         @ ( (geen:geen:'DET', n~>np)
           @ (hond:hond:'NOUN', n) ) ) ) )
   ]).
@@ -84675,13 +84675,13 @@ sid_tts(5937,
               @ (bankje:bank:'NOUN', n) ) ) ) )
       @ ( (draagt:dragen:'VERB', np~>np~>s:dcl)
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_12890812, n~>np),
+              @ abst( (_6550436, n~>np),
                       ( (grijs:grijs:'NOUN', np~>np)
-                      @ ( (_12890812, n~>np)
+                      @ ( (_6550436, n~>np)
                         @ (jasje:jas:'NOUN', n) ) ) ) )
-            @ abst( (_12890942, n~>np),
+            @ abst( (_6550566, n~>np),
                     ( (zwarte:zwart:'ADJ', np~>np)
-                    @ ( (_12890942, n~>np)
+                    @ ( (_6550566, n~>np)
                       @ (broek:broek:'NOUN', n) ) ) ) )
           @ (een:een:'DET', n~>np) ) ) )
     @ ( ('De':de:'DET', n~>np)
@@ -85145,13 +85145,13 @@ sid_tts(5970,
           @ ( (blauw:blauw:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (shirt:shirt:'ADJ', n) ) ) ) )
-      @ abst( (_13014628, np),
+      @ abst( (_6679436, np),
               ( (blootvoets:blootvoet:'NOUN', s:dcl~>s:dcl)
               @ ( ( (loopt:lopen:'VERB', pp~>np~>s:dcl)
                   @ ( (op:op:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (tennisbaan:tennisbaan:'NOUN', n) ) ) )
-                @ (_13014628, np) ) ) ) )
+                @ (_6679436, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
@@ -85163,7 +85163,7 @@ sid_tts(5971,
           @ ( (blauw:blauw:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (shirt:shirt:'ADJ', n) ) ) ) )
-      @ abst( (_13018014, np),
+      @ abst( (_6683002, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (blote:bloot:'ADJ', np~>np)
                   @ (voeten:voet:'NOUN', np) ) )
@@ -85171,7 +85171,7 @@ sid_tts(5971,
                   @ ( (op:op:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (tennisbaan:tennisbaan:'NOUN', n) ) ) )
-                @ (_13018014, np) ) ) ) )
+                @ (_6683002, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (persoon:persoon:'NOUN', n) ) )
   ]).
@@ -85183,7 +85183,7 @@ sid_tts(5972,
           @ ( (blauw:blauw:'ADJ', np~>np)
             @ ( (een:een:'DET', n~>np)
               @ (shirt:shirt:'ADJ', n) ) ) ) )
-      @ abst( (_13021856, np),
+      @ abst( (_6687048, np),
               ( ( (op:op:'ADP', np~>s:dcl~>s:dcl)
                 @ ( (blote:bloot:'ADJ', np~>np)
                   @ (voeten:voet:'NOUN', np) ) )
@@ -85191,7 +85191,7 @@ sid_tts(5972,
                   @ ( (op:op:'ADP', np~>pp)
                     @ ( (een:een:'DET', n~>np)
                       @ (tennisbaan:tennisbaan:'NOUN', n) ) ) )
-                @ (_13021856, np) ) ) ) )
+                @ (_6687048, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -85848,13 +85848,13 @@ sid_tts(6006,
           @ ( ('Een':een:'DET', n~>np)
             @ (jongen:jongen:'NOUN', n) ) ) )
       @ ( ( (die:die:'PRON', (np:pn~>s:sub)~>np~>np)
-          @ abst( (_13197430, np:pn),
+          @ abst( (_6870518, np:pn),
                   ( ( (met:met:'ADP', np~>s:sub~>s:sub)
                     @ ( (geel:geel:'ADJ', np~>np)
                       @ ( (een:een:'DET', n~>np)
                         @ (overhemd:overhemd:'VERB', n) ) ) )
                   @ ( (draagt:dragen:'VERB', np:pn~>s:sub)
-                    @ (_13197430, np:pn) ) ) ) )
+                    @ (_6870518, np:pn) ) ) ) )
         @ ( (een:een:'DET', n~>np)
           @ (vrouw:vrouw:'NOUN', n) ) ) ) )
   ]).
@@ -85867,16 +85867,16 @@ sid_tts(6007,
             @ ( (een:een:'DET', n~>np)
               @ (park:park:'NOUN', n) ) ) )
         @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-              @ abst( (_13206038, n~>np),
+              @ abst( (_6879510, n~>np),
                       ( ( (in:in:'ADP', np~>np~>np)
                         @ ( (oranje:oranje:'ADJ', np~>np)
-                          @ ( (_13206038, n~>np)
+                          @ ( (_6879510, n~>np)
                             @ (overhemd:overhemd:'VERB', n) ) ) )
                       @ ( ('Een':een:'DET', n~>np)
                         @ (vrouw:vrouw:'NOUN', n) ) ) ) )
-            @ abst( (_13206290, n~>np),
+            @ abst( (_6879762, n~>np),
                     ( ('make-up':'make-up':'NOUN', np~>np)
-                    @ ( (_13206290, n~>np)
+                    @ ( (_6879762, n~>np)
                       @ (clown:clown:'ADJ', n) ) ) ) )
           @ (een:een:'DET', n~>np) ) ) )
     @ ( ( (kijken:kijken:'VERB', pr~>(np~>s:adj)~>s:dcl)
@@ -85893,13 +85893,13 @@ sid_tts(6008,
               @ (park:park:'NOUN', n) ) ) )
         @ ( ( (in:in:'ADP', np~>np~>np)
             @ ( ( ( (en:en:'CCONJ', ((n~>np)~>np)~>((n~>np)~>np)~>(n~>np)~>np)
-                  @ abst( (_13214344, n~>np),
+                  @ abst( (_6888368, n~>np),
                           ( (oranje:oranje:'ADJ', np~>np)
-                          @ ( (_13214344, n~>np)
+                          @ ( (_6888368, n~>np)
                             @ (overhemd:overhemd:'VERB', n) ) ) ) )
-                @ abst( (_13214474, n~>np),
+                @ abst( (_6888498, n~>np),
                         ( ('make-up':'make-up':'NOUN', np~>np)
-                        @ ( (_13214474, n~>np)
+                        @ ( (_6888498, n~>np)
                           @ (clown:clown:'ADJ', n) ) ) ) )
               @ (een:een:'DET', n~>np) ) )
           @ ( ('Een':een:'DET', n~>np)
@@ -86137,12 +86137,12 @@ sid_tts(6021,
 sid_tts(6022,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13269662, np),
+        @ abst( (_6946014, np),
                 ( ( (naast:naast:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (hond:hond:'NOUN', n) ) )
                 @ ( (hurkt:hurken:'VERB', np~>s:dcl)
-                  @ (_13269662, np) ) ) ) )
+                  @ (_6946014, np) ) ) ) )
       @ ( (glimlacht:glimlachen:'VERB', pp~>np~>s:dcl)
         @ ( (naar:naar:'ADP', np~>pp)
           @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
@@ -86157,13 +86157,13 @@ sid_tts(6022,
       @ (vrouw:vrouw:'NOUN', n) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13268512, np),
+        @ abst( (_6944864, np),
                 ( ( (naast:naast:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (hond:hond:'NOUN', n) ) )
                 @ ( (hurkt:hurken:'VERB', np~>s:dcl)
-                  @ (_13268512, np) ) ) ) )
-      @ abst( (_13268730, np),
+                  @ (_6944864, np) ) ) ) )
+      @ abst( (_6945082, np),
               ( ( (naar:naar:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
                     @ ( (zit:zitten:'VERB', pp~>np:pn~>s:sub)
@@ -86174,7 +86174,7 @@ sid_tts(6022,
                     @ ( (een:een:'DET', n~>np)
                       @ (meisje:meisje:'NOUN', n) ) ) ) )
               @ ( (glimlacht:glimlachen:'VERB', np~>s:dcl)
-                @ (_13268730, np) ) ) ) )
+                @ (_6945082, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -86182,13 +86182,13 @@ sid_tts(6022,
 sid_tts(6023,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13282886, np),
+        @ abst( (_6959958, np),
                 ( ( (naast:naast:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (hond:hond:'NOUN', n) ) )
                 @ ( (hurkt:hurken:'VERB', np~>s:dcl)
-                  @ (_13282886, np) ) ) ) )
-      @ abst( (_13283104, np),
+                  @ (_6959958, np) ) ) ) )
+      @ abst( (_6960176, np),
               ( ( (naar:naar:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
                     @ ( (zit:zitten:'VERB', pp~>np:pn~>s:sub)
@@ -86199,7 +86199,7 @@ sid_tts(6023,
                     @ ( (een:een:'DET', n~>np)
                       @ (meisje:meisje:'NOUN', n) ) ) ) )
               @ ( (lacht:lachen:'VERB', np~>s:dcl)
-                @ (_13283104, np) ) ) ) )
+                @ (_6960176, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (vrouw:vrouw:'NOUN', n) ) )
   ]).
@@ -86207,12 +86207,12 @@ sid_tts(6023,
 sid_tts(6024,
   [
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13294202, np),
+        @ abst( (_6971754, np),
                 ( ( (naast:naast:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (hond:hond:'NOUN', n) ) )
                 @ ( (hurkt:hurken:'VERB', np~>s:dcl)
-                  @ (_13294202, np) ) ) ) )
+                  @ (_6971754, np) ) ) ) )
       @ ( (glimlacht:glimlachen:'VERB', pp~>np~>s:dcl)
         @ ( (naar:naar:'ADP', np~>pp)
           @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
@@ -86226,13 +86226,13 @@ sid_tts(6024,
       @ (man:man:'NOUN', n) ) )
     ,
     ( ( ( (en:en:'CCONJ', (np~>s:dcl)~>(np~>s:dcl)~>np~>s:dcl)
-        @ abst( (_13293106, np),
+        @ abst( (_6970658, np),
                 ( ( (naast:naast:'ADP', np~>s:dcl~>s:dcl)
                   @ ( (een:een:'DET', n~>np)
                     @ (hond:hond:'NOUN', n) ) )
                 @ ( (hurkt:hurken:'VERB', np~>s:dcl)
-                  @ (_13293106, np) ) ) ) )
-      @ abst( (_13293324, np),
+                  @ (_6970658, np) ) ) ) )
+      @ abst( (_6970876, np),
               ( ( (naar:naar:'ADP', np~>s:dcl~>s:dcl)
                 @ ( ( (dat:dat:'PRON', (np:pn~>s:sub)~>np~>np)
                     @ ( (zit:zitten:'VERB', pp~>np:pn~>s:sub)
@@ -86242,7 +86242,7 @@ sid_tts(6024,
                   @ ( (een:een:'DET', n~>np)
                     @ (meisje:meisje:'NOUN', n) ) ) )
               @ ( (glimlacht:glimlachen:'VERB', np~>s:dcl)
-                @ (_13293324, np) ) ) ) )
+                @ (_6970876, np) ) ) ) )
     @ ( ('Een':een:'DET', n~>np)
       @ (man:man:'NOUN', n) ) )
   ]).
