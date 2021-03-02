@@ -24403,7 +24403,7 @@
     {"t": "geen", "l": "geen", "p": "DET"},
     {"t": "man", "l": "man", "p": "NOUN"},
     {"t": "die", "l": "die", "p": "PRON"},
-    {"t": "achterwaarste", "l": "achterwaar", "p": "ADJ"},
+    {"t": "achterwaarste", "l": "achterwaarst", "p": "ADJ"},
     {"t": "salto's", "l": "salto", "p": "NOUN"},
     {"t": "doet", "l": "doen", "p": "VERB"},
     {"t": "op", "l": "op", "p": "ADP"},
@@ -45785,7 +45785,7 @@
     {"t": "paarse", "l": "paars", "p": "ADJ"},
     {"t": "zuilen", "l": "zuil", "p": "NOUN"},
     {"t": ",", "l": ",", "p": "PUNCT"},
-    {"t": "waartussen", "l": "waartuss", "p": "NOUN"},
+    {"t": "waartussen", "l": "waartus", "p": "NOUN"},
     {"t": "mensen", "l": "mens", "p": "NOUN"},
     {"t": "lopen", "l": "lopen", "p": "VERB"} ],
   "4652": [
