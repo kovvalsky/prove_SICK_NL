@@ -11,11 +11,10 @@
         indexed_dict_to_list/2,
         list_to_set_using_match/2,
         num_list/2,
-        read_dict_from_json_file/2,
         value_merge_dicts/3
     ]).
 
-:- use_module(library(http/json)).
+% :- use_module(library(http/json)).
 :- use_module(library(dicts)).
 :- use_module(library(clpfd)).
 
@@ -44,10 +43,7 @@ list_to_set_using_match_r(List, Set) :-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % merge annotations recursively
 
-% read dictionary from json file
-read_dict_from_json_file(JSON, Dict) :-
-    open(JSON, read, S, [encoding(utf8), close_on_abort(true)]),
-    json_read_dict(S, Dict, [value_string_as(atom), default_tag(j)]).
+
 
 indexed_dict_to_list(IndDict, List) :-
     dict_keys(IndDict, Keys),

@@ -10,18 +10,20 @@
     ]).
 
 :- use_module('generic_utils', [
-    num_list/2, filepath_write_source/2, read_dict_from_json_file/2
+    num_list/2, filepath_write_source/2
     ]).
 :- use_module('../LangPro/prolog/llf/ttterm_to_term', [
     ttTerm_to_pretty_ttTerm/2
     ]).
 :- use_module('../LangPro/prolog/utils/generic_preds', [
-    format_list_list/3
+    format_list_list/3, read_dict_from_json_file/2
     ]).
 :- use_module('tlg_to_tt', [json_tlg_ids_to_tts/3, anno_sid_tts/3]).
 :- use_module('../LangPro/prolog/latex/latex_ttterm', [
     latex_ttTerm_print_tree/3, latex_ttTerm_preambule/1
     ]).
+
+:- multifile sid_tts/2. % silences warnnings
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % write TT terms (obtained form TLGs) in LaTex according to sentecne IDs

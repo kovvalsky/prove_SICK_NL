@@ -7,6 +7,7 @@
     [
         anno_sid_tts/3,
         json_tlg_ids_to_tts/3,
+        sen_id_to_tlgs/3,
         tlg_anno_to_tt/3,
         write_anno_tts/2,
         write_anno_tt_debug/2
@@ -19,9 +20,11 @@
     write_pretty_ttTerm/3, ttTerm_to_pretty_ttTerm/2
     ]).
 :- use_module('../LangPro/prolog/lambda/lambda_tt', [ norm_tt/2 ]).
-:- use_module('../LangPro/prolog/utils/generic_preds', [ true_member/2 ]).
+:- use_module('../LangPro/prolog/utils/generic_preds', [
+    true_member/2, read_dict_from_json_file/2
+    ]).
 :- use_module('generic_utils', [
-    enumerate_list/2, list_to_set_using_match/2, read_dict_from_json_file/2,
+    enumerate_list/2, list_to_set_using_match/2,
     dict_length/2, atom_split/4, value_merge_dicts/3
     ]).
 
