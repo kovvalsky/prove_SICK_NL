@@ -266,11 +266,11 @@ anno_to_tlp(Anno, tlp(T,L,P)) :-
     once(correct_tlp([Anno.t, Anno.l, Anno.p], [T,L,P])).
 
 % No pos conversion
-correct_tlp([T,L,POS], [T,L,POS]).
+% correct_tlp([T,L,POS], [T,L,POS]).
 
 % convert UPOS to Penn POS
-% correct_tlp([T,L,POS1], [T,L,POS2]) :-
-%     upos2penn(POS1, POS2).
+correct_tlp([T,L,POS1], [T,L,POS2]) :-
+    upos2penn(POS1, POS2).
 
 
 % https://universaldependencies.org/tagset-conversion/en-penn-uposf.html
@@ -310,3 +310,4 @@ upos2penn('SYM', 'SYM').
 upos2penn('VERB', 'VB').
 % not relevant for SICK
 upos2penn('X', 'X').
+upos2penn(X, X).
