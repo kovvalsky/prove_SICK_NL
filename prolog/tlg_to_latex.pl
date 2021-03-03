@@ -22,6 +22,7 @@
 :- use_module('../LangPro/prolog/latex/latex_ttterm', [
     latex_ttTerm_print_tree/3, latex_ttTerm_preambule/1
     ]).
+:- use_module('utils', [ add_feats_to_tlp/2, translate_nl2en/2 ]).
 
 :- multifile sid_tts/2. % silences warnnings
 
@@ -79,9 +80,25 @@ write_sen_rtts_to_latex(S, [SID|SIDs]) :-
 write_sen_tts_to_latex(_S, _AnnoDict, []) :- !.
 
 write_sen_tts_to_latex(S, AnnoDict, [SID|SIDs]) :-
+    ( debMode(gtraceSen(SID)) -> gtrace, true; true ),
+    format('~w~n', [SID]),
     write_sen_info_to_latex(S, SID),
+    % first version of TT terms
     anno_sid_tts(AnnoDict, SID, TTs),
+    set_latex_color(S, 'red'),
     maplist(latex_ttTerm_print_tree(S, 2), TTs),
+    % corrected version of TT terms
+    maplist(translate_nl2en, TTs, TTs1),
+    maplist(add_feats_to_tlp, TTs1, TTs2),
+    maplist(correct_ttterm, TTs2, CorrTTs),
+    set_latex_color(S, 'blue'),
+    maplist(latex_ttTerm_print_tree(S, 2), CorrTTs),
+    % type-raised TT terms
+    maplist([C,T]>>( once_gen_quant_tt(C,TR) -> T = TR
+                   ; T = (tlp(fail,fail,'NN','O','O'), n:_)
+                   ), CorrTTs, TR_TTs),
+    set_latex_color(S, 'black'),
+    maplist(latex_ttTerm_print_tree(S, 2), TR_TTs),
     write_sen_tts_to_latex(S, AnnoDict, SIDs).
 %----------------------------------------------
 
@@ -124,3 +141,6 @@ filter_sen_ids(LIS, SIDs) :-
     ), SID_List),
     list_to_ord_set(SID_List, SIDs).
 %----------------------------------------------
+
+set_latex_color(S, Color) :-
+    format(S, '~n~n\\color{~w}~n~n', [Color]).
