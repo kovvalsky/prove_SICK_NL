@@ -51,7 +51,7 @@ write_anno_tts(WriteFile, JSON) :-
     format('~w sentence with diff IDs are read~n', [LenSIDs]),
     format('Annotations for ~w sentences are read~n', [LenKeys]),
     test_true(LenSIDs =< LenKeys,
-        'Sentences are more than annotatiosn are available', []),
+        'Sentences are more than annotations available', []),
     maplist(write_anno_tt_ignore(S, AnnoDict), SIDs).
 
 write_anno_tt_debug(SID, JSON) :-
@@ -66,6 +66,8 @@ json_tlg_ids_to_tts(JSON, IDs, L_TTs) :-
 %========================================
 
 write_anno_tt_ignore(S, AnnoDict, SID) :-
+    sen_id(SID,_,_,_,_,Raw),
+    format(S, '% ~w~n', [Raw]),
     ( write_anno_tt(S, AnnoDict, SID) -> true
     ; format(S, 'sid_tts(~p, []).~n~n', [SID]) ).
 
@@ -239,7 +241,7 @@ simple_tlg_to_ccg(pr, pr).
 % https://www.let.rug.nl/vannoord/alp/Alpino/adt.html
 
 simple_tlg_to_ccg(ssub, s:sub).     % Subordinate clause (verb final)
-simple_tlg_to_ccg(vnw, np:pn).      % pronoun
+simple_tlg_to_ccg(vnw, np:pron).      % pronoun
 simple_tlg_to_ccg(vz, pr).          % particle
 simple_tlg_to_ccg(ahi, np:_~>s:ng). % aan het-infinitive group
 simple_tlg_to_ccg(ww, np:_~>s:b).   % verb
