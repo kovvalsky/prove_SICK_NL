@@ -3,6 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 :- module(tlg_to_latex,
     [
+    tlg_pid_to_latex/3,
     tlg_ids_to_latex/3,
     tlg_ids_to_pdf/3,
     rtt_ids_to_latex/2,
@@ -25,6 +26,17 @@
 :- use_module('utils', [ add_feats_to_tlp/2, translate_nl2en/2 ]).
 
 :- multifile sid_tts/2. % silences warnnings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% write TT terms (ontained form TLGs) in Latex for a particular problem ID
+tlg_pid_to_latex(JSON, PID, FilePath) :-
+    filepath_write_source(FilePath, S),
+    latex_ttTerm_preambule(S),
+    write(S, '\\begin{document}\n'),
+    read_dict_from_json_file(JSON, AnnoDict),
+    write_prob_tts_to_latex(S, AnnoDict, PID),
+    write(S, '\\end{document}'),
+    close(S).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % write TT terms (obtained form TLGs) in LaTex according to sentecne IDs
@@ -83,24 +95,42 @@ write_sen_tts_to_latex(S, AnnoDict, [SID|SIDs]) :-
     ( debMode(gtraceSen(SID)) -> gtrace, true; true ),
     format('~w~n', [SID]),
     write_sen_info_to_latex(S, SID),
-    % first version of TT terms
     anno_sid_tts(AnnoDict, SID, TTs),
-    set_latex_color(S, 'red'),
-    maplist(latex_ttTerm_print_tree(S, 2), TTs),
-    % corrected version of TT terms
-    maplist(translate_nl2en, TTs, TTs1),
-    maplist(add_feats_to_tlp, TTs1, TTs2),
-    maplist(correct_ttterm, TTs2, CorrTTs),
-    set_latex_color(S, 'blue'),
-    maplist(latex_ttTerm_print_tree(S, 2), CorrTTs),
-    % type-raised TT terms
-    maplist([C,T]>>( once_gen_quant_tt(C,TR) -> T = TR
-                   ; T = (tlp(fail,fail,'NN','O','O'), n:_)
-                   ), CorrTTs, TR_TTs),
-    set_latex_color(S, 'black'),
-    maplist(latex_ttTerm_print_tree(S, 2), TR_TTs),
+    maplist(tt_to_latex(S), TTs),
     write_sen_tts_to_latex(S, AnnoDict, SIDs).
 %----------------------------------------------
+
+%----------------------------------------------
+% get TTs for the problem and write them in LaTeX
+write_prob_tts_to_latex(S, AnnoDict, PID) :-
+    ( debMode(gtraceProb(PID)) -> gtrace, true; true ),
+    format('~w~n', [PID]),
+    write_prob_info_to_latex(S, PID),
+    findall(SID, sen_id(SID,PID,_,_,_,_), SIDs),
+    maplist(anno_sid_tts(AnnoDict), SIDs, L_TTs),
+    maplist({S}/[TTs]>>maplist(tt_to_latex(S), TTs), L_TTs).
+
+%----------------------------------------------
+
+%----------------------------------------------
+% Get TTS of a SID and write various intermediate TTs in Latex
+tt_to_latex(S, TT) :-
+    % first version of TT terms
+    set_latex_color(S, 'red'),
+    latex_ttTerm_print_tree(S, 2, TT),
+    % corrected version of TT terms
+    translate_nl2en(TT, TT1),
+    add_feats_to_tlp(TT1, TT2),
+    correct_ttterm(TT2, CorrTT),
+    set_latex_color(S, 'blue'),
+    latex_ttTerm_print_tree(S, 2, CorrTT),
+    % type-raised TT terms
+    ( once_gen_quant_tt(CorrTT, TR) -> TR_TT = TR
+    ; TR_TT = (tlp(fail,fail,'NN','O','O'), n:_) ),
+    set_latex_color(S, 'black'),
+    latex_ttTerm_print_tree(S, 2, TR_TT).
+%----------------------------------------------
+
 
 % write info about the sentence with SID in S in Latex format
 write_sen_info_to_latex(S, SID) :-
@@ -112,6 +142,18 @@ write_sen_info_to_latex(S, SID) :-
     format(S, '\\noindent\\texttt{[~w]} \\Large{\\textbf{~w}}~n~n\\noindent ~w occurences:~n',
         [SID, Raw, N]),
     format_list_list(S, '(~w:~w ~w ~w) ', Info),
+    format(S, '~n~n', []),
+    flush_output(S).
+
+% write info about the sentence with SID in S in Latex format
+write_prob_info_to_latex(S, PID) :-
+    once(sen_id(_,PID,_,_,Lab,_)),
+    findall([SID,PH,Raw],(
+        sen_id(SID,PID,PH,_,_,Raw)
+    ), Info),
+    format(S, '\\noindent\\texttt{[~w]} \\Large{\\textbf{~w}}~n~n', [PID, Lab]),
+    format(atom(F), '\\noindent(~~w):[~w]~~w \\Large{\\textbf{~~w}}~n~n ', [PID]),
+    format_list_list(S, F, Info),
     format(S, '~n~n', []),
     flush_output(S).
 
