@@ -54,8 +54,8 @@ translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P), Ty)) :- !,
     ; NL == 'geen' -> EN = 'no'
     ; memberchk(NL, ['het','de']) -> EN = 'the'
     ; memberchk(NL, ['een','één']) -> EN = 'a'
+    ; memberchk(NL, ['wat','sommig']), Ty = n:_~>np:_ -> EN = 'some'
     ; NL == 'en' -> EN = 'and'
-    ; memberchk(NL, ['is','zijn']), Ty = np:_~>s:_ -> EN = 'be' % pos=RB?
     ; NL == 'er' -> EN = 'there'
     ; NL == 'die', Ty = (np:_~>s:_)~>N~>N -> EN = 'who'
     ; NL == 'door', Ty = np:_~>(np:_~>s:_)~>(np:_~>s:_) -> EN = 'by'
@@ -65,9 +65,9 @@ translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P), Ty)) :- !,
     ; NL == 'niets', Ty = np:_ -> EN = 'nothing'
     ; NL == 'worden', P == 'RB', Ty = (np:_~>s:pt)~>np:_~>s:_ -> EN = 'be'
     % ; NL == 'doen', Ty = np:_~>np:_~>s:_ -> EN = 'do'%!!! plaatsen<doen sicknl-3250
-    ; memberchk(NL, ['is','aan_het']),
-      memberchk(P, ['RB','AUX']),
+    ; memberchk(NL, ['zijn','is','aan_het']), memberchk(P, ['RB','AUX']),
       Ty = (np:_~>s:_)~>np:_~>s:_ -> EN = 'be'
+    ; memberchk(NL, ['is','zijn']), Ty = np:_~>s:_ -> EN = 'be' % pos=RB?
     ; NL = EN ).
 
 
