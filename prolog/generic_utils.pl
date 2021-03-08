@@ -8,8 +8,10 @@
         dict_length/2,
         enumerate_list/2,
         filepath_write_source/2,
+        homogeneous_list/1,
         indexed_dict_to_list/2,
         list_to_set_using_match/2,
+        merge_two_lists/4,
         num_list/2,
         value_merge_dicts/3
     ]).
@@ -117,3 +119,12 @@ filepath_write_source(FilePath, S) :-
     file_directory_name(FilePath, Dir),
     ( exists_directory(Dir) -> true; make_directory(Dir) ),
     open(FilePath, write, S, [encoding(utf8), close_on_abort(true)]).
+
+% merge two lists elementwise.
+% Merge is done with concatenation using a delimiter only if elements are different
+merge_two_lists(_Delim, [], [], []) :- !.
+
+merge_two_lists(Delim, [H1|L1], [H2|L2], [H|L]) :-
+    ( H1 == H2 -> H = H1
+    ; atomic_list_concat([H1, H2], Delim, H) ),
+    merge_two_lists(Delim, L1, L2, L).
