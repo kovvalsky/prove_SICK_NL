@@ -24,7 +24,7 @@
     true_member/2, read_dict_from_json_file/2
     ]).
 :- use_module('generic_utils', [
-    enumerate_list/2, list_to_set_using_match/2,
+    enumerate_list/2, homogeneous_list/1, list_to_set_using_match/2,
     dict_length/2, atom_split/4, value_merge_dicts/3
     ]).
 
@@ -312,4 +312,7 @@ upos2penn('SYM', 'SYM').
 upos2penn('VERB', 'VB').
 % not relevant for SICK
 upos2penn('X', 'X').
+upos2penn(POS_POS, POS) :-
+    atomic_list_concat([POS|R], '_', POS_POS),
+    homogeneous_list([POS|R]).
 upos2penn(X, X).
