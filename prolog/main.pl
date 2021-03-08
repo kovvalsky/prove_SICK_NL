@@ -7,7 +7,7 @@
     write_anno_tts/2, write_anno_tt_debug/2, sen_id_to_tlgs/3, anno_sid_tts/3
     ]).
 :- use_module('tlg_to_latex', [
-    tlg_pid_to_latex/3, tlg_ids_to_latex/3, tlg_ids_to_pdf/3, 
+    tlg_pid_to_latex/3, tlg_ids_to_latex/3, tlg_ids_to_pdf/3,
     rtt_ids_to_latex/2, rtt_ids_to_pdf/2
     ]).
 :- use_module('utils', [ add_feats_to_tlp/2, translate_nl2en/2 ]).
