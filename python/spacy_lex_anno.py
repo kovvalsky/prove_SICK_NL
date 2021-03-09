@@ -12,6 +12,11 @@ import json
 import re
 from utils import write_json
 
+from typing import List
+from spacy.language import Language
+from spacy.tokens import Token, Doc
+
+
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Token annotation with Spacy')
 
@@ -37,6 +42,17 @@ def parse_arguments():
     args = parser.parse_args()
     return args
 
+
+def parse_sents(model: Language, sents: List[str], ids: List[int]) -> OrderedDict[int, List[OrderedDict[str, str]]]:
+    def parse_doc(doc: Doc) -> List[OrderedDict[str, str]]:
+        def parse_tok(token: Token) -> OrderedDict[str, str]:
+            return OrderedDict([('t', token.text), ('l', token.lemma_), ('p', token.pos_)] +
+                               list(token.morph.to_dict().items()))
+        return [parse_tok(token) for token in doc]
+    docs = model.pipe(sents, disable=['parser', 'ner'], batch_size=128)
+    return OrderedDict(zip(ids, (parse_doc(doc) for doc in docs)))
+
+
 ##############################################################################
 ################################ Main function ################################
 if __name__ == '__main__':
@@ -49,15 +65,8 @@ if __name__ == '__main__':
         sentences = [ l.strip() for l in F ]
     if args.v >= 1: print(f"{len(sentences)} sentences are read")
 
-    # annotated sentences
-    sen_annotations = OrderedDict()
-    for i, sen in enumerate(sentences, start=1):
-        if args.ids and i not in args.ids: continue
-        sen_annotations[i] = []
-        d = nlp(sen)
-        for t in d:
-            tok = OrderedDict([('t', t.text), ('l', t.lemma_), ('p', t.pos_)])
-            sen_annotations[i].append(tok)
+    idxs, sentences = list(zip(*((i, s) for i, s in enumerate(sentences, start=1) if not args.ids or i in args.ids)))
+    sen_annotations = parse_sents(nlp, sentences, idxs)
 
     # write annotations in a json format
     write_json(args.json, sen_annotations)
