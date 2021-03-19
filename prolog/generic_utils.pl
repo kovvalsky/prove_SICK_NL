@@ -6,6 +6,7 @@
     [
         atom_split/4,
         dict_length/2,
+        dicts_merge_key_value/3,
         enumerate_list/2,
         filepath_write_source/2,
         homogeneous_list/1,
@@ -78,18 +79,47 @@ atom_split(Atom, N, Part1, Part2) :-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TODO accommodate empty Dicts list or Dicts with empty keys
 value_merge_dicts(Delim, Dicts, Merge) :-
-    maplist(dict_keys, Dicts, L_Keys),
-    homogeneous_list(L_Keys), % all dictionaries have same keys
+    %maplist(dict_keys, Dicts, L_Keys),
+    dicts_same_keys(Dicts, Keys),
+    %homogeneous_list(L_Keys), % all dictionaries have same keys
     maplist(dict_pairs, Dicts, Tags, L_Pairs),
     homogeneous_list(Tags),
     maplist(pairs_values, L_Pairs, L_Values),
     transpose(L_Values, L_KeyVals),
     maplist({Delim}/[KeyVals, Merged]>>atomic_list_concat(KeyVals, Delim, Merged),
         L_KeyVals, MergedVals),
-    L_Keys = [Keys|_],
+    %L_Keys = [Keys|_],
     Tags = [Tag|_],
     pairs_keys_values(Pairs, Keys, MergedVals),
     dict_pairs(Merge, Tag, Pairs).
+
+
+%----------------------------------------------------
+dicts_merge_key_value(_Delim, [Dict], Dict) :- !.
+
+dicts_merge_key_value(Delim, [D1,D2|Dicts], Merge) :-
+    two_dicts_merge_key_value(Delim, D1, D2, D12),
+    dicts_merge_key_value(Delim, [D12|Dicts], Merge).
+
+
+two_dicts_merge_key_value(Delim, D1, D2, D) :-
+    dict_pairs(D1, Tag, KV1),
+    dict_pairs(D2, Tag, KV2),
+    dict_keys(D1, K1),
+    dict_keys(D2, K2),
+    ord_symdiff(K1, K2, K_Diff),
+    ord_intersection(K1, K2, K_Shared),
+    findall(K-V, (
+        member(K, K_Diff),
+        ( member(K-V, KV1); member(K-V, KV2) )
+    ), KV_Diff),
+    findall(K-Merged_V, (
+        member(K, K_Shared),
+        atomic_list_concat([D1.K, D2.K], Delim, Merged_V)
+    ), KV_Shared),
+    append(KV_Diff, KV_Shared, KV),
+    dict_pairs(D, Tag, KV).
+%----------------------------------------------------
 
 
 homogeneous_list([]) :- !.

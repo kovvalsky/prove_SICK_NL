@@ -25,7 +25,7 @@
     ]).
 :- use_module('generic_utils', [
     enumerate_list/2, homogeneous_list/1, list_to_set_using_match/2,
-    dict_length/2, atom_split/4, value_merge_dicts/3
+    dict_length/2, atom_split/4, value_merge_dicts/3, dicts_merge_key_value/3
     ]).
 
 :- op(605, xfy, ~>).     % more than : 600
@@ -108,7 +108,8 @@ align_tok_anno(Anno, [SubToks|Toks], [AlignedMWE|AlignAnno]) :-
     maplist([E,[E]]>>true, SubToks, SingletonSubToks), % to mimic top level
     append(SubAnno, RestAnno, Anno),
     align_tok_anno(SubAnno, SingletonSubToks, SubAligned),
-    value_merge_dicts('_', SubAligned, AlignedMWE),
+    % value_merge_dicts('_', SubAligned, AlignedMWE),
+    dicts_merge_key_value('_', SubAligned, AlignedMWE),
     align_tok_anno(RestAnno, Toks, AlignAnno).
 
 % standars case when tokens match
@@ -125,7 +126,8 @@ align_tok_anno([A|Anno], [T|Toks], AlignAnno) :-
 align_tok_anno([A1,A2|Anno], [[aan_het]|Toks], [A|AlignAnno]) :-
     'aan' = A1.t,
     'het' = A2.t,
-    value_merge_dicts('_', [A1, A2], A),
+    % value_merge_dicts('_', [A1, A2], A),
+    dicts_merge_key_value('_', [A1, A2], A),
     align_tok_anno(Anno, Toks, AlignAnno).
 %--------------------------------
 
@@ -145,10 +147,9 @@ ttterms_to_pretty_atoms(TTs, AtomTTs) :-
 
 % Get all available TLGs and its corresponding tokenization for a sentence ID
 sen_id_to_tlgs(SID, TLGs, L_Toks) :-
-    findall(TLG-Toks, (
-        % sen_id_term(SID, TLG, Toks)
-        once(sen_id(SID, PID, PH, _, _, _)),
-        prob_sen(PID, PH, TLG, Toks)
+    findall(TLG-Toks, once(
+        % prevents from selecting a PID that doesn't exists in non-semeval data
+        (sen_id(SID, PID, PH, _, _, _), prob_sen(PID, PH, TLG, Toks))
     ), L_TLG_Toks),
     maplist([TLG1-Toks1, TLG1, Toks1]>>true, L_TLG_Toks, TLGs, L_Toks).
 
@@ -241,7 +242,7 @@ simple_tlg_to_ccg(pr, pr).
 % https://www.let.rug.nl/vannoord/alp/Alpino/adt.html
 
 simple_tlg_to_ccg(ssub, s:sub).     % Subordinate clause (verb final)
-simple_tlg_to_ccg(vnw, np:pron).      % pronoun
+simple_tlg_to_ccg(vnw, np:_).       % pronoun feat would be uninformative for WH
 simple_tlg_to_ccg(vz, pr).          % particle
 simple_tlg_to_ccg(ahi, np:_~>s:ng). % aan het-infinitive group
 simple_tlg_to_ccg(ww, np:_~>s:b).   % verb
