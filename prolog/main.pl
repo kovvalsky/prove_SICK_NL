@@ -17,8 +17,10 @@
 
 
 sen_id(SID, PID, PH, Label, Sen) :-
-    debMode(part(Part)),
-    sen_id(SID, PID, PH, Part, Label, Sen).
+    debMode(parts(Parts)),
+    % this order keeps IDs ordered
+    sen_id(SID, PID, PH, Part, Label, Sen),
+    memberchk(Part, Parts).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 :- multifile sen_id_to_base_ttterm/2.
