@@ -62,7 +62,8 @@ translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P), Ty)) :- !,
     ; memberchk(NL, ['wat','sommig']), Ty = n:_~>np:_ -> EN = 'some'
     ; NL == 'en' -> EN = 'and'
     ; NL == 'er' -> EN = 'there'
-    ; NL == 'die', Ty = (np:_~>s:_)~>N~>N -> EN = 'who'
+    ; memberchk(NL, ['deze','die','dit','dat']),
+      Ty = (np:_~>s:_)~>N~>N -> EN = 'who'
     ; NL == 'door', Ty = np:_~>(np:_~>s:_)~>(np:_~>s:_) -> EN = 'by'
     % ; NL == 'iemand', Ty = np:_ -> EN = 'somebody'
     % ; NL == 'niemand', Ty = np:_ -> EN = 'nobody'
