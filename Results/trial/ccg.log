@@ -1,0 +1,665 @@
+Number of jobs: 8
+Length of jobs: 63, 63, 63, 63, 62, 62, 62, 62
+ 211:     [yes],     yes,  closed, 'Ter',8     XP: [isa(tree,plant)]
+ 116: [unknown], unknown,    open, 'Ter',58    XP: []
+ 197: [unknown], unknown,    open, 'Ter',50    XP: []
+ 285: [unknown], unknown,    open, 'Ter',52    XP: []
+ 280: [unknown], unknown,    open, 'Ter',40    XP: []
+ 450: [unknown], unknown,    open, 'Ter',46    XP: []
+ 228: [unknown], unknown,    open, 'Ter',47    XP: []
+ 651: [unknown], unknown,    open, 'Ter',79    XP: []
+ 417: [unknown], unknown,    open, 'Ter',134   XP: []
+ 384:     [yes], unknown,    open, 'Ter',133   XP: []
+      A white and tan dog is running through the tall and green grass
+      A white and tan dog is running through a field
+ 119: [unknown], unknown,    open, 'Lim',424   XP: []
+ 860:     [yes], unknown,    open, 'Ter',140   XP: []
+      One white dog and one black one are running side by side on the grass
+      A dog , which has a black coat , and a white dog are running on the grass
+  24: [unknown], unknown,    open, 'Ter',244   XP: []
+ 988: [unknown], unknown,    open, 'Ter',105   XP: []
+ 219:      [no], unknown,    open, 'Ter',34    XP: []
+      There is no girl in white dancing
+      A girl in white is dancing
+   4:      [no],      no,  closed, 'Ter',16    XP: [int(young),isa(boy,man)]
+ 218:     [yes],     yes,  closed, 'Ter',11    XP: [isa(in@c1@girl,girl)]
+ 236: [unknown], unknown,    open, 'Ter',192   XP: []
+ 592:      [no], unknown,    open, 'Ter',442   XP: []
+      A woman is taking off a cloak , which is very large , and revealing an extravagant dress
+      A woman is putting on a cloak , which is very large , and concealing an extravagant dress
+ 304: [unknown], unknown,    open, 'Ter',70    XP: []
+ 105: [unknown], unknown,    open, 'Lim',431   XP: []
+ 647: [unknown], unknown,    open, 'Ter',298   XP: []
+ 225: [unknown], unknown,    open, 'Ter',25    XP: []
+ 394: [unknown], unknown,    open, 'Ter',92    XP: []
+ 718: [unknown], unknown,    open, 'Ter',112   XP: []
+ 382: [unknown], unknown,    open, 'Ter',58    XP: []
+ 933: [unknown], unknown,    open, 'Ter',69    XP: []
+ 530: [unknown],     yes,  closed, 'Ter',65    XP: [isa(break,wear),isa(wear,break)]
+      A biker is wearing gear which is black
+      A biker wearing black is breaking the gears
+1170: [unknown], unknown,    open, 'Ter',33    XP: []
+ 185: [unknown], unknown,    open, 'Lim',459   XP: []
+ 717:      [no], unknown,    open, 'Ter',39    XP: []
+      A few men in a competition are running outside
+      A few men in a competition are running indoors
+ 253:     [yes],     yes,  closed, 'Ter',31    XP: [int(joyful)]
+ 913:      [no],      no,  closed, 'Ter',8     XP: []
+ 619: [unknown], unknown,    open, 'Ter',117   XP: []
+1241: [unknown], unknown,    open, 'Ter',152   XP: []
+1137: [unknown], unknown,    open, 'Ter',50    XP: []
+1237: [unknown], unknown,    open, 'Ter',22    XP: []
+1412:     [yes],     yes,  closed, 'Ter',24    XP: [isa(log,wood),isa(saw,cut)]
+ 402: [unknown], unknown,    open, 'Ter',91    XP: []
+ 630:      [no],      no,  closed, 'Ter',4     XP: []
+1410: [unknown], unknown,    open, 'Ter',38    XP: []
+ 780: [unknown], unknown,    open, 'Ter',35    XP: []
+ 765: [unknown], unknown,    open, 'Ter',76    XP: []
+1192:     [yes], unknown,    open, 'Lim',430   XP: []
+      A man and a woman are walking together through the woods
+      A man and a woman are walking through a wooded area
+1390: [unknown], unknown,    open, 'Ter',32    XP: []
+1487:      [no],      no,  closed, 'Ter',4     XP: []
+ 816:     [yes], unknown,    open, 'Lim',460   XP: []
+      A group of people is equipped with protective gear
+      A group of people is equipped with gear used for protection
+ 980: [unknown], unknown,    open, 'Ter',157   XP: []
+ 947:     [yes],     yes,  closed, 'Ter',18    XP: []
+1177: [unknown], unknown,    open, 'Ter',30    XP: []
+1266:     [yes], unknown,    open, 'Ter',28    XP: []
+      A band is playing on a stage
+      A band is playing onstage
+ 987:      [no],      no,  closed, 'Ter',23    XP: []
+1503:      [no],      no,  closed, 'Ter',4     XP: []
+1443: [unknown], unknown,    open, 'Ter',24    XP: []
+1525: [unknown], unknown,    open, 'Ter',26    XP: []
+1178:      [no], unknown,    open, 'Ter',115   XP: []
+      A woman is combing her hair
+      There is no woman combing her hair
+1703:     [yes],     yes,  closed, 'Ter',19    XP: []
+1190:     [yes], unknown,    open, 'Ter',60    XP: []
+      A man and a woman are hiking through a wooded area
+      A man and a woman are walking together through the woods
+1506: [unknown], unknown,    open, 'Ter',319   XP: []
+1333:     [yes],     yes,  closed, 'Ter',31    XP: [int(other)]
+1302: [unknown], unknown,    open, 'Ter',34    XP: []
+1754:     [yes],     yes,  closed, 'Ter',15    XP: [int(lovely)]
+1628: [unknown], unknown,    open, 'Ter',239   XP: []
+1964:     [yes],     yes,  closed, 'Ter',4     XP: [int(one)]
+1711: [unknown], unknown,    open, 'Ter',59    XP: []
+Inconsistency in node types (entail/8)
+2166:     [yes], unknown,      NA, 'Defected'  XP: _214432
+      A woman is sewing with a machine
+      A woman is using a machine made for sewing
+1881:     [yes],     yes,  closed, 'Ter',10    XP: []
+1839:     [yes],     yes,  closed, 'Ter',7     XP: []
+2058:     [yes], unknown,    open, 'Ter',55    XP: []
+      A lady is cutting up some meat precisely
+      Some meat is being cut into pieces by a woman
+2231: [unknown], unknown,    open, 'Ter',24    XP: []
+2402: [unknown], unknown,    open, 'Ter',25    XP: []
+2527: [unknown], unknown,    open, 'Ter',63    XP: []
+2157: [unknown], unknown,    open, 'Ter',105   XP: []
+1469:      [no],      no,  closed, 'Ter',65    XP: [int(three),int(young)]
+2668: [unknown], unknown,    open, 'Ter',103   XP: []
+1584:     [yes], unknown,    open, 'Ter',45    XP: []
+      A hole is being burrowed by the badger
+      A badger is shrewdly digging the earth
+2722:     [yes],     yes,  closed, 'Ter',5     XP: []
+1807: [unknown], unknown,    open, 'Ter',46    XP: []
+2001:     [yes],     yes,  closed, 'Ter',8     XP: []
+2822: [unknown], unknown,    open, 'Ter',60    XP: []
+2965: [unknown], unknown,    open, 'Ter',46    XP: []
+1877: [unknown], unknown,    open, 'Lim',436   XP: []
+3107: [unknown], unknown,    open, 'Ter',57    XP: []
+2130: [unknown], unknown,    open, 'Ter',34    XP: []
+3258:      [no],      no,  closed, 'Ter',3     XP: []
+3384:     [yes],     yes,  closed, 'Ter',8     XP: []
+3518: [unknown], unknown,    open, 'Ter',9     XP: []
+3670:     [yes], unknown,    open, 'Ter',42    XP: []
+      It is raining on a walking man
+      A man is walking in the rain
+2362: [unknown], unknown,    open, 'Ter',68    XP: []
+3855: [unknown], unknown,    open, 'Ter',50    XP: []
+2410: [unknown], unknown,    open, 'Ter',41    XP: []
+2557:     [yes], unknown,    open, 'Ter',30    XP: []
+      Someone is strumming the guitar
+      Someone is playing the guitar
+2687:      [no],      no,  closed, 'Ter',4     XP: []
+3941:      [no],      no,  closed, 'Ter',23    XP: [isa(look,check)]
+2766: [unknown], unknown,    open, 'Ter',15    XP: []
+4054:     [yes],     yes,  closed, 'Ter',9     XP: []
+2886:      [no],      no,  closed, 'Ter',4     XP: []
+2972:      [no], unknown,    open, 'Ter',46    XP: []
+      A large green ball is hitting a potato
+      A big green ball is missing a potato
+1470: [unknown], unknown,    open, 'Lim',424   XP: []
+4140: [unknown], unknown,    open, 'Ter',119   XP: []
+1608:      [no],      no,  closed, 'Ter',3     XP: []
+4321:      [no], unknown,    open, 'Ter',30    XP: []
+      A man is drawing
+      There is no man drawing
+4505:     [yes], unknown,    open, 'Ter',41    XP: []
+      The doctors are healing a man
+      The doctor is helping the patient
+1811: [unknown], unknown,    open, 'Ter',52    XP: []
+3143: [unknown], unknown,    open, 'Ter',154   XP: []
+3292: [unknown], unknown,    open, 'Ter',29    XP: []
+3433:     [yes],     yes,  closed, 'Ter',8     XP: []
+3598:     [yes],     yes,  closed, 'Ter',11    XP: [int(floor),int(one)]
+3721:     [yes],     yes,  closed, 'Ter',8     XP: []
+ 520: [unknown], unknown,    open, 'Lim',801   XP: []
+3880:     [yes], unknown,    open, 'Ter',45    XP: []
+      A man is dancing on the ceiling of a room
+      The man is dancing upside-down on the ceiling
+4001:     [yes],     yes,  closed, 'Ter',5     XP: []
+4067: [unknown], unknown,    open, 'Ter',117   XP: []
+4164: [unknown], unknown,    open, 'Ter',41    XP: []
+4360:     [yes],     yes,  closed, 'Ter',8     XP: []
+4638: [unknown], unknown,    open, 'Ter',42    XP: []
+ 687: [unknown], unknown,    open, 'Ter',100   XP: []
+4803:      [no],      no,  closed, 'Ter',8     XP: []
+2019: [unknown], unknown,    open, 'Ter',343   XP: []
+4866: [unknown], unknown,    open, 'Ter',7     XP: []
+5030:     [yes],     yes,  closed, 'Ter',1     XP: [isa(speak,talk),isa(talk,speak)]
+2229: [unknown], unknown,    open, 'Ter',33    XP: []
+2392:      [no],      no,  closed, 'Ter',4     XP: []
+5148: [unknown], unknown,    open, 'Ter',44    XP: []
+ 873: [unknown], unknown,    open, 'Ter',54    XP: []
+Inconsistency in node types (entail/8)
+1039: [unknown], unknown,      NA, 'Defected'  XP: _50562
+5461: [unknown], unknown,    open, 'Ter',25    XP: []
+1232: [unknown], unknown,    open, 'Ter',27    XP: []
+1396: [unknown], unknown,    open, 'Ter',7     XP: []
+2525: [unknown], unknown,    open, 'Ter',91    XP: []
+5747: [unknown], unknown,    open, 'Ter',34    XP: []
+1493:     [yes],     yes,  closed, 'Ter',8     XP: [isa(electric guitar,guitar)]
+2662: [unknown], unknown,    open, 'Ter',22    XP: []
+5930: [unknown], unknown,    open, 'Ter',43    XP: []
+4755: [unknown], unknown,    open, 'Ter',263   XP: []
+2721: [unknown], unknown,    open, 'Ter',41    XP: []
+1676: [unknown], unknown,    open, 'Ter',50    XP: []
+2812: [unknown], unknown,    open, 'Ter',11    XP: []
+1847: [unknown], unknown,    open, 'Ter',42    XP: []
+2089:      [no], unknown,    open, 'Ter',30    XP: []
+      The man is denying an interview
+      The man is granting an interview
+4843:      [no],      no,  closed, 'Ter',8     XP: []
+2284:     [yes],     yes,  closed, 'Ter',11    XP: []
+4966:      [no],      no,  closed, 'Ter',8     XP: []
+5110:     [yes],     yes,  closed, 'Ter',1     XP: [isa(meal,food)]
+ 317: [unknown], unknown,    open, 'Lim',801   XP: []
+2404:      [no],      no,  closed, 'Ter',22    XP: [isa(slice,cut)]
+2535: [unknown], unknown,    open, 'Ter',45    XP: []
+5352:      [no],      no,  closed, 'Ter',17    XP: [int(large)]
+2221: [unknown], unknown,    open, 'Lim',419   XP: []
+5698: [unknown], unknown,    open, 'Ter',44    XP: []
+2678:     [yes],     yes,  closed, 'Ter',14    XP: []
+6119: [unknown], unknown,    open, 'Ter',234   XP: []
+5914:     [yes],     yes,  closed, 'Ter',8     XP: []
+6042: [unknown], unknown,    open, 'Ter',67    XP: []
+2936: [unknown], unknown,    open, 'Lim',420   XP: []
+2726: [unknown], unknown,    open, 'Ter',147   XP: []
+2829:     [yes],     yes,  closed, 'Ter',1     XP: []
+6228: [unknown], unknown,    open, 'Ter',115   XP: []
+2385: [unknown], unknown,    open, 'Lim',424   XP: []
+6394: [unknown], unknown,    open, 'Ter',40    XP: []
+2485: [unknown], unknown,    open, 'Ter',28    XP: []
+2606: [unknown], unknown,    open, 'Ter',34    XP: []
+2720: [unknown], unknown,    open, 'Ter',115   XP: []
+2795:     [yes], unknown,    open, 'Ter',133   XP: []
+      A small guinea pig is gnawing and eating a piece of carrot on the floor
+      A guinea pig is devouring a carrot
+3061:      [no],      no,  closed, 'Ter',29    XP: []
+2932: [unknown], unknown,    open, 'Ter',27    XP: []
+3036:      [no],      no,  closed, 'Ter',4     XP: []
+3222:      [no],      no,  closed, 'Ter',13    XP: []
+3364:     [yes],     yes,  closed, 'Ter',1     XP: []
+3501:     [yes],     yes,  closed, 'Ter',1     XP: []
+3657:     [yes],     yes,  closed, 'Ter',23    XP: []
+3790:     [yes],     yes,  closed, 'Ter',1     XP: []
+3910: [unknown], unknown,    open, 'Ter',91    XP: []
+4015:     [yes],     yes,  closed, 'Ter',1     XP: []
+4114:      [no],      no,  closed, 'Ter',15    XP: [isa(pizza,food)]
+4196: [unknown], unknown,    open, 'Ter',12    XP: []
+4429: [unknown], unknown,    open, 'Ter',22    XP: []
+4707: [unknown], unknown,    open, 'Ter',78    XP: []
+4823: [unknown], unknown,    open, 'Ter',26    XP: []
+2967:     [yes], unknown,    open, 'Lim',419   XP: []
+      A large green ball is hitting a potato
+      A large green colored ball is hitting a potato
+3250:     [yes],     yes,  closed, 'Ter',42    XP: [int(two),isa(place,put)]
+3373:     [yes],     yes,  closed, 'Ter',24    XP: [int(water)]
+3505: [unknown], unknown,    open, 'Ter',41    XP: []
+ 526: [unknown], unknown,    open, 'Lim',451   XP: []
+3661: [unknown], unknown,    open, 'Ter',62    XP: []
+3812:     [yes],     yes,  closed, 'Ter',16    XP: []
+3122:     [yes], unknown,    open, 'Lim',448   XP: []
+      A woman is using a pencil for eyes and is applying eye liner to her eyelid
+      A woman is applying cosmetics to her eyelid
+ 698: [unknown], unknown,    open, 'Ter',278   XP: []
+3275:     [yes],     yes,  closed, 'Ter',29    XP: []
+3398: [unknown], unknown,    open, 'Ter',24    XP: []
+ 882: [unknown], unknown,    open, 'Ter',75    XP: []
+3536:     [yes], unknown,    open, 'Ter',44    XP: []
+      Someone is cooking okra in a pan
+      Okra is being cooked in a pan
+1102: [unknown], unknown,    open, 'Ter',63    XP: []
+3680:      [no],      no,  closed, 'Ter',8     XP: []
+1236:      [no], unknown,    open, 'Ter',28    XP: []
+      A woman is dancing and singing alone
+      A woman is dancing and singing with other women
+6598: [unknown], unknown,    open, 'Lim',800   XP: []
+1400: [unknown],     yes,  closed, 'Ter',4     XP: [int(sad),isa(cry,scream),isa(scream,cry)]
+      A sad man is crying
+      A man is screaming
+1495:     [yes], unknown,    open, 'Ter',29    XP: []
+      A man is playing a guitar
+      A man is strumming a guitar
+3861: [unknown], unknown,    open, 'Ter',47    XP: []
+3982: [unknown], unknown,    open, 'Ter',29    XP: []
+4060: [unknown], unknown,    open, 'Ter',36    XP: []
+3922:      [no],      no,  closed, 'Ter',4     XP: []
+4155:      [no],      no,  closed, 'Ter',8     XP: []
+4330:      [no], unknown,    open, 'Ter',36    XP: []
+      The man is drawing
+      There is no man drawing
+4520:      [no],      no,  closed, 'Ter',8     XP: []
+4767:      [no],      no,  closed, 'Ter',8     XP: []
+4851:     [yes],     yes,  closed, 'Ter',8     XP: []
+4983:     [yes],     yes,  closed, 'Ter',8     XP: []
+5113:     [yes],     yes,  closed, 'Ter',1     XP: []
+5374:     [yes],     yes,  closed, 'Ter',8     XP: []
+5706: [unknown], unknown,    open, 'Ter',29    XP: []
+5920: [unknown], unknown,    open, 'Ter',30    XP: []
+6740: [unknown], unknown,    open, 'Ter',173   XP: []
+6047:     [yes],     yes,  closed, 'Ter',35    XP: [int(beige),int(paint),int(room)]
+6955: [unknown], unknown,    open, 'Ter',177   XP: []
+2364:     [yes], unknown,    open, 'Lim',427   XP: []
+      Some cameras are being burned by a person with a blow torch
+      The person is setting fire to the cameras
+2430:     [yes], unknown,    open, 'Ter',21    XP: []
+      One man is running down the road
+      A man is running
+2566:     [yes],     yes,  closed, 'Ter',4     XP: [int(three)]
+6213: [unknown], unknown,    open, 'Ter',274   XP: []
+2704:     [yes],     yes,  closed, 'Ter',12    XP: []
+1690:     [yes],     yes,  closed, 'Ter',8     XP: []
+2772:     [yes], unknown,    open, 'Ter',100   XP: []
+      A person is pouring oil for cooking into a pot
+      A person is pouring cooking oil into a pot
+2898:     [yes],     yes,  closed, 'Ter',8     XP: [isa(barbell,weight)]
+1861: [unknown], unknown,    open, 'Ter',60    XP: []
+2996: [unknown], unknown,    open, 'Ter',34    XP: []
+3174: [unknown], unknown,    open, 'Ter',40    XP: []
+2096: [unknown], unknown,    open, 'Ter',55    XP: []
+2286:     [yes],     yes,  closed, 'Ter',11    XP: []
+3322: [unknown], unknown,    open, 'Ter',45    XP: []
+2405:     [yes],     yes,  closed, 'Ter',8     XP: [isa(slice,cut)]
+2544: [unknown], unknown,    open, 'Ter',49    XP: []
+2679: [unknown], unknown,    open, 'Ter',56    XP: []
+3459: [unknown], unknown,    open, 'Ter',94    XP: []
+2738: [unknown], unknown,    open, 'Ter',35    XP: []
+2842: [unknown], unknown,    open, 'Ter',57    XP: []
+3625:      [no],      no,  closed, 'Ter',8     XP: []
+2968: [unknown], unknown,    open, 'Ter',46    XP: []
+3733:     [yes], unknown,    open, 'Ter',27    XP: []
+      Swimmers are racing in a lake
+      Some racers are swimming in a lake
+3897:      [no],      no,  closed, 'Ter',8     XP: []
+4006:     [yes],     yes,  closed, 'Ter',7     XP: [isa(climb,climb up)]
+4079:     [yes],     yes,  closed, 'Ter',4     XP: [int(one)]
+4031: [unknown], unknown,    open, 'Lim',754   XP: []
+6344: [unknown], unknown,    open, 'Ter',216   XP: []
+4135:     [yes],     yes,  closed, 'Ter',1     XP: [isa(bounce,jump)]
+4288:     [yes], unknown,    open, 'Ter',17    XP: []
+      The woman is slicing cooked octopus
+      A woman is chopping up an octopus
+4187:      [no], unknown,    open, 'Ter',58    XP: []
+      There is no dog playing with a toy
+      A dog is eating a doll
+6590: [unknown], unknown,    open, 'Ter',36    XP: []
+4477: [unknown], unknown,    open, 'Ter',33    XP: []
+6203: [unknown], unknown,    open, 'Lim',800   XP: []
+4376: [unknown], unknown,    open, 'Ter',83    XP: []
+4734:     [yes],     yes,  closed, 'Ter',37    XP: [isa(pistol,gun)]
+4650:      [no],      no,  closed, 'Ter',25    XP: [int(thick)]
+4831:      [no],      no,  closed, 'Ter',21    XP: [isa(slice,cut)]
+4963:     [yes], unknown,    open, 'Ter',28    XP: []
+      Garlic is being chopped by a woman
+      A woman is chopping garlic
+6709: [unknown], unknown,    open, 'Ter',138   XP: []
+4814: [unknown], unknown,    open, 'Ter',58    XP: []
+4891: [unknown], unknown,    open, 'Ter',44    XP: []
+5047: [unknown], unknown,    open, 'Ter',28    XP: []
+5082: [unknown], unknown,    open, 'Ter',94    XP: []
+5349:     [yes],     yes,  closed, 'Ter',13    XP: [int(large)]
+5657: [unknown], unknown,    open, 'Ter',32    XP: []
+5909: [unknown], unknown,    open, 'Ter',50    XP: []
+4934: [unknown], unknown,    open, 'Lim',420   XP: []
+5052: [unknown], unknown,    open, 'Ter',42    XP: []
+5310:      [no],      no,  closed, 'Ter',8     XP: []
+5588:     [yes],     yes,  closed, 'Ter',8     XP: []
+3123:      [no], unknown,    open, 'Lim',406   XP: []
+      There is no woman using an eye pencil and applying eye liner to her eyelid
+      A woman is applying cosmetics to her eyelid
+3291: [unknown], unknown,    open, 'Ter',98    XP: []
+3420: [unknown], unknown,    open, 'Ter',35    XP: []
+6330: [unknown], unknown,    open, 'Lim',440   XP: []
+3586:     [yes], unknown,    open, 'Ter',30    XP: []
+      A man is playing the drum
+      A man is practicing the drum
+3711:      [no], unknown,    open, 'Ter',38    XP: []
+      A toy train is striking a toy car
+      A toy train is missing a toy car
+3862: [unknown], unknown,    open, 'Ter',66    XP: []
+5904: [unknown], unknown,    open, 'Ter',200   XP: []
+3996: [unknown], unknown,    open, 'Ter',38    XP: []
+6568: [unknown], unknown,    open, 'Ter',106   XP: []
+4066:     [yes],     yes,  closed, 'Ter',1     XP: [isa(hurl,throw),isa(throw,hurl)]
+4157:      [no],      no,  closed, 'Ter',8     XP: []
+4342:     [yes],     yes,  closed, 'Ter',8     XP: [isa(banana,fruit)]
+6005: [unknown], unknown,    open, 'Lim',453   XP: []
+4614:      [no],      no,  closed, 'Ter',8     XP: []
+4776:      [no],      no,  closed, 'Ter',8     XP: []
+4852:      [no],      no,  closed, 'Ter',4     XP: []
+5003:     [yes],     yes,  closed, 'Ter',19    XP: [int(big),int(plastic)]
+5119: [unknown], unknown,    open, 'Ter',43    XP: []
+5454:      [no],      no,  closed, 'Ter',4     XP: []
+6158: [unknown], unknown,    open, 'Ter',92    XP: []
+5745: [unknown], unknown,    open, 'Ter',29    XP: []
+5924:      [no],      no,  closed, 'Ter',4     XP: []
+6315:     [yes],     yes,  closed, 'Ter',6     XP: [isa(very@sunny@day,day)]
+6001: [unknown], unknown,    open, 'Ter',325   XP: []
+6544:      [no], unknown,    open, 'Ter',215   XP: []
+      The ice hockey goalkeeper is wearing a yellow jersey and is defending the goal
+      There is no hockey player in a yellow jersey guarding the goal
+6153: [unknown], unknown,    open, 'Ter',306   XP: []
+7044: [unknown], unknown,    open, 'Lim',659   XP: []
+6287:     [yes],     yes,  closed, 'Ter',2     XP: []
+6482: [unknown], unknown,    open, 'Ter',39    XP: []
+6649:     [yes], unknown,    open, 'Ter',73    XP: []
+      Two teenage girls are wearing fancy dresses at an event
+      Two girls in their teens are wearing fancy dresses at an event
+6673: [unknown], unknown,    open, 'Ter',142   XP: []
+7356: [unknown], unknown,    open, 'Ter',143   XP: []
+7466:     [yes],     yes,  closed, 'Ter',8     XP: [int(dim)]
+6784:      [no], unknown,    open, 'Ter',136   XP: []
+      There is no man dressed in black wearing an elaborate black mask
+      A man dressed in black is wearing an elaborate black mask
+6705:     [yes], unknown,    open, 'Lim',447   XP: []
+      A child , who is small , is outdoors climbing steps outdoors in an area full of grass
+      A small child is outdoors climbing steps in a grassy area
+6849: [unknown], unknown,    open, 'Ter',117   XP: []
+7546:     [yes], unknown,    open, 'Ter',142   XP: []
+      A young girl in a blue leotard is jumping in the air
+      A young girl in a leotard colored in blue is jumping in the air
+6078: [unknown], unknown,    open, 'Lim',446   XP: []
+7007: [unknown], unknown,    open, 'Ter',141   XP: []
+6219:     [yes],     yes,  closed, 'Ter',23    XP: [isa(in_front_of@c2@boat,boat),isa(near@c1@sunset,sunset)]
+7002: [unknown], unknown,    open, 'Ter',191   XP: []
+7093:     [yes],     yes,  closed, 'Ter',1     XP: []
+7394: [unknown], unknown,    open, 'Ter',48    XP: []
+6866: [unknown], unknown,    open, 'Ter',159   XP: []
+6912: [unknown], unknown,    open, 'Lim',513   XP: []
+7018:     [yes], unknown,    open, 'Ter',145   XP: []
+      A child in clothing which is light colored is standing with his arms extended outward
+      A child in light colored clothing is standing with his arms extended outward
+7027: [unknown], unknown,    open, 'Ter',30    XP: []
+7311:     [yes], unknown,    open, 'Ter',82    XP: []
+      A cigarette is being smoked by the man in the straw hat
+      A man is wearing a straw hat and smoking a cigarette
+7228: [unknown], unknown,    open, 'Ter',41    XP: []
+7445:     [yes], unknown,    open, 'Ter',58    XP: []
+      The little girl is swinging and the woman is standing behind her
+      The girl , who is little , is swinging and the woman is standing behind
+7448: [unknown], unknown,    open, 'Ter',97    XP: []
+2366: [unknown], unknown,    open, 'Lim',427   XP: []
+2476:     [yes],     yes,  closed, 'Ter',5     XP: []
+2604:     [yes],     yes,  closed, 'Ter',8     XP: []
+2712:      [no],      no,  closed, 'Ter',8     XP: []
+7533: [unknown], unknown,    open, 'Ter',152   XP: []
+2791:     [yes],     yes,  closed, 'Ter',5     XP: []
+2911:      [no],      no,  closed, 'Ter',8     XP: []
+7667:      [no],      no,  closed, 'Ter',14    XP: []
+3002: [unknown], unknown,    open, 'Ter',29    XP: []
+7795:     [yes],     yes,  closed, 'Ter',7     XP: []
+3181: [unknown], unknown,    open, 'Ter',56    XP: []
+3338:      [no],      no,  closed, 'Ter',8     XP: []
+7950: [unknown], unknown,    open, 'Ter',80    XP: []
+3485: [unknown], unknown,    open, 'Ter',119   XP: []
+3626:     [yes],     yes,  closed, 'Ter',17    XP: []
+3747: [unknown], unknown,    open, 'Ter',31    XP: []
+3909:     [yes],     yes,  closed, 'Ter',13    XP: []
+4011:     [yes],     yes,  closed, 'Ter',7     XP: [isa(climb,climb up)]
+4086:      [no],      no,  closed, 'Ter',8     XP: []
+4191: [unknown], unknown,    open, 'Ter',44    XP: []
+5203:     [yes], unknown,    open, 'Lim',800   XP: []
+      The woman is putting pasta into a dish
+      Pasta is being put into a dish by a woman
+5498:     [yes],     yes,  closed, 'Ter',8     XP: [isa(lemon,fruit)]
+5799:     [yes],     yes,  closed, 'Ter',8     XP: []
+7720: [unknown], unknown,    open, 'Lim',406   XP: []
+7889:     [yes],     yes,  closed, 'Ter',8     XP: [isa(tennis ball,ball)]
+6358:      [no],      no,  closed, 'Ter',10    XP: []
+6592: [unknown], unknown,    open, 'Ter',31    XP: []
+8057:     [yes],     yes,  closed, 'Ter',1     XP: [sim(little,young),sim(young,little)]
+6729: [unknown], unknown,    open, 'Ter',70    XP: []
+8193:      [no],      no,  closed, 'Ter',5     XP: []
+7214:      [no], unknown,    open, 'Lim',800   XP: []
+      A brown dog is running across the yard with a toy in its mouth
+      There is no brown dog running across the yard with a toy in its mouth
+8263:      [no], unknown,    open, 'Ter',72    XP: []
+      Some people and vehicles are on a crowded street
+      Some people and vehicles are on a almost empty street
+8389: [unknown], unknown,    open, 'Ter',23    XP: []
+6932:     [yes], unknown,    open, 'Ter',87    XP: []
+      The snowboarder is doing a flip over a mound of snow
+      Somebody is jumping in the air on a board
+7410: [unknown], unknown,    open, 'Ter',61    XP: []
+8632:      [no],      no,  closed, 'Ter',12    XP: [int(rock)]
+4411: [unknown], unknown,    open, 'Lim',427   XP: []
+8786:     [yes], unknown,    open, 'Ter',51    XP: []
+      A girl is skipping rope on a sidewalk
+      A girl is skipping rope on near a street
+4661:     [yes],     yes,  closed, 'Ter',7     XP: [isa(slice,cut)]
+4816:      [no],      no,  closed, 'Ter',8     XP: []
+8986:     [yes],     yes,  closed, 'Ter',2     XP: []
+8362: [unknown], unknown,    open, 'Ter',182   XP: []
+4916:     [yes],     yes,  closed, 'Ter',8     XP: [isa(guitar,musical instrument)]
+7043: [unknown], unknown,    open, 'Ter',72    XP: []
+5051:      [no],      no,  closed, 'Ter',8     XP: []
+5938:     [yes], unknown,    open, 'Lim',440   XP: []
+      Vegetables are being put into a pot by a man
+      Someone is pouring ingredients into a pot
+8548: [unknown], unknown,    open, 'Ter',57    XP: []
+9125: [unknown], unknown,    open, 'Ter',104   XP: []
+8700: [unknown], unknown,    open, 'Ter',64    XP: []
+9224: [unknown], unknown,    open, 'Ter',49    XP: []
+8855: [unknown], unknown,    open, 'Ter',129   XP: []
+9380: [unknown], unknown,    open, 'Ter',70    XP: []
+6131: [unknown], unknown,    open, 'Ter',146   XP: []
+9069:     [yes],     yes,  closed, 'Ter',23    XP: []
+9500: [unknown], unknown,    open, 'Ter',64    XP: []
+6231: [unknown], unknown,    open, 'Ter',92    XP: []
+7501: [unknown], unknown,    open, 'Ter',393   XP: []
+7649:      [no],      no,  closed, 'Ter',17    XP: []
+7541: [unknown], unknown,    open, 'Lim',801   XP: []
+7677:     [yes], unknown,    open, 'Ter',73    XP: []
+      A young mother is playing with her boy in the park
+      A young boy is playing in the park with his mother
+7772:      [no], unknown,    open, 'Ter',117   XP: []
+      A surfer is riding a big wave across dark green water
+      The surfer is riding a small wave
+7820: [unknown], unknown,    open, 'Ter',86    XP: []
+7947: [unknown], unknown,    open, 'Ter',57    XP: []
+7951: [unknown], unknown,    open, 'Ter',63    XP: []
+8163:     [yes], unknown,    open, 'Ter',88    XP: []
+      Two people are driving a jeep and a lady is sitting on the top of it
+      Two people are driving a jeep and a girl is sitting on the top of it
+8343:     [yes],     yes,  closed, 'Ter',3     XP: []
+7319: [unknown], unknown,    open, 'Lim',446   XP: []
+6396: [unknown], unknown,    open, 'Ter',406   XP: []
+7464: [unknown], unknown,    open, 'Ter',32    XP: []
+7544: [unknown], unknown,    open, 'Ter',51    XP: []
+9713:     [yes], unknown,    open, 'Lim',440   XP: []
+      A black and white dog is carrying a huge stick on the green grass
+      A black and white dog with a large branch is running in the field
+5206: [unknown], unknown,    open, 'Lim',454   XP: []
+9789: [unknown], unknown,    open, 'Ter',48    XP: []
+8212: [unknown], unknown,    open, 'Lim',436   XP: []
+9975: [unknown], unknown,    open, 'Ter',47    XP: []
+7718:      [no],      no,  closed, 'Ter',8     XP: []
+7877: [unknown], unknown,    open, 'Ter',103   XP: []
+5540: [unknown], unknown,    open, 'Lim',428   XP: []
+5806:     [yes],     yes,  closed, 'Ter',8     XP: [isa(canoe,boat)]
+8505: [unknown], unknown,    open, 'Lim',440   XP: []
+8678:     [yes], unknown,    open, 'Ter',36    XP: []
+      A skateboarder is jumping off a ramp
+      A skateboarder is making a jump off a ramp
+5955: [unknown], unknown,    open, 'Ter',71    XP: []
+6146:      [no],      no,  closed, 'Ter',4     XP: [int(two)]
+8841: [unknown], unknown,    open, 'Ter',67    XP: []
+6280:     [yes],     yes,  closed, 'Ter',5     XP: []
+6450: [unknown], unknown,    open, 'Ter',70    XP: []
+6634:     [yes], unknown,    open, 'Ter',91    XP: []
+      A hurdle is being leapt by a horse that has a rider on its back
+      A horse and its rider are leaping over a barrier
+7997: [unknown], unknown,    open, 'Lim',549   XP: []
+8220: [unknown], unknown,    open, 'Lim',421   XP: []
+8383:     [yes], unknown,    open, 'Ter',120   XP: []
+      A girl in blue is sliding down a green slide
+      The young girl in blue is enjoying a slide
+6764: [unknown], unknown,    open, 'Lim',429   XP: []
+6625: [unknown], unknown,    open, 'Lim',800   XP: []
+6756:     [yes],     yes,  closed, 'Ter',1     XP: [isa(big,large),isa(large,big)]
+8576:     [yes], unknown,    open, 'Ter',193   XP: []
+      A black dog and a small white and black dog are looking up at a kitchen countertop
+      A large dog and a small dog are standing next to the kitchen counter and are investigating
+9056: [unknown], unknown,    open, 'Lim',436   XP: []
+6961: [unknown], unknown,    open, 'Ter',76    XP: []
+7064:     [yes],     yes,  closed, 'Ter',22    XP: []
+6971:      [no],      no,  closed, 'Ter',8     XP: []
+9188: [unknown], unknown,    open, 'Ter',59    XP: []
+7363: [unknown], unknown,    open, 'Ter',47    XP: []
+9314: [unknown], unknown,    open, 'Ter',55    XP: []
+9433:     [yes], unknown,    open, 'Ter',80    XP: []
+      The black and white dog is running in a green yard
+      A black and white dog is running outdoors
+9623: [unknown], unknown,    open, 'Ter',86    XP: []
+7471:     [yes],     yes,  closed, 'Ter',85    XP: [int(dark),int(man),int(two),isa(in@c1@woman,woman),isa(in@c5@woman,woman),sim(dark,dim),sim(dim,dark)]
+7548:     [yes],     yes,  closed, 'Ter',1     XP: []
+9759: [unknown], unknown,    open, 'Ter',48    XP: []
+8727:     [yes], unknown,    open, 'Lim',439   XP: []
+      A group of people are standing around a sound mixing table
+      Some people is looking at sound equipment
+9869: [unknown], unknown,    open, 'Ter',55    XP: []
+8375: [unknown], unknown,    open, 'Lim',446   XP: []
+7726: [unknown], unknown,    open, 'Ter',252   XP: []
+8558: [unknown], unknown,    open, 'Ter',114   XP: []
+8714:     [yes],     yes,  closed, 'Ter',9     XP: []
+9198: [unknown], unknown,    open, 'Lim',800   XP: []
+7932: [unknown], unknown,    open, 'Ter',130   XP: []
+8122: [unknown], unknown,    open, 'Ter',41    XP: []
+8963: [unknown], unknown,    open, 'Lim',444   XP: []
+8313: [unknown], unknown,    open, 'Ter',50    XP: []
+8461: [unknown],      no,  closed, 'Ter',6     XP: [int(backwards)]
+      A man with no hat is sitting on the ground
+      A man with a backwards hat is sitting on the ground
+8633:     [yes], unknown,    open, 'Ter',8     XP: []
+      A man is rock climbing , pausing and calculating the route
+      A man is rock climbing , stopping and calculating the route
+9102: [unknown], unknown,    open, 'Ter',86    XP: []
+8792: [unknown], unknown,    open, 'Ter',78    XP: []
+9211: [unknown], unknown,    open, 'Ter',129   XP: []
+9014:      [no], unknown,    open, 'Ter',84    XP: []
+      A blond child is going down a slide and throwing up his arms
+      A child with dark hair is going down a slide and throwing up his arms
+9132:     [yes], unknown,    open, 'Ter',64    XP: []
+      A man in a jersey which is black is standing in a gym
+      A man in a black jersey is standing in a gym
+7088: [unknown], unknown,    open, 'Lim',467   XP: []
+8938: [unknown], unknown,    open, 'Lim',473   XP: []
+9093: [unknown], unknown,    open, 'Ter',44    XP: []
+9336: [unknown], unknown,    open, 'Lim',460   XP: []
+9371: [unknown], unknown,    open, 'Lim',437   XP: []
+9452: [unknown], unknown,    open, 'Ter',53    XP: []
+9669:     [yes],     yes,  closed, 'Ter',1     XP: []
+9763: [unknown], unknown,    open, 'Ter',27    XP: []
+9880: [unknown], unknown,    open, 'Ter',45    XP: []
+9200: [unknown], unknown,    open, 'Lim',453   XP: []
+9359:     [yes],     yes,  closed, 'Ter',1     XP: []
+9453: [unknown], unknown,    open, 'Ter',34    XP: []
+9242: [unknown], unknown,    open, 'Lim',448   XP: []
+7374: [unknown], unknown,    open, 'Lim',437   XP: []
+9677: [unknown], unknown,    open, 'Lim',430   XP: []
+9401: [unknown], unknown,    open, 'Ter',416   XP: []
+9490:      [no], unknown,    open, 'Lim',801   XP: []
+      A cluster of four brown dogs are playing in a field of brown grass
+      Four dogs are not playing in a grassy area
+9545: [unknown], unknown,    open, 'Ter',189   XP: []
+7475: [unknown], unknown,    open, 'Ter',247   XP: []
+9722: [unknown], unknown,    open, 'Ter',63    XP: []
+9771: [unknown], unknown,    open, 'Lim',436   XP: []
+9822: [unknown], unknown,    open, 'Ter',104   XP: []
+9931: [unknown], unknown,    open, 'Ter',26    XP: []
+7582:     [yes],     yes,  closed, 'Ter',26    XP: []
+9988: [unknown], unknown,    open, 'Ter',43    XP: []
+7734: [unknown], unknown,    open, 'Ter',147   XP: []
+9706:      [no], unknown,    open, 'Lim',439   XP: []
+      A black and white dog with a large branch is standing in the field
+      A black and white dog with a large branch is running in the field
+7937: [unknown], unknown,    open, 'Ter',156   XP: []
+9788: [unknown], unknown,    open, 'Ter',86    XP: []
+9963: [unknown], unknown,    open, 'Ter',34    XP: []
+8138:     [yes], unknown,    open, 'Lim',454   XP: []
+      The girl has red hair and eyebrows , several piercings in a ear and a drawing on the back
+      The girl has red hair and eyebrows , several piercings in a ear and a tattoo on the back
+8326:      [no],      no,  closed, 'Ter',9     XP: [int(two)]
+8471:     [yes],     yes,  closed, 'Ter',23    XP: [isa(old man,man)]
+8658: [unknown], unknown,    open, 'Lim',509   XP: []
+8806:     [yes],     yes,  closed, 'Ter',2     XP: []
+9029: [unknown], unknown,    open, 'Ter',120   XP: []
+9136:     [yes],     yes,  closed, 'Ter',16    XP: [int(black),isa(in@c1@man,man)]
+9287: [unknown], unknown,    open, 'Ter',65    XP: []
+9424: [unknown], unknown,    open, 'Lim',445   XP: []
+9571:     [yes],     yes,  closed, 'Ter',4     XP: []
+9745: [unknown], unknown,    open, 'Ter',121   XP: []
+9838: [unknown], unknown,    open, 'Ter',100   XP: []
+7477:     [yes],     yes,  closed, 'Ter',11    XP: [int(four)]
+7590: [unknown], unknown,    open, 'Lim',444   XP: []
+7743: [unknown], unknown,    open, 'Ter',52    XP: []
+7938: [unknown], unknown,    open, 'Ter',46    XP: []
+8141: [unknown], unknown,    open, 'Lim',517   XP: []
+8334:     [yes],     yes,  closed, 'Ter',2     XP: []
+8500: [unknown], unknown,    open, 'Ter',44    XP: []
+8660:     [yes],     yes,  closed, 'Ter',7     XP: []
+8832: [unknown], unknown,    open, 'Ter',53    XP: []
+9036: [unknown], unknown,    open, 'Ter',66    XP: []
+9169: [unknown], unknown,    open, 'Ter',70    XP: []
+9303:     [yes],     yes,  closed, 'Ter',1     XP: []
+9425:      [no], unknown,    open, 'Lim',411   XP: []
+      No dog is in the sand that is blowing in the wind
+      A dog is in a sandy area with the sand that is being stirred up into the air and several plants are in the background
+9584:     [yes],     yes,  closed, 'Ter',1     XP: []
+9747:     [yes], unknown,    open, 'Ter',230   XP: []
+      A little boy is sticking his tongue out for the camera and another boy is looking on
+      Two kids are looking up at the camera and one is sticking out his tongue
+9843: [unknown], unknown,    open, 'Ter',45    XP: []
+------------------------------------------------------ 
+ Gold\Prover       YES       NO       UNK       DEF
+------------------------------------------------------ 
+ ENTAILMENT:       96        0      47 (11)      1 
+------------------------------------------------------ 
+ CONTRADICTION:     0       53       21 (5)      0 
+------------------------------------------------------ 
+ NEUTRAL:           2        1     278 (50)      1 
+------------------------------------------------------ 
+Total #problems:  500
+Accuracy (pure):  0.85600    (0.85743)
+Precision:        0.98026
+Recall (pure):    0.68349    (0.68664)
+------------ STATS -------------
+Total #clTabperPrb:            152
+Total #ruleApps for clTab:     1676
+Average #ruleApps for clTab:   11.02632
