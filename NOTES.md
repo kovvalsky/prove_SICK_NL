@@ -1,18 +1,3 @@
-
-### Peregrine
-Sync working copy with Peregrine copy:
-```
-rsync -azP -LK --exclude peregrine/ --exclude SICK_NL/latex/ --exclude SICK_NL/parses/alpino_xml/ --exclude .git/ --exclude LangPro/.git --exclude LangPro/parsers --exclude LangPro/SNLI --exclude LangPro/results /home/kowalsky/Natural\ Tableau/prove_SICK_NL/ p278651@peregrine.hpc.rug.nl:/home/p278651/LangPro_nl
-```
-Sync Peregrine outputs with local copy:
-```
-rsync -azP --delete  p278651@peregrine.hpc.rug.nl:/home/p278651/LangPro_nl/peregrine/   /home/kowalsky/Natural\ Tableau/prove_SICK_NL/peregrine
-```
-Run CV-3 on peregrine on certain parts:
-```
-CPU=20; R=50; sbatch --time=30:00 --cpus-per-task=$CPU  --job-name=CV-$R-$CPU --output=peregrine/out/CV-$R-$CPU  peregrine/produce.sh " " peregrine/Results/CV-3/TD/alpino.spacy_lg/r${R},c${CPU}_ab,ch,cKB,cT,p123.log
-```
-
 ### LaTeX & PDF
 Produce pdf files for problems and open in atril:
 ```
