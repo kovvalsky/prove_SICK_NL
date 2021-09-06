@@ -43,17 +43,19 @@ if __name__ == '__main__':
     id_xml = { int(ixml.split('.')[0]): op.join(args.dir, ixml) \
                 for ixml in os.listdir(args.dir) }
 
+    # attributes to be extracted and mapped to shorted keys
+    att_key_iter = list(zip('word lemma root sense pos pt lcat rel postag'.split(), \
+                   't l r s p pt lcat rel postag'.split()))
     # parse xml files
     sen_annotations = OrderedDict()
     for i, xml in sorted(id_xml.items()):
         if args.ids and i not in args.ids: continue
         sen_annotations[i] = []
         r = ET.parse(xml).getroot()
+        # tokens are elements with @word attribute, which have start and end
         toks = { (int(e.attrib['begin']), int(e.attrib['end'])): e \
                     for e in r.findall('.//node[@word]') }
         for _, t in sorted(toks.items()):
-            att_key_iter = zip('word lemma pos pt lcat rel'.split(), \
-                               't l p pt lc rl'.split())
             tok = OrderedDict( (k, t.attrib[a]) for a, k in att_key_iter )
             sen_annotations[i].append(tok)
 
