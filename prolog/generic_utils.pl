@@ -9,6 +9,7 @@
         dicts_merge_key_value/3,
         enumerate_list/2,
         filepath_write_source/2,
+        has_keys/2,
         homogeneous_list/1,
         indexed_dict_to_list/2,
         list_to_set_using_match/2,
@@ -44,7 +45,11 @@ list_to_set_using_match_r(List, Set) :-
 	).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% merge annotations recursively
+% true is all keys are in the dictioanry
+has_keys(SubKeys, Dict) :-
+    dict_keys(Dict, OrdKeys),
+    list_to_ord_set(SubKeys, OrdSubKeys),
+    ord_subset(OrdSubKeys, OrdKeys).
 
 
 

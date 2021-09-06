@@ -25,8 +25,11 @@
     ]).
 :- use_module('generic_utils', [
     enumerate_list/2, homogeneous_list/1, list_to_set_using_match/2,
-    dict_length/2, atom_split/4, value_merge_dicts/3, dicts_merge_key_value/3
+    dict_length/2, atom_split/4, value_merge_dicts/3, dicts_merge_key_value/3,
+    has_keys/2
     ]).
+:- use_module('upos', [upos2penn/2]).
+:- use_module('lassy', [lassy2tlp/2]).
 
 :- op(605, xfy, ~>).     % more than : 600
 :- op(605, yfx, @).       % more than : 600
@@ -266,54 +269,18 @@ simple_tlg_to_ccg(whq, s:q).        % WH-question
 % this is not a perfect mapping because it goes
 % from less to more informative tags
 anno_to_tlp(Anno, tlp(T,L,P)) :-
-    once(correct_tlp([Anno.t, Anno.l, Anno.p], [T,L,P])).
+    once(correct_tlp(Anno, [T,L,P])).
 
 % No pos conversion
 % correct_tlp([T,L,POS], [T,L,POS]).
 
-% convert UPOS to Penn POS
-correct_tlp([T,L,POS1], [T,L,POS2]) :-
-    upos2penn(POS1, POS2).
+% we are dealing with Alpino/Lassy-style annotations
+correct_tlp(A, TLP) :-
+    has_keys(['postag'], A),
+    !, % stick to this type of annotations
+    lassy2tlp(A, TLP).
 
-
-% https://universaldependencies.org/tagset-conversion/en-penn-uposf.html
-% TODO contractions like ann_het and zum
-upos2penn('ADP_DET', 'AUX').
-% TODO add JJR & JJS
-upos2penn('ADJ', 'JJ').
-% TODO this is a weak rule: add RP, IN, and TO
-upos2penn('ADP', 'IN').
-% TODO add RBR, RBS, and WRB (covers 'niet' too)
-upos2penn('ADV', 'RB').
-% TODO add MD and uses of the various verbal tags (VB, VBP, VBG, VBN, VBD, VBZ)
-% when they are forms of be, have, do, and get
-upos2penn('AUX', 'RB').
-upos2penn('CCONJ', 'CC').
-% TODO can also be PDT, WDT
-upos2penn('DET', 'DT').
-upos2penn('INTJ', 'UH').
-% TODO add NNS case
-upos2penn('NOUN', 'NN').
-upos2penn('NUM', 'CD').
-% TODO covers TO and RB, like possessive marker, negation and infinitive to
-% weirdly not output by Spacy_sm
-upos2penn('PART', 'PART').
-% TODO coveres PRP, PRP$, WP, WP$, EX, DT
-% choosing only option relevant for SICK
-upos2penn('PRON', 'PRP$').
-% TODO covers NNP or NNPS, not relevant for SICK
-upos2penn('PROPN', 'NNP').
-% Not relevant for SICK
-upos2penn('PUNCT', ',').
-% TODO subordinating conjunction covers that, whether, if, when, since, before from IN
-upos2penn('SCONJ', 'IN').
-% TODO  left blank, not relevant for SICK
-upos2penn('SYM', 'SYM').
-% covers VB, VBP, VBZ, VBD, VBG, VBN but mapped to most general prefix
-upos2penn('VERB', 'VB').
-% not relevant for SICK
-upos2penn('X', 'X').
-upos2penn(POS_POS, POS) :-
-    atomic_list_concat([POS|R], '_', POS_POS),
-    homogeneous_list([POS|R]).
-upos2penn(X, X).
+% we are dealing with non-alpino annotations
+% and only converts UPOS to Penn POS
+correct_tlp(A, [A.t, A.l, POS]) :-
+    upos2penn(A.p, POS).

@@ -19,7 +19,8 @@
 sen_id(SID, PID, PH, Label, Sen) :-
     debMode(parts(Parts)),
     % this order keeps IDs ordered
-    sen_id(SID, PID, PH, Part, Label, Sen),
+    sen_id(SID, PID, PH, PART, Label, Sen),
+    downcase_atom(PART, Part),
     memberchk(Part, Parts).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -32,3 +33,15 @@ sen_id_to_base_ttterm(SID, TTterm) :-
     anno_sid_tts(AnnoDict, SID, [TT_NL|_]),
     translate_nl2en(TT_NL, TT),
     add_feats_to_tlp(TT, TTterm).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+test_tlg_to_llf :-
+    findall(SID, sen_id(SID,_,_,_,_), L_SID),
+    list_to_ord_set(L_SID, SIDs),
+    findall(_, (
+        member(S, SIDs),
+        writeln(S),
+        sen_id_to_base_ttterm(S, Tree),
+        correct_ttterm(Tree, CorrTree),
+        once_gen_quant_tt(CorrTree, _LLF)
+    ), _).

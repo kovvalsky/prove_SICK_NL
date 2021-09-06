@@ -54,7 +54,7 @@ translate_nl2en((NL1 @ NL2, Ty), (EN1 @ EN2, Ty)) :- !,
 translate_nl2en((abst(X, NL), Ty), (abst(X, EN), Ty)) :- !,
     translate_nl2en(NL, EN).
 
-translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P), Ty)) :- !,
+translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P1), Ty)) :- !,
     ( NL == 'niet' -> EN = 'not'
     ; memberchk(NL, ['geen','geen_enkel']) -> EN = 'no'
     ; memberchk(NL, ['het','de']) -> EN = 'the'
@@ -72,10 +72,14 @@ translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P), Ty)) :- !,
     ; NL == 'worden', P == 'RB',
       Ty = (np:_~>s:pt)~>N:_~>s:_, memberchk(N, ['n','np']) -> EN = 'be'
     % ; NL == 'doen', Ty = np:_~>np:_~>s:_ -> EN = 'do'%!!! plaatsen<doen sicknl-3250
-    ; memberchk(NL, ['zijn','is','aan_het']), memberchk(P, ['RB','AUX']),
-      Ty = (np:_~>s:_)~>np:_~>s:_ -> EN = 'be'
+    ; memberchk(NL, ['is','aan_het']),
+      % memberchk(P, ['RB','AUX']), ignoring POS as it can be wrong
+      Ty = (np:_~>s:_)~>_NP_or_N:_~>s:_ -> EN = 'be'
+    ; NL == 'zijn', % zijn can have PRP$ wrongly sicknl-1412
+      Ty = (np:_~>s:_)~>_NP_or_N:_~>s:_ -> EN = 'be', P1 = 'AUX'
     ; memberchk(NL, ['is','zijn']), Ty = np:_~>s:_ -> EN = 'be' % pos=RB?
-    ; NL = EN ).
+    ; NL = EN ),
+    (var(P1) -> P1 = P; true ). 
 
 
 

@@ -119,16 +119,25 @@ tt_to_latex(S, TT) :-
     set_latex_color(S, 'red'),
     latex_ttTerm_print_tree(S, 2, TT),
     % corrected version of TT terms
-    translate_nl2en(TT, TT1),
-    add_feats_to_tlp(TT1, TT2),
-    correct_ttterm(TT2, CorrTT),
-    set_latex_color(S, 'blue'),
-    latex_ttTerm_print_tree(S, 2, CorrTT),
+    corrected_tt_to_latex(S, TT, CorrTT),
     % type-raised TT terms
-    ( once_gen_quant_tt(CorrTT, TR) -> TR_TT = TR
-    ; TR_TT = (tlp(fail,fail,'NN','O','O'), n:_) ),
-    set_latex_color(S, 'black'),
-    latex_ttTerm_print_tree(S, 2, TR_TT).
+    type_raised_tt_to_latex(S, CorrTT).
+
+corrected_tt_to_latex(S, TT, CorrTT) :-
+    ( debMode('latex_no_corrected') -> true
+    ; translate_nl2en(TT, TT1),
+      add_feats_to_tlp(TT1, TT2),
+      correct_ttterm(TT2, CorrTT),
+      set_latex_color(S, 'blue'),
+      latex_ttTerm_print_tree(S, 2, CorrTT) ).
+
+type_raised_tt_to_latex(S, CorrTT) :-
+    ( debMode('latex_no_corrected') -> true
+    ; debMode('latex_no_type_raised') -> true
+    ; ( once_gen_quant_tt(CorrTT, TR) -> TR_TT = TR
+      ; TR_TT = (tlp(fail,fail,'NN','O','O'), n:_) ),
+      set_latex_color(S, 'black'),
+      latex_ttTerm_print_tree(S, 2, TR_TT) ).
 %----------------------------------------------
 
 
@@ -161,15 +170,16 @@ write_prob_info_to_latex(S, PID) :-
 %----------------------------------------------
 filter_sen_ids(Filter, SIDs) :-
     nonvar(Filter),
-    sublist_of_list(Filter, [yes, no, unknown, 'TRIAL', 'TRAIN', 'TEST']), !,
+    sublist_of_list(Filter, [yes, no, unknown, 'trial', 'train', 'test']), !,
     findall(L, (
     member(L, Filter), memberchk(L, [yes, no, unknown])
     ), Labels),
         findall(P, (
-        member(P, Filter), memberchk(P, ['TRIAL', 'TRAIN', 'TEST'])
+        member(P, Filter), memberchk(P, ['trial', 'train', 'test'])
     ), Parts),
     findall(SID, (
-        sen_id(SID,_,_,Part,Lab,_),
+        sen_id(SID,_,_,PART,Lab,_),
+        downcase_atom(PART, Part),
         once((memberchk(Part, Parts); Parts = [])),
         once((memberchk(Lab, Labels); Labels = []))
     ), SID_List),
