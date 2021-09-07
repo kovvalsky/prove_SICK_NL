@@ -30,7 +30,7 @@ def parse_arguments():
               "e.g. 'N EC' means that prediction is N for E or C reference labels"))
     parser.add_argument(
     '-md', '--mode-diff', action='store_true',
-        help=("Predicted and reference labels shoudl be different. "
+        help=("Predicted and reference labels should be different. "
               "This makes difference when a set of prediceted and reference "
               "labels intersect. 'N NEC' with -md will ignore 'N N' pairs."))
     # meta parameters
