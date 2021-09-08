@@ -1,5 +1,5 @@
 === Parameters ===
-%%% [nil,effCr([equi,nonBr,nonProd,nonCons]),ral(400),parts(['TRIAL']),lang(nl),parallel(8),aall,wn_ant,wn_sim,wn_der,constchck,allInt,anno_json('SICK_NL/anno/spacy_lg.json'),waif('Results/trial/npn.spacy_lg.ans')]
+%%% [nil,effCr([equi,nonBr,nonProd,nonCons]),ral(400),parts([trial]),lang(nl),parallel(8),aall,wn_ant,wn_sim,wn_der,constchck,allInt,anno_json('SICK_NL/anno/spacy_lg.json'),waif('Results/trial/npn.spacy_lg.ans')]
 === LangPro ===
 4	CONTRADICTION
 24	NEUTRAL
