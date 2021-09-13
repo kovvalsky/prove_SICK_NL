@@ -5,7 +5,7 @@ import argparse
 import re
 import sys
 from collections import defaultdict
-sys.path.append('LangPro/python')
+sys.path.append('../LangPro/python')
 from evaluate import read_id_labels, canonical_label
 from termcolor import colored
 
