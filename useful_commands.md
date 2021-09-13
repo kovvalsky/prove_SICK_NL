@@ -1,4 +1,6 @@
-### Error Analysis & Comparison of Parsers
+## Error Analysis
+
+### Comparison of Parsers
 1. Compare predictions of `$sys` and `$ref` on the train set (while using the both pos taggers) and print problems (in both EN `$src` and NL `$trg`) for which the predictions differ (`$md` flag on). The predictions will be formatted as `$sys-($ref)-[$gold]`.
 ```
 $ python3 python/xlang_compare.py --sys Results/train/npn.alpino-spacy_lg.ans --ref Results/train/alpino.alpino-spacy_lg.ans  --src LangPro/ccg_sen_d/SICK_sen.pl --trg SICK_NL/sen.pl  -m NEC NEC -md
@@ -36,8 +38,35 @@ $ swipl -f prolog/main.pl  SICK_NL/sen.pl  SICK_NL/parses/alpino.pl  WNProlog/wn
 ```
 You might need to run LangPro for the npn trees with the alpino pos tags in another terminal window to compare two tableaux.
 
+### Reasons for failed proofs
 
+Let's consider 8316 `Honden racen op een circuit ENTAILS Honden rennen op een spoor`. It seems that if trees are fine, then having `racen < rennen` and `circuit < spoor` should be sufficient to prove entailment.
 
+1. Check if a particular lexical knowledge is available in WN.
+The following checks if `garnaal` is more specific than `persoon`, and also shows
+the transitive chain between these concepts:
+```
+$ swipl -f prolog/main.pl WNProlog/wn.pl
+% Num is a numerical POS tag (1=Noun, 2=Verb, 3=Adjective, 4-Adverb)
+% SN is a sense number (not ID), and Path a list of sense IDs
+?- word_hyp(_, garnaal, persoon, Num, SN1, SN2, Path).
+% or print all hypernyms of a particular word
+?- print_all_word_hyp(circuit, W2).
+% or all hyponyms
+?- print_all_word_hyp(W1, rennen).
+```
+2. A prolog command for proving (with GUI) a particular problem with manually provided lexical knowledge (e.g., `isa_wn(racen, rennen), isa_wn(circuit, spoor)`):
+```
+% Global parameters are set once
+?- parList([parts([train]), lang(nl), anno_json('SICK_NL/anno/spacy_lg.json'), complete_tree, allInt, aall, wn_ant, wn_sim, wn_der, constchck]).
+% Running GUI proving:
+?- gentail(align, [isa_wn(racen, rennen), isa_wn(circuit, spoor)], 8316).
+% if no GUI needed, then use:
+?- solve_entailment(align, [isa_wn(racen, rennen), isa_wn(circuit, spoor)], (8316, whatever), X).
+% Actually the output shows that both knowledges is necessary and sufficent for finding the proof.
+```
+
+## Other Commands
 ### LaTeX & PDF
 Produce pdf files for problems and open in atril:
 ```
@@ -54,11 +83,7 @@ List problems that were not solved by either npn or alpino, but were solved by C
 produce -d -f produce.ini  trial.alpino-npn-vs-ccg.spacy_lg.N-EC.comp
 ```
 
-### Proving particular problems
-Run graphical entailment with initial knowledge:
-```
-parList([parts([trial,train]), lang(nl), anno_json('SICK_NL/anno/spacy_lg.json'), complete_tree, allInt, aall, wn_ant, wn_sim, wn_der, constchck]), gentail(align, [isa_wn(rennen,lopen), isa_wn(gras,veld)], 384).
-```
+
 
 ### Abduction
 Abduction for a specific problem (NL):
