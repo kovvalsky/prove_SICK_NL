@@ -66,6 +66,19 @@ $ swipl -f prolog/main.pl WNProlog/wn.pl
 % Actually the output shows that both knowledges is necessary and sufficent for finding the proof.
 ```
 
+## Evaluation
+
+### Ensemble of four LPs
+```
+LangPro/python/evaluate.py  --gld SICK_NL/sen.pl   --sys Results/abd_eva/TD_E/npn_robbert.alpino/r200,c0_ab,ch,cKB,cT,p123.ans.E  Results/abd_eva/TD_E/alpino.alpino/r200,c20_ab,ch,cKB,cT,p123.ans.E  Results/abd_eva/TD_E/npn_robbert.spacy_lg/r200,c0_ab,ch,cKB,cT,p123.ans.E  Results/abd_eva/TD_E/alpino.spacy_lg/r200,c20_ab,ch,cKB,cT,p123.ans.E   --hybrid
+```
+
+### LPs vs Neural models
+The problems that were solved by the LP ensemble and failed by all neural models:
+```
+python3 LangPro/python/evaluate.py --sys Results/abd_eva/TD_E/LangPro_2x2_r200.ans  baselines/bertje.tsv  baselines/mbert.tsv  baselines/robbert.tsv   --gld SICK_NL/sen.pl -onc 1 | grep -P " [CE] " | grep -oP "\d+" | xargs  -I % sh -c 'grep "\s%," SICK_NL/sen.pl'
+```
+
 ## Other Commands
 ### LaTeX & PDF
 Produce pdf files for problems and open in atril:
