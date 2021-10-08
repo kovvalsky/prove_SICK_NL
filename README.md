@@ -6,7 +6,7 @@ Note that the current repo contains SICK-NL version that corresponds its English
 
 The current repo and the [LangPro](https://github.com/kovvalsky/LangPro) repo shoudl be in the same directory.
 
-Get Langpro repo with 
+Get Langpro repo with
 `git clone --branch nl git@github.com:kovvalsky/LangPro.git` or `git clone --branch nl https://github.com/kovvalsky/LangPro.git`.
 It is used for theorem-proving and converting type-logical terms into simply-typed terms.
 Note that `nl` branch is relevant one.
@@ -23,9 +23,8 @@ Before proving the problems, either enter the prolog interactive mode (recommend
 ```
 % loading the prover with alpino (or npn_robbert) trees
 $ swipl -f prolog/main.pl  SICK_NL/sen.pl  SICK_NL/parses/alpino.pl  WNProlog/wn.pl
-% This can be run only in the beginning, to set the global parameters: the part of the dataset, language flag, lexical annotation file, and theorem proving parameters 
+% This can be run only in the beginning, to set the global parameters: the part of the dataset, language flag, lexical annotation file, and theorem proving parameters
 ?- parList([parts([train]), lang(nl), anno_json('SICK_NL/anno/alpino.json'), complete_tree, allInt, aall, wn_ant, wn_sim, wn_der, constchck]).
-% Run LangPro in the graphical mode with aligned terms (if the prove is found, it is most probably done with aligned terms as this mode is tested first for efficiency reasons.)
 ```
 Or run the prolog goals directly from the terminal:
 ```
@@ -36,12 +35,20 @@ $ swipl -g "PROLOG_PREDICATES_TO_BE_CHECKED" -t halt -f prolog/main.pl  SICK_NL/
 
 ```
 % In an interactive mode, prove a problem and pretty display the proof in a separate window
+% Run LangPro in the graphical mode with aligned terms (if the prove is found, it is most probably done with aligned terms as this mode is tested first for efficiency reasons.)
 ?- gentail(aligned, 8502).
 Tableau for "yes" checking is generated with Ter,6 ruleapps
 XP: [isa(man,persoon),isa(meer,water)]
 true.
 ```
-### Prove a particular problem without abductive training
+An image of the proof: <img src="img/8502.png" height="100"/>
+
+```
+# The same but with a terminal command:
+$ swipl -g "parList([parts([train]), lang(nl), anno_json('SICK_NL/anno/alpino.json'), complete_tree, allInt, aall, wn_ant, wn_sim, wn_der, constchck]), gentail(aligned, 8502)." -f prolog/main.pl  SICK_NL/sen.pl  SICK_NL/parses/alpino.pl  WNProlog/wn.pl
+```
+Check [LangPro](https://github.com/kovvalsky/LangPro) repo for running the prover for entire data split.
+
 
 ## Generate typed terms in LaTeX/PDF
 ### For all sentences filtered with a label or a part
