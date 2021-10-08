@@ -17,6 +17,32 @@ Additionally add `--single-branch` if you want to clone only `nl` branch.
 You will need to install [produce](https://github.com/texttheater/produce) if you want to use the rules to build files from scratch.
 
 # HowTo
+
+## Theorem proving SICK-NL problems
+Before proving the problems, either enter the prolog interactive mode (recommended for a demo usage):
+```
+% loading the prover with alpino (or npn_robbert) trees
+$ swipl -f prolog/main.pl  SICK_NL/sen.pl  SICK_NL/parses/alpino.pl  WNProlog/wn.pl
+% This can be run only in the beginning, to set the global parameters: the part of the dataset, language flag, lexical annotation file, and theorem proving parameters 
+?- parList([parts([train]), lang(nl), anno_json('SICK_NL/anno/alpino.json'), complete_tree, allInt, aall, wn_ant, wn_sim, wn_der, constchck]).
+% Run LangPro in the graphical mode with aligned terms (if the prove is found, it is most probably done with aligned terms as this mode is tested first for efficiency reasons.)
+```
+Or run the prolog goals directly from the terminal:
+```
+$ swipl -g "PROLOG_PREDICATES_TO_BE_CHECKED" -t halt -f prolog/main.pl  SICK_NL/sen.pl  SICK_NL/parses/alpino.pl  WNProlog/wn.pl
+```
+
+### Prove a particular problem without abductive training
+
+```
+% In an interactive mode, prove a problem and pretty display the proof in a separate window
+?- gentail(aligned, 8502).
+Tableau for "yes" checking is generated with Ter,6 ruleapps
+XP: [isa(man,persoon),isa(meer,water)]
+true.
+```
+### Prove a particular problem without abductive training
+
 ## Generate typed terms in LaTeX/PDF
 ### For all sentences filtered with a label or a part
 
