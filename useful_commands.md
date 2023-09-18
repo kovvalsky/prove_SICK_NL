@@ -79,6 +79,12 @@ The problems that were solved by the LP ensemble and failed by all neural models
 python3 LangPro/python/evaluate.py --sys Results/abd_eva/TD_E/LangPro_2x2_r200.ans  baselines/bertje.tsv  baselines/mbert.tsv  baselines/robbert.tsv   --gld SICK_NL/sen.pl -onc 1 | grep -P " [CE] " | grep -oP "\d+" | xargs  -I % sh -c 'grep "\s%," SICK_NL/sen.pl'
 ```
 
+Fine-grained comparison (based ob label type) to each NN model:
+```
+for nn in mbert robbert bertje; do for lab in C E N; do for i in 1 2; do N=$(python3 LangPro/python/evaluate.py --sys Results/abd_eva/TD_E/LangPro_2x2_r200.ans  baselines/$nn.tsv --gld SICK_NL/sen.pl -onc $i | grep -P " [$lab] " | wc -l); if [ $i == 1 ]; then echo "Langpro vs $nn"; else echo "$nn vs LangPro"; fi; printf "%s %s\n"  $lab $N; done; done; done
+```
+
+
 ## Other Commands
 ### LaTeX & PDF
 Produce pdf files for problems and open in atril:

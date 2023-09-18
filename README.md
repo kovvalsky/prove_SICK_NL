@@ -9,7 +9,7 @@ The current repo and the [LangPro](https://github.com/kovvalsky/LangPro) repo sh
 Get Langpro repo with
 `git clone --branch nl git@github.com:kovvalsky/LangPro.git` or `git clone --branch nl https://github.com/kovvalsky/LangPro.git`.
 It is used for theorem-proving and converting type-logical terms into simply-typed terms.
-Note that `nl` branch is relevant one.
+⚠️ It is important to select `nl` branch.
 Additionally add `--single-branch` if you want to clone only `nl` branch.
 
 
