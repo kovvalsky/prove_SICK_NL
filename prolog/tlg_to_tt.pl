@@ -40,6 +40,7 @@
 debMode(Arg) :-
     retractall( debMode(_) ),
     assertz( debMode(Arg) ).
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Read TLG terms and annotations and write annotated TT terms
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,7 +87,7 @@ anno_sid_tts(AnnoDict, SID, TTs) :-
     Anno = AnnoDict.Key,
     sen_id_to_tlgs(SID, TLGs, L_Toks),
     ( once(maplist(align_tok_anno(Anno), L_Toks, L_AlignAnno)) -> true
-    ; report_error('~w: ~w\n~p', [SID, L_Toks, Anno]), fail ),
+    ; report_error('sentence id=~w\nFailed to align term tokens and lexical annotations\nterm tokes: ~w\nlexical annotation: ~p', [SID, L_Toks, Anno]), fail ),
     maplist(tlg_anno_to_tt_fail, L_AlignAnno, TLGs, L_TT),
     list_to_set_using_match(L_TT, TTs).
 
@@ -151,6 +152,7 @@ ttterms_to_pretty_atoms(TTs, AtomTTs) :-
 % Get all available TLGs and its corresponding tokenization for a sentence ID
 sen_id_to_tlgs(SID, TLGs, L_Toks) :-
     findall(TLG-Toks, once(
+        sen_id_tlg_tok(SID, TLG, Toks) ;
         % prevents from selecting a PID that doesn't exists in non-semeval data
         (sen_id(SID, PID, PH, _, _, _), prob_sen(PID, PH, TLG, Toks))
     ), L_TLG_Toks),
@@ -255,6 +257,7 @@ simple_tlg_to_ccg(ti, np:_~>s:to).  % te-infinitive group
 simple_tlg_to_ccg(oti, np:_~>s:to). % om te-infinitive-group
 simple_tlg_to_ccg(ap, np:_~>s:adj). % adjective phrase
 simple_tlg_to_ccg(adj, np:_~>s:adj).
+simple_tlg_to_ccg(adjp, np:_~>s:adj).
 %TODO check if this works
 simple_tlg_to_ccg(bw, pr).          % Adverb
 simple_tlg_to_ccg(adv, pr).         % Adverb, what is diff between these adverbs?

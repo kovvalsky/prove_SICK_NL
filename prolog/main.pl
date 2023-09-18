@@ -14,7 +14,9 @@
 % :- use_module('generic_utils', [ read_dict_from_json_file/2
 %     ]).
 
-
+% predicates that can introduce TLG terms (depending on how they were obtained)
+:- dynamic prob_sen/4.
+:- dynamic sen_id_tlg_tok/3.
 
 sen_id(SID, PID, PH, Label, Sen) :-
     debMode(parts(Parts)),
@@ -24,6 +26,7 @@ sen_id(SID, PID, PH, Label, Sen) :-
     memberchk(Part, Parts).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% patch that allows to introduce terms from different source than LangPro
 :- multifile sen_id_to_base_ttterm/2.
 :- discontiguous sen_id_to_base_ttterm/2.
 

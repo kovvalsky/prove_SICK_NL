@@ -59,11 +59,11 @@ translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P1), Ty)) :- !,
     ; memberchk(NL, ['geen','geen_enkel']) -> EN = 'no'
     ; memberchk(NL, ['het','de']) -> EN = 'the'
     ; memberchk(NL, ['een','één','eén']) -> EN = 'a'
-    ; memberchk(NL, ['wat','sommig']), Ty = n:_~>np:_ -> EN = 'some'
+    ; memberchk(NL, ['wat','sommig']), Ty = _~>np:_ -> EN = 'some'
     ; NL == 'en' -> EN = 'and'
     ; NL == 'er' -> EN = 'there'
     ; memberchk(NL, ['deze','die','dit','dat']),
-      Ty = (np:_~>s:_)~>N~>N -> EN = 'who'
+      ( Ty = (np:_~>s:_)~>N~>N; Ty = s:_~>N~>N )  -> EN = 'who'
     ; NL == 'door', Ty = np:_~>(np:_~>s:_)~>(np:_~>s:_) -> EN = 'by'
     % ; NL == 'iemand', Ty = np:_ -> EN = 'somebody'
     % ; NL == 'niemand', Ty = np:_ -> EN = 'nobody'
