@@ -46,17 +46,18 @@ def parse_arguments():
 def read_nli_sen_pl(sen_pl):
     '''Read sen.pl file into a dictionary'''
     nli = defaultdict(dict)
-    pattern = re.compile(r"sen_id\((\d+), (\d+), ('[ph]'), ('[^']+')?,? ?('[^']+'), ('.+')\).")
+    pattern = re.compile(r"sen_id\((\d+), (\d+), '([ph])', ('[^']+')?,? ?('[^']+'), ('.+')\).")
     with open(sen_pl) as F:
         for l in F:
             if not l.strip(): continue # ignore empty lines
             if l.strip().startswith('%'): continue # ignore prolog comments
             m = pattern.match(l)
             if m:
-                _, pid, ph, part, label, sen = m.groups()
-                nli[pid][ph.strip("'")] = sen.strip("'").replace("\\'", "'")
+                sid, pid, ph, part, label, sen = m.groups()
+                nli[pid][ph] = sen.strip("'").replace("\\'", "'")
                 nli[pid]['l'] = canonical_label(label.strip("'"))
                 nli[pid]['part'] = part.strip("'") if part else part
+                nli[pid][(ph, 'sid')] = int(sid)
     return nli
 
 #################################

@@ -43,9 +43,9 @@ def parse_arguments():
     return args
 
 
-def parse_sents(model: Language, sents: List[str], ids: List[int]) -> OrderedDict[int, List[OrderedDict[str, str]]]:
-    def parse_doc(doc: Doc) -> List[OrderedDict[str, str]]:
-        def parse_tok(token: Token) -> OrderedDict[str, str]:
+def parse_sents(model: Language, sents: List[str], ids: List[int]) -> 'OrderedDict[int, List[OrderedDict[str, str]]]':
+    def parse_doc(doc: Doc) -> 'List[OrderedDict[str, str]]':
+        def parse_tok(token: Token) -> 'OrderedDict[str, str]':
             return OrderedDict([('t', token.text), ('l', token.lemma_), ('p', token.pos_)] +
                                list(token.morph.to_dict().items()))
         return [parse_tok(token) for token in doc]
