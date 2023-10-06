@@ -13,7 +13,8 @@
 %http://nederbooms.ccl.kuleuven.be/php/common/TreebankFreqsLASSY.html#table8
 %https://www.let.rug.nl/vannoord/alp/Alpino/adt.html
 
-lassy2tlp(A, [A.t, A.l, POS]) :-
+lassy2tlp(A, [A.t, L, POS]) :-
+    substitute_in_atom(A.l, '_', ' ', L), % repalce underscores in lemmas with space
     lassyPosTags2Penn(A.postag, POS).
 
 
@@ -42,7 +43,9 @@ lassyTagFeatList2Penn(['vnw'-Feats], POS) :-
     ; subset(['aanw'], Feats) -> POS = 'EX'
     ; subset(['recip'],Feats) -> POS = 'DT'
     ; subset(['refl'], Feats) -> POS = 'PRP'
-    ; subset(['per'],  Feats) -> POS = 'PRP'
+    ; subset(['pers'],  Feats) -> POS = 'PRP'   % added
+    ; subset(['per'],  Feats) -> POS = 'PRP'    % can be removed?
+    ; subset(['pr'],  Feats) -> POS = 'PRP'     % added
     ; subset(['vb'],   Feats) -> POS = 'WP'
     ).
 

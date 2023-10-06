@@ -163,7 +163,7 @@ sen_id_to_tlgs(SID, TLGs, L_Toks) :-
     maplist([TLG1-Toks1, TLG1, Toks1]>>true, L_TLG_Toks, TLGs, L_Toks).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% TLG term to TTterm conversion perds
+% TLG term to TTterm conversion preds
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Conversion that doesn't fail on inconvertible TLG terms
