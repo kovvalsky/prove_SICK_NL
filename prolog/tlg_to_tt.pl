@@ -25,7 +25,8 @@
     ]).
 :- use_module('generic_utils', [
     enumerate_list/2, homogeneous_list/1, list_to_set_using_match/2,
-    dict_length/2, atom_split/4, value_merge_dicts/3, dicts_merge_key_value/3,
+    dict_length/2, atom_split/4, value_merge_dicts/3,
+    dicts_merge_key_value/3, dict_list_to_value_list/3, 
     has_keys/2
     ]).
 :- use_module('upos', [upos2penn/2]).
@@ -86,8 +87,11 @@ anno_sid_tts(AnnoDict, SID, TTs) :-
     atom_number(Key, SID),
     Anno = AnnoDict.Key,
     sen_id_to_tlgs(SID, TLGs, L_Toks),
+    %!!! use include instead? alignmnet might fail for some terms-tokens
     ( once(maplist(align_tok_anno(Anno), L_Toks, L_AlignAnno)) -> true
-    ; report_error('sentence id=~w\nFailed to align term tokens and lexical annotations\nterm tokes: ~w\nlexical annotation: ~p', [SID, L_Toks, Anno]), fail ),
+    ; dict_list_to_value_list(Anno, t, AnnoTokens),   
+      report_error('Cannot align tokens in sentence id=~w\nterm tokens=~w\nanno tokens=~w', [SID, L_Toks, AnnoTokens]),
+      fail ),
     maplist(tlg_anno_to_tt_fail, L_AlignAnno, TLGs, L_TT),
     list_to_set_using_match(L_TT, TTs).
 
@@ -116,7 +120,7 @@ align_tok_anno(Anno, [SubToks|Toks], [AlignedMWE|AlignAnno]) :-
     dicts_merge_key_value('_', SubAligned, AlignedMWE),
     align_tok_anno(RestAnno, Toks, AlignAnno).
 
-% standars case when tokens match
+% standard  case when tokens match
 align_tok_anno([A|Anno], [T|Toks], [A|AlignAnno]) :-
     T = [A.t],
     align_tok_anno(Anno, Toks, AlignAnno).
@@ -126,7 +130,7 @@ align_tok_anno([A|Anno], [T|Toks], AlignAnno) :-
     memberchk(A.t, [',']),
     align_tok_anno(Anno, [T|Toks], AlignAnno).
 
-% deadling with MWE TODO this should be ignored later
+% dealing with MWE TODO this should be ignored later
 align_tok_anno([A1,A2|Anno], [[aan_het]|Toks], [A|AlignAnno]) :-
     'aan' = A1.t,
     'het' = A2.t,

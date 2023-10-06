@@ -15,7 +15,8 @@
         list_to_set_using_match/2,
         merge_two_lists/4,
         num_list/2,
-        value_merge_dicts/3
+        value_merge_dicts/3,
+        dict_list_to_value_list/3
     ]).
 
 % :- use_module(library(http/json)).
@@ -163,3 +164,9 @@ merge_two_lists(Delim, [H1|L1], [H2|L2], [H|L]) :-
     ( H1 == H2 -> H = H1
     ; atomic_list_concat([H1, H2], Delim, H) ),
     merge_two_lists(Delim, L1, L2, L).
+
+
+% get a list of key values from a list of dict
+dict_list_to_value_list(DictList, Key, ValueList) :-
+    maplist({Key}/[Dict, Val]>>(.(Dict, get(Key), Val)), DictList, ValueList).
+
