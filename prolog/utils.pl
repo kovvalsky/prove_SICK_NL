@@ -55,8 +55,9 @@ translate_nl2en((abst(X, NL), Ty), (abst(X, EN), Ty)) :- !,
     translate_nl2en(NL, EN).
 
 translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P1), Ty)) :- !,
-    ( NL == 'niet' -> EN = 'not'
+    ( memberchk(NL, ['niet','nooit']) -> EN = 'not' % very bad approximation of nooit
     ; memberchk(NL, ['geen','geen_enkel']) -> EN = 'no'
+    ; memberchk(NL, ['ieder']) -> EN = 'every'
     ; memberchk(NL, ['het','de']) -> EN = 'the'
     ; memberchk(NL, ['een','één','eén']) -> EN = 'a'
     ; memberchk(NL, ['wat','sommig']), Ty = _~>np:_ -> EN = 'some'
