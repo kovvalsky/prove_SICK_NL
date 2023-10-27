@@ -269,6 +269,9 @@ simple_tlg_to_ccg(whrel, s:dcl~>s:dcl). % relative clause with embedded antecede
 simple_tlg_to_ccg(tw, np:num).      % Numeral
 simple_tlg_to_ccg(whsub, s:q).      % embedded question
 simple_tlg_to_ccg(whq, s:q).        % WH-question
+
+simple_tlg_to_ccg(cp, s:_).        % WH-question
+simple_tlg_to_ccg(sv1, s:_).        % WH-question
 %-----------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
