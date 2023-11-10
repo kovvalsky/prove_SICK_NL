@@ -63,6 +63,7 @@ translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P1), Ty)) :- !,
     ; memberchk(NL, ['wat','sommig']), Ty = _~>np:_ -> EN = 'some'
     ; NL == 'en' -> EN = 'and'
     ; NL == 'er' -> EN = 'there'
+    ; NL == 'als' -> EN = 'if'     % translate conditionals for MED
     ; memberchk(NL, ['deze','die','dit','dat']),
       ( Ty = (np:_~>s:_)~>N~>N; Ty = s:_~>N~>N )  -> EN = 'who'
     ; NL == 'door', Ty = np:_~>(np:_~>s:_)~>(np:_~>s:_) -> EN = 'by'
