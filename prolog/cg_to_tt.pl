@@ -58,6 +58,10 @@ cg_typed_to_ttTerm(X, X) :-
     report_error('Unexpected variable found: ~w\n', [X]),
     fail.
 
+cg_typed_to_ttTerm((Var, Cat), (Var, Type)) :- 
+    var(Var), !,
+    cg_cat_to_type(Cat, Type).    
+
 cg_typed_to_ttTerm((tlp(Tok,Lem,Pos,F1,F2), Cat), (tlp(Tok,Lem,Pos,F1,F2), Type)) :- !,
     cg_cat_to_type(Cat, Type),
     ( (var(Tok); var(Lem); var(Pos)) 
@@ -71,9 +75,7 @@ cg_typed_to_ttTerm((T1@T2, Cat), (TT1@TT2, Type)) :- !,
     cg_typed_to_ttTerm(T1, TT1),
     cg_typed_to_ttTerm(T2, TT2).
 
-cg_typed_to_ttTerm((Var, Cat), (Var, Type)) :- 
-    var(Var), !,
-    cg_cat_to_type(Cat, Type).
+
 
 cg_typed_to_ttTerm((abst(V, T), Cat), (abst(VT, TT), Type)) :- 
     nonvar(V), V = (Var, _), var(Var), !,
