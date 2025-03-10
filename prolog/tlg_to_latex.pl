@@ -7,7 +7,8 @@
     tlg_ids_to_latex/3,
     tlg_ids_to_pdf/3,
     rtt_ids_to_latex/2,
-    rtt_ids_to_pdf/2
+    rtt_ids_to_pdf/2,
+    tt_to_latex/2
     ]).
 
 :- use_module('generic_utils', [

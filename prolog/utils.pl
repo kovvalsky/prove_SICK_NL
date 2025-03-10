@@ -11,7 +11,7 @@
 :- use_module('generic_utils', [ merge_two_lists/4 ]).
 
 %---------------------------------------------------
-% Add two dummy features to lexical leaves
+% Add two dummy features to lexical leaves if they don't have them
 add_feats_to_tlp(Var, Var) :-
 	var(Var), !,
 	format('Untyped variable in add_feats_to_tlp/2'), fail.
@@ -25,6 +25,10 @@ add_feats_to_tlp((T1 @ T2, Ty), (TF1 @ TF2, Ty)) :- !,
     add_feats_to_tlp(T2, TF2).
 
 add_feats_to_tlp((tlp(T,L,P), Ty), (tlp(T,L,P,'O','O'), Ty)) :- !.
+
+add_feats_to_tlp((tlp(T,L,P,F1,F2), Ty), (tlp(T,L,P,F1,F2), Ty)) :- !,
+    ( var(F1) -> F1 = 'O'; true ),
+    ( var(F2) -> F2 = 'O'; true ).
 
 add_feats_to_tlp((abst(VarTT,T), Ty), (abst(VarTT,TF), Ty)) :- !,
     add_feats_to_tlp(T, TF).
@@ -81,6 +85,9 @@ translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P1), Ty)) :- !,
     ; NL = EN ),
     (var(P1) -> P1 = P; true ). 
 
+% accommodates tlp/5 terms
+translate_nl2en((tlp(T,NL,P,F1,F2), Ty), (tlp(T,EN,P1,F1,F2), Ty)) :- !,
+    translate_nl2en((tlp(T,NL,P), Ty), (tlp(T,EN,P1), Ty)).
 
 
 
