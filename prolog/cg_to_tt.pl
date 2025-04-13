@@ -104,13 +104,13 @@ cg_cat_to_type(lit(X), Type) :-
     ; writeln(lit(X))
     ).
 
-cg_cat_to_type(DR_DL, Type1~>Type2) :-
-    ( DR_DL = dr(0,Cat1,Cat2)
-    ; DR_DL = dl(0,Cat1,Cat2) 
-    ; DR_DL = dl(1,Cat1,Cat2)
+cg_cat_to_type(DR_DL, ArgType~>FunType) :-
+    ( DR_DL = dr(0,FunCat,ArgCat)
+    ; DR_DL = dl(0,FunCat,ArgCat) 
+    ; DR_DL = dl(1,FunCat,ArgCat)
     ), !,
-    cg_cat_to_type(Cat1, Type1),
-    cg_cat_to_type(Cat2, Type2).
+    cg_cat_to_type(FunCat, FunType),
+    cg_cat_to_type(ArgCat, ArgType).
 
 cg_cat_to_type(X, X) :-
     writeln(X).
