@@ -8,23 +8,25 @@
     tlg_ids_to_pdf/3,
     rtt_ids_to_latex/2,
     rtt_ids_to_pdf/2,
-    tt_to_latex/2
+    tt_to_latex/2,
+    cg_pids_to_latex/2
     ]).
 
-:- use_module('generic_utils', [
-    num_list/2, filepath_write_source/2
-    ]).
 :- use_module('../LangPro/prolog/llf/ttterm_to_term', [
     ttTerm_to_pretty_ttTerm/2
     ]).
 :- use_module('../LangPro/prolog/utils/generic_preds', [
     format_list_list/3, read_dict_from_json_file/2
     ]).
-:- use_module('tlg_to_tt', [json_tlg_ids_to_tts/3, anno_sid_tts/3]).
 :- use_module('../LangPro/prolog/latex/latex_ttterm', [
     latex_ttTerm_print_tree/3, latex_ttTerm_preambule/1
     ]).
-:- use_module('utils', [ add_feats_to_tlp/2, translate_nl2en/2 ]).
+:- use_module('tlg_to_tt', [json_tlg_ids_to_tts/3, anno_sid_tts/3]).
+:- use_module('cg_to_tt', [ cg_typed_to_ttTerm/2 ]).
+:- use_module('utils', [ add_feats_to_tlp/2]).
+:- use_module('generic_utils', [ num_list/2, filepath_write_source/2 ]).
+:- use_module('nl2en', [ translate_nl2en/2]).
+:- use_module('fr2en', [ translate_fr2en/2]).
 
 :- multifile sid_tts/2. % silences warnnings
 
@@ -113,6 +115,38 @@ write_prob_tts_to_latex(S, AnnoDict, PID) :-
 
 %----------------------------------------------
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CG terms in LaTeX (for French)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+cg_pids_to_latex(PIDS, FilePath) :-
+    filepath_write_source(FilePath, S),
+    latex_ttTerm_preambule(S),
+    write(S, '\\begin{document}\n'),
+    maplist(cg_pid_to_latex_src(S), PIDS),
+    write(S, '\\end{document}'),
+    close(S).
+
+cg_pid_to_latex_src(S, PID) :-
+    findall(SID-PID-TTterm,
+        ( sen_id(SID, PID, _PH, _Part, _Label, _Sen),
+          cg_term(SID, CG),
+          cg_typed_to_ttTerm(CG, TTterm0),
+          add_feats_to_tlp(TTterm0, TTterm) 
+        ),
+    SID_PID_TTterms),
+    maplist({S}/[Sid-Pid-TT]>>cg_sen_info_to_latex_src(S, Sid, Pid, TT), 
+        SID_PID_TTterms).
+
+% write sentence TTterms corresponding to a sentence ID with a prob ID
+% write its problem-level info too
+cg_sen_info_to_latex_src(S, SID, PID, TTterm) :-
+    sen_id(SID, PID, PH, Part, Lab, Sen), !,
+    format(S, '\\noindent\\texttt{Prob [~w]}, \\texttt{Sen (~w)}, \\textsc{~w, ~w}, \\textbf{~w}~n~n', 
+        [PID, SID, PH, Part, Lab]),
+    format(S, '\\noindent\\textbf{~w}~n~n', [Sen]),
+    tt_to_latex(S, TTterm).
+
+
 %----------------------------------------------
 % Get TTS of a SID and write various intermediate TTs in Latex
 tt_to_latex(S, TT) :-
@@ -126,7 +160,7 @@ tt_to_latex(S, TT) :-
 
 corrected_tt_to_latex(S, TT, CorrTT) :-
     ( debMode('latex_no_corrected') -> true
-    ; translate_nl2en(TT, TT1),
+    ; translate_to_en(TT, TT1),
       add_feats_to_tlp(TT1, TT2),
       correct_ttterm(TT2, CorrTT),
       set_latex_color(S, 'blue'),
@@ -139,6 +173,11 @@ type_raised_tt_to_latex(S, CorrTT) :-
       ; TR_TT = (tlp(fail,fail,'NN','O','O'), n:_) ),
       set_latex_color(S, 'black'),
       latex_ttTerm_print_tree(S, 2, TR_TT) ).
+
+translate_to_en(TT, En_TT) :-
+    debMode(lang(fr)) -> translate_fr2en(TT, En_TT)
+    ; debMode(lang(nl)) -> translate_nl2en(TT, En_TT)
+    ; fail.
 %----------------------------------------------
 
 

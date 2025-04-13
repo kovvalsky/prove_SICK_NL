@@ -7,7 +7,7 @@
     [
         sen_id_cg/2,
         sen_all_cg/0,
-        cg_ids_to_latex/2
+        cg_typed_to_ttTerm/2
     ]).
 
 :- use_module('../LangPro/prolog/printer/reporting', [
@@ -17,10 +17,7 @@
     write_pretty_ttTerm/3, ttTerm_to_pretty_ttTerm/2
     ]).
 :- use_module('../LangPro/prolog/lambda/lambda_tt', [ norm_tt/2 ]).
-:- use_module('tlg_to_latex', [ tt_to_latex/2 ]).
-:- use_module('generic_utils', [
-    filepath_write_source/2
-    ]).
+
 :- use_module('utils', [ add_feats_to_tlp/2 ]).
 :- use_module('../LangPro/prolog/latex/latex_ttterm', [
     latex_ttTerm_preambule/1
@@ -49,8 +46,8 @@ sen_all_cg :-
 
 sen_id_cg(SID, TTterm) :-
     cg_term(SID, CG),
-    cg_typed_to_ttTerm(CG, TTterm0),
-    add_feats_to_tlp(TTterm0, TTterm).
+    cg_typed_to_ttTerm(CG, TTterm).
+    
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 cg_typed_to_ttTerm(X, X) :-
@@ -75,8 +72,6 @@ cg_typed_to_ttTerm((T1@T2, Cat), (TT1@TT2, Type)) :- !,
     cg_typed_to_ttTerm(T1, TT1),
     cg_typed_to_ttTerm(T2, TT2).
 
-
-
 cg_typed_to_ttTerm((abst(V, T), Cat), (abst(VT, TT), Type)) :- 
     nonvar(V), V = (Var, _), var(Var), !,
     cg_typed_to_ttTerm(V, VT),
@@ -98,6 +93,8 @@ cg_cat_to_type(lit(X), Type) :-
     -> Type = n:_
     ; X = s(F), atom(F)
     -> Type = s:F
+    ; X = s(F), var(F)  % (tlp(et, et, 'CC-KON', 0, O), dr(0,dl(0,dl(1,lit(s(main)),lit(s(main))),dl(1,lit(s(main)),lit(s(main)))),dl(1,lit(s(E)),lit(s(E)))))
+    -> Type = s:F
     ; X = s(inf(F)), atom(F)
     -> Type = s:Inf, atomic_list_concat([inf, F], '_', Inf)
     ; X = pp(F) % F can be rarely var 
@@ -117,20 +114,3 @@ cg_cat_to_type(DR_DL, Type1~>Type2) :-
 
 cg_cat_to_type(X, X) :-
     writeln(X).
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-cg_ids_to_latex(IDs, FilePath) :-
-    findall(TTterm,
-        ( cg_term(SID, CG),
-          memberchk(SID, IDs), 
-          cg_typed_to_ttTerm(CG, TTterm0),
-          add_feats_to_tlp(TTterm0, TTterm) 
-        ), 
-    TTterms),
-    filepath_write_source(FilePath, S),
-    latex_ttTerm_preambule(S),
-    write(S, '\\begin{document}\n'),
-    maplist(tt_to_latex(S), TTterms),
-    write(S, '\\end{document}'),
-    close(S).
