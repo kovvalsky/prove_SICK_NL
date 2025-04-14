@@ -44,7 +44,7 @@ add_feats_to_tlp(AtomTT, AtomTT) :-
 %----------------------------------------------------
 tlp_lemma_in_list(TLP, List) :-
 	nonvar(TLP),
-	TLP = tlp(_,Lemma,_),
+    TLP =.. [tlp,_,Lemma | _],
 	memberchk(Lemma, List).
 
 %----------------------------------------------------
@@ -56,6 +56,5 @@ merge_tlps(Delim, [TLP1,TLP2|Rest], TLP) :-
     merge_two_lists(Delim, L1, L2, L),
     TLP12 =.. L,
     merge_tlps(Delim, [TLP12|Rest], TLP).
-
 
 %----------------------------------------------------
