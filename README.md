@@ -107,7 +107,7 @@ solve_entailment/4
                         ccgTerm_to_llf/2    # does heavy job of fixing terms
             ...several predicates dealing with KB
             once_gen_quant/2                # type-raising NPs
-            ...optinal alignment prdicates
+            ...optional alignment predicates
         consistency_check/3                 # checks each LLF on being self-contradictory
         align_solve_problem/11              # solves problem (+ with optional aligned LLFs)
             solve_problem/7

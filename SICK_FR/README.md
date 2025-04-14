@@ -3,6 +3,19 @@
 ## Issues
 
 * No annotation information helps to distinguish plural nouns from singluar.
+* pid=4816: `Il n'y a personne qui coupe un peu de gingembre`. Is this grammatical and non-ambiguous? Is here `personne` disambiguated as `nobody` because of the presence of `ne`?
+
+
+## Labels affected by translation
+
+```
+pid=3181 EN is neutral but FR should be contradiction
+A man is trekking in the woods
+The man is not hiking in the woods
+vs
+Un homme marche dans les bois
+L'homme ne marche pas dans les bois
+```
 
 ## Analysis
 

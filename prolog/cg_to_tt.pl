@@ -61,8 +61,9 @@ cg_typed_to_ttTerm((Var, Cat), (Var, Type)) :-
 
 cg_typed_to_ttTerm((tlp(Tok,Lem,Pos,F1,F2), Cat), (tlp(Tok,Lem,Pos,F1,F2), Type)) :- !,
     cg_cat_to_type(Cat, Type),
-    % ( Lem == 'ne' -> format('~w    ~w    ~w~n', [Lem, Pos, Type]) ),
-    % ( Tok == 'a' -> format('~w    ~w    ~w~n', [Lem, Pos, Type]) ), 
+    % ( Lem == 'ne' -> format('~w    ~w    ~w~n', [Lem, Pos, Type]); true ),
+    % ( Tok == 'a' -> format('~w    ~w    ~w~n', [Lem, Pos, Type]); true ), 
+    % ( Lem == 'pas' -> format('~w    ~w    ~w~n', [Lem, Pos, Type]); true ), 
     ( (var(Tok); var(Lem); var(Pos)) 
     ->  report_error('Unexpected variable found: tok=~w; lem=~w; pos=~w~n', [Tok, Lem, Pos]),
         (Tok, Lem, Pos) = ('TOK', 'LEM', 'POS')
