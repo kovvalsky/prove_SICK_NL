@@ -53,13 +53,15 @@ sen_id_to_base_ttterm(SID, TTterm) :-
     add_feats_to_tlp(TT, TTterm).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-test_tlg_to_llf :-
+% test conversion. It is used when testing certain predicates.
+% Let them print things and this predicate will reveal the issues
+test_conversion_to_llf :-
     findall(SID, sen_id(SID,_,_,_,_), L_SID),
     list_to_ord_set(L_SID, SIDs),
     findall(_, (
         member(S, SIDs),
         writeln(S),
-        sen_id_to_base_ttterm(S, Tree),
+        sen_id_to_base_ttterm(S, Tree), % source language/tree specific
         correct_ttterm(Tree, CorrTree),
         once_gen_quant_tt(CorrTree, _LLF)
     ), _).

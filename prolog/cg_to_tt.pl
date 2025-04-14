@@ -61,6 +61,8 @@ cg_typed_to_ttTerm((Var, Cat), (Var, Type)) :-
 
 cg_typed_to_ttTerm((tlp(Tok,Lem,Pos,F1,F2), Cat), (tlp(Tok,Lem,Pos,F1,F2), Type)) :- !,
     cg_cat_to_type(Cat, Type),
+    % ( Lem == 'ne' -> format('~w    ~w    ~w~n', [Lem, Pos, Type]) ),
+    % ( Tok == 'a' -> format('~w    ~w    ~w~n', [Lem, Pos, Type]) ), 
     ( (var(Tok); var(Lem); var(Pos)) 
     ->  report_error('Unexpected variable found: tok=~w; lem=~w; pos=~w~n', [Tok, Lem, Pos]),
         (Tok, Lem, Pos) = ('TOK', 'LEM', 'POS')
@@ -78,9 +80,9 @@ cg_typed_to_ttTerm((abst(V, T), Cat), (abst(VT, TT), Type)) :-
     cg_cat_to_type(Cat, Type),
     cg_typed_to_ttTerm(T, TT).
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Converting types
+
 cg_cat_to_type(X, X) :-
     var(X), !, 
     report_error('Unexpected variable found: ~w\n', [X]).
@@ -99,14 +101,16 @@ cg_cat_to_type(lit(X), Type) :-
     -> Type = s:Inf, atomic_list_concat([inf, F], '_', Inf)
     ; X = pp(F) % F can be rarely var 
     -> Type = pp:F
-    ; (X == cl_r; X == cl_y; X == txt)
+    ; X = txt 
+    -> Type = s:main
+    ; (X == cl_r; X == cl_y)
     -> Type = X
     ; writeln(lit(X))
     ).
 
 cg_cat_to_type(DR_DL, ArgType~>FunType) :-
     ( DR_DL = dr(0,FunCat,ArgCat)
-    ; DR_DL = dl(0,FunCat,ArgCat) 
+    ; DR_DL = dl(0,ArgCat,FunCat) 
     ; DR_DL = dl(1,FunCat,ArgCat)
     ), !,
     cg_cat_to_type(FunCat, FunType),
