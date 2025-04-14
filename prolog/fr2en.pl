@@ -48,7 +48,8 @@ translate_fr2en((tlp(T,FR,P), Ty), (tlp(T,EN,P1), Type)) :- !,
     ; FR == 'y', P == 'CLO-PRO:PER' -> EN = 'there', P1 = 'EX'
     ; FR == 'il', P == 'CLS-PRO:PER' -> EN = 'it', P1 = 'EX'
     ; FR == 'there', P == 'EX' -> EN = FR, P1 = P % to pass  this after mwe is done
-    ; memberchk(FR, ['qui']), Ty = (np:_~>s:_)~>N~>N -> EN = 'who', P1 = 'WP'
+    ; FR == 'no', P == 'DT' -> EN = FR, P1 = P % to pass  this after mwe is done
+    ; memberchk(FR, ['qui','que']), Ty = (np:_~>s:_)~>N~>N -> EN = 'who', P1 = 'WP'
     ; FR == 'par', Ty = np:_~>(np:_~>s:_)~>(np:_~>s:_) -> EN = 'by', P1 = 'IN'
     ; FR == 'par', Ty = np:acc~>pp:par -> EN = 'by', P1 = 'IN'
     % % ; FR == 'iemand', Ty = np:_ -> EN = 'somebody'
@@ -90,7 +91,7 @@ change_atomic_types(Ty, Type) :-
 
 %----------------------------------------------------
 
-% il y a NP --> il_y:there a NP
+% ((a NP) y) li --> (a NP) il_y:there
 translate_mwe_fr2en(
     ( (((A,Ty_A) @ NP, _) @ (Y,cl_y), _) @ (IL,_), s:main ),
     ( ((A,Ty_np_np_s) @ NP, Ty_vp) @ There, s:dcl )
@@ -104,7 +105,7 @@ translate_mwe_fr2en(
     There = (tlp(ILY,'there','EX','Ins','Ins'), np:thr),
     merge_tlps('_', [IL,Y], tlp(ILY,_,_,_,_)).
 
-% il n'y a NP --> il_y:there (ne a NP)
+% (ne ((a NP) y)) li -->  (ne (a NP)) il_y:there
 translate_mwe_fr2en(
     ( ((NE,_Ty_NE) @ (((A,Ty_A) @ NP, _) @ (Y,cl_y), _), _) @ (IL,_), s:main ),
     ( ((NE,Ty_NE_new) @ ((A,Ty_np_np_s) @ NP, Ty_vp), Ty_vp) @ There, s:dcl )
@@ -119,6 +120,21 @@ translate_mwe_fr2en(
     Ty_NE_new = (np:thr ~> s:dcl) ~> np:thr ~> s:dcl,
     There = (tlp(ILY,'there','EX','Ins','Ins'), np:thr),
     merge_tlps('_', [IL,Y], tlp(ILY,_,_,_,_)).
+
+% (pas (de N), np) --> (pas_de N, np)
+translate_mwe_fr2en(
+    ( (PAS,_) @ ((DE,_) @ TT_N, pp:de), Ty_np ),
+    ( (PAS_DE,n:F~>Ty_np) @ TT_N, Ty_np )
+) :-
+    tlp_lemma_in_list(PAS, ['pas']),
+    tlp_lemma_in_list(DE, ['de']), 
+    TT_N = (_, n:F), 
+    Ty_np = np:_, !,
+    merge_tlps('_', [PAS,DE], tlp(Pas_de,_,_,_,_)),
+    PAS_DE = tlp(Pas_de, no, 'DT','Ins','Ins').
+
+
+
 
 %----------------------------------------------------
 % Converting POS tags
