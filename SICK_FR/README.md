@@ -16,6 +16,13 @@ vs
 Un homme marche dans les bois
 L'homme ne marche pas dans les bois
 ```
+The French translation isn't wrong, but perhaps we should translate them as follows to maintain the distinction between the two original terms in English:
+
+Un homme fait un trek dans les bois.
+
+L'homme ne fait pas de randonnée dans les bois.
+
+But in this case it will be with an anglicism.
 
 ## Analysis
 
