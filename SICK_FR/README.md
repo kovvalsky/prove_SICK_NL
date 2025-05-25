@@ -2,7 +2,7 @@
 
 ## Issues
 
-* No annotation information helps to distinguish plural nouns from singular. -> We have obtained this information independently with Stanza, it can be extracted from the file with Stanza's annotation and added next to the POS-tag in the prolog file of the sentences.
+* No annotation information helps to distinguish plural nouns from singular. -> We have obtained this information independently with Stanza, it can be extracted from the file with Stanza's annotation and added next to the POS-tag in the prolog file of the sentences. -> DONE, added this information at the end of the POS-tag.
 * pid=4816: `Il n'y a personne qui coupe un peu de gingembre`. Is this grammatical and non-ambiguous? Is here `personne` disambiguated as `nobody` because of the presence of `ne`? -> Yes, `personne ne` means `nobody` in French.
 
 
