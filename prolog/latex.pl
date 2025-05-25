@@ -21,6 +21,7 @@
 :- use_module('../LangPro/prolog/latex/latex_ttterm', [
     latex_ttTerm_print_tree/3, latex_ttTerm_preambule/1
     ]).
+:- use_module('../LangPro/prolog/lambda/lambda_tt', [ norm_tt/2 ]).
 :- use_module('tlg_to_tt', [json_tlg_ids_to_tts/3, anno_sid_tts/3]).
 :- use_module('cg_to_tt', [ cg_typed_to_ttTerm/2 ]).
 :- use_module('utils', [ add_feats_to_tlp/2]).
@@ -160,7 +161,8 @@ tt_to_latex(S, TT) :-
 
 corrected_tt_to_latex(S, TT, CorrTT) :-
     ( debMode('latex_no_corrected') -> true
-    ; translate_to_en(TT, TT1),
+    ; norm_tt(TT, NormTT),
+      translate_to_en(NormTT, TT1),
       add_feats_to_tlp(TT1, TT2),
       correct_ttterm(TT2, CorrTT),
       set_latex_color(S, 'blue'),

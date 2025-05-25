@@ -41,7 +41,7 @@ sen_id_to_base_ttterm(SID, TTterm) :-
     debMode(lang(nl)), !,
     sen_id_to_tlgs(SID, _TLGs, _L_Toks), !,
     debMode(anno_dict(AnnoDict)),
-    anno_sid_tts(AnnoDict, SID, [TT_NL|_]),
+    anno_sid_tts(AnnoDict, SID, [TT_NL|_]), % uses norm_tt
     translate_nl2en(TT_NL, TT),
     add_feats_to_tlp(TT, TTterm).
 

@@ -44,9 +44,10 @@ sen_all_cg :-
         ), 
     _).
 
-sen_id_cg(SID, TTterm) :-
+sen_id_cg(SID, NormTT) :-
     cg_term(SID, CG),
-    cg_typed_to_ttTerm(CG, TTterm).
+    cg_typed_to_ttTerm(CG, TTterm),
+    norm_tt(TTterm, NormTT). % normalization is needed for terms such as SICK_FR-819p
     
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
