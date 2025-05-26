@@ -2,8 +2,9 @@
 
 ## Issues
 
-* No annotation information helps to distinguish plural nouns from singular.
-* pid=4816: `Il n'y a personne qui coupe un peu de gingembre`. Is this grammatical and non-ambiguous? Is here `personne` disambiguated as `nobody` because of the presence of `ne`?
+
+* No annotation information helps to distinguish plural nouns from singular. -> We have obtained this information independently with Stanza, it can be extracted from the file with Stanza's annotation and added next to the POS-tag in the prolog file of the sentences. -> DONE, added this information at the end of the POS-tag.
+* pid=4816: `Il n'y a personne qui coupe un peu de gingembre`. Is this grammatical and non-ambiguous? Is here `personne` disambiguated as `nobody` because of the presence of `ne`? -> Yes, `personne ne` means `nobody` in French.
 
 
 ## Labels affected by translation
@@ -18,6 +19,13 @@ vs
 Un homme marche dans les bois
 L'homme ne marche pas dans les bois
 ```
+The French translation isn't wrong, but perhaps we should translate them as follows to maintain the distinction between the two original terms in English:
+
+Un homme fait un trek dans les bois.
+
+L'homme ne fait pas de randonnée dans les bois.
+
+But in this case it will be with an anglicism.
 
 ## Solutions to FR challenges
 
