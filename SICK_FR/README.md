@@ -1,30 +1,5 @@
 # French SICK
 
-## Issues
-
-Here goes some general issues. 
-
-## Labels affected by translation
-
-This lists problems that got such translations that the translated problems are not anymore compatible with the original SICK_EN inference labels.
-
-```txt
-pid=3181 EN is neutral but FR should be contradiction
-A man is trekking in the woods
-The man is not hiking in the woods
-vs
-Un homme marche dans les bois
-L'homme ne marche pas dans les bois
-```
-
-The French translation isn't wrong, but perhaps we should translate them as follows to maintain the distinction between the two original terms in English:
-
-Un homme fait un trek dans les bois.
-
-L'homme ne fait pas de randonnée dans les bois.
-
-But in this case it will be with an anglicism.
-
 ## Solutions to FR challenges
 
 ### 🛠️ Insert a WH-pronoun for VPs of type `np->n->n`
@@ -74,6 +49,76 @@ French terms are not always in a beta normal form, e.g., 819-premise
 `Une personne en équipement de vélo est debout régulièrement en face de certaines montagnes`, which includes the subterm  
 `(λx. régulièrement(est debout x)) Une_personne_en_équipement_de_vélo`.  
 Before fixing any issues in the terms, first they are normalized.
+
+
+## Knowledge base
+
+Currently dedicated knowledge base for French is missing.
+`SICK_FR/knowledge.pl` contains samples pf relations that are useful for solving SICK problems.
+These samples are cherry-picked from the knowledge induced with the abduction learning on the SICK-train and -trial parts.  
+It would be useful to use JDM database as KB for LangPro.
+The below list can be used as a guide how to extract relations from JDM.
+
+```txt
+head SICK_FR/knowledge.pl
+%%%%%%%%%%%%%%% Samples from Induced Knowledge %%%%%%%%%%%%%%%%
+ind_rel(isa_wn(éplucher,peler)).                    % 1659,1660,4992,5799
+ind_rel(isa_wn(skateur,skateboarder)).              % 9303
+ind_rel(isa_wn(roller,rollerblader)).               % 7064
+ind_rel(isa_wn(regarder,vérifier)).                 % 3938
+ind_rel(isa_wn(océan,eau)).                         % 9069
+ind_rel(isa_wn(nourriture,repas)).                  % 5110
+ind_rel(isa_wn(note,papier)).                       % 4360
+ind_rel(isa_wn(homme,personne)).                    % 1373,1677,1723,2030,2091,2391
+ind_rel(isa_wn(haltère,poids)).                     % 2896,2898
+```
+
+Each sample relation comes with problem IDs for which it makes difference.
+If we run LangPro on all the mentioned problems with cherry-picked relations, all the problems gets solved:
+
+```txt
+# using the relation file as input
+$ swipl  -f prolog/main.pl  SICK_FR/knowledge.pl  SICK_FR/sick_langpro_input_prolog.pl  SICK_FR/sick_fr_id.pl
+% making trial and train parts available and explicitly telling to use induced knowledge with the ind_kb flag, i.e., to use relations from ind_rel(...)
+?- parList([parts([trial,train]), lang(fr), complete_tree, allInt, aall, wn_ant, wn_sim, wn_der, constchck, ind_kb]).
+% prove the 52 problems, which require the sample relations
+?- entail_some([1659,1660,4992,5799,9303,7064,3938,9069,5110,4360,1373,1677,1723,2030,2091,2391,2896,2898,2509,3395,5358,5361,2708,2710,3795,3800,1373,1677,1723,2030,2091,2391,8163,2615,2910,4015,5362,6308,8219,8806,9033,9644,4342,1640,4611,7896,1046,9070,1747,868,3367,3405]).
+```
+
+## Running abduction
+
+Run abductive learning on the SICK-train and -trial parts, and whatever relations will be learned, use them to prove problems from the SICK-test.
+The learned relations can be found in the created `*_KB.pl` file or in the log file.
+
+```bash
+$ produce -b -d -f produce.ini  Results/fr/abd_eva/TD_E/r50,c0_ab,ch,cKB,cT,p123.log
+```
+
+Currently, as of May 26, the results with abduction and without dedicated FR KB are not high:  
+SICK-test accuracy 71.1 with precision 96.8.  
+SICK-train+trial accuracy 76.9 with precision 98.6.
+
+## Labels affected by translation
+
+This lists problems that got such translations that the translated problems are not anymore compatible with the original SICK_EN inference labels.
+
+```txt
+pid=3181 EN is neutral but FR should be contradiction
+A man is trekking in the woods
+The man is not hiking in the woods
+vs
+Un homme marche dans les bois
+L'homme ne marche pas dans les bois
+```
+
+The French translation isn't wrong, but perhaps we should translate them as follows to maintain the distinction between the two original terms in English:
+
+Un homme fait un trek dans les bois.
+
+L'homme ne fait pas de randonnée dans les bois.
+
+But in this case it will be with an anglicism.
+
 
 
 ## Analysis
