@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf8 -*-
 
+"""
+Usage
+# prints src and trg problems side-by-side such that prediction is N while gold/ref label is E or C
+python3 python/xlang_compare.py --sys TEMP/trial_out_32_18.log  --src ../LangPro/ccg_sen_d/SICK_trial_sen.pl --trg SICK_FR/sick_fr_id.pl  --mode N EC
+"""
+
 import argparse
 import re
 import sys
@@ -14,10 +20,11 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description="Compare predictions cross-translations")
     parser.add_argument(
     '--sys', required=True, metavar='FILE',
-        help='File with problem ID, white space and label per line')
+        help=('File with <problem ID, white space, and label> per line'
+              ' or with a log output, containing problem ID and prediction'))
     parser.add_argument(
     '--ref', metavar='FILE',
-        help="File with reference labels. If not specified, gold labels are reference")
+        help="File with reference labels. If not specified, gold labels from trg are reference")
     parser.add_argument(
     '--src', required=True, metavar='FILE',
         help="Prolog file containing problems in source/original language (e.g. EN)")
