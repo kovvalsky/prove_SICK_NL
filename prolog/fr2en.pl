@@ -11,6 +11,9 @@
 :- use_module('../LangPro/prolog/printer/reporting', [
     report_error/2
     ]).
+:- use_module('../LangPro/prolog/llf/ttterm_preds', [
+	add_heads/2, set_type_for_tt/3
+    ]).
 
 %------------------- FRENCH -------------------------------
 % Translate only closed class and semantically heavy words
@@ -38,17 +41,20 @@ translate_fr2en((abst(X, FR), Ty), (abst(X, EN), Type)) :- !,
     change_atomic_types(Ty, Type).
 
 translate_fr2en((tlp(T,FR,P), Ty), (tlp(T,EN,P1), Type)) :- !,
+    get_number_suffix(P, _, Suffix),
     ( FR == 'pas' -> EN = 'not', P1 = 'RB'%, format('~w: ~w~n', [T, Ty])
     ; FR == 'ne', P == 'ADV-ADV' -> EN = 'ne', P1 = 'NIL' % semantically empty
     % ; memberchk(FR, ['geen','geen_enkel']) -> EN = 'no'
-    ; memberchk(FR, ['la','le']) -> EN = 'the', P1 = 'DT'
-    ; memberchk(FR, ['un', 'une']) -> EN = 'a', P1 = 'DT'
+    ; memberchk(FR, ['la','le']) -> EN = 'the', P1 = 'DT' %FIXME les --> s?
+    ; memberchk(FR, ['un', 'une']), Suffix == 'Sing' -> EN = 'a', P1 = 'DT'
+    ; memberchk(FR, ['un', 'une']), Suffix == 'Plur' -> EN = 's', P1 = 'DT'
     % ; memberchk(FR, ['wat','sommig']), Ty = _~>np:_ -> EN = 'some'
     ; FR == 'et' -> EN = 'and', P1 = 'CC'
     ; FR == 'y', P == 'CLO-PRO:PER' -> EN = 'there', P1 = 'EX'
     ; FR == 'il', P == 'CLS-PRO:PER' -> EN = 'it', P1 = 'EX'
     ; FR == 'there', P == 'EX' -> EN = FR, P1 = P % to pass  this after mwe is done
     ; FR == 'no', P == 'DT' -> EN = FR, P1 = P % to pass  this after mwe is done
+    ; FR == 'nobody', P == 'DT' -> EN = FR, P1 = P % to pass  this after mwe is done
     ; memberchk(FR, ['qui','que']), Ty = (np:_~>s:_)~>N~>N -> EN = 'who', P1 = 'WP'
     ; FR == 'par', Ty = np:_~>(np:_~>s:_)~>(np:_~>s:_) -> EN = 'by', P1 = 'IN'
     ; FR == 'par', Ty = np:acc~>pp:par -> EN = 'by', P1 = 'IN'
@@ -63,7 +69,8 @@ translate_fr2en((tlp(T,FR,P), Ty), (tlp(T,EN,P1), Type)) :- !,
     %   % memberchk(P, ['RB','AUX']), ignoring POS as it can be wrong
     %   Ty = (np:_~>s:_)~>_NP_or_N:_~>s:_ -> EN = 'be'
     ; FR == 'avoir', Ty = np:_~>np:thr~>s:_ -> EN = 'be', P1 = 'VB'
-    ; memberchk(FR, ['être']), Ty = (np:_~>s:_)~>(np:_~>s:_) -> EN = 'be', P1 ='VB'
+    ; memberchk(FR, ['être']), memberchk(Ty, [(n:_~>n:_)~>(np:_~>s:_), (np:_~>s:_)~>(np:_~>s:_)])
+        -> EN = 'be', P1 ='VB'
     ; FR = EN 
     ),
     ( var(P1) -> fr_pos_tags_to_tag(P, P1); true ),
@@ -105,6 +112,30 @@ translate_mwe_fr2en(
     There = (tlp(ILY,'there','EX','Ins','Ins'), np:thr),
     merge_tlps('_', [IL,Y], tlp(ILY,_,_,_,_)).
 
+
+% (ne ((a (Mod:np~>np personne:np)) y)) li --> (a (Mod:np~>np (no personne))) il_y:there
+translate_mwe_fr2en(
+    ( ((NE,_Ty_NE) @ (((A,Ty_A) @ ModPer, _) @ (Y,cl_y), _), _) @ (IL,_), s:main ),
+    ( ((A,Ty_np_np_s) @ ModNoPer, Ty_vp) @ There, s:dcl )
+) :-
+    tlp_lemma_in_list(Y, ['y']),
+    tlp_lemma_in_list(IL, ['il']),
+    NE = tlp(NeT,'ne',_,_,_),
+    tlp_lemma_in_list(A, ['avoir']), 
+    ModPer = (Mod @ (Per, np:F1), ModNP_Ty),
+    Mod = (_, np:_~>np:_),
+    tlp_lemma_in_list(Per, ['personne']),
+    !,
+    set_type_for_tt((Per, np:F1), n:F2, Per_N),
+    Ty_A == np:acc ~> cl_y ~> np:nom ~> s:main,
+    Ty_vp = np:thr ~> s:dcl,
+    Ty_np_np_s = np:acc ~> np:thr ~> s:dcl,
+    NoPer = ((tlp(NeT,'no','DT','Ins','Ins'), n:F2~>np:F1) @ Per_N, np:F1),
+    ModNoPer = (Mod @ NoPer, ModNP_Ty),
+    There = (tlp(ILY,'there','EX','Ins','Ins'), np:thr),
+    merge_tlps('_', [IL,Y], tlp(ILY,_,_,_,_)).
+
+
 % (ne ((a NP) y)) li -->  (ne (a NP)) il_y:there
 translate_mwe_fr2en(
     ( ((NE,_Ty_NE) @ (((A,Ty_A) @ NP, _) @ (Y,cl_y), _), _) @ (IL,_), s:main ),
@@ -121,7 +152,7 @@ translate_mwe_fr2en(
     There = (tlp(ILY,'there','EX','Ins','Ins'), np:thr),
     merge_tlps('_', [IL,Y], tlp(ILY,_,_,_,_)).
 
-% (pas (de N), np) --> (pas_de N, np)
+% (pas (de N, pp:de), np) --> (pas_de N, np)
 translate_mwe_fr2en(
     ( (PAS,_) @ ((DE,_) @ TT_N, pp:de), Ty_np ),
     ( (PAS_DE,n:F~>Ty_np) @ TT_N, Ty_np )
@@ -141,9 +172,11 @@ translate_mwe_fr2en(
 fr_pos_tags_to_tag('CLS-PRO:PER', 'CLS-PRO:PER') :- !.
 fr_pos_tags_to_tag('CLO-PRO:PER', 'CLO-PRO:PER') :- !.
 
-fr_pos_tags_to_tag(T1_T2, T) :-
-    atomic_list_concat([_T1, T2], '-', T1_T2),
-    ( T2 == 'NOM' -> T = 'NN'
+fr_pos_tags_to_tag(T1_T2Suffix, T) :-
+    atomic_list_concat([_T1, T2Suffix], '-', T1_T2Suffix),
+    get_number_suffix(T2Suffix, T2, Suffix),
+    ( T2 == 'NOM', Suffix == 'Plur' -> T = 'NNS'
+    ; T2 == 'NOM', Suffix == 'Sing' -> T = 'NN'
     ; T2 == 'DET:ART' -> T = 'DT'
     ; T2 == 'DET:POS' -> T = 'PRP$'
     ; T2 == 'PRP' -> T = 'IN'
@@ -168,3 +201,10 @@ fr_pos_tags_to_tag(T1_T2, T) :-
     ; T2 == 'NUM' -> T = 'CD'
     ; T = T2
     ).
+
+get_number_suffix(POS_suffix, POS, Suffix) :-
+    member(Suffix, ['Sing', 'Plur', '']),
+    sub_atom(POS_suffix, Before, _, 0, Suffix),
+    ( Suffix == '' -> Before_1 = Before; Before_1 is Before - 1 ),
+    sub_atom(POS_suffix, 0, Before_1, _, POS),
+    !.
