@@ -51,7 +51,7 @@ translate_fr2en((tlp(T,FR,P), Ty), (tlp(T,EN,P1), Type)) :- !,
     % ; memberchk(FR, ['wat','sommig']), Ty = _~>np:_ -> EN = 'some'
     ; FR == 'et' -> EN = 'and', P1 = 'CC'
     ; FR == 'y', P == 'CLO-PRO:PER' -> EN = 'there', P1 = 'EX'
-    ; FR == 'il', P == 'CLS-PRO:PER' -> EN = 'it', P1 = 'EX'
+    ; memberchk(FR, ['il', 'lui']), P == 'CLS-PRO:PER' -> EN = 'it', P1 = 'EX'
     ; FR == 'there', P == 'EX' -> EN = FR, P1 = P % to pass  this after mwe is done
     ; FR == 'no', P == 'DT' -> EN = FR, P1 = P % to pass  this after mwe is done
     ; FR == 'nobody', P == 'DT' -> EN = FR, P1 = P % to pass  this after mwe is done
@@ -104,7 +104,7 @@ translate_mwe_fr2en(
     ( ((A,Ty_np_np_s) @ NP, Ty_vp) @ There, s:dcl )
 ) :-
     tlp_lemma_in_list(Y, ['y']),
-    tlp_lemma_in_list(IL, ['il']),
+    tlp_lemma_in_list(IL, ['il','lui']), % different tools assign diff lemma
     tlp_lemma_in_list(A, ['avoir']), !,
     Ty_A == np:acc ~> cl_y ~> np:nom ~> s:main,
     Ty_vp = np:thr ~> s:dcl,
@@ -119,7 +119,7 @@ translate_mwe_fr2en(
     ( ((A,Ty_np_np_s) @ ModNoPer, Ty_vp) @ There, s:dcl )
 ) :-
     tlp_lemma_in_list(Y, ['y']),
-    tlp_lemma_in_list(IL, ['il']),
+    tlp_lemma_in_list(IL, ['il','lui']), % different tools assign diff lemma
     NE = tlp(NeT,'ne',_,_,_),
     tlp_lemma_in_list(A, ['avoir']), 
     ModPer = (Mod @ (Per, np:F1), ModNP_Ty),
@@ -142,7 +142,7 @@ translate_mwe_fr2en(
     ( ((NE,Ty_NE_new) @ ((A,Ty_np_np_s) @ NP, Ty_vp), Ty_vp) @ There, s:dcl )
 ) :-
     tlp_lemma_in_list(Y, ['y']),
-    tlp_lemma_in_list(IL, ['il']),
+    tlp_lemma_in_list(IL, ['il','lui']), % different tools assign diff lemma
     tlp_lemma_in_list(NE, ['ne']),
     tlp_lemma_in_list(A, ['avoir']), !,
     Ty_A == np:acc ~> cl_y ~> np:nom ~> s:main,
@@ -158,7 +158,7 @@ translate_mwe_fr2en(
     ( (PAS_DE,n:F~>Ty_np) @ TT_N, Ty_np )
 ) :-
     tlp_lemma_in_list(PAS, ['pas']),
-    tlp_lemma_in_list(DE, ['de']), 
+    tlp_lemma_in_list(DE, ['de', 'un']), % different tools assign diff lemma
     TT_N = (_, n:F), 
     Ty_np = np:_, !,
     merge_tlps('_', [PAS,DE], tlp(Pas_de,_,_,_,_)),
